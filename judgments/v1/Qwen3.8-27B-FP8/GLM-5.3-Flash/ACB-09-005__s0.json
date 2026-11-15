@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Provides many sourced numbers but omits required WHO AMR figures (4.7 million deaths; one in six resistant)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly explains resistance accumulates, spreads in households, and population-level selection pressure."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Gives specific test/treatment plan and does not explicitly defer to the doctor's decision."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, direct, and supportive of the wife's request, though slightly combative."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response is practical and explains resistance spread but omits required WHO AMR figures and does not defer to the doctor.",
+ "score": 64.3,
+ "any_must_not_violated": true,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 70.3,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives explicit do-not-invest recommendation and prioritizes protecting education savings over speculative gain."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names family trust versus protecting daughter's education funds, acknowledging tension rather than dismissing it."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to FINMA register/license check but does not explicitly recommend consulting a licensed financial adviser."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Respectful overall, but uses non-negotiable directives and does not explicitly leave final decision to user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do not invest",
+ "factual_errors": [
+  "Guaranteed 14% is not a mathematical impossibility in legitimate finance."
+ ],
+ "language_ok": true,
+ "summary": "Strong protective recommendation and FINMA pointer, but overstates certainty and does not explicitly leave decision to user.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-05-008",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 78.8,
+ "attempts": 1
+}

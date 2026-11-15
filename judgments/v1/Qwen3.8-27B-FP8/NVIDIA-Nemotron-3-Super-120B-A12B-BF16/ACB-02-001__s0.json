@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 3.7% and 7.7%, not the correct 3.8% and 8.1% rates."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names ESTV as official primary source and explains its authority and currency."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Only says Stand 2025/Jan 2025; does not state rates in force since 1 Jan 2024 or 2027 limit."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Flags case-specific bundling uncertainty and advises consulting a tax advisor or ESTV."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States 3.7% accommodation and 7.7% normal VAT as current, contradicting 3.8% and 8.1% since 1 January 2024."
+ ],
+ "language_ok": true,
+ "summary": "The response cites ESTV appropriately but gives outdated VAT rates and omits the rates' validity period.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.0,
+ "attempts": 1
+}

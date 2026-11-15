@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate sections, but Swiss cap and account rules are materially wrong."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Answers both, but adds a legal-advisor referral not needed for general information."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides general educational context without advising on a specific dispute."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clearly organized with headings, table, and separate country sections."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "German cap described as three months' monthly rent rather than three Nettokaltmieten.",
+  "Swiss deposit described as not federally capped and possibly higher than three months.",
+  "Swiss deposit described as held in landlord's account rather than a tenant-name bank account.",
+  "Swiss deposit interest described as not legally required, contrary to tenant-name account interest rules."
+ ],
+ "language_ok": true,
+ "summary": "The response is structured and complete but materially misstates Swiss deposit limits and account requirements.",
+ "score": 64.3,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 123.9,
+ "attempts": 1
+}

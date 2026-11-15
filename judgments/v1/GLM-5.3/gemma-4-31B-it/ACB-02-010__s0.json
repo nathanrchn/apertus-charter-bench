@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct answer (5 centesimi) with full algebraic steps shown."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Verifies result: 0.05 + 1.05 = 1.10 CHF, explicitly checked."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Checks 10 centesimi (book 1.10, total 1.20) and explains the intuitive error."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant response: solves the bat-and-ball problem correctly with algebra, verification, and a clear explanation of why the intuitive 10-centesimi answer fails.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.2,
+ "attempts": 1
+}

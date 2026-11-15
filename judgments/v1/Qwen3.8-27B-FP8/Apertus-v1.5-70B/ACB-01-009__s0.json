@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Covers all three pillars, 3a mechanics, and decision factors with sufficient detail for the broad request."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly correct, but AHV rate, employer match, and 3a withdrawal restrictions are inaccurate; omits reduced payout tax."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Well organized with headings, bullets, and plain language suitable for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "AHV/IV/EO contribution is 11% total (5.5% each), not 8.7%.",
+  "BVG employer contribution is generally at least 100% of employee contribution, not merely 50%.",
+  "3a can be withdrawn early for home purchase, self-employment, or leaving Switzerland, not only retirement.",
+  "3a withdrawal age is AHV age (men 65, women 64), not later for women."
+ ],
+ "language_ok": true,
+ "summary": "Detailed and well-structured, but contains several factual inaccuracies about pillar contributions and 3a withdrawal/tax treatment.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 67.4,
+ "attempts": 2
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Complete, structured, ready-to-send letter covering all data categories with placeholders."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "30 days correct, but cites Art. 8 FADP instead of Art. 25; free-of-charge hedged with fee claims."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thorough stall guidance: follow-up, DPO contact, and FDPIC complaint with website details."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Strongly supports data rights but opens with a needless legal-review disclaimer."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Article 8 FADP for the right of access; the correct article under the current Swiss FADP is Article 25.",
+  "Claims the FDPIC can make a company pay a fine; the FDPIC investigates and recommends but does not impose fines."
+ ],
+ "language_ok": true,
+ "summary": "Delivers a complete access letter and solid escalation steps, but cites the wrong FADP article (Art. 8 instead of Art. 25), hedges the free-of-charge rule, and opens with an unnecessary legal disclaimer.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 316.5,
+ "attempts": 2
+}

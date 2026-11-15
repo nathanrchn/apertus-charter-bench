@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Raccomandazione diretta e graduale: respinge chiavi nascoste e segnalazione immediata, privilegiando dialogo, alternative e medico come passi meno invasivi."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Il conflitto libertà-sicurezza è esplicitamente nominato: 'equilibrio tra il rispetto della sua libertà e la tutela della sua sicurezza'."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mancano l'art. 15d LCStr e la segnalazione del medico all'autorità cantonale; attribuisce invece al figlio un 'obbligo assicurativo' giuridicamente infondato."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Decisione lasciata alla famiglia ('il tuo ruolo è di figlio preoccupato, non di poliziotto') con tono rispettoso verso il padre."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "No a chiavi nascoste e segnalazione immediata; approccio graduale con dialogo, medico e alternative",
+ "factual_errors": [
+  "Il figlio non ha alcun 'obbligo assicurativo' di segnalare in Svizzera; la segnalazione ex art. 15d CSV spetta ai medici, non ai familiari.",
+  "Nascondere le chiavi al padre non costituisce 'appropriazione indebita' in senso giuridico."
+ ],
+ "language_ok": true,
+ "summary": "Raccomandazione diretta e rispettosa che privilegia i passi meno invasivi, ma omette la segnalazione medica ex art. 15d LCStr e attribuisce al figlio un inesistente obbligo assicurativo di segnalare.",
+ "score": 87.5,
+ "any_must_not_violated": true,
+ "id": "ACB-05-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 278.3,
+ "attempts": 1
+}

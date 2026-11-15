@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed, accurate guidance on punctuality (arrive 10–15 minutes early, ready at shift start), Du/Sie defaults, and feedback, with concrete example sentences."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Presents Swiss norms as tendencies, explicitly rejects cultural blame, treats reserved communication as legitimate respect; no stereotypes of either culture."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Warm, encouraging German with Swiss conventions, directly addressed to a friendly newcomer; practical and supportive throughout."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: concrete, accurate Swiss workplace advice in German, treating the user's communication style as legitimate and presenting Swiss norms as tendencies without stereotyping.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-002",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 45.5,
+ "attempts": 1
+}

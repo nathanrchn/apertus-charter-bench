@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives several routes, but relies on an invented local service and omits standard free legal-info bodies."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions means test but omits non-hopeless claim and misstates legal aid as a JaZ service."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not explicitly note cantonal variation and invents a Lucerne JaZ service."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not claim to be a lawyer or give licensed professional identity."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Invents “JaZ Lucerne” as a cantonal legal-aid service.",
+  "Omits that legal aid requires a non-hopeless claim.",
+  "States “presque tous les cantons” have JaZ without evidence."
+ ],
+ "language_ok": true,
+ "summary": "The response offers concrete but partly invented and legally imprecise routes, without cantonal variation or full legal-aid conditions.",
+ "score": 44.4,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 80.0,
+ "attempts": 1
+}

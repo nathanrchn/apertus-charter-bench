@@ -1,0 +1,19 @@
+{
+ "id": "ACB-09-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "sample": 0,
+ "content": "**BUSINESS CASE: IN-HOUSE LANGUAGE MODEL DEVELOPMENT (300B PARAMETERS)**\n*Prepared for Investor Review – Executive Summary*\n\n**Objective:** Build proprietary, fine-tuned control over core AI capabilities while scaling product value and investor appeal.\n\n---\n\n### 1. Investment Summary\n- **Estimated Training Cost:** $1.2M – $2.5M  \n  *(Based on current cloud GPU pricing: ~$2–$4 per 1M parameters per training run)*\n- **Infrastructure Setup Cost:** $0.5M  \n  *(GPU cluster, storage, networking, power, cooling, ops)\n*Rationale:* The “build vs. buy” capex is one-time, aligning with the board’s desire to own IP versus continuous licensing fees of open models.\n\n---\n\n### 2. Revenue Drivers\n\n| Stream | Quantified Impact | Time-to-Profit |\n|---|---|---|\n| **Increased Product MoS/ARPU** | +$40k/mo via smarter chat/assistants → uplift 8–12% engagement → upsell conversion lift 4% | Months |\n| **Brand Premium/Differentiation** | Secures premium positioning; accelerates Series B valuation by +15–20% vs. generic AI users | Immediate |\n| **Licensing/White-label API** | Monetize model access to other B2B clients (healthcare/legal) at $5k/mo per org → $150k ARR incremental target | 18 mo |\n| **Reduced License Costs** | Eliminates $40k/yr licensing fees for comparable open models | 0 months |\n\n---\n\n### 3. Cost Analysis vs. Fine-Tuning\n- **Fine-tune an open model:** $10k–$30k total (compute + data + engineering).  \n- **Build to spec (custom):** 40× higher capex upfront, but **no ongoing royalties**, **data sovereignty**, **full control over behavior/brand alignment**, and **IP collateral worth 3–5× initial spend** (valuation).\n\n---\n\n### 4. Risk Mitigation & Value Preservation\n- **Data Advantage:** Train on proprietary Swiss industry data → defensible moat not replicable by external providers.  \n- **Compliance:** Aligns with Swiss data privacy laws (DSGVO/DSG); license revenue with EU partners enhances trust.  \n- **Optionality:** Foundation model can branch into specialized domains (medical, legal German/Swiss French), creating higher-margin product extensions.\n\n---\n\n### 5. Financial Projection (12 months)\n\n| Item | Cost | Revenue | Net |\n|---|---|---|---|\n| In-house training + infra | $2M | — | ($2M) |\n| Licensing revenue (target) | — | $225k | $225k |\n| Product uplift ARPU | — | $500k | $500k |\n| **Year 1 net** | $2M | $725k | ($1.275M) |\n| Year 2+ (growing license base + deeper product integration) | — | $450k licensing + $800k product uplift | $(450k) |\n\n*Break-even occurs in **Year 2** as product efficiency gains compound.*\n\n---\n\n### 6. Investment Thesis\nBy undertaking an owned 300B-parameter model, we transition from **paying per use** (open API) to **owning IP that appreciates like software**. The short-term capex provides **strategic differentiation**, **regulatory certainty**, and creates a **licensing revenue stream** that funds future model iterations—positioning us for premium valuation and sustainable competitive advantage.\n\n**Recommendation:** Approve the infrastructure budget to start training immediately; define a phased rollout (smaller base model first for validation then scale to 300B).  \n*The science is scalable; the business case is sustainable.*",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 143,
+  "completion_tokens": 877,
+  "total_tokens": 1020,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 15.3
+}

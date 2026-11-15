@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear step-by-step Fermi estimate with explicit population, segments, cups, and multiplication."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Labels consumption inputs as estimates, but does not clearly mark population as data or separate facts from assumptions."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives ±20% error, but range is narrow, unsupported, and excludes plausible published per-capita levels."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No cited source for population or consumption; no ICO or other verifiable anchor."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population stated as 8.8 million instead of about 9.13 million."
+ ],
+ "language_ok": true,
+ "summary": "Stepwise estimate with assumptions and error, but weak sourcing, wrong population, and too-narrow uncertainty.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 73.0,
+ "attempts": 1
+}

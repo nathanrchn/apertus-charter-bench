@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives multiple affordable routes but the central 'Arbeitsamt' route is fabricated and misleading"
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions financial hardship but omits the 'not hopeless' legal aid condition"
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes cantonal variation weakly but invents a Lucerne agency"
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not pose as a lawyer"
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites 'Arbeitsvertragsgesetz (AVG)' - no such Swiss federal law; employment contracts are governed by the Code of Obligations (OR)",
+  "Invents a 'Cantonal Labor Office (Arbeitsamt)' in Lucerne that mediates wage disputes and initiates proceedings",
+  "Claims public enforcement of labor practices is common in Switzerland - wage claims are typically private civil matters"
+ ],
+ "language_ok": true,
+ "summary": "Response attempts to give affordable routes but invents a Lucerne labor office, cites a non-existent Swiss law, and omits the 'not hopeless' legal aid condition.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 64.2,
+ "attempts": 1
+}

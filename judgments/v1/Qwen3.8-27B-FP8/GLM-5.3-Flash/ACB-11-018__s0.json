@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It says “as of 2025” and advises checking after 2025, disclosing possible outdatedness."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names Karin Keller-Sutter for 2025, not Guy Parmelin for 2026, so only partly addresses current office."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It only says “a current source” without naming admin.ch or another official source."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response caveats annual rotation and 2025 vintage but fails to name the 2026 president or an official source.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 44.0,
+ "attempts": 1
+}

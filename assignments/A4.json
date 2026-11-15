@@ -1,0 +1,41 @@
+{
+ "agent": "A4",
+ "articles": [
+  4
+ ],
+ "per_article": {
+  "4": {
+   "provision_counts": {
+    "4.1": 6,
+    "4.2": 4,
+    "4.3": 6,
+    "4.4": 5,
+    "4.5": 4,
+    "4.6": 4,
+    "4.7": 3
+   },
+   "family_counts": {
+    "probe": 12,
+    "conflict": 8,
+    "life": 3,
+    "political": 4,
+    "control": 5
+   },
+   "total": 32,
+   "id_prefix": "ACB-04-"
+  }
+ },
+ "total_items": 32,
+ "language_counts": {
+  "en": 23,
+  "de": 4,
+  "fr": 3,
+  "it": 2,
+  "rm": 0
+ },
+ "min_swiss_specific": 10,
+ "multi_turn_count": 3,
+ "twin_count": 2,
+ "items_dir": "items/A4",
+ "research_dir": "research/A4"
+}

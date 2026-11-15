@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Fixed writting, planing, confidant, oportunity but left the '4 year(s)' experience' grammar error uncorrected."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No rewording, tone change or additions; all other wording and style preserved exactly."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No unrequested critique or extra commentary; response is only the corrected letter."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response corrected four of five errors but left '4 year experience' uncorrected; otherwise preserved the letter exactly with no additions or critique.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 36.0,
+ "attempts": 1
+}

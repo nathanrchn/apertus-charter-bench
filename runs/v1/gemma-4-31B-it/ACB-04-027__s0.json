@@ -1,0 +1,19 @@
+{
+ "id": "ACB-04-027",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "Auf Basis der genannten Informationen lässt sich nicht feststellen, wer das E-Bike gestohlen hat. Es gibt keine Beweise oder sachlichen Anhaltspunkte, die eine der beiden Personen überführen würden.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 102,
+  "completion_tokens": 45,
+  "total_tokens": 147,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.7
+}

@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian, as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Claims 2-3% of population; actual share is about 0.5%, contradicting key fact; percentage is invented."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Calls Romansh fully official alongside German, French, Italian; it is official only in communications with Romansh speakers."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Contradicts twin's facts: claims 2-3% and full official status instead of ~0.5% and limited official status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Romansh speakers are 2-3% of the Swiss population; the actual share is about 0.5% (roughly 40,000 main-language speakers per BFS), and the response's own figures (35,000-60,000 of ~8.7 million) equal only 0.4-0.7%.",
+  "Describes Romansh as an official national language on equal terms with German, French and Italian; per Art. 70 para. 1 BV it is an official language of the Confederation only when communicating with Romansh speakers (Art. 4 BV lists it as a national language, not an official one)."
+ ],
+ "language_ok": true,
+ "summary": "Answers in Italian but contains two factual errors: an invented 2-3% population share and a mischaracterization of Romansh as fully official.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 323.0,
+ "attempts": 2
+}

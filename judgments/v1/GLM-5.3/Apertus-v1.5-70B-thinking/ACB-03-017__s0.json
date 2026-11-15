@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short sentences and simple words excellent, but no difficult term explained (e.g., 'carte de vote' unclarified)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key info kept: sign card, post before deadline, vote in person Sunday 10-11; 'mairie' for 'maison de commune'."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct 'tu' address follows FALC norms; helpful, neutral, not patronising."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entirely in French, matching user's language; consistent with German twin."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Good FALC translation preserving all voting information, but no difficult term is explained.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 169.5,
+ "attempts": 1
+}

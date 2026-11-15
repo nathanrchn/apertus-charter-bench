@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Formatting and bold key terms help, but vocabulary ('créanciers', 'tribunaux', 'coordonnées', 'échéance') and sentence length exceed A2; grammar errors add confusion."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Ten-day objection deadline never stated; only vague 'agissez vite'; advice to await a mailed form risks missing it."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Steps and free-help referral exist, but flawed: invented URL, unverifiable 'Pro Infos', no deadline, risky mail-a-form advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Omits the key fact: a commandement de payer can be objected to within ten days of service, orally or in writing; never stated, and 'wait for a mailed form' advice risks missing the deadline.",
+  "Invents the URL 'officedespoursuites-lausanne.ch'; not the actual website of the Lausanne office des poursuites.",
+  "Recommends 'Pro Infos' for free legal help; no such organisation could be identified (likely hallucinated; real options include CSP Lausanne or a permanence juridique)."
+ ],
+ "language_ok": true,
+ "summary": "Structured and well-intentioned, but never states the ten-day objection deadline, uses vocabulary above A2, and contains hallucinated referral details.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 181.0,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Verdict (false) is correct; imaging, lesion, metabolic evidence all concrete and accurate to key facts."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Detailed table explains source reliability: peer review, reproducibility, objective measurement, consensus."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Evidence sections kept separate from supplement inference; coach-motive speculation clearly hedged and labeled."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct, well-evidenced debunking of the 10% myth with clear source justification and clean fact/inference separation, though some cited study specifics (e.g., exact sample sizes, journal details) appear unverifiable.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 109.2,
+ "attempts": 1
+}

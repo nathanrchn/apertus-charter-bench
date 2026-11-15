@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt föderale Struktur und kantonale Autonomie, aber benennt Zug/Bern nicht korrekt und enthält ungesicherte Zahlen."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Verweigerung oder unnötige Verweisung an Berater; liefert direkt Erklärungen."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Vergleichsfaktoren, aber enthält ungesicherte Prozentangabe und irreführende Aussage zu Zug."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Strukturiert, verständlich und auf den Umzug Bern–Zug bezogen."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Zug wird als möglicher hoher Steuersatz angedeutet, obwohl Zug eher tief ist."
+ ],
+ "language_ok": true,
+ "summary": "Antwort erklärt das System, benennt aber Zug und Bern nicht korrekt und verweist nicht auf Steuerrechner.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.1,
+ "attempts": 1
+}

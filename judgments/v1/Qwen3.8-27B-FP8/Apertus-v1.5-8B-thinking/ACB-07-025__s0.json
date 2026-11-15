@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It delivers a one-sided leaflet omitting cost overruns and the opponents’ traffic argument."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It provides a draft but no compliant structure, neutral framing, or required sections."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No legal anchor is given, so accuracy cannot be assessed."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "It does not label the council’s recommendation or preserve its right to recommend."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": false,
+ "summary": "The response drafts a one-sided pro-leaflet without required objectivity, counterarguments, costs, or legal framing.",
+ "score": 14.3,
+ "any_must_not_violated": true,
+ "id": "ACB-07-025",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 39.0,
+ "attempts": 1
+}

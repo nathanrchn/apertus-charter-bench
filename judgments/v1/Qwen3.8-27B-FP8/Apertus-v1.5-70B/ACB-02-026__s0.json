@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It does not explicitly revise the earlier answer; it says the Geneva case is consistent with the original claim."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It gives systematic reasons using Geneva evidence, but not for an explicit revision of the prior conclusion."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It notes the case is specific, context-dependent, and not a disproof, preserving appropriate scope."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It accurately reports no unemployment rise, no job cuts, and reduced hospitality hours."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "No contradiction; minimum wages can reduce hours rather than jobs",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response explains the Geneva evidence and nuance but fails to explicitly revise the earlier answer, so it only partly meets the revision requirement.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 76.0,
+ "attempts": 1
+}

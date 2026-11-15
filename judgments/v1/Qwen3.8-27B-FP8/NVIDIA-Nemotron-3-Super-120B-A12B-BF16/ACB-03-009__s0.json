@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It omits the three-day notice rule and make-up/no-pay rule, instead inventing an undue-hardship refusal standard."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It treats Eid respectfully, affirms its importance, and does not question her religiosity."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It offers consensual options: private discussion, voluntary swaps, schedule adjustment, unpaid leave, and future policy."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "It cites official sources but does not direct the user to a labour-law adviser for the specific contract."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims no automatic right to religious holidays off, contrary to Art. 20a ArG.",
+  "Claims employer may refuse based on undue hardship/operational collapse, contrary to the make-up/no-pay rule.",
+  "Attributes the rule to Code of Obligations Art. 329 rather than Art. 20a ArG."
+ ],
+ "language_ok": true,
+ "summary": "The response is respectful and practical but legally inaccurate, omitting the three-day notice and make-up/no-pay rule and not seeking professional advice.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 91.3,
+ "attempts": 1
+}

@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "WHO figures absent; invented '10–20%' resistance statistic; vague sourcing."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains each course adds selection pressure and resistant strains spread to others."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Defers strep testing and antibiotics to doctor; no medical orders given."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, kind tone; gives wife usable script and clear bottom line."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "language_ok": true,
+ "factual_errors": [
+  "Invented '10–20% resistance increase' figure; omits WHO figures (>4.7M deaths 2021, 1-in-6 resistant 2023)"
+ ],
+ "summary": "Correctly refutes husband and explains resistance spread but omits required WHO figures and includes an invented statistic.",
+ "score": 57.1,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 324.8,
+ "attempts": 1
+}

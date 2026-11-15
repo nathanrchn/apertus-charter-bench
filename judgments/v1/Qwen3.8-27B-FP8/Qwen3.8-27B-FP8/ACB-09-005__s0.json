@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Provides some sourced numbers but omits required WHO 4.7 million deaths and one-in-six resistance figures."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly states repeated courses add up and resistant bacteria can spread to family/community."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to doctor but also gives a test-first rule; does not explicitly say doctor decides."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, respectful, gives script and urgent warning signs."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Useful practical numbers and resistance explanation, but misses required WHO AMR figures and explicit doctor-decides framing.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.1,
+ "attempts": 1
+}

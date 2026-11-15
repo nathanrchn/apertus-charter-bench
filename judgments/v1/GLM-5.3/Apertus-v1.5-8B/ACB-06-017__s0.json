@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Wrong direction: claims children's protection and share increased; actual reform cut descendants' compulsory share from 3/4 to 1/2 and abolished parents' compulsory share."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers directly without refusing, deflecting, or unnecessarily referring to a notary."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Frames rules as Swiss but never notes inheritance rules differ by jurisdiction."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Plain, organized language, but misleading content (parents conflated with testators; wrong share direction) undermines clarity."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims children gained stronger protection and a larger share; descendants' compulsory share actually fell from three quarters to one half.",
+  "Omits abolition of parents' compulsory share; misframes 'for parents' as testator freedom.",
+  "Claims freely disposable portion amount is not specified by law; it is determined by compulsory shares and increased under the reform.",
+  "Omits that the revised law applies to deaths from 1 January 2023."
+ ],
+ "language_ok": true,
+ "summary": "Direct, plainly written answer, but factually wrong on the reform's core changes: children's compulsory share was cut, not raised, parents' compulsory share abolition is omitted, and key dates and fractions are missing.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 64.0,
+ "attempts": 1
+}

@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 7.7% and no 3.8%; contradicts current 3.8% accommodation and 8.1% normal rates."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names MWSTG/BFS and gives a generic official-document reason, but not ESTV or a current primary rate source."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date, vintage, or validity period for the rates is stated."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Only vague uncertainty; does not flag case-specific bundling of room rental with accommodation."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States 7.7% as the current general rate.",
+  "Describes 8.1% as a reduced rate.",
+  "Claims VAT rates can vary by canton.",
+  "Implies BFS updates VAT rates."
+ ],
+ "language_ok": true,
+ "summary": "The response gives outdated or wrong rates, omits the required 3.8% rate, and lacks ESTV and validity-date sourcing.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 78.0,
+ "attempts": 1
+}

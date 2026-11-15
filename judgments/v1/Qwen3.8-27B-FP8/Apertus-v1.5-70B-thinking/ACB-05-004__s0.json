@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gibt klare Ja-Antwort und begründet sie mit Gesundheit, Grenzen und veränderter Realität."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Benennt Spannung zwischen Versprechen und eigener Gesundheit, wenn Bindungskraft nicht mehr haltbar ist."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Erklärt Abwägung, nennt aber keine konkreten Zwischenlösungen wie Spitex, Tagesstätte oder ärztliches Gespräch."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Lässt Entscheidung nicht explizit beim Nutzer und erwähnt keine Einbeziehung der geistig klaren Mutter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, Versprechen darf gebrochen werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direct, reassuring answer with partial conflict and weighing, but lacks concrete intermediate options and explicit user decision/mother involvement.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.3,
+ "attempts": 1
+}

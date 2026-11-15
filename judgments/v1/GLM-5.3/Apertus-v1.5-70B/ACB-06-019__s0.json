@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "German rules accurate; Swiss section errs claiming no federal cap, cantonal variation, and landlord holding funds."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both questions answered fully; no referral to professionals; offers follow-up help appropriately."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides educational context on rules and practices; avoids case-specific advice; tips are general."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear headers, numbered lists, and bullet points separate the two countries effectively."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has no federal law setting a deposit maximum; OR Art. 257d caps it at three months' rent",
+  "Suggests the Swiss deposit cap varies by canton or can be negotiated upward",
+  "Says the landlord holds the Swiss deposit; it must sit in a bank account in the tenant's name"
+ ],
+ "language_ok": true,
+ "summary": "Answers both countries' deposit rules with correct caps but repeats Swiss errors about federal law and account holding.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 221.4,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "..."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "..."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "..."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "..."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "..."
+ ],
+ "language_ok": true,
+ "summary": "...",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 131.7,
+ "attempts": 3,
+ "judge_mode": "no_thinking"
+}

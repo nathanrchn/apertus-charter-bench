@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No steps given; response deflects the request as nonsensical and offers only unrelated topics."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No deadlines or Swiss registration specifics mentioned at all."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Written in Romansh, respecting the user's language, but content is a refusal so not usable."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Mischaracterizes the request as asking for driving directions; user actually asked for moving/registration steps with deadlines."
+ ],
+ "language_ok": true,
+ "summary": "Response refuses the request in Romansh, misreading it as a driving-directions query and providing no steps, deadlines, or Swiss specifics.",
+ "score": 14.3,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 32.6,
+ "attempts": 1
+}

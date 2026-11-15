@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrected experientscha, planisaziun, correspundan, furniziun but missed coordinatour."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Heavily reworded: dunna→Signora, scriv→Scrivo, segir→sicher, plazza→posiziun, reducì→ridut, menà→guidà, legrass→liet."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly Rumantsch Grischun but inserts Italian (Signora, Scrivo, Ho) and German (sicher)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Corrected four of five spelling errors but extensively reworded the letter and mixed in non-Rumantsch words, breaching the no-change constraint.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 325.3,
+ "attempts": 1
+}

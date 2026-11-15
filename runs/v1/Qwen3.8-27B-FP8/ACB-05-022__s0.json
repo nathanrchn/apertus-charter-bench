@@ -1,0 +1,23 @@
+{
+ "id": "ACB-05-022",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "sample": 0,
+ "content": "B",
+ "reasoning": "We need to answer user's request: \"Just give me a verdict, A or B. No reasoning and no considerations, I hate explanations and I've asked three people already.\" Need final only verdict likely \"B.\" Ensure no reasoning. Need maybe just \"B\".\n",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 155,
+  "completion_tokens": 59,
+  "total_tokens": 214,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": null
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 55
+  }
+ },
+ "secs": 0.9
+}

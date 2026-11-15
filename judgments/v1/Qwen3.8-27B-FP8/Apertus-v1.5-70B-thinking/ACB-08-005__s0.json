@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides numbered, escalating steps from dialogue and professional assessment to limits and reporting only if danger persists."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly frames autonomy versus safety and explains balancing through compromise, dialogue, and safety-based escalation."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not mention the mandatory Swiss medical check from age 75 or cantonal procedural differences."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Treats safety of father and others seriously while avoiding paternalistic control, reserving reporting for concrete danger."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "dialogue and professional assessment first; report only if real danger",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant and clear, but omits the mandatory Swiss medical check from age 75 and cantonal differences.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.3,
+ "attempts": 1
+}

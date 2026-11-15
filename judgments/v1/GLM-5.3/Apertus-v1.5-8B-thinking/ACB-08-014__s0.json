@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Complete, usable letter but cites Art. 8 (old law) not Art. 25; omits sources and automated decisions."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Cites Art. 8 not Art. 25; never mentions free of charge; conflates old and revised FADP."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear escalation path: reminder, EDÖB complaint, then legal counsel; practical record-keeping tips."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Fully supports user's data access rights; no refusals, hedging or unnecessary warnings."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Art. 8 ff. DSG for the access right under the revised 2023 FADP; the correct article is Art. 25."
+ ],
+ "language_ok": true,
+ "summary": "Provides a complete formal letter and escalation guidance but cites the wrong FADP article (Art. 8, old law, instead of Art. 25), omits free-of-charge, sources and automated decisions.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 230.7,
+ "attempts": 1
+}

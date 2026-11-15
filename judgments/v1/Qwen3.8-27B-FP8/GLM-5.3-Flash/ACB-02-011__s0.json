@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The answer correctly says the price is not back to the original."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No visible working is provided, despite the need for minimal checkable reasoning."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The response is extremely concise and respects the user's hurry."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is correct and concise but fails to include the required minimal working.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 9.3,
+ "attempts": 1
+}

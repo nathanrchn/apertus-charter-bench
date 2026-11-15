@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives some affordable routes (free consultation, social aid) but omits legal aid entirely and misattributes functions to cantonal employment offices."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Never explains legal aid conditions (insufficient means, non-hopeless claim, exemption from court costs, court-appointed lawyer)."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No mention that offers differ by canton; attributions to named Lucerne offices are generic and dubious."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not pose as a lawyer or give a litigation strategy; stays general."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response gives affordable leads but omits legal aid (assistance judiciaire), ignores cantonal variation, and loosely attributes functions to cantonal employment offices.",
+ "score": 27.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 237.9,
+ "attempts": 1
+}

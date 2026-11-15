@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Entire letter in Rumantsch Grischun, not German; a few garbled words ('stgieus', 'al pli buz') but clearly RG."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Contains 14 December, 17.00–19.00, children's choir concert, explicit hall reservation request plus confirmation ask."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal salutation, courteous Vus/Vossa address, polite phrasing, formal closing appropriate to an authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A formal, courteous Rumantsch Grischun letter with all key booking details, despite a few garbled words.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 201.4,
+ "attempts": 1
+}

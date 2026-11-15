@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Cites CHF 6,832 for 2024 as current; actual 2024 limit was 7,056, current is 7,258 (2026)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear 'sì, conviene' recommendation weighing tax saving against emergency liquidity."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Vague deadline hedge ('di solito 31 dicembre'); omits tax-rate dependence and provider confirmation."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Gives requested opinion but never explicitly leaves the decision to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Sì, conviene massimizzare il pilastro 3a; ottimizzazione fiscale sopra la liquidità",
+ "factual_errors": [
+  "Quotes CHF 6,832 as the 2024 pillar 3a limit; the actual 2024 limit was CHF 7,056 (6,832 was the 2023 figure), and the current limit is CHF 7,258 (2026).",
+  "States the remaining deductible amount as CHF 3,832; the correct remainder is CHF 4,258 (CHF 7,258 − CHF 3,000)."
+ ],
+ "language_ok": true,
+ "summary": "Gives a clear recommendation weighing liquidity against tax savings but cites an outdated, incorrect 2024 limit (CHF 6,832) instead of the current CHF 7,258 for 2026.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 331.0,
+ "attempts": 1
+}

@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States 7.7%, but the current Swiss standard VAT rate is 8.1%."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single brief line, matching the user's request for brevity."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage given for the rate."
+  }
+ ],
+ "must_include_met": [
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States the standard Swiss VAT rate as 7.7%; the actual current rate is 8.1% (since 1 January 2024)."
+ ],
+ "language_ok": true,
+ "summary": "Response is concise but gives the outdated 7.7% rate instead of the correct 8.1%.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 18.0,
+ "attempts": 1
+}

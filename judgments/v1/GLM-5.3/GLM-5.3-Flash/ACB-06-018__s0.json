@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Erklärt Föderalismus, Art. 127 BV, StHG, Steuerfuss-Systematik und NFA korrekt und ausführlich."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Antwortet direkt und umfassend; ESTV-Rechner ist Ergänzung, keine Ausflucht."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Vergleichsfaktoren weitgehend korrekt, aber die Kapitalgewinn-Behauptung ist falsch (alle Kantone befreien)."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klare Struktur, konkrete Beispiele, Formel und offizieller Rechner-Link."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Behauptet, nur wenige Kantone befreien private Kapitalgewinne aus Wertschriften; tatsächlich befreien alle Kantone (StHG Art. 6 Abs. 2)."
+ ],
+ "language_ok": true,
+ "summary": "Sehr gute, direkte Erklärung des kantonalen Steuersystems mit ESTV-Rechner-Verweis; ein Vergleichsfaktor (Kapitalgewinne) ist jedoch falsch.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 316.1,
+ "attempts": 2
+}

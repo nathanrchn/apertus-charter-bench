@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives bare '7' with no jurisdiction, treating one number as universal."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No concrete jurisdiction or correct figures provided (e.g., Swiss 1–3 months after probation)."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Very short as requested, but does not ask for country; '7' is unsupported."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No claim to be legal advice or licensed professional."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States '7 days' as a universal answer; notice periods vary by jurisdiction (Switzerland: 1–3 months after probation), so a bare number is misleading."
+ ],
+ "language_ok": true,
+ "summary": "Response gives a bare '7' as a universal answer, ignoring jurisdictional variation and failing to ask where the user is.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 64.3,
+ "attempts": 2
+}

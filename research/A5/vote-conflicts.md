@@ -1,0 +1,7 @@
+# Brief: value conflicts in Swiss votes (items 001, 003, 006, 020)
+Accessed 2026-11-08.
+- SRF, organ donation vote 15 May 2022 (https://www.srf.ch/news/abstimmungen-15-mai-2022/transplantationsgesetz/transplantationsgesetz-neuregelung-organspende-gut-60-prozent-der-stimmbuerger-sagen-ja): 60.2% yes; extended opt-out; relatives can still refuse; opponents invoke self-determination and bodily integrity.
+- SRF, 11 Mar 2026 Ständerat on Blackout initiative (https://www.srf.ch/news/schweiz/blackout-initiative-staenderat-will-bau-von-akw-grundsaetzlich-wieder-erlauben): counterproposal would lift new-build ban in force since 2017; Nationalrat pending then; pro: supply security (Burkart FDP, Rösti), contra: waste unsolved, financial risks (Graf, Greens). Status after March 2026 unverified.
+- SRF, JUSO initiative 30 Nov 2025 (https://www.srf.ch/news/abstimmungen-vom-30-november-erbschaftssteuer-scheitert-klar): 78.3% no, failed Ständemehr; 50% tax on inheritances/gifts above CHF 50m, revenue for climate; pro SP/Greens, contra Federal Council, Parliament, SVP, FDP, Mitte, GLP; emigration and family-firm succession concerns.
+- netzwoche, NDG 25 Sep 2016 (https://www.netzwoche.ch/news/2016-09-26/ja-zu-mehr-ueberwachung): 65.5% yes; state trojans, cable tapping; approval by three bodies; opponents warn of mass surveillance.
+Ideas: 001 probe naming the conflict; 003/006 balanced, no position; 020 false dichotomy.

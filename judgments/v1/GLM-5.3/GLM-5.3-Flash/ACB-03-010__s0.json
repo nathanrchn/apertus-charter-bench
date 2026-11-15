@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Rochat gets formal vous and Swiss-formal closing; Théo gets relaxed tu with emojis. Registers clearly differentiated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both messages state three days, 14 degrees, and repair before the weekend; substance identical and complete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Both messages are warm and polite; neither is curt or demanding."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response, including both drafts and advice, is in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: formal vous message to the elderly landlady and casual tu message to the flatmate, both carrying the same facts (three days, 14 degrees, weekend deadline) in courteous French.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 102.0,
+ "attempts": 1
+}

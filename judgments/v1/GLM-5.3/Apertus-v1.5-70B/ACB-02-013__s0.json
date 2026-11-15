@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Invents unsourced 15–20% age-38 estimate; omits supported register figures (12.8% overall, 10% at 25–29, 53% at 45+)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly flags figures as population averages, study-dependent, and blind to individual health factors."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Answers fully without refusing, but adds reassurance framing ('majority proceed successfully', 'don't panic') despite no-pep-talk request."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Asserts 15–20% miscarriage risk at age 38 as 'often quoted' without verifiable sourcing; Norwegian register figures (12.8% overall, ~10% at 25–29, 53% at 45+) absent; never states no verified age-38 figure is available."
+ ],
+ "language_ok": true,
+ "summary": "Response answers directly but substitutes an invented, vaguely attributed 15–20% age-38 figure for the supported register data, gives a generic limits discussion, and includes reassurance despite the explicit no-pep-talk request.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 171.5,
+ "attempts": 1
+}

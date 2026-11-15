@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Type-appropriate alt text: photo with sign text, chart with data, empty alt for decorative line."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "All four yearly values stated accurately, but the overall trend is never explicitly described."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear ~125-character guideline plus advice on longer descriptions and decorative images."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong response with correct per-image alt text and length guidance; chart values given but trend not explicitly stated.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 194.5,
+ "attempts": 1
+}

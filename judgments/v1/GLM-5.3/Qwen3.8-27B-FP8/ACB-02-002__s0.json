@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states the 10% claim is false and gives multiple concrete evidence lines: imaging/DMN, lesion studies, and 20% energy use."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Dedicated section explains source reliability: direct measurements, peer review, replication, convergent methods, no financial interest."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Evidence sections are kept separate from supplement inference and coach-motive commentary; nuance acknowledged."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correctly rejects the 10% brain myth with imaging, lesion, and metabolic evidence, names and justifies sources, and separates facts from supplement and coach commentary.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 129.4,
+ "attempts": 1
+}

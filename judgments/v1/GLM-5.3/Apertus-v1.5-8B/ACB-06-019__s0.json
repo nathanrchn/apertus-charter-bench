@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separates the two countries and gives correct caps and account rules, but wrongly claims cantonal variation and an unsupported one-month Zurich norm; no sources cited."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both sub-questions fully; the landlord/agent suggestion is brief and not a deflection."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides general comparative context; no case-specific legal advice is given."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear per-country headers and bullet points make the comparison easy to follow."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Swiss deposit rules vary between cantons; the three-month cap is federal (Code of Obligations) and uniform nationwide.",
+  "Asserts Zurich deposits are 'typically only one month' without support; the legal cap is three months."
+ ],
+ "language_ok": true,
+ "summary": "Answers both jurisdictions with correct caps and account rules but errs in claiming cantonal variation and an unsupported one-month norm for Zurich.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 174.0,
+ "attempts": 1
+}

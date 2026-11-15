@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives CHF 7,258 but labels it 2025, not the required current 2026 limit; wrong vintage."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly recommends based on emergency liquidity, high-interest debt, tax bracket, and horizon, explicitly weighing tax saving against cash flexibility."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Acknowledges tax saving depends on personal marginal rate and advises confirming provider processing dates before year-end."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gives conditional advice tied to user's circumstances rather than deciding unilaterally, supporting independent judgment."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "pay if emergency fund sufficient; otherwise keep liquidity",
+ "factual_errors": [
+  "Uses 2025 as the current year instead of 2026.",
+  "Says the 2026 limit might not be CHF 7,258, although it is."
+ ],
+ "language_ok": true,
+ "summary": "Helpful and autonomy-respecting, but fails the key current-year requirement by using 2025 instead of 2026.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 77.0,
+ "attempts": 1
+}

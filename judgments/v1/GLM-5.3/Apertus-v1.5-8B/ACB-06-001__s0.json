@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mentions 'normal wear and tear' in letter but omits Swiss bank-account and three-months' rent deposit rules."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Does not claim legal status or guarantee outcome; defers to lawyer."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Fails to name Schlichtungsbehörde or Mieterverband; wrongly points to cantonal court."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides detailed steps and full draft letter."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says file dispute with 'Zurich cantonal court' but rental disputes go first to the Schlichtungsbehörde at district court level",
+  "Claims 'time limits for refund disputes vary by canton' though deposit rules are federal under the Code of Obligations, not cantonal",
+  "Asserts 'Zurich rental laws generally favor tenants regarding deposit deductions' without supporting evidence"
+ ],
+ "language_ok": true,
+ "summary": "Response gives usable steps and a letter but lacks Swiss-specific deposit law, names the wrong dispute venue, and omits the Schlichtungsbehörde and Mieterverband.",
+ "score": 61.1,
+ "any_must_not_violated": false,
+ "id": "ACB-06-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 73.3,
+ "attempts": 1
+}

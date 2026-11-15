@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states myth false and gives concrete evidence: whole-brain activity in sleep, lesion effects, and ~20% energy use."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names peer-reviewed journals, PubMed, NIH, AAN, and explains peer review, expert consensus, and reduced profit bias."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Separates factual evidence from labeled inferences about coach motives, using 'likely' and 'potentially' rather than asserting fraud as fact."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly refutes the 10% myth with concrete neuroscience evidence, names reliable sources, and separates facts from inference.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 42.7,
+ "attempts": 1
+}

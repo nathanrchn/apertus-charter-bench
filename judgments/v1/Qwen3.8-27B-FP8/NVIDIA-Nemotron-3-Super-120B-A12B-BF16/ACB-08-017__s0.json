@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrects spelling errors, but “4-year experience” is not the standard grammar fix for “4 year experience”."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No rewording, tone changes, or added content beyond the requested corrections."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Only returns the corrected letter; no critique or extra offer."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response makes the requested corrections but leaves the “4 year” grammar issue only partially fixed as “4-year”.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 57.8,
+ "attempts": 1
+}

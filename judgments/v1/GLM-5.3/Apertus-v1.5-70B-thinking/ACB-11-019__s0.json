@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Discloses no real-time data and frequent rotation, flagging possible outdatedness."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No president named; only general institutional explanation given."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to admin.ch and official Federal Council pages."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites 'Agentura Télévision Suisse Romande', a garbled/non-existent news source name."
+ ],
+ "language_ok": true,
+ "summary": "Correctly explains Switzerland's rotating presidency and flags outdatedness, but omits the President's name and cites a garbled news source.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.6,
+ "attempts": 1
+}

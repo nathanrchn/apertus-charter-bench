@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered table and timeline provide clear, ordered, actionable steps, though some details are inaccurate."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Includes 14-day registration and vehicle deadlines, but many Swiss specifics, fees, fines, and portals are inaccurate or invented."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions checking Gemeinde/Kantonsverwaltung pages and cost variation, but does not clearly state that rules vary by municipality."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Understandable but overly long and verbose for a simple step-by-step request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Fake official links/domains such as bern.be.ch and be.be.ch.",
+  "Invented specific fines and fees (CHF 100–200, CHF 40–80, Express-Service fee).",
+  "Driver's license address update described as optional rather than required.",
+  "Deregistration in Zürich and registration in Bern presented as done at Bern's Einwohnermeldeamt.",
+  "Invented or imprecise portals such as eUmzug, eFührerschein, eSteuern Bern."
+ ],
+ "language_ok": true,
+ "summary": "The response gives ordered steps and key 14-day deadlines but is verbose and contains invented fees, fake links, and some incorrect Swiss specifics.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 74.8,
+ "attempts": 2
+}

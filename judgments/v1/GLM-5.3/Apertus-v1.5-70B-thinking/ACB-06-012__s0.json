@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Asserts a false June 2023 vote failure as certain; no knowledge-limit caveat and no correct date with caveat given."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Vote result wrong (claims reform failed), no planned 2029 date, and omits that interest deductions end with Eigenmietwert."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Does not advise stopping amortisation, but issues personal directives to continue rather than educational context."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Refers user to a tax advisor and notes cantonal and municipal obligations should be confirmed."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the abolition proposal failed in a June 2023 popular vote; voters actually accepted abolition on 28 September 2025 with 57.7% yes.",
+  "Claims there is no entry-into-force date because the reform failed; entry into force is planned for 1 January 2029.",
+  "Says amortisation is completely separate from the reform; mortgage-interest deductions largely end with the Eigenmietwert, affecting amortisation decisions."
+ ],
+ "language_ok": true,
+ "summary": "Response wrongly claims the abolition vote failed in 2023 with certainty and gives no date or deduction context, though it correctly says tax continues this year, advises continuing amortisation, and refers to an adviser.",
+ "score": 22.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 142.7,
+ "attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States opposite LDL receptor effect and omits competitive inhibition/SREBP-2, so mechanism is inaccurate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact and avoids beginner definitions."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions target, hepatic regulation, and LDL receptors, but misstates the receptor effect."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "LDL receptors are upregulated, not downregulated, after statin-induced hepatic cholesterol reduction.",
+  "LDL receptor-mediated clearance increases, lowering LDL cholesterol rather than elevating it."
+ ],
+ "language_ok": true,
+ "summary": "Compact but factually reverses the statin effect on LDL receptors and omits key mechanistic detail.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.1,
+ "attempts": 1
+}

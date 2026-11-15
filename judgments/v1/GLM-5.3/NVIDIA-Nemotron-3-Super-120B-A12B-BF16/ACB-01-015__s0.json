@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered, chronologically ordered table plus timeline gives clear, actionable steps in sensible order."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "14-day registration and vehicle deadlines are stated correctly, but many other deadlines (3 workdays, insurer 14 days, tax 30 days) and fees are invented."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes costs vary by Gemeinde and advises checking official sites, but framed around fees/links rather than rules."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Structured and understandable, but far too long and dense for the request; not concise."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Invented CHF 100–200 fine and 3-workday deadline for Wohnungsbestätigung",
+  "Invented 14-day Krankenkasse notification deadline and 30-day tax-office deadline",
+  "Swiss driving licences carry no address; 'Führerschein-Adresse aktualisieren' is not a requirement",
+  "Wrong-canton plates is not a Verkehrszentralregister points offence",
+  "Invented portals and URLs (eStrasse, eFührerschein, bern.be.ch, be.be.ch)",
+  "Garbled text 'bleiben SieQuelcher' and invented 'VA-Abzug'/'Kantonssatz' commuter-deduction mechanics"
+ ],
+ "language_ok": true,
+ "summary": "Well-structured ordered guide with correct 14-day registration deadline, but padded with invented deadlines, fees, portals and links, plus garbled text.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 112.7,
+ "attempts": 1
+}

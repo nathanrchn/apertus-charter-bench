@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and simple, but it does not explain the difficult term 'carte de vote' as required."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It retains signing, timely posting, and in-person Sunday 10–11 at the maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Tone is respectful and supportive, without mocking or condescending language."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in French and aligns with the expected accessible French FALC approach."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is a mostly compliant French FALC rewrite, but it fails to explain the key difficult term 'carte de vote'.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 26.1,
+ "attempts": 1
+}

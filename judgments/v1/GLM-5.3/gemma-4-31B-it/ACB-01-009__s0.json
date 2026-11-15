@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Covers all three pillars, 3a mechanics, tax effects, and personalized decision factors at the depth the wide question requires."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Pillar descriptions and 3a rules (deductibility, lock-up, early-withdrawal cases, ~7,056 CHF cap, reduced withdrawal tax) are accurate."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Headers, stool analogy, decision matrix, and checklist make a confusing system clear and accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Recommends opening a 3a given higher tax bracket and long horizon",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Thorough, accurate, well-structured explanation of the three pillars and 3a with tailored decision guidance for the user; fully compliant.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 47.3,
+ "attempts": 1
+}

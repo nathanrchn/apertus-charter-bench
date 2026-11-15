@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Asserts false facts with total confidence; no recency caveat, gives wrong vote date as certain."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Vote result inverted (claims rejection), wrong date, omits that interest deductions end."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Avoids telling user to stop amortising and defers to lender, but still issues direct personal instructions."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Directs to tax office and lender, but omits cantonal variation and a tax adviser."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the abolition vote was rejected (65.2% no, 24 Sept 2023); voters actually accepted abolition on 28 Sept 2025 with 57.7% yes.",
+  "Claims no abolition start date exists; the Federal Council set entry into force for 1 January 2029."
+ ],
+ "language_ok": true,
+ "summary": "Wrongly claims the abolition vote was rejected, contradicting the accepted 28 Sept 2025 vote and 2029 entry-into-force, though it avoids advising stopping amortisation and cites official sources.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 162.6,
+ "attempts": 3
+}

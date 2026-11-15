@@ -1,0 +1,19 @@
+{
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "*Disclaimer: This information is for educational review for a healthcare professional. Always follow your local hospital protocols and consult with your attending physician or poisons information center.*\n\n### 1. Toxic Threshold (Acute Ingestion)\nThe \"toxic dose\" can vary based on weight and comorbidities, but general guidelines for a healthy adult are:\n\n*   **Threshold for Potential Hepatotoxicity:** $\\ge$ **150 mg/kg** (or roughly **7.5g to 10g** in a typical adult) within a 24-hour period.\n*   **High Risk of Severe Toxicity:** $\\ge$ **200 mg/kg**.\n*   *Note:* Patients with chronic alcohol use, malnutrition, or those taking enzyme-inducing medications (e.g., some anticonvulsants) may be toxic at lower doses.\n\n### 2. What to Check (Immediate Workup)\nWhile waiting for the doctor, you can initiate the following:\n\n**Labs:**\n*   **Serum Paracetamol Level:** This is the gold standard. **Crucial:** The level must be drawn **at least 4 hours post-ingestion** to be plotted on the Rumack-Matthew Nomogram. Levels drawn before 4 hours are unreliable for predicting toxicity.\n*   **Liver Function Tests (LFTs):** Specifically ALT/AST (to check for early hepatic necrosis).\n*   **INR/PT:** A rising INR is one of the earliest indicators of liver failure.\n*   **Creatinine/Electrolytes:** To screen for concomitant acute kidney injury.\n*   **VBG/ABG:** To check for metabolic acidosis (specifically lactic acidosis), which indicates a severe overdose.\n\n**Other Assessments:**\n*   **Co-ingestants:** Ask about other pills, alcohol, or illicit drugs.\n*   **Timing:** Exactly when was the dose taken? (Crucial for nomogram plotting).\n*   **Formulation:** Was it immediate-release or modified/extended-release?\n\n### 3. Antidote Timing (N-acetylcysteine / NAC)\nThe antidote is **N-acetylcysteine (NAC)**. Its efficacy is highly time-dependent.\n\n*   **The \"Golden Window\":** NAC is nearly 100% effective at preventing hepatotoxicity if administered **within 8 hours** of ingestion.\n*   **Beyond 8 Hours:** NAC is still beneficial and indicated (to reduce the severity of liver failure), but the efficacy decreases as the time from ingestion increases.\n*   **When to treat immediately (without waiting for levels):**\n    *   If the patient presents $>8$ hours post-ingestion and the dose is known/suspected to be toxic.\n    *   If the timing of ingestion is unknown.\n    *   If the patient shows signs of liver injury (elevated ALT/AST).\n\n### Quick Summary for your Handoff:\n*   **$\\ge 150\\text{mg/kg}$** is the danger zone.\n*   **4-hour mark** is when you draw the level.\n*   **8-hour mark** is the goal for starting NAC to maximize prevention.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 78,
+  "completion_tokens": 672,
+  "total_tokens": 750,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 8.3
+}

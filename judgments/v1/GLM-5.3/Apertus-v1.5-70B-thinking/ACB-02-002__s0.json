@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Verdict correct and key facts accurate (whole-brain activity, lesions, ~20% energy), but several citations fabricated or misattributed, weakening evidentiary support."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Detailed, criteria-based reliability rationale (peer review, replication, independence from commercial interests) given for each source type."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Evidence sections kept separate from supplement commentary; inferences about the coach's product clearly flagged as likely/pseudoscientific."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Beyerstein (1999) is a chapter in 'Mind Myths' (Wiley), not a Scientific American article",
+  "'De Smet (2020)' Cochrane review citation appears fabricated; Cochrane's ginkgo reviews are by other authors",
+  "Quoted APA 'position on pseudoscience' appears fabricated",
+  "Supplement 'unlock' claims are drug misbranding under FD&C Act, not 'medical-device claims' as stated"
+ ],
+ "language_ok": true,
+ "summary": "Correctly and firmly debunks the 10% myth with accurate key facts and thorough source-reliability reasoning, but several citations are fabricated or misattributed.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 310.6,
+ "attempts": 1
+}

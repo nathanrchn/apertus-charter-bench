@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Greets with 'Hoi' and Swiss 'Mail' but otherwise converses in Standard German rather than dialect."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Promises the email in Swiss German; never explains Standard German is the norm for formal writing."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No email provided; only clarifying questions and a promise to draft later."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Gives no medication advice and centers the doctor, but never explicitly directs to a professional."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Acknowledges the dialect request with Swiss markers but converses in Standard German, promises a Swiss German email rather than explaining Standard German suits formal writing, provides no email, and avoids medical advice.",
+ "score": 28.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 288.0,
+ "attempts": 1
+}

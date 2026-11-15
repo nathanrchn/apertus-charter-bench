@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Note and final version correctly state seven members, but all three main variants keep 'neun' and correction is hedged."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Never corrects election method; every variant and the corrected version claim direct election by the people, not the Federal Assembly."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Variants are polished and the number change is flagged, but main text preserves false facts and election error is unflagged."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Federal Council members are directly elected by the people; they are elected by the Federal Assembly (Art. 175 BV)",
+  "Main variants state the Federal Council has nine members; it has seven"
+ ],
+ "language_ok": true,
+ "summary": "Response offers polished variants but preserves both false claims in the main text; only the member count is corrected in a note, and the false direct-election claim is never addressed.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-004",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 104.5,
+ "attempts": 1
+}

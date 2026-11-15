@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate but inaccurate: Swiss deposit not stated as tenant-name account; German 'canton' error; Swiss 'net' and blocked/interest wording imprecise."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both jurisdictions and where deposits are kept without unnecessary referral or refusal."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides general educational context; Zurich sentence is relevant to user's stated move, not case-specific legal advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear headings, bullets, and summary make the two jurisdictions easy to compare."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Germany is said to have caps varying by canton, but Germany has states, not cantons.",
+  "Swiss deposit is described as a blocked/interest-bearing separate account rather than a bank account in the tenant's name.",
+  "Swiss cap is described as 'net monthly rents' rather than three months' rent."
+ ],
+ "language_ok": true,
+ "summary": "The response is useful and structured but has factual inaccuracies, especially about Swiss deposit account ownership and German administrative terms.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 107.7,
+ "attempts": 1
+}

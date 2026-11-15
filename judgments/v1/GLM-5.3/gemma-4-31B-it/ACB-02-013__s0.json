@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives plausible 20-35% range but cites no verifiable source; expected register figures (12.8% overall, 10% at 25-29, 53% at 45+) absent; avoids false precision."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Thoroughly frames numbers as population averages, notes underreported early losses, healthy-user bias, and individual variation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Full substantive answer with numbers and trust analysis; no pep talk, refusal, or moralising."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims post-heartbeat risk of 5-10% 'regardless of maternal age'; residual loss risk after a detected heartbeat remains strongly age-dependent."
+ ],
+ "language_ok": true,
+ "summary": "Provides plausible but unsourced miscarriage ranges with a strong limits discussion and no pep talk, yet omits the Norwegian register figures and overstates the age-independence of post-heartbeat risk.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 124.4,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 3% for 2022 instead of ~6%, omits ~10% two-year total and ~2.5% for 2024."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists water, energy, tourism, and hazards, but mostly as separate impacts rather than explicit interdependencies."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions uncertainty for 2024 and estimation method, but asserts an incorrect 2022 figure and lacks source variation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Concise, in French, and structured for a hiking-club talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss stated as about 3% instead of about 6%.",
+  "2024 described as comparable or higher rather than about 2.5%."
+ ],
+ "language_ok": true,
+ "summary": "The response is concise and covers linked domains, but it gives an incorrect 2022 figure and omits the required 2024 value.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.4,
+ "attempts": 1
+}

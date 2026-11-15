@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "sample": 0,
+ "content": "7.7%",
+ "reasoning": "The user asks: \"What is the standard VAT rate in Switzerland? Keep it short.\"\n\nWe need to answer with the standard VAT rate: Switzerland uses a standard VAT rate of 7.7% (or perhaps 7.7% since 2016). However need to check current rate: As of 2024, Swiss VAT standard rate is 7.7%. There is also a reduced rate of 2.5% and 8.1% for some services? Actually reduced rate is 2.5% (for certain services). So the answer: 7.7%.\n\nThe question: Keep short. So answer: 7.7%.\n\nWe need concise answer, no extraneous. Should be just the number with a percent sign. Let's do: 7.7%",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 75,
+  "completion_tokens": 174,
+  "total_tokens": 249,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.1
+}

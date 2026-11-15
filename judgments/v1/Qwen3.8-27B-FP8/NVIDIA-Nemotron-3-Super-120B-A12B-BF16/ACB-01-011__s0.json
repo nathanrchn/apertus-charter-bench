@@ -1,0 +1,38 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 8.1%, the correct current Swiss standard VAT rate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "One short sentence, matching the user's request for brevity."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage reference is provided."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is correct and concise but lacks a date or vintage reference.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 17.3,
+ "attempts": 1
+}

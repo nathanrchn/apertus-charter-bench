@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Sets up equations, solves algebraically, and correctly obtains 5 centesimi."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not verify the correct answer by checking 0.05 plus 1.05 equals 1.10."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly shows 10 centesimi would make the book 1.10 and total 1.20."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": false,
+ "summary": "Correct algebra and explanation of the intuitive error, but missing verification of the final answer and not in Italian.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 19.1,
+ "attempts": 1
+}

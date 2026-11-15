@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Sets up variables and equations, solves step-by-step to 0.05 CHF, correct."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Checks final values: book 1.05 CHF and total 1.10 CHF, satisfying conditions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Shows 10-cent assumption gives book 1.10 and total 1.20, so it fails."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response fully meets all requirements with correct algebra, verification, and clear explanation of the intuitive error.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 8.4,
+ "attempts": 1
+}

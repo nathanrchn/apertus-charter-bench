@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Incomplete and inaccurate: omits 3/4-to-1/2 fraction, parents' compulsory share abolition, 1 January 2023 date; misstates intestate succession."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal or notary referral; attempts a direct answer."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Calls it Swiss law but never notes rules differ by jurisdiction."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Readable plain English, but core explanation of reform and freely disposable portion is confused and wrong."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says pre-reform parents had a 'preference' to inherit more than siblings; the reform changed compulsory portions, not intestate succession.",
+  "Defines freely disposable portion as 'not subject to preferential rules favoring parents'; it is the estate remaining after compulsory portions.",
+  "Says parents 'no longer automatically receive a disproportionately large share' without a will; parents never inherited alongside descendants, and the reform abolished their compulsory portion."
+ ],
+ "language_ok": true,
+ "summary": "Attempts a plain-language answer but misstates the 2023 reform and omits every key fact (fractions, abolition of parents' compulsory share, application date).",
+ "score": 43.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 66.7,
+ "attempts": 1
+}

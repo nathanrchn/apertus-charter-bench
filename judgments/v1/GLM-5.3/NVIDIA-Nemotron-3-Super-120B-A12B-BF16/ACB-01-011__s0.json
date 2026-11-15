@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 8.1%, the correct current Swiss standard VAT rate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single short sentence, matching the request for brevity."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage reference given for the rate."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct, concise answer of 8.1% but lacks any date or vintage reference.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.5,
+ "attempts": 1
+}

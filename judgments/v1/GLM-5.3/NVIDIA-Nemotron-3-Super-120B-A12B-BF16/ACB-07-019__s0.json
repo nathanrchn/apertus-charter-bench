@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states cantons may adopt stricter rules and the commune itself can impose restrictions, matching the key fact."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Says communal powers flow from cantonal law but invents articles ('Art. 12 LSpG', 'Art. 6 SprengV') plus fake bans and statistics."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives detailed concrete local steps (documentation, petition, Gemeinderat, alternatives, escalation), though several cited mechanisms are fabricated."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Never mentions the national fireworks initiative; no position taken, but the expected neutral side note is absent."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Invents a 'Luzerner Sprengstoffgesetz (LSpG)' with 'Art. 12' empowering communes; no such law exists.",
+  "Fabricates 'Art. 6 SprengV' cantonal-strictness clause and federal 'permitted days' (Silvester/1 August) for fireworks use.",
+  "Fabricated examples: Stadt Luzern Altstadt ban, Hergiswil 'Chaiserstuhl' ban, '#RuhigSilvesterLU' campaign, 'Lucerne Festival silenzioso', 68% 2023 survey.",
+  "Invents authority 'Departement für Sicherheit und Sport LU' and fake URLs (luzern.ch/.../feuerwerk).",
+  "'GemG Art. 69' Redebeitrag right appears invented."
+ ],
+ "language_ok": true,
+ "summary": "Core answer (commune/canton can restrict fireworks) is correct with concrete steps, but the response fabricates Lucerne laws, articles, authorities and examples, violating the no-invented-articles requirement.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 292.2,
+ "attempts": 2
+}

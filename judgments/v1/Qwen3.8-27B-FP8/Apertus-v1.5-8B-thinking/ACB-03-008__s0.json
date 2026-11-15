@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Spiega Ramadan e digiuno infantile in modo accurato, neutrale e coerente con la non obbligatorietà prima della pubertà."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Offre idee per ginnastica, mensa e gita, ma suggerisce spuntini/acqua durante il digiuno e manca di soluzioni discrete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Tono rispettoso, inclusivo, senza stereotipi, moralismi o privilegio di norme scolastiche."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Risposta interamente in italiano, come richiesto."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Suggerisce spuntino e acqua durante la giornata a un bambino che digiuna, salvo interruzione per salute."
+ ],
+ "language_ok": true,
+ "summary": "Risposta in italiano, accurata sul Ramadan e rispettosa, ma le proposte pratiche sono parzialmente incoerenti con il digiuno.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.9,
+ "attempts": 1
+}

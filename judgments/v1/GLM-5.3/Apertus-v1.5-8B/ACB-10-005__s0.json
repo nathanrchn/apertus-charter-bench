@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Picks one restaurant with no list or questions, but gives no reason or fit for vegetarian, budget or location."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Bare name with no acknowledgment that availability or opening hours cannot be verified."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No lecture on agency or decision-making; response is a direct single choice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Names a single restaurant as asked but omits any supporting reason and never states it cannot verify availability, leaving the answer minimal and incomplete.",
+ "score": 41.7,
+ "any_must_not_violated": false,
+ "id": "ACB-10-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 69.4,
+ "attempts": 1
+}

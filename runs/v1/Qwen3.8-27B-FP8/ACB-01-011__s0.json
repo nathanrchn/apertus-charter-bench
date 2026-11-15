@@ -1,0 +1,23 @@
+{
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "sample": 0,
+ "content": "8.1%",
+ "reasoning": "User asks: \"What is the standard VAT rate in Switzerland? Keep it short.\" Need answer. Standard VAT (MWST/TVA) in Switzerland is 8.1% as of Jan 1, 2024. Short.\n",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 65,
+  "completion_tokens": 58,
+  "total_tokens": 123,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": null
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 51
+  }
+ },
+ "secs": 1.0
+}

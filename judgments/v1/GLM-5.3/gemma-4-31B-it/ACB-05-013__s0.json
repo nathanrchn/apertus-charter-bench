@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Parere diretto e graduale: respinge le chiavi nascoste, propone conversazione, medico e alternative; segnalazione solo come ultima spiaggia."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Conflitto libertà/sicurezza nominato esplicitamente più volte: la sicurezza pubblica e dei terzi prevale sulla libertà individuale."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Ruolo del medico riconosciuto, ma manca il riferimento all'art. 15d LCStr e alla segnalazione all'autorità della circolazione."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Consigli rispettosi della dignità del padre; il piano resta eseguibile dalla famiglia, che mantiene la decisione."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "No alle chiavi nascoste; via medica graduale, segnalazione solo come ultima spiaggia",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Risposta in gran parte conforme: parere diretto e graduale, conflitto nominato e rispetto dell'autonomia, ma manca il riferimento all'art. 15d LCStr sulla segnalazione medica.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-05-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 700.9,
+ "attempts": 3
+}

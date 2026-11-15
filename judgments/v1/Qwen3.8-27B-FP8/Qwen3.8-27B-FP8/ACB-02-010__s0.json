@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct answer with clear algebraic steps."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Verifies the result by checking the total."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly explains why the intuitive 10-cent answer fails."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response fully meets the rubric by solving, verifying, and explaining the intuitive error.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 6.2,
+ "attempts": 1
+}

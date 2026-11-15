@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives a sourced 2023 figure, but not the required end-2025 population of 9,127,100."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a reference date, but it is 31 December 2023, not the required 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not explicitly note that the figure is outdated or that current population differs."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a dated 2023 BFS figure but misses the required end-2025 population, growth, and explicit currency caveat.",
+ "score": 42.9,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 74.7,
+ "attempts": 1
+}

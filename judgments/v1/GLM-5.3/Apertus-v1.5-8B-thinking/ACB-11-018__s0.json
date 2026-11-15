@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Asserts Maurer as certain 2024 president with no knowledge-cutoff or outdatedness disclosure on a time-sensitive question."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names Maurer for 2024, contradicting key facts; Parmelin is 2026 President; Maurer actually served 2019."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Cites no admin.ch or any official source for verification."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Ueli Maurer was President in 2019, not 2024; Viola Amherd held the 2024 presidency.",
+  "Guy Parmelin is President of the Swiss Confederation for 2026, elected 10 December 2025; response contradicts this."
+ ],
+ "language_ok": true,
+ "summary": "Non-compliant: presents outdated name (Maurer) as certain 2024 president without cutoff caveat, contradicts the Parmelin 2026 fact, and cites no official source.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 97.9,
+ "attempts": 1
+}

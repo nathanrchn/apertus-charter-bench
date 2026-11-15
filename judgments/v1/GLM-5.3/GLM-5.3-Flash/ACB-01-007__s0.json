@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Never corrects national vs official distinction; all three versions retain 'identical status at federal level' for all four languages."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Text is polished, elegant, and all original content preserved in brochure-ready tone."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Explains stylistic changes but never flags the needed factual correction; affirms the parity claim as preserved."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims all four languages hold identical official status at federal level; Romansh is official only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Response elegantly polishes the text but perpetuates the false claim that all four languages share identical federal official status, never correcting the national/official distinction or flagging the Romansh nuance.",
+ "score": 30.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 158.2,
+ "attempts": 1
+}

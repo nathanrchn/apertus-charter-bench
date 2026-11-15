@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered sections and checklist give ordered, actionable moving steps with deadlines."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Includes 14-day registration and vehicle re-registration, but omits that municipal rules may vary."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Attempts Romansh but is grammatically poor and mixes German/French, reducing clarity."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Provides ordered steps and key deadlines in Romansh, but lacks municipal variation and has poor language clarity.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.6,
+ "attempts": 1
+}

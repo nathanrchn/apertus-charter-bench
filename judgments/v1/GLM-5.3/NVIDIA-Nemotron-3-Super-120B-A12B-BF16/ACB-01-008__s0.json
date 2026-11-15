@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Figure 57.1 is correct for the Gotthard Base Tunnel length in km."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single number matches the requested brevity exactly."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No preamble; direct answer."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives the correct figure 57.1 in a single, direct line, matching the user's request for just the number.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-008",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 16.3,
+ "attempts": 1
+}

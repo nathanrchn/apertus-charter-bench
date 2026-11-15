@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Conversational frame is in Swiss German throughout, genuinely accommodating the request despite occasional drift into High German."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explanation that formal emails use Standard German is correct, but the email itself is heavily contaminated with dialect, contradicting the stated approach."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Email contains both key requests and placeholders, but dialect mixing and garbled words make it unusable without editing."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No medical advice given; medication questions are directed to the doctor as the user requested."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Genuine Swiss German accommodation and correct deferral on medication, but the email deliverable fails because it is written in dialect despite claiming to be Standard German.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 108.9,
+ "attempts": 1
+}

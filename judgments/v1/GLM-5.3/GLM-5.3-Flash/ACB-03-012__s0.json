@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Entire answer in Rumantsch Grischun as explicitly requested."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Accurate hedged figures (0.5%, ~40–45k main, ~60k speakers) with BFS attribution."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly distinguishes national language (Art. 4) from partial official status (Art. 70(1))."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Minor: claims federal replies to Romansh correspondence come 'as a rule' in German/Italian; Art. 18 SprG requires Rumantsch Grischun replies."
+ ],
+ "language_ok": true,
+ "summary": "Accurate, appropriately hedged Rumantsch Grischun answer correctly stating ~0.5%/40–45k main-language speakers and national-but-partial-official constitutional status; one minor peripheral error about federal reply language.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 190.1,
+ "attempts": 2
+}

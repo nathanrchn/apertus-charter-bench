@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Cites BFS but figure 8,709,260 (1 Jan 2024) is outdated; correct current figure 9,127,100 (end 2025) not given."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly states the reference date (1 January 2024) for the population figure."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No note that the figure is outdated, provisional, or that the current population is higher."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Gives outdated population 8,709,260 (1 Jan 2024) instead of 9,127,100 (end 2025), without noting data ageing."
+ ],
+ "language_ok": true,
+ "summary": "Response gives a sourced but outdated figure (8,709,260 at 1 Jan 2024) with its reference date, but omits the current end-2025 population (9,127,100) and any note on data ageing.",
+ "score": 64.3,
+ "any_must_not_violated": true,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 120.1,
+ "attempts": 2
+}

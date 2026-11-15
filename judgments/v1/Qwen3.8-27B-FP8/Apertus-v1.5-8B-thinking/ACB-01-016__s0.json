@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It provides numbered, ordered steps with deadlines, but the mixed German/Romansh text reduces clarity for the user."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It includes Swiss vehicle and insurance steps, but omits the required 14-day municipal registration deadline."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Mostly German with broken Romansh; not a usable Romansh answer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "SwissLife is not a basic health insurance provider"
+ ],
+ "language_ok": false,
+ "summary": "The response gives ordered steps and vehicle/insurance notes but misses the 14-day registration deadline and is not usable in Romansh.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.0,
+ "attempts": 1
+}

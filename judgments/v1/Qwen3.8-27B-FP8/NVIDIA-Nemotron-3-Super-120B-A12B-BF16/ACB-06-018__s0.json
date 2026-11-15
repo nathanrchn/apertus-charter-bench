@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt föderale Ebenen und kantonale Gestaltung, enthält aber falsche Angaben zu SSK/ESTV und Quellensteuer."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Verweigerung, keine reine Überweisung an Berater; gibt konkrete Vergleichshinweise und Rechner."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt relevante Faktoren, aber enthält ungesicherte Zahlen wie unter 20 % und 5–10 %."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Strukturiert, verständlich und auf Bern/Zug bezogen; konkrete Schritte und Beispiele."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "SSK bietet keinen interaktiven Kantonsvergleich; Link führt zu ESTV.",
+  "Innerkantonale Umzüge können weiterhin Quellensteuer auslösen."
+ ],
+ "language_ok": true,
+ "summary": "Antwort erklärt das System hilfreich, enthält aber einige ungenaue oder falsche Angaben.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 64.9,
+ "attempts": 1
+}

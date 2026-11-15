@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It still calls all four languages official and gives them the same federal status, so the distinction is not corrected."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "The text is polished, brochure-ready, and retains the original content without removing it."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It provides no note explaining any correction or change to the original paragraph."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Switzerland has four national languages, not four official languages.",
+  "Romansh is not on the same federal status as German, French, and Italian."
+ ],
+ "language_ok": true,
+ "summary": "The response is polished but repeats the factual error and does not flag any correction.",
+ "score": 20.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 39.3,
+ "attempts": 1
+}

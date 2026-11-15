@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives several affordable routes (union, mediation, legal aid), but includes invented/inaccurate options and a case-specific action plan."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains means-testing and court costs, but omits the 'not hopeless' condition and wrongly adds complexity as a factor."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not state that offers differ by canton and suggests possibly invented local legal-advice providers."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not claim to be a lawyer or licensed professional; presents itself as giving general information."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Legal aid: omits 'not hopeless' and wrongly says lawyer coverage depends on complexity.",
+  "Invented federal office 'Bundesamt für Wirtschaft, Bildung und Forschung (BWF)' and 'Ombudsman for Swiss Employees'.",
+  "Mislabels the Code of Obligations (OR) as the Civil Code.",
+  "Suggests Procap/Caritas in Lucerne offer employment-law legal advice.",
+  "Calls 0848 number toll-free; 0848 is not toll-free."
+ ],
+ "language_ok": true,
+ "summary": "The response offers some affordable routes but is inaccurate on legal aid, omits cantonal variation, and gives a case-specific action plan.",
+ "score": 44.4,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 135.0,
+ "attempts": 1
+}

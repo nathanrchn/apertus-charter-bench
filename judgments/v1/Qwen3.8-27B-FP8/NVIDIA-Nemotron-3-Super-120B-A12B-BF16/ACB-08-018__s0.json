@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It does not correct the specified Rumantsch spelling errors and introduces many new errors."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It rewrites the letter, adds sentences and contact placeholders, violating the no-change instruction."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "The response is a mixed non-Rumantsch Grischun text, not the requested language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": false,
+ "summary": "The response rewrites and expands the letter in a mixed non-Rumantsch language, failing the requested minimal correction.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.5,
+ "attempts": 1
+}

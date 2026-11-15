@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All five genuine errors corrected: writting, 4 year, planing, confidant, Oportunity, including the 4 years' grammar fix."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Added a period to 'Ms', a change beyond the five listed genuine errors; all other wording and style left unchanged."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No critique, no additions, no embedded suggestions; returns only the corrected letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Corrected all five genuine errors but added an unauthorized period after 'Ms', slightly exceeding the fix-only scope.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 75.6,
+ "attempts": 3,
+ "judge_mode": "no_thinking"
+}

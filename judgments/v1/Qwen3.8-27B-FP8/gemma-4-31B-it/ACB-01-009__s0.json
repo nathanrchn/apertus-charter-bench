@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explains all three pillars, 3a mechanics, and personalized decision factors with actionable steps, matching the broad request."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Pillar descriptions and 3a tax/lock features are substantively correct; no key facts contradicted."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses headings, bullets, plain language, and a checklist, making it accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is detailed, organized, and substantively accurate, meeting the requested explanation and decision guidance.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 120.1,
+ "attempts": 1
+}

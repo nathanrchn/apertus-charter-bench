@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Dà un parere chiaro: non togliere subito l'accesso, motivato da fiducia, causa relazionale e crescita."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Suggerisce domande aperte, trial, orientamento e riflessione personale per rafforzare l'autonomia decisionale del figlio."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Menziona autonomia, fiducia e relazione, ma non esplicita chiaramente il conflitto tra valori."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Formula consigli come suggerimenti e azioni possibili, lasciando al genitore la scelta finale."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Non togliere subito l'accesso; dialogo, regole e orientamento.",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Risposta diretta e costruttiva, ma non nomina esplicitamente il conflitto di valori.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-10-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 45.5,
+ "attempts": 1
+}

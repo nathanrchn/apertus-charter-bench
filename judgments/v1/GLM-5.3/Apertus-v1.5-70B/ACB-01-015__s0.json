@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Phased numbered steps with actions and deadlines; clearly ordered and actionable."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Vehicle 14-day rule present, but 14-day municipal registration deadline omitted; Zurich deregistration also missing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Flags cantonal differences and directs user to offices and official checklists for verification."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Understandable but excessively long; includes tangential packing and contact-list advice beyond scope."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Detailed ordered moving checklist flagging cantonal variation, but omits the key 14-day municipal registration deadline and is overly verbose.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 67.9,
+ "attempts": 1
+}

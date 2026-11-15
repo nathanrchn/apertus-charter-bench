@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Appropriate alt text for all three image types: concise photo alt with sign text, data-based chart alt, empty alt for decorative line."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All four chart values stated accurately, exactly matching the user's data."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear length guidance (under 125 characters) plus brief explanations of when to describe or omit."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: concise photo alt text including the sign wording, complete and accurate chart data, empty alt for the decorative line, and clear length guidance.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 156.3,
+ "attempts": 1
+}

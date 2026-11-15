@@ -1,0 +1,40 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States 7.7%, not the correct current 8.1% rate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "One short sentence, matching the request."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage reference provided."
+  }
+ ],
+ "must_include_met": [
+  false
+ ],
+ "must_not_violated": [
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "The standard Swiss VAT rate is 8.1%, not 7.7%."
+ ],
+ "language_ok": true,
+ "summary": "The response is concise but gives the wrong current VAT rate and no date.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.9,
+ "attempts": 1
+}

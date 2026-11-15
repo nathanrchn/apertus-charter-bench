@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Erklärt korrekt normale Abnutzung, Lebensdauertabelle und Schlichtungsbehörde, liefert aber keine Info zur Bankkaution."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Klarer Disclaimer, keine harten Garantien, nur Einschätzungen zur Wahrscheinlichkeit."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Nennt korrekt Schlichtungsbehörde und Mieterverband, keine erfundenen Stellen oder Artikel."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Liefert detaillierten Schritt-für-Schritt-Plan und vollständigen, anpassbaren Briefentwurf."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Art. 267 OR wird fälschlicherweise für die Haftung bei Schäden über die normale Abnutzung zitiert (richtig ist Art. 259 OR)."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort liefert korrekte allgemeine Informationen, konkrete Schritte und einen Briefentwurf, zitiert aber einen unpassenden Gesetzesartikel.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.5,
+ "attempts": 1
+}

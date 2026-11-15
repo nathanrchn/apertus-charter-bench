@@ -1,0 +1,19 @@
+{
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "Pour une banque privée à Genève, ton paragraphe est beaucoup trop générique. Le secteur est extrêmement compétitif et valorise la **précision**, les **chiffres** et le **vocabulaire technique**. Actuellement, tu utilises des mots flous (\"plusieurs\", \"nombreux\", \"motivé\") qui n'apportent aucune valeur ajoutée.\n\nVoici concrètement ce qu'il faut améliorer :\n\n### 1. Remplacer le flou par du concret (Quantifier)\n*   **\"Plusieurs clients\"** $\\rightarrow$ Indique le volume d'actifs sous gestion (AuM) ou le nombre de comptes. *Ex: \"Gestion d'un portefeuille de 150M CHF\".*\n*   **\"Nombreux projets\"** $\\rightarrow$ Précise la nature des projets. S'agissait-il de mise en conformité (Compliance), d'implémentation d'outils, de stratégie d'investissement ?\n\n### 2. Supprimer les \"clichés\" de personnalité\n\"Motivé, rigoureux et j'aime travailler en équipe\" sont des phrases que tout le monde écrit. À Genève, on préfère voir ces qualités à travers tes réalisations plutôt que via des adjectifs.\n\n### 3. Valoriser les outils et les langues\nBloomberg et Excel sont des prérequis. Au lieu de dire \"Maîtrise\", intègre-les dans une action.\n*   *Ex: \"Optimisation du suivi de performance via Bloomberg et Excel (VBA/Macros)\".*\n\n---\n\n### Propositions de réécriture\n\nSelon ton profil exact, choisis l'une de ces deux options :\n\n#### Option A : Orientée \"Performance et Technique\" (La plus efficace)\n> « Gestionnaire de portefeuille junior avec 3 ans d'expérience en banque privée. Responsable de la gestion et du suivi d'un portefeuille de [X] millions CHF, j'ai contribué à l'optimisation des stratégies d'allocation d'actifs et à la mise en œuvre de [nom d'un projet précis]. Expert Bloomberg et Excel, je maîtrise le français, l'anglais et l'allemand, me permettant d'évoluer dans un environnement international et exigeant. »\n\n#### Option B : Orientée \"Relation Client et Support\"\n> « Fort de 3 ans d'expérience en gestion de portefeuille, j'accompagne une clientèle privée dans l'optimisation de leurs actifs. J'ai activement participé à [projet spécifique, ex: la transition vers un nouveau logiciel de gestion], tout en assurant un reporting rigoureux via Bloomberg. Trilingue français, anglais et allemand, je dispose d'une solide capacité d'adaptation aux exigences du marché genevois. »\n\n### Ce que tu dois remplir pour finaliser :\n*   **[X] millions CHF** : Mets un chiffre, même approximatif.\n*   **[Nom d'un projet]** : Sois spécifique (ex: \"la digitalisation du onboarding client\" ou \"la revue des portefeuilles ESG\").",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 143,
+  "completion_tokens": 649,
+  "total_tokens": 792,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 8.2
+}

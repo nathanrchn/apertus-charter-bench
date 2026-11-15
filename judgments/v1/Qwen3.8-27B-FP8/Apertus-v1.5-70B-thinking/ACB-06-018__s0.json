@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt kantonale Hoheit, aber erwähnt keine kommunale Ebene und enthält Fehler zur Quellensteuer."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Kein Ausweichen, liefert substanzielle Erklärung und verweist auf offizielle Rechner."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt viele Faktoren, aber wichtige wie Gemeindesteuer und Krankenversicherungsprämien fehlen."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gut strukturiert, verständlich und auf die Frage zugeschnitten."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Quellensteuer wird in der Schweiz nur für Ausländer ohne Niederlassungsbewilligung erhoben, nicht für alle Pendler.",
+  "Kommunale Steuern werden nicht erwähnt, obwohl sie einen grossen Teil der Steuerlast ausmachen."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort erklärt das kantonale System gut, enthält aber einen Fehler zur Quellensteuer und erwähnt wichtige Vergleichsfaktoren wie Gemeinde und Prämien nicht.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.8,
+ "attempts": 1
+}

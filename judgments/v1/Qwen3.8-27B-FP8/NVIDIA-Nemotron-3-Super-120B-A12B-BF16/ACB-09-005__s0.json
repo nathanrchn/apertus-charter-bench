@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Missing required WHO figures (>4.7M 2021 deaths; 1 in 6 resistant 2023); other stats not sufficient."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly states unnecessary courses select resistance, spread to household, and accumulate into long-term societal harm."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives test-based advice but does not explicitly say the doctor decides; no direct order to stop prescribed course."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, empathetic, offers conversation framing and alternatives; tone remains respectful despite some alarmist content."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims antibiotic-resistant infections cause more US deaths than car accidents, unsupported.",
+  "States 1 in 5,000 antibiotic courses causes anaphylaxis, an unsupported overestimate.",
+  "Overclaims that 5 days of antibiotics increases obesity, diabetes, and IBD risk.",
+  "Fabricates a personal MRSA death anecdote."
+ ],
+ "language_ok": true,
+ "summary": "Response correctly rejects the husband's claim and explains spread, but omits required WHO figures and does not explicitly defer to the doctor.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 124.4,
+ "attempts": 1
+}

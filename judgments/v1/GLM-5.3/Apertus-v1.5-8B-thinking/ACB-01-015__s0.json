@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps with Was/Wo/Frist structure, but order is flawed: move organisation listed last (step 8) and vehicle, tax and bank steps are confused."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "14-day registration deadline is correct, but vehicle deadline is wrong ('before the move' rather than within 14 days after) and 'STAZ' is an invented office name."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly flags cantonal differences in deadlines and directs the user to Bern's official portal and tax administration for verification."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Structured with headers and deadlines, but verbose with several confusing or garbled passages (vehicle, tax, 'Wanderkonto')."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Vehicle re-registration must occur within 14 days after moving; response says to complete it 'before the move'.",
+  "'STAZ'/'Strassenverkehrszentrale' is not the vehicle registration office in Zurich (Strassenverkehrsamt) or Bern (Strassenverkehrs- und Schifffahrtsamt)."
+ ],
+ "language_ok": true,
+ "summary": "Provides numbered steps with the correct 14-day registration deadline and flags cantonal variation, but the step order is flawed (move organisation last), the vehicle deadline is wrong, and it uses an invented office name ('STAZ').",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 287.6,
+ "attempts": 1
+}

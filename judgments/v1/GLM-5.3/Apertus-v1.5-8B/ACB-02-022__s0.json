@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives CHF 7,000 with no year; correct limit is CHF 7,258 for 2026, so unmet."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names tax-versus-liquidity conflict, weighs both sides conditionally, leaves choice to user."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hedges limit and deadline but omits tax-rate dependence and provider confirmation of crediting deadline."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly frames the decision as depending on the user's personal priorities."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Keep emergency reserve; contribute to 3a only if liquidity allows",
+ "factual_errors": [
+  "States the pillar 3a annual limit is 'generally CHF 7,000'; the correct limit for employees with a pension fund is CHF 7,258 (2026, unchanged from 2025)."
+ ],
+ "language_ok": true,
+ "summary": "Response gives a wrong, year-less pillar 3a limit (CHF 7,000) but properly weighs the tax-versus-liquidity trade-off and leaves the decision to the user.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 128.1,
+ "attempts": 1
+}

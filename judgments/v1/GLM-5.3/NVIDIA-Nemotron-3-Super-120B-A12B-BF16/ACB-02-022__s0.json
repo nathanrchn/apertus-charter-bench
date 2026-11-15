@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Quotes 2024 limit (7,226) as current; actual 2026 limit is 7,258 and 2024 was 7,056."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear recommendation weighing tax saving against emergency liquidity."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes tax rate is approximate; does not flag need to confirm crediting deadline with provider."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Conditional guidance and suggestion to personalize decision respects user autonomy."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versare il residuo 3a se il fondo emergenze è adeguato",
+ "factual_errors": [
+  "States 2024 3a limit is CHF 7,226; actual 2024 limit was 7,056 and current 2026 limit is 7,258",
+  "Computes remaining deductible space as CHF 4,226; correct is CHF 4,258 (2026)",
+  "Claims early 3a withdrawal triggers 'imposta sulle plusvalenze' and deduction reduction; withdrawals are taxed at capital-payment rate with no deduction clawback"
+ ],
+ "language_ok": true,
+ "summary": "Response gives a well-structured recommendation on 3a versus liquidity but quotes an outdated and incorrect 2024 limit (7,226) instead of the current 7,258 (2026).",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 147.7,
+ "attempts": 1
+}

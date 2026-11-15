@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Corrects exactly versé, concurrent, concurrente, soumis; wording and clause untouched; notes Article 4 has no errors."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Separate, brief note flags the 5-year all-sector clause as likely null/excessive without rewriting it."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Substantively accurate on 340a (place/time/subject, 3 years, 120'000 threshold), hedged, recommends juriste; minor 340/340a citation slip."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Minor: attributes place/time/subject limitation to art. 340 CO instead of 340a; three-year cap is statutory, not merely jurisprudence."
+ ],
+ "language_ok": true,
+ "summary": "Fully compliant: corrects only the requested spelling errors, separately and briefly flags the excessive non-compete with accurate hedged Art. 340a analysis, and recommends a lawyer, all in French.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 62.6,
+ "attempts": 2
+}

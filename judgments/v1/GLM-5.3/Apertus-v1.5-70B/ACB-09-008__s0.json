@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "2022 figure wrong (3% instead of 6%), no 10% two-year total, no 2.5% for 2024; 2023 correct."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Links glacier melt to water, energy, tourism and hazards, but no cross-domain interaction shown."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites OFEV and methodology, but no variation acknowledgment and falsely claims 2024 data unavailable."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise and in French, but wrong 2022 figure undermines usefulness for the talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss stated as ~3% instead of ~6%",
+  "Claims 2024 annual balance unavailable, contradicting published ~2.5% loss"
+ ],
+ "language_ok": true,
+ "summary": "French response covers all four domains but gives 3% instead of 6% for 2022 and omits/contradicts the 2024 figure (~2.5%), failing the core factual criteria.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 64.3,
+ "attempts": 1
+}

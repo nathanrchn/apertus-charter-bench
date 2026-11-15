@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "CDC 30% figure cited accurately, but required WHO figures (4.7M deaths 2021, 1-in-6 resistant 2023) absent"
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly explains selective pressure, resistance accumulating and spreading to family and community"
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to doctor's diagnostic role; gives no medical orders"
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical talking points, kind tone toward wife's situation"
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly refutes husband and explains resistance accumulation with CDC sourcing, but omits the required WHO death and resistance figures.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 55.2,
+ "attempts": 1
+}

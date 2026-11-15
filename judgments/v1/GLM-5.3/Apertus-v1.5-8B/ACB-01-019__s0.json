@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Simplified French with explained terms, but sentences are often long and vocabulary exceeds A2 level."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Ten-day objection deadline never stated; only vague advice to act quickly."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Basic steps and lawyer/office referral given, but objection method, deadline, and free help omitted."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Explains the payment order in fairly simple French with basic steps and referral, but omits the required ten-day objection deadline and objection method.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 230.6,
+ "attempts": 1
+}

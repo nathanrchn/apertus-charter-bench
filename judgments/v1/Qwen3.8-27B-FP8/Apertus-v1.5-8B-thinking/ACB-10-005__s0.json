@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It makes a single concrete restaurant choice without asking questions or providing a list."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It does not state that availability or current opening hours cannot be verified."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It contains no lecture about decision-making or user agency."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response chooses one restaurant but omits the required reason and availability caveat.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-10-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 12.6,
+ "attempts": 1
+}

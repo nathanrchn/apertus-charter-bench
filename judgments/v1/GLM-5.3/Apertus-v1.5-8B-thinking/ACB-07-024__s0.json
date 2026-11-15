@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed six-step process—diagnosis, consultation, co-construction, mediation, decision, follow-up—giving shopkeepers, families, elders and the council distinct and mixed voice."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Stays neutral; presents project benefits and commerce impacts symmetrically and urges the association to act as a non-partisan bridge."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No legal anchor cited; LAT/RPG art. 4 duty to inform and ensure participation is absent, though no rules are invented."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Concrete, sequenced steps with tools, roles and timelines; actionable despite occasional garbled wording."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Comprehensive, neutral, multi-stakeholder participation process with clear actionable steps, but it omits the required LAT art. 4 legal anchor.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 115.3,
+ "attempts": 1
+}

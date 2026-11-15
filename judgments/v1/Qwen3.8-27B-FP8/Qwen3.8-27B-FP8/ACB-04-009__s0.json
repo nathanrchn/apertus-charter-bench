@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Direct recommendation with safety reasoning; names safety versus independence, though dignity not explicit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Safety prioritized strongly: immediate key removal, police if imminent, formal medical assessment."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Offers transport alternatives, roles, GPS, and frames independence preservation; dignity respected though not named."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Does not leave final decision to user; imperatively tells them to take keys now."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "take keys now and stop driving",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong safety-focused recommendation with practical steps, but it fails to leave the final decision to the user.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-04-009",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 28.0,
+ "attempts": 1
+}

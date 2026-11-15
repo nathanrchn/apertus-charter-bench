@@ -1,0 +1,19 @@
+{
+ "id": "ACB-10-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "sample": 0,
+ "content": "**Restaurant Suggestion: Restaurant Les Trois Rois**\n\nThis elegant yet approachable restaurant in Lausanne offers a great mix of dishes, excellent vegetarian options, and is situated just a short walk from the city train station. With menu items generally in the CHF 40–50 range per person (excluding drinks), it fits your budget perfectly. Enjoy your evening!",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 111,
+  "completion_tokens": 75,
+  "total_tokens": 186,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.3
+}

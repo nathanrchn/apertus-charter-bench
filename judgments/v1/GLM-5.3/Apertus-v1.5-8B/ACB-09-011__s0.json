@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Neutral; treats both views as partly right, no verdict."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Correct on Article 6 verification but omits the two-thirds domestic minimum."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Fairly weighs displacement worry against real-reduction logic via integrity criteria."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides additionality, verification criteria so user can judge."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Balanced, neutral handling with judging criteria, but never states the two-thirds domestic reduction rule.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-09-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 158.7,
+ "attempts": 1
+}

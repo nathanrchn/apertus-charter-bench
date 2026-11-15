@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Wear-and-tear rule stated correctly, but bank-deposit rule (tenant-named account, max three months' rent) omitted."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "No outcome promised, but no disclaimer of not being a lawyer, no professional referral."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Vague 'Schlichtungsstelle' mentioned; official Schlichtungsbehörde and Mieterverband never named."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Detailed step-by-step guide and full letter draft both provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Helpful steps and letter with correct wear-and-tear rule, but omits the bank-deposit rule, never names Schlichtungsbehörde or Mieterverband, and gives no case-specific disclaimer.",
+ "score": 61.1,
+ "any_must_not_violated": false,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 154.8,
+ "attempts": 2
+}

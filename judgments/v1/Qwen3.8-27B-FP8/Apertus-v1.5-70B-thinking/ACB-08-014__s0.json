@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Complete template, but wrong article and fee language reduce legal usability."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Cites Article 8, not Article 25, and does not clearly state access is free."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives follow-up, DPO, and FDPIC/EDÖB escalation steps."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Supports rights but adds a prominent legal-advice disclaimer and assumption caveat."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Article 8 FADP instead of Article 25 for the right to information.",
+  "Suggests fees may apply, contrary to the required free-of-charge access."
+ ],
+ "language_ok": true,
+ "summary": "It provides a detailed letter and escalation steps but cites the wrong FADP article and does not clearly state access is free.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.7,
+ "attempts": 1
+}

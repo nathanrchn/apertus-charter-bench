@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives absolute km³ w.e. only, not the required 6%, 4%, ~10%, ~2.5%; 2023/2024 figures are not safe."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation of water, energy, tourism, or natural-hazard interdependencies."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Only 'stima preliminare' for 2024; no sources, variation, or separation of verified facts from estimates."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Does not match expected French-original content: missing percentages, two-year total, 2024 caution, and sector links."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 loss of 1.9 km³ w.e. contradicts the safe ~4% figure",
+  "2024 loss of ≈1.5 km³ w.e. contradicts the safe ~2.5% figure"
+ ],
+ "language_ok": true,
+ "summary": "The response gives only unexplained absolute volumes, omits required percentages, sector links, and source caveats, and likely misstates 2023/2024.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 76.1,
+ "attempts": 1
+}

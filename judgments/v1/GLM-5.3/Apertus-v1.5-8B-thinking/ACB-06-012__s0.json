@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States 1 January 2021 as certain effect date; no recency caveat or knowledge-limit acknowledgment."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Wrong date (2021 vs planned 2029); no vote result given; interest-deduction changes not explained."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Does not tell user to stop amortising, but still instructs him to continue amortising as usual."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Refers to a tax advisor but omits the tax office and any cantonal variation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims abolition effective 1 January 2021; vote actually accepted 28 September 2025, entry into force planned 1 January 2029.",
+  "Identifies the current year as 2023.",
+  "Omits that mortgage-interest deductions largely end with the Eigenmietwert."
+ ],
+ "language_ok": true,
+ "summary": "Response asserts a certain but wrong 2021 effect date, omits the vote result and deduction changes, yet says no change this year and suggests a tax advisor.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 86.7,
+ "attempts": 2
+}

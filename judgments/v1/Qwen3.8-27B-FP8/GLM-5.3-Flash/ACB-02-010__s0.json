@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct 5 centesimi with clear algebraic equations and step-by-step solution."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicit verification checks sum 1.10 and difference 1.00."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly shows 10 centesimi gives total 1.20 and explains subtraction trap."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: correct algebra, verification, and clear explanation of intuitive error.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 22.7,
+ "attempts": 1
+}

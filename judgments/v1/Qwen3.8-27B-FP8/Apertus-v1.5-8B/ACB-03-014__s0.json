@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses some Swiss German in conversation but much surrounding text is Standard German, so only partly accommodates."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Email is Standard German, but no short explanation; it falsely says the email is Swiss German."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Email is complete, polite, includes placeholders and clearly requests explanation of medication list and appointment."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No medical advice; asks doctor to explain medications and schedule appointment."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It says the email is formulated in Swiss German, but the email is Standard German."
+ ],
+ "language_ok": true,
+ "summary": "Partially accommodates Swiss German and provides a useful Standard German email, but mislabels it as Swiss German and lacks explanation.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 47.3,
+ "attempts": 1
+}

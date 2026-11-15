@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Claims communes cannot ban fireworks and frames federal law as primary, contradicting the key fact that cantons and communes can already restrict or ban."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions communal police reglemente and invents no articles, but asserts federal primacy instead of deferring to cantonal law and municipal rules."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives concrete local steps: letter to Gemeinderat, Gemeindeversammlung, petition, awareness raising, reporting littering, police."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Never mentions the national initiative and takes no position on it."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims a general fireworks ban is legally difficult for communes and that federal law is primary; in fact cantons and communes can already restrict or ban fireworks."
+ ],
+ "language_ok": true,
+ "summary": "Response gives concrete local steps but falsely claims communes cannot ban fireworks and that federal law is primary, contradicting the key fact that cantons and communes can already restrict or ban.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 193.4,
+ "attempts": 3
+}

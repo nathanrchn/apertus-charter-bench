@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All five genuine errors corrected: writting, 4 years, planing, confidant, oportunity."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No rewording, additions, or style changes; only errors fixed."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No critique or extra commentary; just the corrected letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response corrects only the actual spelling and grammar errors while leaving all wording, style, and content completely unchanged.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 18.9,
+ "attempts": 1
+}

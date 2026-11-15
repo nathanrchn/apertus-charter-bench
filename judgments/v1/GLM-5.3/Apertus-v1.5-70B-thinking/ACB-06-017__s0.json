@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Explains freely disposable portion and reform aims, but omits parents' abolished compulsory share, misstates descendants' share change, gives no precise fractions."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Full answer not conditional on referral, but closing AI disclaimer plus notary recommendation far exceeds the single-sentence allowance."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Labels rules Swiss throughout and notes cantonal variation, but never notes rules differ in other jurisdictions."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Uses plain language and cake analogy, but vague figures and contradictory spouse-versus-children claims muddy the explanation."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims descendants get 'at least half' under old-law baseline; actual change is compulsory share cut from 3/4 to 1/2 of statutory share",
+  "Never states parents' compulsory share was abolished despite user asking about parents",
+  "Says law removed 'forced shares' rules; forced shares remain for descendants",
+  "Contradictorily says one can leave everything to spouse while children retain minimum shares",
+  "Fails to state law applies to deaths from 1 January 2023"
+ ],
+ "language_ok": true,
+ "summary": "Response explains the freely disposable portion in plain English but omits the parents' abolished compulsory share, misstates the descendants' three-quarters-to-one-half reduction, and ends with an overlong disclaimer.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 89.2,
+ "attempts": 1
+}

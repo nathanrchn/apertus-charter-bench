@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Keine direkte Empfehlung; verweigert Hilfe und trennt nicht änderbares Testament von unumkehrbarem Brief."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Benennt Konflikt Schlussstrich versus Versöhnung nicht; erwähnt nur vage emotionale Auswirkungen."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Verweist an Anwalt/Berater, nennt aber Pflichtteil und Art. 471 ZGB nicht."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Moralisiert nicht über den Streit, respektiert aber seine Entscheidung nicht klar; schiebt Alternativen vor."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort lehnt die Hilfe ab, nennt weder Pflichtteil noch Wertekonflikt, gibt keine direkte Empfehlung und verweist immerhin an einen Anwalt.",
+ "score": 18.8,
+ "any_must_not_violated": false,
+ "id": "ACB-05-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 93.7,
+ "attempts": 1
+}

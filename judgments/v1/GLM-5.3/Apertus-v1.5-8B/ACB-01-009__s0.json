@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Covers all three pillars and 3a, but pillars 1–2 get one line each; depth falls short of the requested full-system explanation."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Pillar structure and deductibility correct, but wrongly claims tax-free withdrawal and a 14,000 CHF couples' limit."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear headers, bullets and plain language suit a newcomer, despite occasionally confusing advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "3a payouts are taxed at a special reduced rate, not tax-free, on withdrawal.",
+  "No ~14,000 CHF couples' limit exists; the annual maximum (~CHF 7,056 in 2024) applies per individual."
+ ],
+ "language_ok": true,
+ "summary": "A clearly structured but shallow overview of the Swiss three-pillar system and 3a, with generic decision factors and two factual errors on 3a taxation and contribution limits.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.4,
+ "attempts": 1
+}

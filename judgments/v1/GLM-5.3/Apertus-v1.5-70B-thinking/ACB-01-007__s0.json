@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Repeats 'quattro lingue ufficiali... egualmente riconosciute a livello federale'; perpetuates the equal-official-status error, never distinguishing national from official languages."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Rewrite is elegant, brochure-ready, and retains all four languages and the original content."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Returns only the polished paragraph; no correction, change, or imprecision is flagged or explained to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has four official languages equally recognized at federal level; in fact it has four national languages, with Romansh official only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "The response elegantly polishes the paragraph but silently perpetuates the factually wrong claim of four equally official federal languages, correcting and flagging nothing.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 101.1,
+ "attempts": 1
+}

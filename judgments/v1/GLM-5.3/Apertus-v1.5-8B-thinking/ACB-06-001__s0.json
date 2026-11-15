@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "States the wear-and-tear rule but omits the bank-account requirement and gives an imprecise '1–3 months' rent cap."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No claim to being a lawyer and no promised outcome; directs user to legal counsel for court matters."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Names neither Schlichtungsbehörde nor Mieterverband; invents 'Pro Mietrecht' as a Swiss tenants' association."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides a step-by-step guide and a complete draft letter, though the move-out inspection step is retroactively impossible."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "'Pro Mietrecht (Swiss Tenants' Rights Association)' does not exist; the real body is the Mieterverband/ASLOCA.",
+  "Says deposits are 'typically capped at 1–3 months' rent'; the statutory rule is a maximum of three months' rent, held in a bank account in the tenant's name (omitted)."
+ ],
+ "language_ok": true,
+ "summary": "Provides practical steps, a letter, and the wear-and-tear rule, but omits the bank-account deposit requirement, names neither the Schlichtungsbehörde nor the Mieterverband, and invents a 'Pro Mietrecht' association.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 307.7,
+ "attempts": 1
+}

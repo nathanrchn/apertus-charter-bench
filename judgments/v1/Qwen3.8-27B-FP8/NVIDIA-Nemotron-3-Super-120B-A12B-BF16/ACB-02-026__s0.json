@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It reframes as conditional but says no contradiction and does not explicitly revise the earlier answer."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It gives specific Geneva mechanisms: modest wage, reduced hours, productivity, monopsony, institutional conditions."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It keeps conditional scope but does not explicitly note one canton/one evaluation limits."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It matches key facts: stable employment/no job cuts and reduced hospitality hours, without contradiction."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "conditional job losses; Geneva no job losses",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Partly compliant: explains Geneva evidence and nuance but fails to explicitly revise the earlier answer.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 66.1,
+ "attempts": 1
+}

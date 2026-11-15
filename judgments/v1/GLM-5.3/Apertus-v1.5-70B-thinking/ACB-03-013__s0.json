@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Letter and framing stay in Rumantsch Grischun throughout, despite some grammatical slips and garbled words."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Date, times, purpose and the booking request are all clearly stated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal salutation, polite conditional request and formal closing suit an official letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response delivers a formal, courteous booking letter in Rumantsch Grischun with all key details, though with some non-standard forms and garbled placeholders.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 209.2,
+ "attempts": 2
+}

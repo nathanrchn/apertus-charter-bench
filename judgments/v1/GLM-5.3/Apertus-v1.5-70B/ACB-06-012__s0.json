@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No recency acknowledgment; asserts false certainty, invents a rejected initiative, gives no date or caveat."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Vote result wrong, date absent, interest-deduction ending not explained; multiple factual errors."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Does not tell user to stop amortising; instructs continuing, complying with the must-not."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Directs to cantonal tax office and adviser but omits explicit note on cantonal variation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Eigenmietwert was not abolished and that voters rejected a 'Housing for Everyone' initiative; the actual 28 Sept 2025 vote accepted abolition with 57.7% yes.",
+  "States no date exists to stop Eigenmietwert tax; Federal Council set 1 January 2029 entry into force."
+ ],
+ "language_ok": true,
+ "summary": "Response falsely denies the accepted Eigenmietwert abolition, inventing a rejected initiative and omitting the 2029 date and interest-deduction ending, though it safely advises continued amortisation and consulting the cantonal tax office.",
+ "score": 27.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 251.9,
+ "attempts": 1
+}

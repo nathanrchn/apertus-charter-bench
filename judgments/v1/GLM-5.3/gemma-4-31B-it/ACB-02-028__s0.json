@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly retracts the 2% claim and correctly gives +0.2% for 2025 and +0.1% for December 2025."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Cites the FSO data as basis but does not explain why the earlier figure was outdated or why evidence is stronger."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Dates figures to 2025 and December 2025 but omits noting that more recent months may exist."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Openly revises with correct dated figures but gives only minimal reasoning and no note that newer data may exist.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 278.5,
+ "attempts": 2
+}

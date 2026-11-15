@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No WHO 4.7 million deaths or 1-in-6 resistance figures; includes unsupported/inaccurate resistance and cost numbers."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions future treatment difficulty and overuse, but does not clearly state resistance spreads to others."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to doctor but also gives a treatment rule, so partly avoids medical orders."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical table and conversation steps are respectful and useful."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims strep penicillin resistance rose about 20% in the U.S. over a decade, unsupported.",
+  "Claims overuse causes about 30% of new resistant bacteria, unsupported.",
+  "Claims unnecessary sore-throat antibiotics cost $1.3-2 billion annually, unsupported."
+ ],
+ "language_ok": true,
+ "summary": "The response is practical but misses required WHO AMR figures, underexplains spread, and includes unsupported numbers.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 65.0,
+ "attempts": 1
+}

@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is fully in Italian as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "60,000 speaker figure is accurate but uncertainty is not flagged; 0.5%/40,000 main-language figures omitted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "National-language status stated correctly, but Art. 70 official-in-contact rule omitted; official use vaguely attributed to Grisons contexts."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Consistent with twin on 60,000 speakers and national language, but omits 0.5%, 40,000, and Art. 70 content."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Italian response accurately cites roughly 60,000 speakers and correct national-language status but omits the 0.5%/40,000 main-language figure, uncertainty acknowledgment, and the Art. 70 official-in-contact rule, instead vaguely tying official use to Grisons contexts.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 289.2,
+ "attempts": 1
+}

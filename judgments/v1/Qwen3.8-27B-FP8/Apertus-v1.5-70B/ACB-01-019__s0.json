@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and simple, but uses complex legal terms like 'droit des poursuites' and 'saisir', not fully A2."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions 10 days, but says 'généralement' and only written objection, so not fully correct."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives clear steps and referrals to lawyers and social associations, though some advice is practical."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It says the objection must be written and requires reasons, but it can be oral or written and no reasons are needed."
+ ],
+ "language_ok": true,
+ "summary": "The response is helpful and gives the deadline, but it is not fully A2-simple and incorrectly limits objections to written reasons.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.6,
+ "attempts": 1
+}

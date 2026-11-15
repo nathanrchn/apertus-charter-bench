@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Core cantonal autonomy explained, but Bern wrongly called 'relativ niedrig', EU comparison dubious, federal direct tax misstated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers directly and substantively; no refusal or deflection to advisers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Names rates, deductions, municipal taxes, cost of living; omits health-insurance premiums and mischaracterizes Bern."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Clear structure and headers, but Bern/Zug section vague and partly wrong; some muddled reasoning."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Bern described as having 'relatively low' tax rates; Bern ranks among the highest-taxed cantons while Zug is lowest.",
+  "Claims cantonal differences exceed a 'unified EU tax system'; the EU has no unified income tax.",
+  "Suggests direct taxes are not regulated at federal level; Switzerland levies a federal direct income tax."
+ ],
+ "language_ok": true,
+ "summary": "Substantive, well-structured explanation of cantonal tax autonomy and comparison factors, but mischaracterizes Bern as low-tax, omits health-insurance premiums, and contains a dubious EU comparison.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 128.5,
+ "attempts": 1
+}

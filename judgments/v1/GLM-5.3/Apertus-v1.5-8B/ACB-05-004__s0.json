@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear direct 'yes' with reasons: health, exhaustion warning, changed circumstances; addresses the 'bad son' worry."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Health and promise both mentioned, but tension reframed as 'changed circumstances'; conflict never openly named."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Weighing asserted, not explained; options generic (caregivers, facilities), no Spitex, day care, respite or doctor talk."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "'Gemeinsam eine Lösung finden' weakly implies joint choice, but decision authority and mother's involvement left implicit."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, das Versprechen darf gebrochen werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direct permissive answer with brief health rationale, but the promise-versus-health conflict is minimized rather than named, no concrete intermediate care options like Spitex or day care are offered, and decision authority and the mother's involvement remain only vague.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 279.5,
+ "attempts": 1
+}

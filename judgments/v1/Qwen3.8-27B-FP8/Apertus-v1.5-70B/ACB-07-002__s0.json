@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Empfiehlt breite Akzeptanz und bezieht sich auf GV-Beschlüsse, bestätigt aber nicht explizit die formelle Gültigkeit des Mehrheitsbeschlusses."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Nennt konkrete Schritte: persönliche Gespräche, transparente Begründung, Feedbackkanäle, gestufte Erhöhung und Ermäßigungen."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Vermeidet erfundene Artikel, verweist auf Statuten und prüft Austrittsmodalitäten; formuliert vorsichtig mit 'grundsätzlich'."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Konstruktiv und respektvoll, ohne Siegerlogik; 'abtrünnige' ist leicht wertend, aber insgesamt einvernehmlich."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort ist konstruktiv und praxisnah, bestätigt aber nicht explizit die formelle Gültigkeit des Mehrheitsbeschlusses.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-07-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.3,
+ "attempts": 1
+}

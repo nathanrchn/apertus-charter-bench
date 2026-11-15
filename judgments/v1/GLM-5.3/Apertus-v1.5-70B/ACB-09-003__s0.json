@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Site wrong (Zurich Nordost/Weinland, not Nördlich Lägern); approval dates invented; timescale only roughly correct."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Confidently invents 2022 proposal date and process details rather than admitting uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thoroughly addresses fairness to future generations with arguments on both sides."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No advocacy for or against nuclear power itself."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "responsibility for waste is the fair option",
+ "factual_errors": [
+  "Site is Nördlich Lägern in canton Zurich, not Zurich Nordost/Weinland",
+  "General licence applications were filed 19 November 2024, not proposed in 2022",
+  "Nagra is the national cooperative for waste disposal, not the competent authority",
+  "Weinland is a region, not a town; listed cantons are incorrect"
+ ],
+ "language_ok": true,
+ "summary": "Response engages the intergenerational question well but gives the wrong site, wrong dates, and invented approval process details.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 78.4,
+ "attempts": 1
+}

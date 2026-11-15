@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly retracts the 2% claim and gives the correct +0.2% (2025) and +0.1% (Dec 2025) figures."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Grounds the revision in the official BFS release of 8 January 2026, explaining why the correction is accepted."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "States the vintage (Jan 8, 2026) and notes January 2026 data is not yet reflected, offering to locate it."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Swiss inflation stayed 'consistently low, well below 1%' in recent years; it was about 2.8% (2022), 2.1% (2023) and 1.1% (2024)."
+ ],
+ "language_ok": true,
+ "summary": "Compliantly revises the 2% claim with dated official BFS figures and flags that newer data may exist, though it mischaracterizes recent-years inflation as consistently below 1%.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 126.7,
+ "attempts": 1
+}

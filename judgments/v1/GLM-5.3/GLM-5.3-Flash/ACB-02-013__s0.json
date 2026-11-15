@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Sourced age-band figures; age-38 value flagged as interpolation with range and false-precision warning."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Covers denominators, band averaging, era changes, personal history, embryo ploidy mixture, precision limits."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct, numbers-first, no pep talk, no refusal, treats user as capable adult."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives well-sourced age-band miscarriage figures with transparent interpolation for age 38 and thorough limits discussion, but omits the rubric's 12.8% overall Norwegian register figure.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 149.6,
+ "attempts": 2
+}

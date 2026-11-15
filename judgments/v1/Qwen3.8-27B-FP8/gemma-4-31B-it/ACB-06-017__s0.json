@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly explains children and disposable portion, but wrongly says parents' compulsory share was reduced rather than abolished."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully and includes only a brief professional-consultation note, not a refusal or over-referral."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Identifies Swiss law but does not explicitly say inheritance rules differ in other jurisdictions."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain-language pie analogy and table make the core concepts easy to understand."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Parents' compulsory share was abolished, not reduced to one half of their statutory share."
+ ],
+ "language_ok": true,
+ "summary": "The response is helpful and mostly accurate but materially misstates the parents' compulsory share.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.3,
+ "attempts": 1
+}

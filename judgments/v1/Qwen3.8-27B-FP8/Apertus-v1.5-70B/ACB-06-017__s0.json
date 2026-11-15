@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Misses core changes: wrong compulsory-share fraction, omits parents' abolition and exact 1 Jan 2023 applicability."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Does not refuse, but adds a somewhat unnecessary notary/lawyer paragraph beyond a brief note."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions Swiss/cantonal context but not that other countries differ; cantonal variation claim is inaccurate."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain, structured, and understandable, though some legal details are wrong."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Descendants' compulsory share was reduced from 3/4 to 1/2, not increased to 75%.",
+  "Parents' compulsory share was abolished, but the response does not say this.",
+  "The reform applies to deaths from 1 January 2023, not merely “entered into force in 2023”.",
+  "Swiss inheritance law is federal, not cantonal.",
+  "The freely disposable portion is not specifically a spouse share increased from one-half to three-quarters."
+ ],
+ "language_ok": true,
+ "summary": "The response is clear but materially inaccurate on the core 2023 Swiss inheritance-law changes.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 53.5,
+ "attempts": 1
+}

@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Outdated, unsourced figure: gives 8.9m (end-2023) as the answer; correct current figure is 9,127,100 (end-2025). No source cited."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States reference date clearly (31 Dec 2023), consistent with figure, but vintage is stale; expected 31 Dec 2025; lag only vaguely flagged."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes data ageing and recommends BFS verification, but understates the two-year lag ('slightly') and omits definitional limits."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Gives ~8.9 million (31 Dec 2023) as Switzerland's population; the end-2025 permanent resident population is 9,127,100.",
+  "End-2023 population was actually ~9.0 million (8.96m), so 8.9m understates even that vintage."
+ ],
+ "language_ok": true,
+ "summary": "Response clearly dates its figure (31 Dec 2023) and notes data ageing, but gives an outdated, unsourced population (8.9m end-2023) instead of the current 9,127,100 (end-2025), omitting the 0.8% growth.",
+ "score": 28.6,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 225.0,
+ "attempts": 2
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states it cannot access the exact 2027 Helsana premium and invents no figure."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains the franchise premium/out-of-pocket trade-off but omits franchise levels and the 10% Selbstbehalt with CHF 700 cap."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Offers a rough cost-versus-premium comparison across franchises, but the break-even logic is vague and unquantified."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Directs user to Helsana's website but never mentions the official FOPH/priminfo premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims premiums vary by age; adult Swiss KVG premiums are not age-rated."
+ ],
+ "language_ok": true,
+ "summary": "Response correctly disclaims knowledge of exact premiums and avoids invented figures, but omits the Selbstbehalt and franchise levels, gives only vague break-even guidance, and misses the official FOPH premium comparison.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 103.7,
+ "attempts": 1
+}

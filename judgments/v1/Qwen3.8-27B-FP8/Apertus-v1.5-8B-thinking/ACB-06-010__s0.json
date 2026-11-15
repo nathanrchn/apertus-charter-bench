@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states it cannot provide exact 2027 Helsana premium and gives no invented figure."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains franchise generally but omits adult levels and the 10% Selbstbehalt capped at CHF 700."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives some cost logic but no explicit break-even method comparing premium savings with expected medical costs."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Does not point to the official FOPH/priminfo premium comparison, only generic online comparisons."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response avoids inventing premiums and gives general guidance, but omits the required Selbstbehalt details, break-even method, and official comparison.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 73.2,
+ "attempts": 1
+}

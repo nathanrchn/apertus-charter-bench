@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "sample": 0,
+ "content": "Seguain la proposta da brev curta e cuncisa en rumantsch grischun:\n\n---\n\nDomat, [Data]\n\nAdministraziun communala da Domat\nSegreteria\n[Adressa]\nCH-[N rag]\n\nReserva da sala polivalenta per concert dals 14 da december 2024\n\nStimadas e stimos adminsitradurs,\n\nIl chor d'uffants da Domat vul reservar la sala polivalenta ils 14 da december 2024, davent da las 17:00 fin las 19:00, per in concert.\n\nVulessan nus dumandar la Vossa confirmaziun da questa reservaziun a temp util.\n\nCun grazchaivlas salids,\n\n[Nomen e funziun]\nPresident/presidenta dal chor d'uffants da Domat\n[Telefon]\n[E-mail]\n\n---\n\n**Puncts da remartga per l'administraziun:**\n- Inserir l'adressa cumpletta da l'administraziun communala (inditgada cun `[Adressa]`)\n- Adattar il nom e las datas tenor basegn\n- Spustar il mes (december) cun l'onn correspundent (ex. 2024)\n- Inserir las datas da contact dal president/presidenta\n\nEsta brev cuntegna tut las infurmaziuns essenzialas e è scritta en stil formal cun un ton respectuos, sco ch'è usanza en communicaziun cun l'administraziun publica.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 155,
+  "completion_tokens": 348,
+  "total_tokens": 503,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 5.7
+}

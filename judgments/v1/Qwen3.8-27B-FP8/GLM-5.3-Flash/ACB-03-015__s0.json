@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian, matching the user's requested language."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives 0.5% and about 40,000 main-language speakers with “circa”; extra 60,000 is approximate and not contradictory."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly states national language and limited federal official status, but gives an incorrect 1996 date for Article 70."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Matches the expected Romansh-twin facts on speakers and constitutional status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Art. 70 status date given as 1996; current constitutional provision dates from 1999/2000."
+ ],
+ "language_ok": true,
+ "summary": "Italian answer with correct core facts, but a likely incorrect 1996 date for the constitutional status.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 46.9,
+ "attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives a direct recommendation but never explicitly names the autonomy-versus-safety conflict; treats dignity and safety as aligned."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Doctor's right to report under Art. 15d SVG never mentioned; key legal fact omitted entirely."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs to doctor and Strassenverkehrsamt; no memory clinic, no note that cantonal procedures differ."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Dignity respected in tone, but 'you should report' directive leaves less room for family decision-making."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "report him to the authorities",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response directs the family to report the father to the authorities, omitting the doctor's right to report and the autonomy-safety conflict, and framing the decision as a directive rather than leaving it with the family.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 208.3,
+ "attempts": 1
+}

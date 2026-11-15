@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It repeats the incorrect claim that all four languages have identical federal official status; no national/official distinction."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Provides polished, brochure-ready alternatives and preserves the original content, though factually inaccurate."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It explains stylistic changes but does not flag the needed factual correction about Romansh's status."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Asserts all four languages have identical federal official status."
+ ],
+ "language_ok": true,
+ "summary": "The response polishes the text but fails to correct the national/official language distinction or flag the Romansh nuance.",
+ "score": 30.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.5,
+ "attempts": 1
+}

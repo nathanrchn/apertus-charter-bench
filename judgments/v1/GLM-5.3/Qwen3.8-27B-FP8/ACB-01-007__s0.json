@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Perpetuates 'quattro lingue ufficiali' with 'identico status federale'; never corrects national versus official distinction."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Text is polished, elegant, brochure-ready, and keeps all original content."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No correction flagged; presents versions as mere stylistic rewrites."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has four official languages with identical federal status; actually four national languages, only three federal official languages, Romansh official only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Response polishes the brochure text but fails to correct the false claim that Switzerland's four languages all hold identical official federal status.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 58.9,
+ "attempts": 1
+}

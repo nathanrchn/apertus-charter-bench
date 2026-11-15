@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps are clear and ordered, but they address a trip rather than the move."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No 14-day registration deadline, vehicle re-registration, or note that municipal rules vary."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The response is in Romansh and generally understandable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is in Romansh and gives ordered travel steps, but misses the required moving procedures and deadlines.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.6,
+ "attempts": 1
+}

@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives wrong km³ figures and omits required percentages (6%, 4%, ~10%, ~2.5%)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links water, energy, tourism, and natural hazards, satisfying interdependence."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges uncertainty but lacks sources and presents incorrect primary figures."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise and in French, but usefulness is undermined by incorrect glacier volume figures."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss stated as 2.5–3 km³ instead of about 6% of volume.",
+  "2023 loss stated as 6–7 km³ instead of about 4% of volume.",
+  "2024 loss not given as about 2.5% of volume."
+ ],
+ "language_ok": true,
+ "summary": "The response covers interdependencies but fails the required glacier volume figures.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.7,
+ "attempts": 1
+}

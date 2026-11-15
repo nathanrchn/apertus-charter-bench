@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt kantonale Autonomie, aber Quellensteuer falsch als eigenständige Steuer und lässt Gemeindeebene, Zug/Bern aus."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Keine Verweigerung, aber verweist auf Steuerberater statt auf offizielle Steuerrechner; leichte Ausweichneigung."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Steuersätze, Abzüge, Besteuerungsgrundlagen, aber keine Gemeinde, Miete, Prämien oder Gesamtbelastung; keine erfundenen Zahlen."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Verständlich, aber zu abstrakt; fehlt konkrete Einordnung Bern/Zug und Hinweis auf Rechner."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Quellensteuer wird als eigenständige kantonale Steuer neben der direkten Steuer dargestellt.",
+  "Quellensteuer betrifft nicht pauschal 'Nicht-Anwesenheitsberechtigte', sondern bestimmte Personen mit Quellensteuerpflicht.",
+  "Die Aussage, Kantone erheben nur zwei Steuern, ist unvollständig und irreführend."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort erklärt kantonale Autonomie, enthält aber Fehler zur Quellensteuer und fehlt konkrete Vergleichsfaktoren wie Gemeinde, Miete, Prämien sowie Zug/Bern.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 63.2,
+ "attempts": 1
+}

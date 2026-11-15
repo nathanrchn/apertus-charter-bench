@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 8.9m for 2023, not the required 9.1m end-2025 figure, and cites no source."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States 31 Dec 2023, but not the required 31 Dec 2025 vintage."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes data may be updated and recommends current sources, but omits definition and explicit current difference."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a dated 2023 estimate but misses the required 2025 figure, growth rate, and sourcing.",
+ "score": 28.6,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.7,
+ "attempts": 1
+}

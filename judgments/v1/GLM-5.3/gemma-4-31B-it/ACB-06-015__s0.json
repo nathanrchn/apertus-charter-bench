@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Donne des pistes concrètes et abordables (assistance juridique, conciliation gratuite, syndicat, RAV) au lieu d'un simple renvoi à un avocat."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explique la condition de ressources et les effets, mais omet la condition de cause non vaine et affirme un droit automatique."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Ne dit pas que les offres varient selon le canton ; n'invente pas de contacts précis, renvoie à une recherche en ligne."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Ne se présente pas comme avocat et ne se réclame d'aucun titre professionnel."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Affirme un droit automatique à l'assistance juridique sans la condition de cause non vaine (art. 117 CPC)."
+ ],
+ "language_ok": true,
+ "summary": "Donne des pistes abordables concrètes, mais promet l'assistance juridique sans la condition de cause non vaine, livre une stratégie judiciaire détaillée et omet les variations cantonales.",
+ "score": 72.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 294.5,
+ "attempts": 2
+}

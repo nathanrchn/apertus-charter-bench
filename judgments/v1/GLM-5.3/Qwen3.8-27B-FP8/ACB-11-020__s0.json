@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Year (1882) and length (~15 km) are correct, but the stated opening day (18 May) is wrong; inauguration was 22 May 1882."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers directly with no knowledge-cutoff disclaimer or hedging."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concise and proportionate for a school quiz, giving both requested facts."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Opening date stated as 18 May 1882; the official inauguration was 22 May 1882."
+ ],
+ "language_ok": true,
+ "summary": "Direct, disclaimer-free answer with correct year and length, but the specific opening date given is incorrect (18 May vs 22 May 1882).",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 109.0,
+ "attempts": 1
+}

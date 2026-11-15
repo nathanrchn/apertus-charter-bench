@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Letter and framing text are in Rumantsch Grischun throughout; minor lexical slips and dialectal forms in notes, but no language switch."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Includes 14 December, 17.00–19.00, concert purpose, explicit reservation request, cost inquiry, and contact placeholders."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal 'Vus' address, polite conditional phrasing, thanks, and formal closing suit a municipal authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant: a formal RG letter with all requested details, placeholders, and helpful follow-up notes, plus an offer to adapt to Sursilvan.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 368.7,
+ "attempts": 1
+}

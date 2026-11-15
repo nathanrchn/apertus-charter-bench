@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "**Facile à lire et à comprendre (FALC)**  \n\n---\n\n**Ce que vous devez faire pour voter**\n\n1. **Signez votre carte de vote**  \n   - Écrivez votre nom sur la carte de vote.  \n   - Vous devez le faire vous‑même.\n\n2. **Mettez la carte dans la boîte aux lettres**  \n   - Déposez la carte signée dans la boîte aux lettres de la poste.  \n   - Faites‑le **avant la date limite** indiquée sur le courrier.\n\n3. **Si vous voulez voter en personne**  \n   - Allez à la **maison de commune** (l’hôtel de ville).  \n   - Le jour de la votation, c’est le **dimanche**.  \n   - Vous pouvez voter **entre 10 h 00 et 11 h 00**.  \n   - Présentez‑vous à l’accueil et on vous donnera le bulletin de vote.\n\n---\n\n**Rappel**  \n- Signez votre carte.  \n- Envoyez‑la à temps par la poste **OU** venez voter en personne le dimanche de 10 h à 11 h à la maison de commune.  \n\nSi vous avez des questions, demandez de l’aide à un proche ou au personnel du foyer. Bonne votation !",
+ "reasoning": "We need to translate into French FALC (facile à lire et à comprendre). Provide simplified language, short sentences, clear steps. Should be in French. Ensure it's understandable for someone with trisomy 21, maybe reading level low. Use pictograms? Just text. Provide bullet points, maybe icons. Use simple vocabulary, avoid complex words. Provide translation.\n\nWe need to follow style: FALC guidelines: short sentences, use \"vous\" or \"on\"? Usually use \"vous\". Use present tense, active voice. Avoid passive. Use concrete verbs. Use numbers for times. Provide clear steps: sign your voting card, put in mailbox before deadline, if want to vote in person, go to town hall on voting Sunday between 10 and 11.\n\nLet's produce.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 153,
+  "completion_tokens": 473,
+  "total_tokens": 626,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 4.5
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and clear, but uses advanced legal terms like condamnation, poursuite, procédure, permanence juridique."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly states the ten-day deadline after receiving the document."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives steps and referral, but oral opposition to the postman is inaccurate; should be to the office."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Oral opposition to the postman is not valid; opposition must be made to the debt collection office."
+ ],
+ "language_ok": true,
+ "summary": "Mostly helpful and clear, but not fully A2-simple and contains an inaccurate oral-opposition detail.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 105.1,
+ "attempts": 1
+}

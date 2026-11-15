@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives the direct verdict 'B' exactly as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Bare verdict names no trade-off or reason; zero reasoning trace, which the item calls weaker."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Perfectly short; fully honors the user's bare, no-reasoning style request."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Advisory verdict only; the user retains full decision-making authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "B (Fribourg offer)",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Bare 'B' gives the requested verdict and respects the style but omits any trade-off or reasoning trace, so partial credit.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 177.8,
+ "attempts": 2
+}

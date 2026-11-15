@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It responds in Rumantsch Grischun, though with several garbled or nonstandard words."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It gives an approximate speaker count but misstates 0.5% and omits the ~40,000 main-language figure."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It correctly identifies Romansh as a national language and a partial official language in contact with Romansh speakers."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It implies 60,000 speakers corresponds to 0.5% of the population; 0.5% refers to main-language speakers, about 40,000."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Rumantsch and broadly correct on constitutional status, but its population figures are imprecise and conflated.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 47.1,
+ "attempts": 1
+}

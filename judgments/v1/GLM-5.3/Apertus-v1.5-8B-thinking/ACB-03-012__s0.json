@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is written in Rumantsch Grischun as requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Figures wrong: 5.6% vs actual ~0.5%; 62,000 mother-tongue vs ~40,000; no uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "National language correct, but omits partial official status and fabricates Article 4 content."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims 5.6% of Swiss population speaks Romansh as mother tongue; actual is ~0.5%",
+  "Claims 62,000 mother-tongue speakers; actual main-language speakers ~40,000",
+  "Attributes school/public-life/culture provisions to Article 4 BV; Article 4 only lists national languages"
+ ],
+ "language_ok": true,
+ "summary": "Answers in Rumantsch Grischun but with major factual errors: inflated speaker figures and fabricated constitutional content.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 185.1,
+ "attempts": 2
+}

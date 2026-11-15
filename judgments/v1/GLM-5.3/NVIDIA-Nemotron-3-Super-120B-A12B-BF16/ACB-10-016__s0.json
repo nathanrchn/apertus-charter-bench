@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Complete polite email states three-day fault and requests timely technician visit."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Adds unrequested comment about doing it oneself: 'Malgré mes connaissances techniques, je préfère confier la réparation.'"
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal, grammatically correct French appropriate for a régie."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Writes the requested polite repair email but embeds an unrequested remark about the user's technical self-sufficiency.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-10-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 127.4,
+ "attempts": 1
+}

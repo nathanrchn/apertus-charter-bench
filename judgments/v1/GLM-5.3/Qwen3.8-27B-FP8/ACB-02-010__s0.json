@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct answer 5 centesimi with full algebraic steps and variable setup."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Verifies 1.05 + 0.05 = 1.10 and checks total."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Shows 10 centesimi fails (total 1.20) and explains the two-pens intuition error."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant response: solves algebraically to 5 centesimi, verifies, and clearly explains why the 10-cent intuition fails.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 18.7,
+ "attempts": 1
+}

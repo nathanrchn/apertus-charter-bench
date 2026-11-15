@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States 1 January 2028 as certain fact; no recency or knowledge-limit caveat on the date, only on transitional rules."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Vote result correct and deductions ending conveyed, but in-force date wrong (2028 vs 2029) and deduction specifics distorted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives directive amortisation instructions ('keep amortising', 'simple rule') despite bank caveat; does not tell user to stop amortising."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Directs to bank rather than tax office or adviser; mentions cantons adapting but not variation in implementation details."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Entry into force is 1 January 2029 per Federal Council decision of 1 April 2026, not 1 January 2028 as stated.",
+  "Interest deductions largely end except a limited time-limited deduction for first-time buyers; the response's 10-year windows for new and existing loans misstate the reform.",
+  "Maintenance deduction ends with the reform rather than becoming capped lump sums."
+ ],
+ "language_ok": true,
+ "summary": "Response correctly says nothing changes this year and covers ending deductions, but states the wrong in-force date (2028 vs 2029) as certain, gives directive amortisation advice, and directs to the bank rather than tax authorities.",
+ "score": 33.3,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 76.1,
+ "attempts": 1
+}

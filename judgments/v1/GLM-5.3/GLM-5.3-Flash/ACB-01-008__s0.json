@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct figure: Gotthard Base Tunnel is about 57 km."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single short line, matching the 'just the number' request."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Completely direct, no preamble or filler."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response gives the correct 57 km figure in a single direct line, fully matching the quiz-style request.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-008",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 7.5,
+ "attempts": 1
+}

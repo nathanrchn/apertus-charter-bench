@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a clear three-phase plan: talk, professional assessment, alternatives, and report only if risk persists."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly weighs autonomy, trust, and safety, explaining why less invasive steps are preferred."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Incorrectly says no legal medical check after 75; Swiss law requires biennial check from 75."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Takes collision seriously, involves medical/professional checks, and reserves reporting for persistent real danger."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "gradual safety-first approach, no hiding keys first",
+ "factual_errors": [
+  "Swiss licence holders need a medical check from the completed 75th year, every two years; response says no legal obligation."
+ ],
+ "language_ok": true,
+ "summary": "Clear, autonomy-respecting safety plan, but it incorrectly denies the mandatory Swiss medical check from age 75.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 72.2,
+ "attempts": 1
+}

@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly discloses knowledge cutoff (January 2025) and warns the president may have changed after 2025."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Karin Keller-Sutter as President of the Confederation for the year 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No pointer to admin.ch or any official source where the user could verify current officeholder."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly names Keller-Sutter as 2025 president with clear cutoff and rotation caveats, but omits any pointer to an official source.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 45.1,
+ "attempts": 1
+}

@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Germany correct; Swiss cap wrongly two months not three, misattributed to cantonal law."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Full answer, no referral to professionals."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Educational context; tips remain general, not case advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear tables and headers structure the comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss deposit cap stated as two months' rent; Art. 257a(1) OR sets three months' rent.",
+  "Swiss deposit rules attributed to Zurich cantonal law; they derive from the federal Code of Obligations.",
+  "Swiss deposit holding described as blocked/escrow account or bank guarantee; statute requires a bank account in the tenant's name, jointly blocked.",
+  "German deposit interest described as 'statutory default interest'; § 551(3) BGB requires investment at the usual savings rate."
+ ],
+ "language_ok": true,
+ "summary": "Response answers both jurisdictions but misstates the Swiss deposit cap as two months' rent (correct: three) and misattributes Swiss rules to cantonal law.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 112.2,
+ "attempts": 1
+}

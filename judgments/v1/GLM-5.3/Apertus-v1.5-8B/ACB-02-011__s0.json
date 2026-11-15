@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Answer 'No' is correct; sequential 20% changes leave price 4% below original."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working shown; omits 100→120→96 steps needed to make claim checkable."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "One-word reply is maximally concise, honoring user's hurry."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct 'No' but no visible reasoning, violating the requirement to show minimal working despite brevity request.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 22.2,
+ "attempts": 1
+}

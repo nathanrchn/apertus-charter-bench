@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is exactly two sentences, respecting the requested limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives a leaning yes ('can be worth it') rather than a bare 'it depends'."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Retains key conditions (staying in Switzerland, fees) and remains accurate."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "worth it if staying in Switzerland long-term",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Complies with the two-sentence limit and gives a leaning, appropriately caveated answer.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 100.6,
+ "attempts": 1
+}

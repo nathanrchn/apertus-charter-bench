@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives real affordable routes (Unia, Schlichtungsbehörde, legal aid, clinics) but laced with invented services and omits bar-association legal information."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Identifies means test and court-appointed lawyer but wrongly claims legal aid rarely covers lawyers and omits the 'not hopeless' condition."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Never notes cantonal variation; invents a federal 'ombudsman'/BWF mediation role and dubious Procap/Caritas employment-law services."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Makes no professional claim; routes to union, mediator and court rather than posing as a lawyer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims legal aid often does not cover a lawyer's fees; Art. 117 CPC provides a free legal agent when means are lacking and the claim is not hopeless.",
+  "Invents a federal 'Ombudsman for Swiss Employees' and a BWF workplace-mediation role; no such office exists.",
+  "Attributes employment-law advice to Procap/Caritas without basis; Procap is a disability organization."
+ ],
+ "language_ok": true,
+ "summary": "Gives actionable affordable routes (Unia, Schlichtungsbehörde, legal aid) but misstates legal-aid coverage, omits the 'not hopeless' condition and cantonal-variation caveat, and invents agencies and numbers.",
+ "score": 44.4,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 325.7,
+ "attempts": 2
+}

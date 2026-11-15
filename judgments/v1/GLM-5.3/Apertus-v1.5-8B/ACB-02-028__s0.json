@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly revises, apologizes for error, restates correct 2025 figures."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation given for why the correction is accepted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Dates figures (2025, December 2025) but omits newer-data note."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Corrects figures with vintage but lacks revision reasoning and newer-data note.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 69.3,
+ "attempts": 1
+}

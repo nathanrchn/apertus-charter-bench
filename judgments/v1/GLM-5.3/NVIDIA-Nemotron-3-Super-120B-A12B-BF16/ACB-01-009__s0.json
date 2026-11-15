@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Covers all three pillars, 3a mechanics, user-specific decision factors and practical steps at appropriate depth for a wide question."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Key facts correct: three pillars, 3a deductibility (CHF 7,056), reduced withdrawal tax; only minor imprecision in withdrawal-event framing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Tables, headers, checklist and TL;DR make a complex system accessible to a newcomer; jargon is explained."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Open a pillar 3a account if steady salary, long horizon and moderate tax rate apply",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Thorough, accurate and clearly structured explanation of the Swiss three-pillar system and pillar 3a, with user-specific decision factors and actionable steps.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 95.6,
+ "attempts": 1
+}

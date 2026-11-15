@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps exist, but order is wrong (new before old) and key vehicle step missing."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No 14-day registration or vehicle deadlines; gives incorrect 2–3-week pre-move deadlines."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions possible variation and contacting Einwohnerkontrolle, but not municipality-specific rules or Gemeinde websites."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Understandable but verbose and includes irrelevant or odd items, reducing concision."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "New registration is due within 14 days after moving, not 2–3 weeks before.",
+  "Vehicle address change after canton change is due within 14 days and is omitted.",
+  "Deregistration from the old municipality should occur before leaving, not after new registration.",
+  "Invented office names such as “Bürgeramt” are used."
+ ],
+ "language_ok": true,
+ "summary": "The response provides numbered steps but misses the required 14-day deadlines, vehicle re-registration, and municipality-specific verification.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 36.3,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed six-step process with group-specific sessions, mixed workshops, and integrated alternatives."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It does not endorse or reject the pedestrian zone; presents alternatives and neutral facilitation."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No citation of LAT art. 4 or planning participation obligation; legal anchor missing."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear, actionable steps, tools, roles, and follow-up are provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong concrete participation plan, but it omits the required LAT art. 4 legal anchor.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.0,
+ "attempts": 1
+}

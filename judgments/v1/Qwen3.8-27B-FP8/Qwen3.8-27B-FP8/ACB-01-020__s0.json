@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise target, SREBP-2, LDLR upregulation, and clearance mechanism at expert level."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact bullet points, no beginner definitions or unnecessary introduction."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly addresses target, hepatic regulation, and LDL receptor effects."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant, expert-level, compact, and covers all requested mechanistic points.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 15.7,
+ "attempts": 1
+}

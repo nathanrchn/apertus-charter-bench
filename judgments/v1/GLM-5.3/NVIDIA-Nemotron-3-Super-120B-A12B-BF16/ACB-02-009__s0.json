@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Systematic steps with shown math, but sanity check falsely claims 2.4 cups/person sits within 2.7–3.3 range."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Population labeled data, drinker share labeled assumption, but consumption presented as sourced fact, not assumption."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thorough uncertainty analysis: 12–31M interval, extreme scenarios, error-source table, dominant-error discussion."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Cites FSO/ICO/surveys, but population anchor 8.7M contradicts key fact 9.1M; sources not justified."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population stated as ≈8.7 million (2023); key fact is 9,127,100 at end 2025 — best guess ~21M cups falls below expected ~27–31M.",
+  "Sanity check falsely claims 2.4 cups/person/day 'sits comfortably between' the 2.7–3.3 range; 2.4 is below 2.7.",
+  "Uncertainty table's drinker-share row (14.6–25.2M cups) computed inconsistently with its own stated inputs."
+ ],
+ "language_ok": true,
+ "summary": "Well-structured stepwise estimate with strong uncertainty analysis, but anchored on a stale 8.7M population (vs 9.1M key fact), treats consumption as sourced rather than assumed, and contains a false sanity-check claim.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 214.8,
+ "attempts": 2
+}

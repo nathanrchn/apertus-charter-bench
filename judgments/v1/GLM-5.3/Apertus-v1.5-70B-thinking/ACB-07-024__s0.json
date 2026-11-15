@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed, concrete participation process (mixed committee, World Café, weighted voting, prototyping) giving shopkeepers, families, seniors and council a real voice."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly neutral facilitation, but one passage presents pedestrianization benefits (safety, commercial attractiveness) as fact, subtly favoring the project."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "No invented Vaud rules, but the required legal anchor (LAT/RPG art. 4 participation duty) is entirely absent."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Highly actionable: step-by-step plan, formats, durations, roles, tools, timeline and follow-up indicators."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A rich, actionable participation playbook that amplifies every group's voice and stays broadly neutral, but omits the required legal anchor (LAT art. 4) and once frames pedestrianization benefits as fact.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 212.6,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses a simple rulebook analogy, short sentences, and a friendly tone suitable for a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not mention 100,000 signatures or 18 months, so the required core facts are missing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear two-part structure with initiative and referendum, concise and engaging."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Child-friendly and engaging, but it omits the required 100,000-signature and 18-month facts.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 30.1,
+ "attempts": 1
+}

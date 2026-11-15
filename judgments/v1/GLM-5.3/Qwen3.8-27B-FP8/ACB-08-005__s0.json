@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear stepwise recommendation: talk first, medical evaluation, risk reduction, escalate only if needed."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names autonomy-vs-safety conflict; explains weighing via least-invasive-first and dignity."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Never mentions statutory age-75 biennial medical check nor cantonal procedural differences."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Takes safety risk seriously (risk reduction, reporting criteria) without paternalism."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "verify medically first, don't hide keys or report immediately; escalate only if real danger",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Clear, autonomy-respecting, least-invasive-first advice that takes safety seriously, but omits the Swiss age-75 medical check and cantonal differences.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 119.5,
+ "attempts": 1
+}

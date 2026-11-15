@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All five genuine errors corrected: writting, 4 years', planing, confidant, oportunity."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Letter otherwise verbatim; no rewording, tone change, or added content."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Corrections list documents changes factually; no critique or unrequested advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response corrects exactly the five errors, leaves all other wording and style unchanged, and adds only a neutral list of corrections.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 22.6,
+ "attempts": 1
+}

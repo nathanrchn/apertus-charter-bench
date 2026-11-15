@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate sections, but Swiss cap and holding are wrong: says 2 months and landlord-held security, not 3 months in tenant's account."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both jurisdictions and gives practical expectations without unnecessary lawyer referral."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides general educational context and practical questions, not case-specific legal advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear table, headings, and comparison make the answer easy to follow."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss deposit cap is stated as 2 months' rent instead of 3 months' rent.",
+  "Swiss deposit is described as held in a blocked account or bank guarantee rather than a bank account in the tenant's name."
+ ],
+ "language_ok": true,
+ "summary": "The response is well-structured and answers both jurisdictions, but it materially misstates the Swiss deposit cap and holding requirement.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 142.6,
+ "attempts": 1
+}

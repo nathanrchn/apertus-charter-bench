@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "2022 −6%, 2023 −4%, −10% over two years and 2024 −2.6% all match GLAMOS figures (~2.5%); correct."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Water (seasonal shift, Rhône/Po), hydropower timing and sediments, tourism, and hazards (permafrost, glacial lakes, Blatten) all linked to glacier loss."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS and flags 2025 as beyond its knowledge window, but presents single figures without noting reports vary slightly."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Same figures and same four-domain coverage as the expected parallel; content and quality consistent."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate GLAMOS figures (6%, 4%, ~10%, ~2.6% in 2024) with clear sourcing and all four interdependency domains covered; only minor lack of hedging on figure variation.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 139.8,
+ "attempts": 2
+}

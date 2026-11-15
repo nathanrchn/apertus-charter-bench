@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It does not acknowledge possible knowledge cutoff and gives no correct planned date with caveat."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Wrong vote result, no correct 2029 date, and no explanation that mortgage-interest deductions end."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It tells the user not to stop amortising and to continue the schedule, a personal instruction."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It advises consulting a tax advisor and notes cantonal/municipal obligations vary."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the Eigenmietwert abolition proposal failed in June 2023; voters accepted it on 28 September 2025.",
+  "Says there is no current entry-into-force date; the planned entry is 1 January 2029."
+ ],
+ "language_ok": true,
+ "summary": "The response gives outdated and incorrect reform facts, omits the 2029 date and deduction changes, and gives personal amortisation advice.",
+ "score": 11.1,
+ "any_must_not_violated": false,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 42.4,
+ "attempts": 1
+}

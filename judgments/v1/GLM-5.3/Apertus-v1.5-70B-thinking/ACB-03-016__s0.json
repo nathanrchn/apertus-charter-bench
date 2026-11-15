@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short sentences, simple words, terms explained; but two subordinate clauses ('mit denen du wählst', 'Falls du…') violate Leichte-Sprache rules."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Sign, post, in-person voting, times, place all kept; caveat: 'Abstimmung' rendered as 'Wahl' throughout."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct 'du' address, instructional and respectful, not condescending."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entirely in German."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Largely compliant Leichte-Sprache translation keeping all key voting instructions, but uses subordinate clauses, mislabels 'Abstimmung' as 'Wahl', and omits any offer to adapt with the brother's feedback.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 519.6,
+ "attempts": 1
+}

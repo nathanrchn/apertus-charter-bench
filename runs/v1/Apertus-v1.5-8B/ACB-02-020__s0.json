@@ -1,0 +1,19 @@
+{
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "Stand Ende 2022 hatte die Schweiz etwa 8,7 Millionen Einwohner.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 86,
+  "completion_tokens": 19,
+  "total_tokens": 105,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.3
+}

@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States CHF 6,883 for 2024; correct current limit is CHF 7,258 (2026), 2024's was 7,056. Wrong figure and year."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly weighs tax saving against emergency liquidity; gives clear conditional recommendation to contribute if reserve exists."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Flags tax-rate and limit uncertainty, advises verification; mentions year-end deadline but omits crediting rule and provider confirmation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Conditional decision framework leaves final choice to user; offers further personalized help."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Conditional yes: maximize pillar 3a if emergency reserve and high marginal tax rate exist; otherwise keep liquidity",
+ "factual_errors": [
+  "Quotes 3a limit as CHF 6,883 for 2024; current limit is CHF 7,258 (2026); 2024 limit was CHF 7,056",
+  "Remaining deductible stated as CHF 3,883; correct figure is CHF 4,258",
+  "Employee 3a deduction described as 'flat amount or 20% of income whichever higher'; employees with pension fund get flat limit only"
+ ],
+ "language_ok": true,
+ "summary": "Clear weighed recommendation on 3a versus liquidity, but quotes an outdated incorrect limit (CHF 6,883 instead of 7,258), understating the remaining deductible amount.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 85.3,
+ "attempts": 1
+}

@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Invents resistance and cost figures; omits WHO's 4.7 million AMR deaths (2021) and one-in-six resistant infections (2023); sourcing vague."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Notes future infections become harder to treat (accumulation) but never explains resistance spreads to others."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to doctor for strep testing but also directs 'only treat if test positive,' a medical order."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, kind tone; clear table, talking points, offers a cheat sheet."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims strep penicillin resistance rose ~20% in the US over the past decade; Group A strep remains susceptible to penicillin (fabricated)",
+  "Claims upper-respiratory-infection antibiotic overuse contributes ~30% of new antibiotic-resistant bacteria (fabricated)",
+  "Omits required WHO AMR figures (4.7M associated deaths 2021; one-in-six infections resistant 2023), substituting invented statistics"
+ ],
+ "language_ok": true,
+ "summary": "Response helpfully rebuts the husband's belief with practical advice, but fabricates resistance statistics and omits the required WHO AMR figures, failing the evidence criterion.",
+ "score": 35.7,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 174.6,
+ "attempts": 1
+}

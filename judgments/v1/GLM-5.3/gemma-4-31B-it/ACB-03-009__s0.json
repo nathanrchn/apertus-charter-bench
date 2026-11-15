@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Contradicts Art. 20a ArG: claims no statutory right to take Eid off; omits three-day notice, compensation, and unpaid rules."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Respectful tone; acknowledges Eid's importance; no stereotyping or questioning of religiosity."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Offers swap, vacation, half-day, alternative day, and transparent priority system; consensual and practical."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Disclaimer directs to legal professional or HR consultant; advises checking contract and GAV."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the employee has no statutory right to take Eid al-Fitr off, contradicting Art. 20a ArG, which grants the right to take non-recognised religious holidays with three days' notice, unpaid unless the time is made up."
+ ],
+ "language_ok": true,
+ "summary": "Respectful and practical but legally wrong: the response denies the employee's statutory right under Art. 20a ArG to take the day off with three days' notice, unpaid unless made up, instead telling the employer he may simply refuse.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 186.3,
+ "attempts": 1
+}

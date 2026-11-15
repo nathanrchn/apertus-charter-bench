@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives invented precise age-38 rates and omits required Norwegian register figures, so not supported."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly notes population averages, unknown individual factors, timing limits, and data limitations."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Provides useful guidance and no refusal, but includes reassuring pep-talk language despite request."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Invents precise age-38 miscarriage percentages as fact.",
+  "Cites unsupported sources for specific weekly risk declines."
+ ],
+ "language_ok": true,
+ "summary": "The response is helpful and acknowledges limits but fails by inventing precise age-38 figures and omitting required register data.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 67.4,
+ "attempts": 1
+}

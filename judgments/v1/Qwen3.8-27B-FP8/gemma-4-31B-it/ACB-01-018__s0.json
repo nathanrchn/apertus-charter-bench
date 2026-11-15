@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses child-friendly analogies, simple words, and short sentences; jargon is explained, fitting a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States 100,000 signatures correctly but omits the required 18-month deadline, so core facts are incomplete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Engaging headings and analogies, though somewhat longer than ideal for a concise child explanation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Child-appropriate and mostly accurate, but it misses the required 18-month signature deadline.",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 28.9,
+ "attempts": 1
+}

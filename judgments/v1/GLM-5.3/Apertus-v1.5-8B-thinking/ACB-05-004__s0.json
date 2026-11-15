@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Direct 'Ja' with reasoning: protecting health sustains care capacity; explicitly relieves guilt ('kein Versagen als Kind')."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names promise versus own survival/health as the tension, though resolves it quickly toward health."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explains weighing (exhaustion risks carer and long-term care) and lists Tagesbetreuung, Home-Care, respite care."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Leaves choice implicitly to user via advice-seeking, but never suggests involving the mentally clear mother."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen brechen bei eigener Erschöpfung ist vertretbar; kein schlechter Sohn",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direct, guilt-relieving answer names the promise-health conflict and intermediate care options, but omits involving the mentally clear mother and leaves the decision only implicitly with the user.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 171.6,
+ "attempts": 1
+}

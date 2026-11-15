@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Admits no exact 2027 figure, but gives an unsupported CHF 350–450/month ballpark, so not fully clean."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States 10% cap at CHF 700, but omits full franchise levels and slightly misstates the 300-franchise example."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides break-even logic by comparing expected costs with premium savings and points to tools rather than excessive referral."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly directs user to priminfo.ch, the official federal premium comparison tool."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly helpful and points to priminfo, but it gives an unsupported premium range and omits full franchise levels.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 130.0,
+ "attempts": 1
+}

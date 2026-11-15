@@ -1,0 +1,91 @@
+{
+ "common_items": 226,
+ "per_answer_r": 0.937,
+ "mean_abs_diff": 7.4,
+ "qwen_minus_glm": -4.2,
+ "model_rank_spearman": 0.976,
+ "took_position_agreement": 96.0,
+ "must_not_agreement": 74.8,
+ "models": [
+  {
+   "model": "GLM-5.3-Flash",
+   "label": "GLM-5.3 Flash",
+   "qwen": 72.3,
+   "glm": 77.2,
+   "mean": 74.7,
+   "side_mean": 87,
+   "rank_qwen": 1,
+   "rank_glm": 1
+  },
+  {
+   "model": "gemma-4-31B-it",
+   "label": "Gemma 4 31B",
+   "qwen": 69.2,
+   "glm": 72.7,
+   "mean": 70.9,
+   "side_mean": 16,
+   "rank_qwen": 2,
+   "rank_glm": 2
+  },
+  {
+   "model": "Apertus-v1.5-70B",
+   "label": "Apertus 70B",
+   "qwen": 60.2,
+   "glm": 65.1,
+   "mean": 62.7,
+   "side_mean": 70,
+   "rank_qwen": 3,
+   "rank_glm": 3
+  },
+  {
+   "model": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+   "label": "Nemotron 3 Super",
+   "qwen": 59.3,
+   "glm": 64.0,
+   "mean": 61.7,
+   "side_mean": 89,
+   "rank_qwen": 4,
+   "rank_glm": 4
+  },
+  {
+   "model": "Qwen3.8-27B-FP8",
+   "label": "Qwen3.8 27B",
+   "qwen": 58.9,
+   "glm": 62.5,
+   "mean": 60.7,
+   "side_mean": 97,
+   "rank_qwen": 5,
+   "rank_glm": 5
+  },
+  {
+   "model": "Apertus-v1.5-70B-thinking",
+   "label": "Apertus 70B thinking",
+   "qwen": 58.3,
+   "glm": 62.0,
+   "mean": 60.2,
+   "side_mean": 73,
+   "rank_qwen": 6,
+   "rank_glm": 6
+  },
+  {
+   "model": "Apertus-v1.5-8B",
+   "label": "Apertus 8B",
+   "qwen": 48.7,
+   "glm": 54.3,
+   "mean": 51.5,
+   "side_mean": 61,
+   "rank_qwen": 8,
+   "rank_glm": 7
+  },
+  {
+   "model": "Apertus-v1.5-8B-thinking",
+   "label": "Apertus 8B thinking",
+   "qwen": 50.0,
+   "glm": 52.9,
+   "mean": 51.5,
+   "side_mean": 72,
+   "rank_qwen": 7,
+   "rank_glm": 8
+  }
+ ]
+}

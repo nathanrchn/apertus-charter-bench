@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Playground analogy, simple vocabulary, direct address to child; language fits a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "100,000 signatures stated correctly, but the 18-month collection deadline is omitted entirely."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Engaging numbered steps and analogy, but repetitive closing sections make it overlong for a child."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Child-friendly playground analogy with correct 100,000-signature count and final national vote, but omits the 18-month signature deadline and is somewhat long and repetitive.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 45.8,
+ "attempts": 1
+}

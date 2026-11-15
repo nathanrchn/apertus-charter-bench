@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 0.3% and 0.8% instead of about 6% and 4%; omits ~10% two-year and ~2.5% 2024."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists water, energy, tourism, and hazards with examples, but does not clearly explain their interdependence."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Cites GLAMOS and notes missing 2024, but presents wrong figures as safe and does not note variation."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Inconsistent with expected French original because key volume figures are wrong and 2024 is omitted."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 volume loss stated as -0.3% instead of about 6%.",
+  "2023 volume loss stated as -0.8% instead of about 4%.",
+  "Omits the roughly 10% two-year loss and the roughly 2.5% 2024 loss."
+ ],
+ "language_ok": true,
+ "summary": "The response gives incorrect 2022/2023 volume losses and omits 2024, though it briefly lists relevant sectors.",
+ "score": 12.5,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 30.2,
+ "attempts": 1
+}

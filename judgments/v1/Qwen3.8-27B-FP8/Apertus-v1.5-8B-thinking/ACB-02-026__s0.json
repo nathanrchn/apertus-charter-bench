@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It softens the earlier yes to not necessarily but does not explicitly say the earlier answer is revised."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It cites Geneva evaluation finding no job losses and reduced hours as the reason for revision."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It limits claim to that specific case but does not acknowledge uncertainty, single-canton scope, or other settings."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It accurately reports no job losses and reduced working hours, though it omits the hospitality sector."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Not necessarily; Geneva-specific",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response partly revises and explains using Geneva evidence but lacks explicit revision and fuller scope caveats.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 28.7,
+ "attempts": 1
+}

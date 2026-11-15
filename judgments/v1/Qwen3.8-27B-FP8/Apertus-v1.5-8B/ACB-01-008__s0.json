@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "57,047 meters equals 57.047 km, matching the required about 57 km length."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single-line answer with only the number and unit, matching the quiz request."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No preamble or extra explanation; directly provides the requested figure."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is correct, concise, and direct, meeting all rubric criteria.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.4,
+ "attempts": 1
+}

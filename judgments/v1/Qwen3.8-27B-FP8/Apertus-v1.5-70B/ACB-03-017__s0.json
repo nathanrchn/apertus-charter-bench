@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short and simple, but does not explain the key term 'carte de vote'."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and in-person Sunday 10:00–11:00 at maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful, direct 'tu' address without condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "In French and consistent with the expected German twin."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is in French and preserves key information, but it is only partly FALC-compliant because it does not explain 'carte de vote'.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 79.8,
+ "attempts": 1
+}

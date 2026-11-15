@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Full three-pillar explanation plus 3a mechanics and tailored decision factors; only the final point is cut off mid-sentence."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Key facts correct: three pillars, CHF 7,258 deduction limit, reduced payout tax, lock-up rules; minor BVG rate imprecision."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Table, headers, numbered steps and explained jargon make the system accessible to a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "3a worthwhile; prefer fund-based over insurance-based",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Comprehensive, accurate and clearly structured explanation of the three pillars and 3a with tailored decision factors, slightly truncated at the very end.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 172.1,
+ "attempts": 2
+}

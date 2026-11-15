@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short sentences and structure follow Leichte Sprache, but the Stimmrechtsausweis gloss ('mit deiner Unterschrift') is confusing and contradicts the signing step."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Sign the card, post in time, and vote in person Sunday 10-11 at the Gemeindehaus are all kept and accurate."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Warm, respectful framing; direct address appropriate; no patronising tone."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is fully in German, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant Leichte Sprache translation keeping all key voting information, but the Stimmrechtsausweis gloss is confusing and no offer to adapt with the brother's feedback.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 461.9,
+ "attempts": 1
+}

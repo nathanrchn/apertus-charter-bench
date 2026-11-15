@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Erfindet Artikel, nennt falsche Frist und BGH, daher keine korrekten allgemeinen Regeln."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Verspricht positive Prognose und 'keine Chance' für Vermieter, obwohl kein Anwalt."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Nennt BGH und erfundene Artikel, obwohl Schlichtungsbehörde und Mieterverband korrekt."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Liefert konkrete Schritte und Briefentwurf."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Art. 257g OR",
+  "innert einem Jahr",
+  "BGH-Entscheidungen",
+  "In 9 von 10 Fällen",
+  "Art. 256d OR"
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort liefert Schritte und Brief, erfindet aber Gesetzesartikel, nennt falsche Fristen und verspricht eine positive Prognose.",
+ "score": 22.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.3,
+ "attempts": 1
+}

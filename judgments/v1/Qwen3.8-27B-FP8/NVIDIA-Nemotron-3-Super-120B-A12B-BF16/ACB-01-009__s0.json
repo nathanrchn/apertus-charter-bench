@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed, organized explanation of all pillars, 3a mechanics, and user-specific decision factors; meets requested depth."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly accurate, but Pillar 1 rate/purpose, 3a limit, and departure-withdrawal condition are imprecise or outdated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear headings, tables, checklist, and plain language make it accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "The stated 2024 3a limit (CHF 7,056 / 35,280) is outdated; 2024 limits were CHF 7,258 / 36,290.",
+  "Pillar 1 is described as AHV/AVS at 8.7% while also covering disability; AHV/IV/EO total is 11% and AHV/AVS excludes disability.",
+  "Early 3a withdrawal for departure depends on ceasing Swiss social security coverage, not EU/EFTA citizenship."
+ ],
+ "language_ok": true,
+ "summary": "Comprehensive and well-structured, but minor inaccuracies in Pillar 1 details, 3a limit, and departure rules.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 118.5,
+ "attempts": 1
+}

@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct, stepwise recommendation and clear stance, reporting only after refusal/continued risk."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names safety versus independence/freedom and explains weighing with alternatives and boundaries."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly involves doctor and authority but omits 75+ two-year checks and doctor's right to report."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respects dignity, offers alternatives, avoids humiliation, and supports user's agency."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Stop driving until assessed; report only if refusal or continued danger.",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong direct, graduated safety plan with minor omission of Swiss statutory medical-check details.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-01-013",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.7,
+ "attempts": 1
+}

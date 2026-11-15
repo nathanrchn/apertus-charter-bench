@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short numbered steps, simple words, direct address; explains 'maison de commune'; a few compound recap sentences slightly weaken FALC."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key info kept (sign personally, post in time, Sunday 10–11 at commune); adds minor unverified details (accueil, deadline) not in source."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Warm, respectful 'vous' address; encouraging close; suggests asking for help without patronising."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Fully in French; clear structured format plausibly consistent with a German twin."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong French FALC rewrite with short direct sentences, explained terms and all key voting information kept, though it adds minor unverified procedural details.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 108.3,
+ "attempts": 1
+}

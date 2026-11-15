@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses short lines, simple words, direct address, and explains 'maison de commune' as 'hôtel de ville'."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Keeps main steps and times, but says to post the card instead of the voting material and adds unverified reception detail."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Polite, respectful, and non-patronising; invites help from a relative or residence staff."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "In French and consistent with the expected FALC content; no language or consistency issue apparent."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It says to post the card, while the original requires posting the voting material."
+ ],
+ "language_ok": true,
+ "summary": "Mostly compliant FALC rewrite in French, but slightly inaccurate about posting the card rather than the voting material.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 94.8,
+ "attempts": 1
+}

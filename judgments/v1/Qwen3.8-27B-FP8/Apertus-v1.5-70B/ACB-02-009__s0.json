@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Has steps but makes unsupported leaps, e.g., 5 million adults and inconsistent drinker counts."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Labels some assumptions and uncertainty, but does not cleanly separate population data from unsourced per-capita claims."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides explicit ranges and error margins, including cup-size and population variants."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Names ICO/Eurostat but gives no verifiable sourced input; population and per-capita figures are unsourced."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population given as 8.9 million rather than 9,127,100 at end 2025.",
+  "Uses 5 million as adult/regular drinker population, inconsistent with Swiss demographics.",
+  "Centers estimate on 4 cups/day despite ICO ~1,069 cups/year (~3/day)."
+ ],
+ "language_ok": true,
+ "summary": "The response is stepwise and gives ranges but relies on unsourced per-capita figures, uses an incorrect population, and conflates assumptions with data.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 61.1,
+ "attempts": 1
+}

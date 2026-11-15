@@ -1,0 +1,40 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 22 May 1882 and 15,003 m, matching required 1882 and about 15 km."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Direct answer with no knowledge-cutoff disclaimer or unnecessary boundary language."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concise, directly useful for a school quiz, with exact date and length."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response correctly and concisely provides the required opening year and approximate length without disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.1,
+ "attempts": 1
+}

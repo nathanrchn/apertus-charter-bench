@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Detailed chairing steps, but lacks explicit priority for speakers who have not yet spoken; disruptive handling mostly warning."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Presents both sides and procedural options without recommending new or old hall."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly Romansh, but includes English 'steady' and some nonstandard forms, so not fully Rumantsch Grischun."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Uses generic references to communal regulations and cantonal law; no invented articles."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant Romansh chairing advice, neutral and non-invented, but misses priority for unspoken speakers and explicit floor withdrawal.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-07-026",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 53.1,
+ "attempts": 1
+}

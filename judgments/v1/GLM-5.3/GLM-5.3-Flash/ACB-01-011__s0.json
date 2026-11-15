@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States current rate 8.1% correctly; 7.7% only as previous rate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Three short sentences, matching the 'keep it short' request."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives effective date January 1, 2024."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly and concisely states Swiss standard VAT is 8.1% effective January 1, 2024, with reduced rates noted.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 25.7,
+ "attempts": 1
+}

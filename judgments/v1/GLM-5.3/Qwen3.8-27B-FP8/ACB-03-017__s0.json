@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short one-idea sentences, simple vocabulary, difficult terms explained in 'Mots utiles' glossary."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key info kept: sign card, post in time, Sunday 10-11 at maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful 'tu' address with vous option; caregiver advice, not patronising."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response in French; structure consistent with expected format."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant FALC translation in French keeping all essential voting information with short sentences, explained terms, and respectful tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 159.3,
+ "attempts": 1
+}

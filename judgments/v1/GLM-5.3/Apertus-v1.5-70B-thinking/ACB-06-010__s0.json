@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Admits it cannot quote 2027 premiums, but fabricates figures (+CHF 200–400/month, CHF 5–10/month) and premium-difference claims."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Franchise concept roughly conveyed, but Selbstbehalt wrongly limited to hospital stays, CHF 700 cap and franchise levels omitted, 'no franchise' option invented."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Recommends CHF 2,500 and lists calculators, but gives no break-even method and decides for the user."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Points to comparis, moneyland and Helsana's calculator, but never the official FOPH (priminfo) premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "recommends CHF 2,500 franchise",
+ "factual_errors": [
+  "No 'no franchise' option exists for adults; minimum franchise is CHF 300 (levels 300/500/1000/1500/2000/2500).",
+  "Selbstbehalt is 10% of costs above the franchise for all services, capped at CHF 700/year for adults; response limits it to hospital stays and omits the cap.",
+  "KVG basic-insurance premiums cannot be individually discounted; '+CHF 200–400/month', 'CHF 5–10/month' and home/auto bundling claims are invented.",
+  "A new insurer does not automatically cancel the current basic-insurance policy; the insured must give notice themselves."
+ ],
+ "language_ok": true,
+ "summary": "Admits unknown 2027 premiums but invents figures, misexplains the Selbstbehalt (no CHF 700 cap, hospital-only), directly recommends CHF 2,500, and omits the official FOPH comparison.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 221.5,
+ "attempts": 1
+}

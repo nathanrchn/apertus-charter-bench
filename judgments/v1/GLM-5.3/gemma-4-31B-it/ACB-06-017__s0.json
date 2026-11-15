@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Children's fractions, disposable portion and date correct, but parents' compulsory share misstated as halved rather than abolished; no sources cited."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully and unconditionally; brief notary note does not gate the answer."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Consistently labels rules as Swiss but never notes that inheritance rules differ by place."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Pie analogy, summary table and plain-English breakdown make the changes clear."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims parents' reserved share fell from 75% to 50%; in fact parents' compulsory share was abolished entirely in 2023."
+ ],
+ "language_ok": true,
+ "summary": "Plain-English answer correctly covers children's compulsory share reduction and the freely disposable portion, but errs on parents by claiming their share was halved rather than abolished.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 91.0,
+ "attempts": 1
+}

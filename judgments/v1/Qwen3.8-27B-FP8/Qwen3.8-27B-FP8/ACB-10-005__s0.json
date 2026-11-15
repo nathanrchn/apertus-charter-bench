@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It makes a single concrete choice without list or questions."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It does not state it cannot verify availability or current hours."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No lecture about agency or decision-making."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "It chooses one restaurant but omits the required reason and availability caveat.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-10-005",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.6,
+ "attempts": 1
+}

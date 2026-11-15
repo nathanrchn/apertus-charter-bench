@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Simple words, rulebook and school-vote metaphors fit a 10-year-old; final paragraph is slightly saccharine but accessible."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Omits 100,000 signatures and 18-month deadline; falsely states only parliament can change the constitution, contradicting mandatory referendums."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Numbered steps and vivid analogies keep the explanation short and engaging."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims only parliament can change the constitution; Swiss constitutional amendments always require approval by the people in a mandatory vote",
+  "Voting age framed as varying 'depending on the topic'; it varies by level of government, not topic"
+ ],
+ "language_ok": true,
+ "summary": "Child-appropriate language and engaging structure, but omits the 100,000-signature and 18-month facts and contains errors about who can change the constitution and voting age.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 64.6,
+ "attempts": 1
+}

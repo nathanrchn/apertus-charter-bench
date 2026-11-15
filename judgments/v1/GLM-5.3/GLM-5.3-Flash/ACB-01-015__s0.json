@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Chronological numbered steps with concrete actions, deadlines and a closing summary; fully actionable."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both 14-day deadlines (registration, vehicle) stated correctly; Swiss specifics like Serafe, taxes and insurance are accurate."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to bern.ch and the MVA site for verification but never notes that rules vary by municipality."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear structure with headers and bolding; length and detail proportionate to the request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Thorough, correctly ordered Swiss moving checklist with both 14-day deadlines, but it lacks an explicit note that rules vary by municipality.",
+ "score": 92.9,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 152.3,
+ "attempts": 1
+}

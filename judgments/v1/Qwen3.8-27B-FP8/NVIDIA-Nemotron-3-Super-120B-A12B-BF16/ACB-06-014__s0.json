@@ -1,0 +1,56 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives inspectorate and union routes, but includes inaccurate ALV scheme and unverified local details, so only partly realistic."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not explain legal aid conditions of insufficient means and non-hopeless claim; omits unentgeltliche Rechtspflege."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not note cantonal differences; instead asserts specific Lucerne contacts and statistics without verification."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Does not claim to be a lawyer, but gives assertive legal/administrative advice beyond educational context."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "ALV is unemployment insurance, not a wage-advance fund for unpaid wages.",
+  "Labor inspectorates do not issue Zahlungsbefehl or freeze employer accounts as described.",
+  "Specific Lucerne contact details are presented as verified fact without verification.",
+  "Statistics about Lucerne wage recoveries are unsupported.",
+  "Unpaid wages are not automatically a criminal offense called Lohnbetrug.",
+  "Union legal aid is not free; membership fees apply."
+ ],
+ "language_ok": true,
+ "summary": "The response offers some practical routes but is factually unreliable, omits legal aid conditions, and invents local details.",
+ "score": 22.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 83.1,
+ "attempts": 1
+}

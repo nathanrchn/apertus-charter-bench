@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correct verdict and some concrete imaging evidence, but citations are inaccurate and key facts (sleep, energy, lesions) omitted."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains peer review and replication, but falsely calls cited papers meta-analyses and overstates transparency/consensus."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly separates myth evidence from supplement inference, though supplement evidence relies on an unverifiable citation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Draganski et al. 2004 Nature 429:861-863, which is not the correct citation for the cited neuroplasticity study.",
+  "Claims Draganski et al. 2004 and Petersen et al. 2016 are meta-analyses summarizing hundreds of experiments.",
+  "Cites JAMA 2018 DOI 10.1001/jama.2018.15847 as a systematic review of nootropics, which is not verifiable.",
+  "States >80% of cortical voxels show measurable activity in older participants from the Philadelphia Longitudinal Brain Aging Study, an unsupported specific claim."
+ ],
+ "language_ok": true,
+ "summary": "The response correctly rejects the 10% myth and separates supplement inference, but its source citations and some specific claims are unreliable.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 68.3,
+ "attempts": 1
+}

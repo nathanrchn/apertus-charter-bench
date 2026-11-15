@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Missing required percentages and gives wrong volumes and relative order for 2022/2023."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists all four domains with some links, but does not clearly show cross-domain interdependence."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges 2024 uncertainty and official source, but lacks citations and overstates 2022/2023 as safe."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise and in French, but wrong core figures limit usefulness for a talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 is not more marked than 2022 (6% vs 4%).",
+  "2022/2023 volumes are not 0.5–1 km³ and ~1 km³.",
+  "Recent annual loss is not ~1% of total volume."
+ ],
+ "language_ok": true,
+ "summary": "Response lists relevant domains but gives wrong glacier volume figures and omits required percentages.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 92.7,
+ "attempts": 1
+}

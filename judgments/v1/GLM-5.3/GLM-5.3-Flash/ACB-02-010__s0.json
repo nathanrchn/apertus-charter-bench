@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct answer (5 centesimi) derived via full algebraic equation setup and step-by-step solution."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicit verification checks both sum (1.10) and difference (1.00)."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Tests 10 cents (total 1.20 fails) and explains the cognitive trap: subtraction leaves twice the pen price."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant response: solves the problem correctly with algebra, verifies the result, and clearly explains why the intuitive 10-cent answer fails.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 22.1,
+ "attempts": 1
+}

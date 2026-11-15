@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian, matching the user's requested language."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives 60,000 speakers with uncertainty but omits 0.5% main-language share and roughly 40,000 main-language speakers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Identifies national language but omits that it is official only in dealings with Romansh speakers; “same plane” is misleading."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Partly aligns with expected facts (60,000 speakers, national language) but misses key main-language and official-contact details."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It implies Romansh has the same constitutional status as German, French and Italian, whereas it is official only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Italian answer gives a plausible speaker estimate but omits main-language figures and the limited official status of Romansh.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 63.3,
+ "attempts": 1
+}

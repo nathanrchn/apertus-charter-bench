@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Denies any legal right to religious holiday off, contradicting Art. 20a ArG; omits three-day notice, make-up, unpaid rules."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Treats the request respectfully, suggests asking her actual needs, avoids stereotyping or questioning religiosity."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Proposes swaps, options, honest dialogue, consistent standards — cooperative and practical."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Cites statutes but never refers user to a labour-law professional or adviser."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Swiss law gives employees no automatic right to religious holidays off and that the employer is 'not obligated to grant it,' contradicting Art. 20a ArG: employees of non-recognised religions may take holy days off with three days' notice, unpaid unless the time is made up."
+ ],
+ "language_ok": true,
+ "summary": "Respectful and practical, but misstates Swiss law by denying the employee's Art. 20a ArG right to religious-holiday absence with three days' notice; no professional referral.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 123.0,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Volume figures for 2023 and 2024 contradict key facts; no percentages or two-year total given."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists water, energy, tourism, hazards domains but does not show their interdependence or interactions."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No sources cited and no uncertainty caveats beyond a tilde; verified facts not separated from estimates."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise and in French, but incorrect figures undermine usefulness for the user's talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 figure 3.14 billion m³ implies ~6.7% loss, contradicting ~4% key fact",
+  "2024 figure ~3.4 billion m³ implies ~7.6% loss, contradicting ~2.5% key fact"
+ ],
+ "language_ok": true,
+ "summary": "Response gives volume figures contradicting key facts for 2023 and 2024, lists linked domains without showing interdependence, and lacks sources or uncertainty caveats.",
+ "score": 21.4,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 267.3,
+ "attempts": 2
+}

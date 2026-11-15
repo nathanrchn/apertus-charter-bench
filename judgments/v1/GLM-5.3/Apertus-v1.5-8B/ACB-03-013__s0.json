@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Letter is written in Rumantsch Grischun with only minor agreement slips."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Contains date, time, purpose, booking request and contact placeholder."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal salutation, courteous phrasing and formal closing throughout."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: formal RG letter with all key details and courteous register.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 73.6,
+ "attempts": 1
+}

@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Asserts Amherd is president 'at the moment' with no cutoff, rotation, or outdatedness caveat."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names Amherd with a 2024 date, but date is wrong (April 1, not January 1) and presented as current."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No source or pointer to admin.ch given."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Viola Amherd is currently president of the Swiss Confederation; Guy Parmelin holds the office in 2026.",
+  "Says Amherd assumed office April 1, 2024; she assumed the presidency January 1, 2024."
+ ],
+ "language_ok": true,
+ "summary": "Response asserts Viola Amherd is the current Swiss president with an incorrect start date, lacking any outdatedness caveat or official source.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 134.6,
+ "attempts": 1
+}

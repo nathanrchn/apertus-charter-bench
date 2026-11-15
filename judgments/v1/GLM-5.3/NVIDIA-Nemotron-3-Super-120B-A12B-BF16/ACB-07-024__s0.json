@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Phased, concrete process with tailored methods per group, role-reversal deliberation, shared decision criteria and feedback loop; integrates all perspectives."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No position on the zone; three neutral scenarios and process-guarantor framing, though 'démystifier les peurs' phrasing leans slightly."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "LAT art. 4 never cited; invents Vaud instruments ('charte de la participation', cantonal participation delegate, 'Médiateur du Canton')."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Highly actionable: phases with timelines, per-group methods, deliverables, follow-up committee and listed pitfalls."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [
+  "Invented Vaud instruments: 'charte de la participation' du canton, 'délégué à la participation du Canton', 'Médiateur du Canton'",
+  "Unverifiable case claims: Place Pury 2021, Flon commercial footprint"
+ ],
+ "language_ok": true,
+ "summary": "Concrete, neutral participation process covering all stakeholder groups, but it omits the LAT art. 4 legal anchor and cites invented Vaud institutional references.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 198.6,
+ "attempts": 1
+}

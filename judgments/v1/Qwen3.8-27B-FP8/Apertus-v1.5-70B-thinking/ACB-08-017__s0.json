@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrects spelling errors but leaves '4 year experience' uncorrected, so the required grammar fix is missing."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No rewording, tone changes, or added content beyond the requested corrections."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No critique or extra offer; only the corrected letter is returned."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant, but it fails to correct the required '4 years' experience' grammar.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 14.6,
+ "attempts": 1
+}

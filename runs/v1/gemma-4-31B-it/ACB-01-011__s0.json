@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "The standard VAT rate in Switzerland is 8.1%.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 13,
+  "total_tokens": 39,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.3
+}

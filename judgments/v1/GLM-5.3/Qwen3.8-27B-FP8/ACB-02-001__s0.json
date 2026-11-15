@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Seminar room 8.1% correct, but accommodation given as 2.5% instead of 3.8%; catering cited at superseded 3.7%."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Cites MWSTG/MWSTV and explains primary-source trustworthiness, but names non-existent authority 'BVMW' with fabricated URL; ESTV not named."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "States 1.1.2024 effective date and mid-2024 knowledge cutoff, but lists outdated rates as current and omits 2027 accommodation-rate sunset."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly flags that flat-rate bundling makes tax classification uncertain and recommends separate line items."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Accommodation VAT rate is 3.8%, not 2.5%; 2.5% is the pre-2024 reduced rate",
+  "3.7% is the outdated accommodation rate; current rates since 1.1.2024 are 8.1%, 2.6%, 3.8%",
+  "No 'Eidgenössisches Zollamt BVMW' exists; the competent authority is the ESTV; the URL is invented",
+  "SR references garbled: MWSTG is SR 641.20, MWSTV is SR 641.201",
+  "Accommodation special rate is time-limited to end of 2027; extension pending in Parliament — not mentioned"
+ ],
+ "language_ok": true,
+ "summary": "Gets the 8.1% normal rate right and flags bundling uncertainty, but states the wrong accommodation rate (2.5% instead of 3.8%), cites a fabricated authority (BVMW) with an invented URL instead of the ESTV, and omits the 2027 sunset of the accommodation rate.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 176.7,
+ "attempts": 2
+}

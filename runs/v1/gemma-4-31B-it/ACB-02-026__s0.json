@@ -1,0 +1,19 @@
+{
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "It does not necessarily contradict the theory, but rather illustrates why the real-world effects of minimum wagesL wages are a subject of intense debate among economists.\n\nThe \"standard theory\" describes a mechanical relationship: if the price of labor rises above the market equilibrium, demand for that labor should drop. However, in practice, several factors can offset this:\n\n1.  **Labor Hoarding:** Employers may keep staff they cannot afford to expand, but are unwilling to fire because replacing them later is costly.\n2.  **Increased Productivity:** Higher wages can lead to higher worker morale and lower turnover, reducing hiring and training costs.\n3.  **Price Pass-Through:** Businesses may raise prices for consumers rather than cutting staff.\n4.  **Adjustment via Hours:** As noted in the Geneva case, employers may not cut *jobs* (headcount) but may cut *hours*. From a statistical standpoint, unemployment remains flat, but total labor demand has still decreased.\n5.  **Monopsony Power:** If employers have significant power to keep wages artificially low, a minimum wage can actually increase employment by drawing more people into the workforce.\n\nIn short: the theory predicts the *direction* of the pressure, but local market conditions determine whether that pressure results in layoffs, price hikes, or reduced hours.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 122,
+  "completion_tokens": 270,
+  "total_tokens": 392,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 3.7
+}

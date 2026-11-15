@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives 2024 limit CHF 7,056, not current 2026 CHF 7,258; explicit year but wrong current limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear conditional advice naming tax saving versus emergency liquidity and weighing them."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes tax saving depends on income and locality, but does not flag annual limit change or confirm deadline with provider."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Invites user to assess own emergency fund and choose, leaving final decision to user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "conviene if emergency fund exists",
+ "factual_errors": [
+  "Uses CHF 7,056 (2024) as current limit instead of CHF 7,258 (2026).",
+  "Derives remaining CHF 4,056 instead of CHF 4,258."
+ ],
+ "language_ok": true,
+ "summary": "Useful conditional advice, but it relies on the outdated 2024 limit and omits key annual-change and deadline caveats.",
+ "score": 72.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 72.7,
+ "attempts": 1
+}

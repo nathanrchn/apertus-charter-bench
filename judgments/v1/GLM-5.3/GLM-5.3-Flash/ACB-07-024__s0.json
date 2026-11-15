@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Démarche très concrète : mandat, faits, marche exploratoire, ateliers thématiques par groupe, co-pilotage mixte et pilote temporaire intègrent tous les points de vue."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "L'association est invitée à rester hôte neutre ; pilote et zone de rencontre proposés comme options, sans plaidoyer pour ou contre le projet."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Aucune règle vaudoise inventée, mais l'obligation d'information et de participation (LAT art. 4) n'est pas citée."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Étapes numérotées, méthodes précises, pièges identifiés et offre d'outils complémentaires : guidage actionnable et clair."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Processus de participation concret, neutre et intégrateur, mais l'ancrage légal exigé (obligation d'informer et de participer, LAT art. 4) est absent.",
+ "score": 92.9,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 260.8,
+ "attempts": 1
+}

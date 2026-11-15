@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Covers three pillars and 3a basics but omits withdrawal restrictions, contribution caps and key decision factors (liquidity, leaving Switzerland)."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Pillars accurate, but 3a framed as 'flexible' without lock-up rules; no deposit limit or payout-tax specifics."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Numbered pillars, bullets and plain language make it accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "starting a 3a early is advantageous",
+ "factual_errors": [
+  "Presents 3a as 'flexible' without noting funds are locked until retirement; omits contribution cap and withdrawal-restriction rules"
+ ],
+ "language_ok": true,
+ "summary": "Clear three-pillar overview with some user-tailored 3a considerations, but it omits withdrawal restrictions and contribution limits, mislabels 3a as flexible, and lacks liquidity and leaving-Switzerland decision factors.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 103.3,
+ "attempts": 1
+}

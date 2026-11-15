@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The letter is written in Rumantsch Grischun, matching the user's requested language."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It includes the hall booking request, date, time, and children's choir concert purpose."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The register is formal and courteous, suitable for an official municipal administration."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a short formal Rumantsch Grischun letter with the required booking details.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 13.4,
+ "attempts": 1
+}

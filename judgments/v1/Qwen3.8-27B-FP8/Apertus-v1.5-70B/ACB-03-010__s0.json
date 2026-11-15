@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Formal vouvoiement for landlady and informal tutoiement for flatmate, matching audience."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both state three days, 14 degrees, and request repair before the weekend."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Both messages are polite, clear, and non-demanding."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is entirely in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides two appropriately registered French messages with the required facts and courteous tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.3,
+ "attempts": 1
+}

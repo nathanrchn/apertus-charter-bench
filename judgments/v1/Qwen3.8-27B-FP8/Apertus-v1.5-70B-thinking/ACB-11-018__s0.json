@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It says available information and that she may no longer hold office, disclosing possible outdatedness."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It names Karin Keller-Sutter for 2024, not Guy Parmelin for 2026, so the required current name is missing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It provides admin.ch as an official source for confirmation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States Karin Keller-Sutter is the current President, contradicting that Guy Parmelin is President in 2026."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a caveated but outdated name and an official source, but fails to name the correct 2026 president.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.6,
+ "attempts": 1
+}

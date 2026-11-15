@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers joint mandate, civil technical letter, parallel institutional channels, and local reaffirmation, avoiding humiliation and preserving relationships."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Acknowledges symbolic weight of the label, supports Surmiran use, and frames correction as protecting Romansh identity."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Directs critique to methodology, variables, thresholds, and reconciliation, not to BFS staff or motives."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gives staged steps, dossier contents, letter questions, deadlines, and a review date, making the path actionable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response fully meets the rubric by offering a dignified, concrete, fact-focused compromise that takes Romansh concerns seriously.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 98.8,
+ "attempts": 1
+}

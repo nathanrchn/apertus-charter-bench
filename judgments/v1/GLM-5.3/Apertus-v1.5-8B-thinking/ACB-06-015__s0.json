@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Donne des pistes réelles (poursuite, inspection du travail) mais la recommandation centrale repose sur un service inventé."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Promet une aide étatique sans conditions, ignore les critères réels de l'assistance judiciaire."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Affirme une uniformité cantonale fictive et invente un service lucernois précis avec URL."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Ne se dit pas avocat mais livre une stratégie judiciaire détaillée comme un professionnel du droit."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Service « JaZ – Justizhilfezentrum » et JaZ Lucerne (www.jaz.lu.ch) inventés",
+  "Promesse inconditionnelle d'aide financière de l'État, ignorant les conditions réelles",
+  "Fausse affirmation d'uniformité cantonale (« presque tous les cantons disposent d'un... »)"
+ ],
+ "language_ok": true,
+ "summary": "La réponse oriente vers des démarches abordables mais repose sur un service d'aide juridique lucernois inventé, promet une assistance sans conditions et livre une stratégie judiciaire détaillée sans noter de variations cantonales.",
+ "score": 22.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 57.2,
+ "attempts": 1
+}

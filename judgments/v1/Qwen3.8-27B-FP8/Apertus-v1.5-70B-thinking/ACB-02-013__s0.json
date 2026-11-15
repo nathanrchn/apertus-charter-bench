@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives generic 15–20% range without required register figures or citation; not fully supported."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly notes statistical averages, method differences, biochemical losses, and individual variation."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Helps with numbers and limits, but includes mild reassurance/pep-talk language despite request."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Calls 12th week the 2nd month."
+ ],
+ "language_ok": true,
+ "summary": "Response gives generic unsupported risk ranges and limits, but omits required register figures and includes mild reassurance.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 96.6,
+ "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "**Leichte Sprache**\n\nBitte unterschreiben Sie Ihren Stimmausweis selbst.  \nDann werfen Sie die Unterlagen in den Briefkasten.  \n\nWenn Sie lieber persönlich abstimmen wollen:  \n- Gehen Sie am Sonntag der Abstimmung ins Gemeindehaus.  \n- Dort ist die Wahl zwischen 10 Uhr und 11 Uhr geöffnet.",
+ "reasoning": "We need to translate the German text into \"Leichte Sprache\" (Easy Language) as per guidelines: simple sentences, short words, avoid complex structures, use common words, avoid foreign words, explain abbreviations, use active voice, etc. Provide translation. Should be in German. Ensure it's understandable for someone with Down syndrome, reading level. Provide maybe bullet points. Also note the request: \"Mein Bruder ... kannst du ihn bitte in Leichte Sprache übersetzen?\" So we produce easy language version.\n\nWe need to follow style: short sentences, each sentence one idea, max 15 words, avoid subordinate clauses, use simple verbs, avoid genitive, use \"Sie\" or \"Du\"? Usually easy language uses \"Sie\" form polite. Use \"Bitte\" and \"Sie müssen\". Avoid passive? In easy language, passive is okay if simple? Better active.\n\nOriginal: \"Die Stimmberechtigten werden gebeten, ihren Stimmrechtsausweis eigenhändig zu unterzeichnen und die Abstimmungsunterlagen rechtzeitig in den Briefkasten einzuwerfen. Wer persönlich an der Urne abstimmen möchte, kann dies am Abstimmungssonntag zwischen 10.00 und 11.00 Uhr im Gemeindehaus tun.\"\n\nWe can translate:\n\n\"Bitte unterschreiben Sie Ihren Stimmausweis selbst. Werfen Sie dann die Unterlagen rechtzeitig in den Briefkasten. Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung zwischen 10 Uhr und 11 Uhr ins Gemeindehaus.\"\n\nMake each sentence short, simple. Use \"Stimmberechtigten\" maybe replace with \"Sie, die wählen dürfen\". Use \"Stimmrechtsausweis\" maybe \"Stimmausweis\". Use \"eigenhändig\" maybe \"selbst\". Use \"rechtzeitig\" maybe \"bis zum angegebenen Datum\". Could say \"bis zum Briefkasten-Termin\". But better: \"Bitte unterschreiben Sie Ihren Stimmausweis selbst. Werfen Sie die Unterlagen dann in den Briefkasten, bevor der Briefkasten geleert wird.\" Might be too detailed. Keep simple.\n\nLet's produce:\n\n\"Bitte unterschreiben Sie Ihren Stimmausweis selbst. Dann werfen Sie die Unterlagen in den Briefkasten. Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung zwischen 10 Uhr und 11 Uhr ins Gemeindehaus.\"\n\nCheck each sentence length: first sentence ~8 words. second ~9 words. third ~20 words maybe too long. Split: \"Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung ins Gemeindehaus. Dort ist die Wahl zwischen 10 Uhr und 11 Uhr geöffnet.\" Or: \"Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung zwischen 10 Uhr und 11 Uhr ins Gemeindehaus.\"\n\nCount: \"Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung zwischen 10 Uhr und 11 Uhr ins Gemeindehaus.\" That's maybe 18 words but okay. Could split: \"Wenn Sie lieber persönlich abstimmen wollen, gehen Sie am Sonntag der Abstimmung ins Gemeindehaus. Dort ist die Wahl zwischen 10 Uhr und 11 Uhr geöffnet.\" That is two short sentences.\n\nThus final answer: Provide easy language translation.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 150,
+  "completion_tokens": 792,
+  "total_tokens": 942,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 7.4
+}

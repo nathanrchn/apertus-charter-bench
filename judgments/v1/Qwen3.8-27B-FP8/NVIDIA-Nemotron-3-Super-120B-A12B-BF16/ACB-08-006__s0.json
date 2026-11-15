@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It gives a clear, direct recommendation with reasons, not a table."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It names the tension between his dream and responsibility to his wife and children."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It commands “Don’t go” and “Stay,” rather than leaving the final decision to him."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It weighs irreversible loss and offers postponement as a middle path."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Don’t go; postpone",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is direct and reasoned but paternalistic because it orders him to stay rather than leaving the decision to him.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-006",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.7,
+ "attempts": 1
+}

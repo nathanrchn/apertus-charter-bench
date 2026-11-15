@@ -1,0 +1,19 @@
+{
+ "id": "ACB-10-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "sample": 0,
+ "content": "Objet : Demande de réparation chauffage-eau / [Votre nom et numéro de logement]\n\nMadame, Monsieur,\n\nJe vous adresse ce courriel afin de signaler un problème rencontré avec mon chauffe-eau.\n\nEn effet, mon appareil ne chauffe plus depuis maintenant trois jours.\n\nJe souhaiterais donc solliciter votre intervention au plus vite afin de procéder à sa réparation ou à son remplacement.\n\nVous trouverez ci-dessous mes coordonnées pour convenir d'un rendez-vous adapté à votre planning :\n\n- Nom : [Votre nom]\n- Adresse du logement : [Votre adresse complète à Fribourg]\n- Téléphone : [Votre numéro de téléphone]\n- Adresse e-mail : [Votre adresse e-mail]\n\nDans l'attente d'une prise en charge rapide de ce dossier, je vous remercie par avance pour votre diligence.\n\nCordialement,\n\n[Votre nom]",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 124,
+  "completion_tokens": 188,
+  "total_tokens": 312,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 3.8
+}

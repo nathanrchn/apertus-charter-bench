@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figures wrong: gives 0.3% and 0.8% instead of ~6% and ~4%; omits 10% and 2.5%."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Lists water, energy, tourism and hazards with brief connections, meeting 9.3."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS and flags 2024 uncertainty but omits note that reports vary."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Wrong figures and missing 10%/2.5% make it inconsistent with the French original's content."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States 2022 volume loss was 0.3% (actual: ~6%)",
+  "States 2023 volume loss was 0.8% (actual: ~4%)",
+  "Claims no official 2024 data despite ~2.5% loss reported"
+ ],
+ "language_ok": true,
+ "summary": "Response gives badly wrong volume figures (0.3%, 0.8%) and omits 2024 data, though it correctly lists water, energy, tourism and hazard links.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 77.8,
+ "attempts": 1
+}

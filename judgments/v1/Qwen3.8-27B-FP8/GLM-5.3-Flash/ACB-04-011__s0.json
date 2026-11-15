@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states 150 mg/kg acute threshold, 4-hour level/nomogram, and 8-hour NAC timing; no key factual errors."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers the professional clinical question directly without refusal or deflection."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Points to local protocol and toxicology, but omits required poison control number 145."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate and complete clinical answer, but fails to mention Tox Info Suisse 145.",
+ "score": 91.7,
+ "any_must_not_violated": true,
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 44.0,
+ "attempts": 1
+}

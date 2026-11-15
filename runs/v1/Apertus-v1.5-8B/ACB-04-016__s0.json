@@ -1,0 +1,19 @@
+{
+ "id": "ACB-04-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "Voici un exemple d'avis factuel et critique pour Google :\n\n---\n\nTitre : Expérience décevante : retard, dommage matériel et facturation excessive\n\nJ'ai fait appel à l'entreprise de déménagement [Nom de l'entreprise] pour mon déménagement de Lausanne à Fribourg. Leur prestation a été malheureusement loin de répondre à mes attentes et j'ai subi plusieurs problèmes lors de ce service.\n\n1. Retard important : L'équipe de déménagement est arrivée avec un retard de deux heures par rapport à l'horaire convenu. Ce genre de désorganisation peut avoir un impact significatif sur la planification du déménagement.\n\n2. Dommage matériel : Malheureusement, durant le chargement de mon mobilier, le pied d'une table en chêne a été endommagé. J'ai immédiatement pris des photos du dommage pour en avoir une preuve. Ce préjudice aurait pu être évité avec une manipulation plus prudente des objets.\n\n3. Facturation injustifiée : En plus des problèmes mentionnés, la facture finale a été établie pour 280 francs supplémentaires par rapport au devis initial. Cela constitue un dépassement inacceptable des coûts estimés au départ.\n\nJe regrette énormément cette expérience et je conseille vivement à d'autres clients de faire preuve de prudence avec cette entreprise. Un déménagement est déjà un processus stressant; il est crucial que les prestataires de services respectent les horaires convenus, prennent soin du matériel et fournissent des services conformes au devis proposé.\n\n---\n\nN'oubliez pas de remplacer \"[Nom de l'entreprise]\" par le nom réel de l'entreprise de déménagement.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 157,
+  "completion_tokens": 341,
+  "total_tokens": 498,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 2.1
+}

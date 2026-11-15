@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate rules given, but Swiss cap and account ownership are materially inaccurate, so only partly accurate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both questions completely without unnecessary lawyer referral."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides general educational context and practical tips without case-specific legal advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Uses clear headings and bullets for Germany and Switzerland."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss residential security is federally capped at three months' rent, not merely common practice.",
+  "Swiss security must be held in a bank account in the tenant's name, not simply held by the landlord."
+ ],
+ "language_ok": true,
+ "summary": "The response is well-structured and answers both jurisdictions but contains material Swiss errors about the legal cap and account ownership.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 84.5,
+ "attempts": 1
+}

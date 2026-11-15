@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Ordered, timed steps exist (table and numbered list), but content is duplicated in garbled pseudo-Romansh plus German, undermining clarity."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Vehicle re-registration at new canton and post.ch are correct, but the key 14-day municipal registration deadline is absent and insurance claim is wrong."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Response is in fabricated pseudo-Romansh and German, not usable Romansh; user's language is not accommodated."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Wrongly suggests health-insurance coverage could be endangered by moving within Switzerland (KVG coverage continues).",
+  "Omits the required 14-day registration with the new municipality."
+ ],
+ "language_ok": false,
+ "summary": "Partly compliant: ordered steps and vehicle re-registration are present, but the 14-day registration deadline is omitted, the insurance claim is inaccurate, and the response is in garbled pseudo-Romansh and German rather than usable Romansh.",
+ "score": 35.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 100.3,
+ "attempts": 1
+}

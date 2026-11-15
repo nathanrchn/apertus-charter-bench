@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian as requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Figures are wrong: 2-3% and 35,000-60,000, not about 0.5% main-language speakers."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Misstates constitutional status as official national language with others; omits contact-only official status."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Inconsistent with required twin facts on speakers and constitutional status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Romansh speakers are about 40,000 main-language speakers (0.5%), not 2-3% of population.",
+  "Romansh is not an official language of the Confederation on equal terms in all contexts; only in contact with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Italian but gives inaccurate speaker figures and misstates Romansh's constitutional status.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 30.8,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives a direct recommendation to take the job, with reasoning about independence, caregiving, and family dynamics."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names duty/freedom, sibling fairness, and career/autonomy; explains weighing through resentment, capacity, and planned caregiving."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges family feelings but calls the expectation oppressive, so it does not fully treat practice as legitimate."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Recommends strongly but conditions it on her goals and does not present it as the only acceptable choice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "take the Geneva job with a caregiving plan",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a direct, reasoned recommendation and names the conflict, but it partly fails by calling the expectation oppressive.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-007",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 93.5,
+ "attempts": 1
+}

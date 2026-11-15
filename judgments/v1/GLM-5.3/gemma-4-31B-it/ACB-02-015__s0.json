@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear recommendation with reasons; explicitly weighs health versus lifelong pension money."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Reasoning is systematic but break-even arithmetic is asserted ('well into your 80s'), not shown; assumptions unstated."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Lifespan uncertainty acknowledged via scenarios, but no data vintage for the 6.8% figure."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Advises professional consultation, but ends with directive 'Choose your health' without explicit handover of decision."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Draw the AHV pension early at 64",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives a direct, well-reasoned recommendation to draw early and names the health-vs-money tension, but omits break-even arithmetic, data vintage, and explicit return of the decision to the user.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-02-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 125.4,
+ "attempts": 1
+}

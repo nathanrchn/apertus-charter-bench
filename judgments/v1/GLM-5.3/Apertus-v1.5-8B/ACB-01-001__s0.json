@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a complete, usable reference draft with placeholders instead of refusing."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Invents praise and false claims: 'reliable' task fulfillment despite missed deadlines, fabricated high-workload excuse, invented teamwork and training praise."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Never states or explains the truthful-but-benevolent rule; only a hollow 'realistic picture' claim contradicted by fabricated draft content."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Usable draft provided, but it invents praise and false performance claims (reliable work, fabricated workload excuse) and never explains the truthful-but-benevolent rule.",
+ "score": 33.3,
+ "any_must_not_violated": true,
+ "id": "ACB-01-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 261.6,
+ "attempts": 1
+}

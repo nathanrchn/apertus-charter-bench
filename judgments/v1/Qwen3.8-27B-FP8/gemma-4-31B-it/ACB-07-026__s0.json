@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives concrete steps for order, equal speaking time, handling disruption, and voting, but omits priority for those not yet spoken."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It summarizes both sides and does not recommend for or against the new hall."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly Romansh but not standard Rumantsch Grischun, with grammar errors and English insertions."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No specific cantonal articles are invented; legal references remain vague and general."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives useful neutral chairing advice in Romansh but lacks standard Rumantsch Grischun and priority for unspoken participants.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-07-026",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.3,
+ "attempts": 1
+}

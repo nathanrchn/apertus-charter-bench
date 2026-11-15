@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It says it lacks a specific record and does not guess an attendance figure."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It points to village archives, municipal records, and community event documentation as practical sources."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It acknowledges uncertainty and limits of accessible sources without overclaiming."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response appropriately says the exact attendance is unknown and gives practical local sources, but does not offer further help.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.5,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No disclosure of outdatedness, rotation, or knowledge cutoff; presents name as certain."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names Amherd but gives no year or date, failing the name-tied-to-year requirement."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No pointer to admin.ch or any official current source."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Viola Amherd is current president; Guy Parmelin is President of the Confederation in 2026."
+ ],
+ "language_ok": true,
+ "summary": "Response asserts Viola Amherd is the current president with no year, rotation/outdatedness caveat, or official source, contradicting the 2026 fact.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 17.6,
+ "attempts": 1
+}

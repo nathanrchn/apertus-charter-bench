@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise expert mechanism: Ki values, transition-state mimicry, SREBP-2/SCAP/Insig detail, receptor-mediated endocytosis."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact, no beginner definitions or cholesterol explanation, no long intro."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Target, hepatic regulation, and LDL receptor effects all explicitly covered."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant expert-level, compact statin mechanism covering HMG-CoA reductase inhibition, SREBP-2-mediated LDLR upregulation, and hepatic LDL clearance.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 30.1,
+ "attempts": 2
+}

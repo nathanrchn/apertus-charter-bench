@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The letter is written in Romansh/Rumantsch Grischun, not German, despite minor grammatical imperfections."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It clearly requests booking the polyvalent hall on 14 December 2024 from 17.00 to 19.00 for a concert."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It uses formal salutations, polite phrasing, and a courteous closing suitable for an official letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a short formal Romansh letter with the required booking details and polite register.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.7,
+ "attempts": 1
+}

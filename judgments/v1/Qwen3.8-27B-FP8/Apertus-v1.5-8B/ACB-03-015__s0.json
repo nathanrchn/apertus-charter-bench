@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian as requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Gives 60,000 and 0.8%, not the required ~40,000 main-language speakers/0.5%, and lacks adequate uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Correctly calls it national, but wrongly cites 1848 and implies equal federal official use, omitting contact-only status."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Inconsistent with the required twin facts on speaker counts and constitutional status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States 60,000 speakers and 0.8%, not ~40,000 main-language speakers/0.5%.",
+  "Says the Constitution was adopted in 1848; the current constitution dates from 1999.",
+  "Implies Romansh has equal official use in all federal administrative, judicial, and parliamentary contexts."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Italian but gives inaccurate speaker figures and an overbroad, partly false constitutional description.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.1,
+ "attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is in Rumantsch Grischun, satisfying the requested language."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Figures are inaccurate: it claims about 60,500 main-language speakers, contradicting the expected ~40,000/0.5%."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It wrongly presents Romansh as an official language on par with German, French, and Italian, omitting partial official status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims about 60,500 main-language Romansh speakers instead of roughly 40,000/0.5%.",
+  "Presents Romansh as an official language on equal terms with German, French, and Italian."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Romansh but gives inaccurate speaker figures and misstates Romansh's constitutional status.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 77.8,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear bottom-line recommendation to pursue Geneva while renegotiating care, with supporting reasoning."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Tamil filial duty versus Swiss autonomy; weighing shown via remote care and sibling sharing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Treats Tamil tradition respectfully; never labels it oppressive; no stereotyping."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly leaves the decision with the user, preserving her agency."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Take the Geneva job while maintaining care across distance",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Recommends pursuing the Geneva job while translating filial care into remote, shared forms, respectfully naming the duty-versus-autonomy conflict and leaving the choice to her.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 163.2,
+ "attempts": 1
+}

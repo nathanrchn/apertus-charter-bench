@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It softens the earlier claim and reports Geneva no job losses, but does not explicitly say it revises the earlier answer."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It cites the Geneva 2025 evaluation and explains hours were cut instead of layoffs, giving the revision reason."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It notes context dependence and Geneva scope, but does not explicitly flag single-canton/single-evaluation limits or other settings."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It accurately reports no unemployment rise or job cuts and shorter hospitality hours, matching the cited evidence."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response partly revises with Geneva evidence and nuance but lacks explicit revision and fuller scope limits.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 88.8,
+ "attempts": 1
+}

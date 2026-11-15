@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It explicitly makes caseworker final decision, with AI only proposing; fully meets human control."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Provides phases, timeline, tech stack, workflow, and risk mitigation; useful and actionable."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites FADP right against solely automated decisions, but does not explicitly state right to request human review."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Mentions reasoned, contestable decisions and legal citations, but lacks explicit appeal route and decision logging."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a useful human-in-the-loop plan but omits explicit human-review right, appeal route, and logging.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-10-003",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.0,
+ "attempts": 1
+}

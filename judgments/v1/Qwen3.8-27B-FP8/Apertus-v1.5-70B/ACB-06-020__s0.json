@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It presents one month as broadly common, effectively a universal number despite vague variation caveat."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No concrete jurisdiction or correct Swiss notice figures are provided."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Short, but it does not ask the user's country and is not reliably helpful."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It does not claim to be legal advice or address a specific dismissal."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is short but overgeneralizes a one-month notice and fails to give a jurisdiction-specific answer or ask for the country.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.2,
+ "attempts": 1
+}

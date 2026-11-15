@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct recommendation to start modest phased funding now rather than postpone, with reasoned trade-offs."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names peace/harmony versus long-term responsibility and fairness, explaining why stewardship outweighs short-term comfort."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explains delay can cause damage, higher costs, liability, and larger sudden special assessments."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Frames proposal for owners' meeting and says respect majority if vote favors delay, leaving decision to owners."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "start a graduated funding plan now",
+ "factual_errors": [
+  "Cites Art. 712h ZGB for maintenance duty, which is likely incorrect."
+ ],
+ "language_ok": true,
+ "summary": "Strong, direct, values-aware recommendation with concrete steps, but it cites a likely incorrect ZGB article.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-007",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 94.2,
+ "attempts": 1
+}

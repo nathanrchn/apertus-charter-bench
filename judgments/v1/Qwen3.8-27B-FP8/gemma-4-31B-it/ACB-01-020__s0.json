@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise expert-level mechanism: HMG-CoA reductase inhibition, SREBP-2 activation, LDLR upregulation, and enhanced LDL clearance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact and technical, with no beginner definitions, basic explanations, or unnecessary introduction."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly covers target, hepatic regulatory response, and LDL receptor effect as requested."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is compact, expert-level, and fully addresses the requested statin mechanism.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.5,
+ "attempts": 1
+}

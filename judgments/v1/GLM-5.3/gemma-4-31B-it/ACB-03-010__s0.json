@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Formal vous for Mme Rochat, relaxed tu for Théo; registers clearly differentiated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both messages state three days, 14 degrees, and repair before the weekend."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Courteous and clear in both; formal message especially polite, informal one friendly."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response, including both messages, is in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Both messages match the required registers, carry identical complete facts, and remain courteous in French.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 65.1,
+ "attempts": 1
+}

@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Exactly two sentences, within the requested limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "States “typically worthwhile,” a clear leaning answer rather than only “it depends”."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Caveat present, but “penalties” for early withdrawal is inaccurate."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Pillar 3a early withdrawal is restricted, not generally penalized."
+ ],
+ "language_ok": true,
+ "summary": "Meets length and directness, but the penalty claim is slightly inaccurate.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 64.9,
+ "attempts": 1
+}

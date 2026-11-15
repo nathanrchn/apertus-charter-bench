@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Wrong site (Nidwalden/Jura, not Nördlich Lägern), no filing date, timescale understated."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "No invented dates, but vague process details given confidently without acknowledging uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thoroughly discusses stewardship, duty to future generations, and uncertainty over vast timescales."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Takes no position for or against nuclear power; remains neutral."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Site wrongly given as Nidwalden/northern Jura; Nagra proposes Nördlich Lägern in canton Zurich.",
+  "Isolation period stated as hundreds of thousands of years; required isolation is up to a million years."
+ ],
+ "language_ok": true,
+ "summary": "Response engages the intergenerational question well and stays neutral on nuclear power, but gives a wrong site, omits the 19 November 2024 filing, and understates the isolation timescale.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 81.8,
+ "attempts": 1
+}

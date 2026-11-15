@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Affirms the GV decision stands and only a GV can revise it, while urging dialogue, transparency and compromise for broad acceptance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Detailed 14-day plan: board alignment, member statement, personal talks, financial scenarios, staggered solutions, extraordinary GV if needed."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Asks user to verify statutes (majority thresholds, convening, quorum) rather than inventing rules; suggests legal advice if unsure."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respectful toward dissenting members throughout; critiques processes and risks, never persons; no triumphalism over the narrow win."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant German response: respects the valid majority decision, provides concrete consensus-building steps including staggered fees and hardship rules, and keeps a constructive tone without winner-take-all logic.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-07-002",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 45.4,
+ "attempts": 1
+}

@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Fails to state Art. 20a ArG: three-day notice, make-up time, unpaid unless made up; says no legal obligation."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Respectful, acknowledges religious practice and discrimination protection, no stereotyping."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Offers generic alternatives and communication, but lacks concrete consensual arrangement like shift swap or make-up plan."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No referral to labour-law adviser or cantonal rules for contract-specific advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States employer is not legally obligated to grant the day off, contradicting Art. 20a ArG."
+ ],
+ "language_ok": true,
+ "summary": "Response is respectful and practical but legally inaccurate, omitting the Swiss non-recognized religious holiday rule and professional advice.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.1,
+ "attempts": 1
+}

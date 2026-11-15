@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers a formal inquiry and meeting, avoiding accusations and boycott, preserving dignity of BFS, council, and community."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Treats Romansh concern as serious, cites 50.6% majority and Romansh's national-language status, and seeks accurate representation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Critiques classification methodology and communication, not BFS staff, explicitly shifting from hate to error and collaboration."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides a concrete draft letter, strategic framing, and council persuasion points, making the compromise actionable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A dignified, actionable compromise is offered, but the response does not explicitly distinguish statistical classification from legal language status.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.5,
+ "attempts": 1
+}

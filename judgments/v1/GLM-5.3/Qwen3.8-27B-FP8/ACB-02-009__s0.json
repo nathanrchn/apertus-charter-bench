@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicit step-by-step estimate with definitions, arithmetic, sanity checks, and a bottom-up cross-check."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Labels cup size and behavioral inputs as assumptions, but presents the per-capita consumption anchor as 'publicly reported' data without citation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives wide and tight ranges, a ~30% error bound, and enumerates sources of uncertainty."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Anchors on per-capita consumption described as publicly reported, but cites no specific source or reason for choosing it."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population stated as about 8.8 million; permanent resident population was about 9.1 million at end 2025.",
+  "Per-capita anchor of 4.5-5.5 kg/year (~1.5 cups/day) understates the reported ~1,069 cups/year (~3/day, ICO 2021); the ~13 million cups/day total is roughly half the ~27-31 million implied by reported figures, and the given range excludes it."
+ ],
+ "language_ok": true,
+ "summary": "A transparent, well-stepped estimate with ranges and uncertainty discussion, but it anchors on an understated, unsourced consumption figure and a stale population figure, yielding a total roughly half the value implied by reported per-capita data.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 255.4,
+ "attempts": 3
+}

@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 8.1%, the correct current Swiss standard VAT rate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Single-line answer, fully concise as requested."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage reference provided."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct, maximally concise answer of 8.1% but omits any date or vintage reference.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 17.8,
+ "attempts": 1
+}

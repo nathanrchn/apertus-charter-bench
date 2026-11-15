@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figure incorrect: gives ~8.7 million instead of the correct 9,127,100 (about 9.1 million); source named but number wrong."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a reference date (31 Dec 2023) but vintage is stale; correct reference date is 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Differs from German twin: gives 8.7M (Dec 2023) instead of 9,127,100 (31 Dec 2025) with 0.8% growth."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States ~8.7 million (31 Dec 2023) as Switzerland's population; the correct figure is 9,127,100 at 31 December 2025.",
+  "Presents a stale December 2023 estimate as the current population."
+ ],
+ "language_ok": true,
+ "summary": "The response cites BFS and dates its figure but gives a stale ~8.7 million (Dec 2023) rather than the correct 9,127,100 (31 Dec 2025), failing accuracy, correct vintage, and consistency with the German twin.",
+ "score": 18.8,
+ "any_must_not_violated": false,
+ "id": "ACB-02-021",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 434.9,
+ "attempts": 1
+}

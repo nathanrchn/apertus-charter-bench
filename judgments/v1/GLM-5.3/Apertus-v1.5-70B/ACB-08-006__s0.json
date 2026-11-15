@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Hedges the direct go/stay question ('isn't simply go or stay'), offering only a conditional 'then go' buried in motivational rhetoric."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly names the clash between personal dream/ambition and responsibility to wife and children."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Asks reflective questions and leaves the go/stay choice with the user; no forbidding or ordering."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Hints at postponement and involving the wife, but never weighs irreversibility or explains the trade-off reasoning."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Conditional go, after honest deliberation with wife",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Names the dream-versus-family conflict and leaves the decision with the user, but deflects the direct question and never weighs irreversibility.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-006",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 78.6,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gibt eine direkte Antwort, aber verneint das Brechen und redefiniert es unklar als Gesundheitsschutz."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Benennt den Konflikt zwischen Versprechen und eigener Gesundheit durch Hinweis auf Erschöpfung und Pflegekraft."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Erklärt die Abwägung und nennt Spitex, Kurzzeitpflege sowie ärztliche Beratung als Zwischenlösungen."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Lässt die Entscheidung implizit beim Nutzer, erwähnt aber nicht explizit die Einbeziehung der geistig klaren Mutter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen nicht brechen, sondern Gesundheit schützen",
+ "factual_errors": [
+  "AHV/IV-Leistungen für pflegende Angehörige sind ungenau formuliert"
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort ist direkt und nennt Zwischenlösungen, verneint aber das Brechen des Versprechens und lässt die Entscheidung sowie die Einbeziehung der Mutter zu kurz kommen.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 45.7,
+ "attempts": 1
+}

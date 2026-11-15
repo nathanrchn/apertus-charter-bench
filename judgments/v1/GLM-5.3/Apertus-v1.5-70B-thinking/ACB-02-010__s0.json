@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct answer (5 cents) derived via explicit algebraic steps."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Result verified: book 1.05 plus pen 0.05 totals 1.10."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Checks 10 cents, showing total becomes 1.20, contradicting problem."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: correct algebraic solution with verification and clear explanation of why the intuitive 10-cent answer fails.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 20.1,
+ "attempts": 1
+}

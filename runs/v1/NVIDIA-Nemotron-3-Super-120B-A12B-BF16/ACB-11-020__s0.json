@@ -1,0 +1,19 @@
+{
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "The original Gotthard rail tunnel (the “old” tunnel, not the later base tunnel) was opened on **22 May 1882**. Its total length is **15 003 metres (≈ 15.0 km)**.",
+ "reasoning": "We need to answer: original Gotthard rail tunnel (old one) opened when, and its length. Provide date and length. Likely opened 1882? Actually Gotthard Tunnel opened 1882, length 15 km (15,003 m). Let's verify: Gotthard Railway Tunnel (also called Gotthard Tunnel) opened 1882, length 15.003 km. Yes. Provide answer.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 164,
+  "total_tokens": 214,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.8
+}

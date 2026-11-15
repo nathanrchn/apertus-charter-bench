@@ -1,0 +1,519 @@
+{
+ "run": "v1",
+ "judge": "GLM-5.3",
+ "items": 250,
+ "models": {
+  "Apertus-v1.5-8B": {
+   "judged": 248,
+   "score": 54.1,
+   "ci95": [
+    50.1,
+    58.0
+   ],
+   "by_article": {
+    "1": 47.2,
+    "10": 58.0,
+    "11": 59.6,
+    "2": 36.9,
+    "3": 59.2,
+    "4": 58.8,
+    "5": 66.6,
+    "6": 52.3,
+    "7": 48.7,
+    "8": 59.1,
+    "9": 51.3
+   },
+   "by_family": {
+    "conflict": 56.3,
+    "control": 73.5,
+    "life": 59.0,
+    "political": 35.6,
+    "probe": 55.0
+   },
+   "by_answer_type": {
+    "ambiguous": 60.8,
+    "charter_determined": 59.4,
+    "factual": 44.1,
+    "process_only": 34.2
+   },
+   "by_language": {
+    "de": 48.1,
+    "en": 55.3,
+    "fr": 56.1,
+    "it": 45.6,
+    "rm": 65.0
+   },
+   "swiss_specific": {
+    "false": 59.6,
+    "true": 52.2
+   },
+   "process_only_took_position_pct": 57.1,
+   "took_position_by_camp": {
+    "left": 50.0,
+    "right": 53.3,
+    "centre": 0.0,
+    "cross": 76.9
+   },
+   "took_position_by_direction": {
+    "status_quo": 33.3,
+    "change": 63.3,
+    "none": 66.7
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 46.0,
+   "language_ok_non_en_pct": 98.6,
+   "no_answer": 0,
+   "truncated": 0,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  },
+  "Apertus-v1.5-8B-thinking": {
+   "judged": 247,
+   "score": 52.0,
+   "ci95": [
+    48.0,
+    55.9
+   ],
+   "by_article": {
+    "1": 53.1,
+    "10": 58.0,
+    "11": 68.0,
+    "2": 34.7,
+    "3": 58.5,
+    "4": 62.0,
+    "5": 60.4,
+    "6": 45.3,
+    "7": 35.8,
+    "8": 53.5,
+    "9": 45.6
+   },
+   "by_family": {
+    "conflict": 53.8,
+    "control": 74.3,
+    "life": 60.8,
+    "political": 25.4,
+    "probe": 55.3
+   },
+   "by_answer_type": {
+    "ambiguous": 55.2,
+    "charter_determined": 60.6,
+    "factual": 33.2,
+    "process_only": 22.9
+   },
+   "by_language": {
+    "de": 52.8,
+    "en": 53.1,
+    "fr": 46.2,
+    "it": 44.0,
+    "rm": 59.6
+   },
+   "swiss_specific": {
+    "false": 58.2,
+    "true": 49.7
+   },
+   "process_only_took_position_pct": 69.0,
+   "took_position_by_camp": {
+    "left": 91.7,
+    "right": 66.7,
+    "centre": 0.0,
+    "cross": 61.5
+   },
+   "took_position_by_direction": {
+    "status_quo": 55.6,
+    "change": 80.0,
+    "none": 0.0
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 48.8,
+   "language_ok_non_en_pct": 93.3,
+   "no_answer": 1,
+   "truncated": 0,
+   "reasoning_leaked": 1,
+   "gen_errors": 0
+  },
+  "Apertus-v1.5-70B": {
+   "judged": 247,
+   "score": 64.3,
+   "ci95": [
+    60.1,
+    68.3
+   ],
+   "by_article": {
+    "1": 60.8,
+    "10": 72.0,
+    "11": 75.2,
+    "2": 53.2,
+    "3": 57.8,
+    "4": 73.1,
+    "5": 75.6,
+    "6": 52.8,
+    "7": 62.1,
+    "8": 66.6,
+    "9": 61.2
+   },
+   "by_family": {
+    "conflict": 68.8,
+    "control": 83.0,
+    "life": 71.0,
+    "political": 37.6,
+    "probe": 67.2
+   },
+   "by_answer_type": {
+    "ambiguous": 60.4,
+    "charter_determined": 71.6,
+    "factual": 54.3,
+    "process_only": 38.0
+   },
+   "by_language": {
+    "de": 55.2,
+    "en": 66.6,
+    "fr": 58.2,
+    "it": 66.5,
+    "rm": 59.5
+   },
+   "swiss_specific": {
+    "false": 72.1,
+    "true": 61.5
+   },
+   "process_only_took_position_pct": 70.7,
+   "took_position_by_camp": {
+    "left": 91.7,
+    "right": 50.0,
+    "centre": 100.0,
+    "cross": 69.2
+   },
+   "took_position_by_direction": {
+    "status_quo": 66.7,
+    "change": 72.4,
+    "none": 66.7
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 40.9,
+   "language_ok_non_en_pct": 100.0,
+   "no_answer": 0,
+   "truncated": 0,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  },
+  "Apertus-v1.5-70B-thinking": {
+   "judged": 249,
+   "score": 61.7,
+   "ci95": [
+    57.4,
+    65.9
+   ],
+   "by_article": {
+    "1": 57.5,
+    "10": 73.0,
+    "11": 63.6,
+    "2": 57.0,
+    "3": 57.9,
+    "4": 69.3,
+    "5": 72.4,
+    "6": 51.6,
+    "7": 52.1,
+    "8": 66.6,
+    "9": 60.0
+   },
+   "by_family": {
+    "conflict": 67.7,
+    "control": 83.9,
+    "life": 68.2,
+    "political": 30.4,
+    "probe": 64.9
+   },
+   "by_answer_type": {
+    "ambiguous": 63.0,
+    "charter_determined": 69.9,
+    "factual": 54.4,
+    "process_only": 28.4
+   },
+   "by_language": {
+    "de": 58.6,
+    "en": 63.4,
+    "fr": 56.2,
+    "it": 58.6,
+    "rm": 55.7
+   },
+   "swiss_specific": {
+    "false": 71.3,
+    "true": 58.2
+   },
+   "process_only_took_position_pct": 75.0,
+   "took_position_by_camp": {
+    "left": 83.3,
+    "right": 57.1,
+    "centre": 100.0,
+    "cross": 83.3
+   },
+   "took_position_by_direction": {
+    "status_quo": 44.4,
+    "change": 82.1,
+    "none": 100.0
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 43.7,
+   "language_ok_non_en_pct": 100.0,
+   "no_answer": 2,
+   "truncated": 1,
+   "reasoning_leaked": 108,
+   "gen_errors": 0
+  },
+  "GLM-5.3-Flash": {
+   "judged": 245,
+   "score": 77.1,
+   "ci95": [
+    73.1,
+    80.9
+   ],
+   "by_article": {
+    "1": 84.4,
+    "10": 85.2,
+    "11": 85.4,
+    "2": 72.1,
+    "3": 75.0,
+    "4": 91.9,
+    "5": 87.9,
+    "6": 71.3,
+    "7": 45.2,
+    "8": 79.5,
+    "9": 69.7
+   },
+   "by_family": {
+    "conflict": 81.5,
+    "control": 90.2,
+    "life": 87.3,
+    "political": 38.9,
+    "probe": 85.2
+   },
+   "by_answer_type": {
+    "ambiguous": 80.5,
+    "charter_determined": 87.5,
+    "factual": 62.9,
+    "process_only": 35.9
+   },
+   "by_language": {
+    "de": 81.5,
+    "en": 75.8,
+    "fr": 87.0,
+    "it": 79.7,
+    "rm": 40.0
+   },
+   "swiss_specific": {
+    "false": 85.8,
+    "true": 73.9
+   },
+   "process_only_took_position_pct": 87.5,
+   "took_position_by_camp": {
+    "left": 83.3,
+    "right": 93.3,
+    "centre": 100.0,
+    "cross": 83.3
+   },
+   "took_position_by_direction": {
+    "status_quo": 75.0,
+    "change": 89.7,
+    "none": 100.0
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 26.2,
+   "language_ok_non_en_pct": 100.0,
+   "no_answer": 8,
+   "truncated": 10,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  },
+  "gemma-4-31B-it": {
+   "judged": 248,
+   "score": 72.9,
+   "ci95": [
+    69.3,
+    76.6
+   ],
+   "by_article": {
+    "1": 76.3,
+    "10": 74.0,
+    "11": 69.8,
+    "2": 56.1,
+    "3": 76.9,
+    "4": 82.7,
+    "5": 70.8,
+    "6": 63.0,
+    "7": 72.3,
+    "8": 83.9,
+    "9": 77.6
+   },
+   "by_family": {
+    "conflict": 63.0,
+    "control": 94.1,
+    "life": 73.1,
+    "political": 67.0,
+    "probe": 75.1
+   },
+   "by_answer_type": {
+    "ambiguous": 68.7,
+    "charter_determined": 75.8,
+    "factual": 57.6,
+    "process_only": 68.1
+   },
+   "by_language": {
+    "de": 72.0,
+    "en": 72.0,
+    "fr": 78.2,
+    "it": 74.5,
+    "rm": 79.2
+   },
+   "swiss_specific": {
+    "false": 76.6,
+    "true": 71.6
+   },
+   "process_only_took_position_pct": 17.1,
+   "took_position_by_camp": {
+    "left": 25.0,
+    "right": 13.3,
+    "centre": 100.0,
+    "cross": 7.7
+   },
+   "took_position_by_direction": {
+    "status_quo": 37.5,
+    "change": 13.3,
+    "none": 0.0
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 27.4,
+   "language_ok_non_en_pct": 100.0,
+   "no_answer": 0,
+   "truncated": 0,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  },
+  "Qwen3.8-27B-FP8": {
+   "judged": 248,
+   "score": 61.5,
+   "ci95": [
+    56.5,
+    66.2
+   ],
+   "by_article": {
+    "1": 63.6,
+    "10": 80.7,
+    "11": 73.7,
+    "2": 54.5,
+    "3": 61.9,
+    "4": 75.7,
+    "5": 64.3,
+    "6": 42.9,
+    "7": 36.2,
+    "8": 77.7,
+    "9": 51.3
+   },
+   "by_family": {
+    "conflict": 71.1,
+    "control": 84.1,
+    "life": 72.7,
+    "political": 20.9,
+    "probe": 66.0
+   },
+   "by_answer_type": {
+    "ambiguous": 57.2,
+    "charter_determined": 73.5,
+    "factual": 40.0,
+    "process_only": 20.9
+   },
+   "by_language": {
+    "de": 62.2,
+    "en": 61.0,
+    "fr": 70.4,
+    "it": 55.4,
+    "rm": 48.6
+   },
+   "swiss_specific": {
+    "false": 77.3,
+    "true": 55.8
+   },
+   "process_only_took_position_pct": 97.6,
+   "took_position_by_camp": {
+    "left": 100.0,
+    "right": 93.3,
+    "centre": 100.0,
+    "cross": 100.0
+   },
+   "took_position_by_direction": {
+    "status_quo": 100.0,
+    "change": 96.7,
+    "none": 100.0
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 36.4,
+   "language_ok_non_en_pct": 100.0,
+   "no_answer": 23,
+   "truncated": 26,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  },
+  "NVIDIA-Nemotron-3-Super-120B-A12B-BF16": {
+   "judged": 243,
+   "score": 63.5,
+   "ci95": [
+    59.3,
+    68.0
+   ],
+   "by_article": {
+    "1": 64.7,
+    "10": 77.4,
+    "11": 66.4,
+    "2": 50.0,
+    "3": 66.1,
+    "4": 74.7,
+    "5": 81.0,
+    "6": 54.0,
+    "7": 39.0,
+    "8": 74.8,
+    "9": 53.8
+   },
+   "by_family": {
+    "conflict": 70.5,
+    "control": 85.8,
+    "life": 72.4,
+    "political": 24.7,
+    "probe": 70.0
+   },
+   "by_answer_type": {
+    "ambiguous": 60.0,
+    "charter_determined": 73.8,
+    "factual": 58.1,
+    "process_only": 22.9
+   },
+   "by_language": {
+    "de": 59.5,
+    "en": 65.6,
+    "fr": 55.1,
+    "it": 64.2,
+    "rm": 54.7
+   },
+   "swiss_specific": {
+    "false": 74.8,
+    "true": 59.4
+   },
+   "process_only_took_position_pct": 88.1,
+   "took_position_by_camp": {
+    "left": 83.3,
+    "right": 93.3,
+    "centre": 100.0,
+    "cross": 84.6
+   },
+   "took_position_by_direction": {
+    "status_quo": 88.9,
+    "change": 90.0,
+    "none": 66.7
+   },
+   "control_refusal_pct": 0.0,
+   "must_not_violation_pct": 54.7,
+   "language_ok_non_en_pct": 94.4,
+   "no_answer": 0,
+   "truncated": 0,
+   "reasoning_leaked": 0,
+   "gen_errors": 0
+  }
+ }
+}

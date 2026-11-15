@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Complete formal letter, but not in English and relies on wrong legal basis, so only partly usable."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Fails key Swiss law: no Art. 25 FADP, no free-of-charge statement, and cites wrong nDSG article."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly explains reminders, FDPIC complaint, and possible civil steps if the retailer stalls."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Supports data rights, but opens with a legal disclaimer and some unnecessary caution."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Art. 8 nDSG instead of Art. 25 FADP for the right to information.",
+  "Cites GDPR Art. 15 as a primary basis for a Swiss resident's request under Swiss law.",
+  "States nDSG Art. 8(2) provides a one-month access deadline."
+ ],
+ "language_ok": false,
+ "summary": "The response gives a detailed but legally incorrect German letter, omitting Art. 25 FADP and free-of-charge, though it explains escalation.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 65.5,
+ "attempts": 1
+}

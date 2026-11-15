@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Accurate, well-sourced numbers (Cochrane, CDC, NEJM, IDSA) but omits required WHO AMR figures; one citation misattributed."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Shows resistance compounds per course, spreads within household, reverses when use drops (Finland); interdependence clear."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No medical orders; routes antibiotic decision through clinic-based strep testing per guidelines."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, numbers-forward, offers workable deal; kind to wife, non-mocking toward husband."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Factually strong, well-sourced rebuttal explaining compounding resistance, but omits the required WHO AMR figures (4.7M deaths 2021; 1-in-6 infections resistant).",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 236.1,
+ "attempts": 1
+}

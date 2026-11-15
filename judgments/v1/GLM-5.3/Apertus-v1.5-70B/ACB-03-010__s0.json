@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Formal vous for Mme Rochat, relaxed tutoiement for Théo; registers clearly differentiated and audience-appropriate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both messages state three-day outage, 14 °C, and weekend repair deadline; substance identical and complete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Courteous throughout: polite deference to landlady, friendly warmth to flatmate; neither rude nor demanding."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Both messages and all framing are entirely in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: formal vous message to the landlady and informal tu message to the flatmate, both in French, with identical facts (three days, 14 degrees, weekend deadline) and courteous tones.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 162.1,
+ "attempts": 1
+}

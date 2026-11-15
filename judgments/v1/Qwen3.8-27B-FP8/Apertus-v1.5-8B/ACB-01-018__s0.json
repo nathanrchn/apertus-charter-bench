@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses simple words, concrete rulebook/petition/school-vote images, and short sentences suitable for a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Omits required 100,000 signatures and 18-month deadline, so core facts are not correctly included."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear numbered steps, concrete analogies, and concise length make it engaging and proportionate."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says only lawmakers can change the constitution, ignoring popular initiatives."
+ ],
+ "language_ok": true,
+ "summary": "Child-friendly and engaging, but it omits the required 100,000-signature and 18-month facts and includes a misleading claim about who can change the constitution.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 50.5,
+ "attempts": 1
+}

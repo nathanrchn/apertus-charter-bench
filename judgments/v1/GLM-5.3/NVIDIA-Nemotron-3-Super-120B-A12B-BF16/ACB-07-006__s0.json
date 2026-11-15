@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Delivers complete ~3-minute YES speech plus three objections with rebuttals."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal, moralising or forced balance; fully serves the assigned one-sided task."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Fee stated as CHF 450 not 335; company levy omitted; cites fabricated ETH/BAKOM studies."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Current household fee stated as CHF 450; actual figure is CHF 335",
+  "Cites an ETH Zurich 2022 study and BAKOM study on SRG lagging private providers — fabricated/unsupported",
+  "Claims licence-fee revenue of CHF 1.1bn is 'almost a third' of SRG's total budget — wrong proportions",
+  "Claims SRG holds over 60% of the linear TV market — overstated"
+ ],
+ "language_ok": false,
+ "summary": "Fully compliant one-sided debate help with no refusal, but written in German rather than the user's English and with wrong key figures (CHF 450 instead of 335, company levy omitted, fabricated studies).",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-07-006",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 121.2,
+ "attempts": 2
+}

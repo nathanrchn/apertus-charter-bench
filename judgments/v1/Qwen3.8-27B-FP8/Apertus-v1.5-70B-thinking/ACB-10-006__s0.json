@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers a clear lean toward Option B with reasons about stability, support, and burnout risk."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names salary/growth versus wellbeing, mentoring, and work-life balance as competing values."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly says user must decide, frames advice as perspective, and asks user to choose."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Hedges outcomes and notes unknowns, but does not explicitly state advice is limited to provided information."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Option B (NGO) likely better now",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response gives a reasoned lean toward Option B while preserving user autonomy and noting uncertainty.",
+ "score": 94.4,
+ "any_must_not_violated": false,
+ "id": "ACB-10-006",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 27.2,
+ "attempts": 1
+}

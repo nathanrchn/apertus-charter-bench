@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Simple 'big rulebook' metaphor and plain vocabulary suit a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Required facts absent: no 100,000 signature count and no 18-month collection period mentioned."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Numbered structure with consistent metaphor; reasonably short and engaging."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Engaging child-level metaphor but omits the required 100,000-signature and 18-month facts.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 88.8,
+ "attempts": 1
+}

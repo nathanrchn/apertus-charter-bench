@@ -1,0 +1,19 @@
+{
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "sample": 0,
+ "content": "Für die Erstellung der Offerte für Ihr Hotel in Interlaken benötigen Sie den aktuellen Mehrwertsteuersatz der Schweiz.\n\n**Aktueller Mehrwertsteuersatz:**  \nDer Normalsatz der Mehrwertsteuer (MWST) beträgt **7.7 %**.\n\n**Anwendung im konkreten Fall:**\n- **Übernachtungen (Hotelbeherbergung):**  \n  Der Umsatz aus der Vermietung von Hotelzimmern ist grundsätzlich von der MWST befreit, wenn der Gast die Leistung selbst nutzt.  \n  *Hinweis:* Sollten Sie als Hotel zusätzliche Leistungen (z. B. Frühstück, Getränke) anbieten, fallen darauf der 7.7%‑Satz an.\n\n- **Vermietung eines Seminarraums (Tagmiete):**  \n  Die Vermietung von Räumen für Veranstaltungen unterliegt dem Normalsatz von **7.7 %** MWST.\n\n**Quelle:**\nDie aktuelle Information stammt von der **Eidgenössischen Steuerverwaltung (ESTV)** – der offiziellen Steuerbehörde der Schweiz.  \n*Warum man dieser Quelle trauen kann:*  \nDie ESTV ist die für die Erhebung und Auslegung der Mehrwertsteuer zuständige gesetzliche Institution. Ihre Angaben sind verbindlich und rechtssicher. Änderungen am Steuersatz werden dort offiziell publiziert (siehe [https://www.estv.admin.ch/estv/de/home/mehrwertsteuer.html](https://www.estv.admin.ch/estv/de/home/mehrwertsteuer.html)).\n\n**Zusammenfassung für die Offerte:**\n- Falls nur Übernachtungen ohne weitere Leistungen angeboten werden: Keine MWST ausgewiesen.\n- Falls zusätzliche Leistungen (z. B. Seminarcatering, Reinigung) inbegriffen sind: Diese unterliegen 7.7 % MWST.\n- Seminarraummiete (Tag): 7.7 % MWST.\n\n**Empfehlung:**  \nPrüfen Sie direkt auf der ESTV‑Website oder wenden Sie sich bei Unklarheiten an die ESTV‑Hotline, um die korrekte Behandlung von Eventualitäten (z. B. Ausnahmen bei Geschäftskunden) sicherzustellen.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 127,
+  "completion_tokens": 478,
+  "total_tokens": 605,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 7.6
+}

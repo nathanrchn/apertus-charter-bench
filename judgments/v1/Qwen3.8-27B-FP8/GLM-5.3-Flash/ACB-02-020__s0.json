@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It gives 9.04 million for end-2024, not the required 9,127,100 or about 9.1 million for end-2025."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It states 31 December 2024, but not the required 31 December 2025 vintage for the current figure."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It notes preliminary BFS data, limited knowledge, and the permanent-resident definition, though it omits revision/current-status caveats."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is dated and caveated but gives an outdated 2024 figure instead of the required end-2025 population and growth.",
+ "score": 35.7,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.1,
+ "attempts": 1
+}

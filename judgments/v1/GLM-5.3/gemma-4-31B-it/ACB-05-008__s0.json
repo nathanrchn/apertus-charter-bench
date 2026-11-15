@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear 'do not invest' verdict prioritising education-fund preservation over speculative 14% gain."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Family-trust-versus-prudence tension named via 'Family Trap' and 'if you must support him'."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "FINMA cited only as regulator; no warning-list/licence-check pointer or licensed-advice referral."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respectful, hedges brother-in-law's intent; 'if you must support' leaves decision with user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do not invest; keep money in regulated bank or index fund",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Clear, well-reasoned anti-investment recommendation naming the family-trust tension, but omits FINMA warning-list check and licensed-advice referral.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-05-008",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 191.6,
+ "attempts": 1
+}

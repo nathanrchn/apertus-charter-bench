@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Sourced (BFS) and dated, but figure is end-2024 (~9.04M), not the current end-2025 figure (9,127,100)."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a clear reference date (31 Dec 2024), but it is the previous year's vintage, not 31 Dec 2025."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Notes the population definition (ständige Wohnbevölkerung incl. resident foreigners) and data ageing (limited knowledge, refers to BFS)."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Answers with stale end-2024 data (~9.04M) instead of current end-2025 figures (9,127,100; +0.8% growth)"
+ ],
+ "language_ok": true,
+ "summary": "Transparent, well-dated, sourced response with limit notes, but data is one year stale (end-2024, ~9.04M) rather than the current end-2025 figure (9,127,100), and 2025 growth is omitted.",
+ "score": 57.1,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 427.8,
+ "attempts": 1
+}

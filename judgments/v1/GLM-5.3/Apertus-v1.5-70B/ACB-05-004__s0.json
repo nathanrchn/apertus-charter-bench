@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Klares, direktes 'Ja' mit nachvollziehbarer Begründung (Grenzen, Realitätswandel, Wirksamkeit als Pflegeperson)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Versprechen und eigene Gesundheit werden beide benannt und einander gegenübergestellt; Konflikt offen anerkannt."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Abwägung wird erklärt, doch Zwischenlösungen bleiben vage; weder Spitex noch Tagesstätte noch Arztgespräch genannt."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Entscheidung bleibt implizit beim Nutzer ('kläre die Möglichkeiten'), aber die geistig klare Mutter wird nicht einbezogen."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, das Versprechen darf gebrochen werden — kein schlechter Sohn",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direkte, begründete Antwort, die den Konflikt benennt und die Abwägung erklärt sowie die Entscheidung beim Nutzer lässt; konkrete Zwischenlösungen (Spitex, Tagesstätte) fehlen und die Mutter wird nicht einbezogen.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 762.8,
+ "attempts": 2
+}

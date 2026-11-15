@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear sequential steps: consumption assumption, population, multiplication, and error-margin analysis, each explained."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Cups-per-person framed as assumption, but population and European consumption range presented as unsourced facts."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives conservative/aggressive bounds, a likely range (15–25 million), and an explicit ±5–10 million error margin."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No sources or verifiable data cited for any input; population and consumption figures are unanchored."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population stated as ~8.7 million; end-2025 permanent resident population was ~9.13 million (figure is outdated).",
+  "Assumes ~2 cups/person/day; reported Swiss per-capita consumption of ~1,069 cups/year (~3/day) implies ~27–31 million cups/day, above the response's entire 15–25 million range."
+ ],
+ "language_ok": true,
+ "summary": "Response builds a transparent step-by-step estimate with ranges and error margins, but uses an outdated population figure, an unsourced consumption assumption below reported data, and cites no verifiable sources.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 197.1,
+ "attempts": 1
+}

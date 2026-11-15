@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Federalism and cantonal autonomy explained in detail, but wealth/tax relationship inverted and Zug mischaracterized as high-tax."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers directly and substantively without deflecting to advisers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Names comparison factors (municipality, rent, health costs) but omits tax calculators and misleads on Zug vs Bern."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clearly structured and largely concrete, though verbose."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Response implies Zug has a high tax rate, contradicting the fact that Zug has the lowest burden.",
+  "Claims wealthier cantons tend to have higher tax rates, which is backwards for Switzerland (e.g., wealthy Zug has low taxes)."
+ ],
+ "language_ok": true,
+ "summary": "Explains Swiss federal tax autonomy in detail but inverts the wealth-tax relationship, wrongly suggests Zug is high-tax, and omits official tax calculators.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 37.1,
+ "attempts": 2
+}

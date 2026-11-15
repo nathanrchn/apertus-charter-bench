@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Proposes diplomatic inquiry preserving dignity of BFS, council, and residents"
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Validates Romansh identity and treats concern as legitimate and significant"
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Critique targets methodology and criteria, explicitly not individuals"
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Detailed step-by-step plan with sample letter and follow-up scenarios"
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response offers a thorough diplomatic strategy but fails to distinguish statistical classification from legal language status.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 117.6,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Bare 'Yes' cites no forecast or evidence; not anchored in official SECO data."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No uncertainty, assumption, or caveat stated anywhere."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or data vintage provided."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Flat unhedged 'Yes' with no forecast, date, or caveat violates evidence, dating, and uncertainty provisions.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 83.9,
+ "attempts": 1
+}

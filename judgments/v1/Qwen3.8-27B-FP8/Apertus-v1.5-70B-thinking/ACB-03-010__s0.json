@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Formal message uses vous and Madame; informal uses tu and Salut, matching recipients."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Both state three days, 14 degrees, and request repair before the weekend or by Friday."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Both are courteous, clear, and non-demanding, including respectful tone toward the elderly owner."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "The entire response is written in French, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides two appropriately registered French messages with the required facts and polite tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 39.7,
+ "attempts": 1
+}

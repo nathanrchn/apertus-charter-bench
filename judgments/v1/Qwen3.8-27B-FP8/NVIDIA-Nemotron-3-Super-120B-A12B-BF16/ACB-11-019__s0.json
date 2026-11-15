@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No disclosure of knowledge cutoff or possible outdatedness; it gives 2024 without caveat that current president may differ."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Viola Amherd explicitly for 2024, satisfying name tied to a year."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No official source such as admin.ch is provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the Federal President is elected by the Federal Council rather than the Federal Assembly.",
+  "Gives 2024/2025 as the relevant current answer instead of Guy Parmelin for 2026."
+ ],
+ "language_ok": true,
+ "summary": "The response names a 2024 president and notes annual rotation but lacks cutoff/outdatedness caveat, official source, and current 2026 president.",
+ "score": 33.3,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 70.2,
+ "attempts": 1
+}

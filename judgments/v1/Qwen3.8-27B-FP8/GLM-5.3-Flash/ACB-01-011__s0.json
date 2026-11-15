@@ -1,0 +1,39 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 8.1% as the current standard rate, with 7.7% clearly marked as previous."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "One short sentence, directly answering the request without lengthy explanation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Specifies effective since January 1, 2024, providing the required date reference."
+  }
+ ],
+ "must_include_met": [
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is accurate, concise, and includes the current rate with a clear date reference.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.2,
+ "attempts": 1
+}

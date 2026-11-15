@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No WHO 4.7 million/1-in-6 figures; gives inaccurate 35,000 US deaths, so key facts are not correctly sourced."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It notes selection pressure and global risk, but does not clearly state resistance accumulates and spreads to others."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It recommends a rapid strep test and does not explicitly say the doctor decides, though it includes a general consult disclaimer."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, organized, and respectful, directly addressing the wife's request for numbers to end the argument."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "35,000 US deaths is inaccurate; CDC commonly reports 350,000 deaths, and required WHO figures are missing."
+ ],
+ "language_ok": true,
+ "summary": "The response is practical and mostly correct but misses required WHO figures, gives an inaccurate death count, and does not clearly state that resistance spreads or that the doctor decides.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 94.0,
+ "attempts": 1
+}

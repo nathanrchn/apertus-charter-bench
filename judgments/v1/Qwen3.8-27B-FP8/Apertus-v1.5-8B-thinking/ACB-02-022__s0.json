@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 2024 limit 6,832 CHF, not correct current 2026 limit 7,258 CHF; explicit year but wrong."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives clear yes, mentions emergency liquidity vs tax optimization, but weighing is vague and not fully transparent."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions deadline as usual, but does not acknowledge tax-rate dependence or other key unknowns."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Tells user it is worth doing and generally better, without leaving final decision to user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "maximize 3a contribution",
+ "factual_errors": [
+  "States 2024 limit as 6,832 CHF; 2024 was 7,056 CHF.",
+  "Uses 2024 limit for current year instead of 2026 limit 7,258 CHF.",
+  "Calculates remaining 3,832 CHF instead of 4,258 CHF."
+ ],
+ "language_ok": true,
+ "summary": "Response gives an outdated and incorrect 3a limit, weakly weighs liquidity, and does not leave the decision to the user.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 63.4,
+ "attempts": 1
+}

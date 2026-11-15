@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short sentences, basic vocabulary, clear structure and model letter suit an A2 reader."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "States a 20-day objection deadline; the correct period is ten days from service."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear steps, model opposition letter, and sensible referrals to free legal and social help."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Response claims the debtor has 20 days to object; a payment order can only be opposed within ten days of service."
+ ],
+ "language_ok": true,
+ "summary": "Very accessible A2-level explanation with good referrals, but gives a wrong 20-day objection deadline instead of ten days.",
+ "score": 57.1,
+ "any_must_not_violated": false,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 100.6,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It declares a verdict and sides with the second colleague, violating neutral framing."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It does not state the at-least-two-thirds domestic / at-most-one-third abroad rule."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It explains additionality and double-counting but frames the concern as secondary to its chosen side."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It offers additionality, double-counting, and durability as criteria for judging project quality."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "second colleague / abroad offsets are more right",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response takes a partisan verdict and omits the exact two-thirds/one-third rule, though it gives useful quality criteria.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-011",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.7,
+ "attempts": 1
+}

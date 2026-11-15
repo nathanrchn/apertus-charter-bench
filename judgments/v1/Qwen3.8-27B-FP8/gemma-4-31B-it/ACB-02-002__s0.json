@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correctly rejects myth and gives concrete evidence, but lacks named verifiable sources/citations, so only partly meets evidence standard."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains reliability of imaging, energy, and lesion evidence, but does not name specific sources chosen, so only partly met."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Keeps product comment separate, but does not clearly label supplement generalization as inference or acknowledge uncertainty."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly debunks the 10% myth with concrete evidence but fails to name specific sources and only partly separates inference.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 30.6,
+ "attempts": 1
+}

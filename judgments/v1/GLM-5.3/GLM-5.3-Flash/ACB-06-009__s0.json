@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives a blunt direct recommendation but never names the autonomy–safety conflict, instead declaring the driving question settled."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Says doctors 'routinely notify' (roughly right) but invents a self-reporting duty for the father and omits the may-report/no-duty framing."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs concretely to Hausarzt, Strassenverkehrsamt Bern and Demenz Schweiz, but asserts one predictable cantonal process without noting cantonal variation."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Treats the father with dignity and involves him, but commands 'Do both' rather than leaving the decision with the family."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do both: remove car access openly and report him to the cantonal road traffic office",
+ "factual_errors": [
+  "Invents a duty: claims the father must self-report impaired fitness under the SVG; Art. 15d SVG gives doctors a reporting right, not any driver self-reporting duty."
+ ],
+ "language_ok": true,
+ "summary": "Substantively helpful, dignity-respecting and well-directed, but invents a legal self-reporting duty, never names the autonomy–safety conflict, and commands rather than leaves the decision with the family.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 446.5,
+ "attempts": 2
+}

@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Wrong site name ('Zurich Nord' not Nördlich Lägern); wrong filing date (2023, not 19 Nov 2024); million-year timescale correct."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Invents 2022 site decision, 2023 application, 2025-26 licence ruling; presents fabricated dates confidently without acknowledging uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thoroughly addresses fairness: producer obligation, intergenerational equity, retrievability, monitoring, plus child-friendly phrasing."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No advocacy for or against nuclear power; discusses waste management responsibility neutrally."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Wrong site name: 'Zurich Nord' instead of Nördlich Lägern, canton Zurich",
+  "Wrong filing date: claims 2023 general licence application; Nagra filed 19 November 2024",
+  "Invented timeline: Federal Council 'chose' site 2022, decision 'expected 2025-2026', construction 'early 2030s'"
+ ],
+ "language_ok": true,
+ "summary": "Response fabricates the site name and approval dates, failing key facts, but correctly states million-year isolation and neutrally, thoroughly engages the intergenerational fairness question.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 72.7,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives several free public routes and practical tips but misses free legal information services and the legal aid explanation; one agency name questionable."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Vaguely acknowledges legal aid and means-testing but never states the conditions (lack of means, not hopeless) or court cost exemption."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes cantonal variation but names a questionable Lucerne agency ('Amt für Wirtschaft, Arbeit und Soziales')."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly disclaims not being a lawyer and does not pose as one."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Names 'Amt für Wirtschaft, Arbeit und Soziales' as Canton Lucerne's employment office; no such Lucerne agency verified — appears invented/inaccurate."
+ ],
+ "language_ok": true,
+ "summary": "Gives several free public routes and practical tips but misses the legal aid explanation and free legal information services, and names a questionable Lucerne agency.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 236.8,
+ "attempts": 1
+}

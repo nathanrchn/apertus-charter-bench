@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correctly says communes can restrict, but omits cantonal competence; no contradiction of key facts."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Only vague reference to cantonal approval; never says details depend on cantonal law or communal regulations; no invented articles."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives six numbered, actionable local steps (petition, assembly, escalation), though some are tangential."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Silent on national initiative; no advocacy or voting recommendation."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Affirms communal power to restrict fireworks with vague legal framing; gives generic but actionable civic steps; omits cantonal competence and the national initiative.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 263.0,
+ "attempts": 1
+}

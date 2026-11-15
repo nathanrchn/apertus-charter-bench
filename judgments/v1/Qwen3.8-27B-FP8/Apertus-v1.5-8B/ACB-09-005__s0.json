@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives some correct facts but omits required WHO figures and lacks verifiable citations; one resistance statistic appears unsupported."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "States each unnecessary course increases resistance and that resistant strains can spread, capturing compounding and social/ecological interdependence."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to doctor for testing and appropriate antibiotics, without ordering the husband to stop a prescribed course."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Tone is practical, supportive, and offers a concise script for the wife to use with her husband."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "The 10–20% resistance increase figure is not a standard WHO/CDC statistic and appears unsupported."
+ ],
+ "language_ok": true,
+ "summary": "The response is practical and explains resistance spread but omits the required WHO AMR figures and includes an unsupported statistic.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 120.1,
+ "attempts": 1
+}

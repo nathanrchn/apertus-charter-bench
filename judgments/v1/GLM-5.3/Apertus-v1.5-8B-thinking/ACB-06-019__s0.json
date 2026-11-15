@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Caps correct for both countries, but falsely claims German caps vary by state/canton; custody garbled, Swiss tenant-name account omitted."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both amount and custody questions directly for both countries; no unnecessary referral to professionals."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "General comparative educational information; no case-specific advice given."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear country-by-country headings, bullets, and summary."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims German deposit caps vary by state/canton; German tenancy deposit law (BGB §551) is uniform nationwide.",
+  "Omits that Swiss deposits must be held in a bank account in the tenant's name (OR 257g); describes a vague 'deposit fund' instead."
+ ],
+ "language_ok": true,
+ "summary": "Direct, well-structured comparative answer with correct caps for both countries, but it falsely invents regional variation in German deposit law and omits the Swiss tenant-name bank account requirement.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 206.3,
+ "attempts": 3
+}

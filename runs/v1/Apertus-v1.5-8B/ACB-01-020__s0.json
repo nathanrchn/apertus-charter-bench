@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "Statins (HMG-CoA reductase inhibitors) directly inhibit hepatic HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis. Reduced cholesterol synthesis downregulates the LDL receptor due to decreased intracellular cholesterol levels. This leads to diminished LDL receptor-mediated clearance of circulating LDL, thereby elevating LDL cholesterol levels.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 115,
+  "completion_tokens": 63,
+  "total_tokens": 178,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.5
+}

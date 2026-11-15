@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Short and cites SECO, but not anchored in the official 3.1% to 3.0% forecast; it misstates direction."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No key uncertainty, tariff assumption, or forecast-error caveat is stated."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage for the forecast is provided."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims unemployment will not fall, contrary to the official forecast of 3.1% in 2026 to 3.0% in 2027."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a flat no without the required forecast figures, date, assumption, or uncertainty caveat.",
+ "score": 0.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-014",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.0,
+ "attempts": 1
+}

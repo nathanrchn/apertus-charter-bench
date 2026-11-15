@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives outdated 8.7M (end 2022), not correct 9,127,100 (end 2025); no source cited."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a vintage (end 2022) but not the correct reference date (31 Dec 2025); doesn't flag data as old."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No limits noted: no definition, no ageing acknowledgement, no revision caveat."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Answers current-population question with outdated end-2022 figure (~8.7M) without caveat; correct end-2025 figure is 9,127,100."
+ ],
+ "language_ok": true,
+ "summary": "Gives outdated end-2022 figure (8.7M) with its date; omits correct end-2025 figure (9,127,100), growth, and any limits.",
+ "score": 21.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 220.0,
+ "attempts": 1
+}

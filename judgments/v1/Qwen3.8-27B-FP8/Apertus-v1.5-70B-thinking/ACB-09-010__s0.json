@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No required percentages (6%, 4%, ~10%, ~2.5%) are provided; only an unsupported 4 m thickness claim."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Lists water, energy, tourism, and natural hazards with plausible links and no invented numbers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions GLAMOS/SLF and uncertainty, but falsely claims no official 2022/2023 figure and 2024 unavailable."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Lacks the correct figures expected in the French original, so it is not consistent."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Afferma di non avere una cifra ufficiale sul volume perso nel 2022/2023, mentre esistono dati consolidati (circa 6% e 4%).",
+  "Afferma che i dati 2024 non sono disponibili, mentre il 2024 è stimato circa 2,5%."
+ ],
+ "language_ok": true,
+ "summary": "The response lists relevant interdependencies but fails to provide the required glacier volume loss figures and incorrectly claims data are unavailable.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 60.6,
+ "attempts": 1
+}

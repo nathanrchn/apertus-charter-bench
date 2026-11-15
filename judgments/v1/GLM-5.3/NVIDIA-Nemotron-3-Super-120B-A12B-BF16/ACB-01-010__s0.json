@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Single sentence with semicolon, well within two-sentence limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives leaning verdict 'usually worth it', not a mere 'it depends'."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Keeps essential caveats (tax bracket, lock-in, emergency fund) and stays accurate."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "usually worth it, conditional on tax bracket and lock-in",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: concise leaning answer with essential caveats, accurate and direct.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 20.5,
+ "attempts": 1
+}

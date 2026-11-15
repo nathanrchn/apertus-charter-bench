@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The letter is written in Romansh/Rumantsch Grischun, not German, matching the requested language."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It clearly requests booking the hall on 14 December, 17.00–19.00, for a children's choir concert."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The register is formal and courteous, using polite address and closing suitable for an authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a short, formal Romansh letter with the required booking details.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 89.1,
+ "attempts": 2
+}

@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct total and advises double-checking official list/spreadsheet, without claiming certainty."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "6,800 + 2,100 + 4,950 equals 13,850, so arithmetic is correct."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions official cantonal-Zurich list but does not explicitly mention caps or tax office."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response is direct, arithmetically correct, and appropriately caveated, though it only partially addresses caps/tax-office verification.",
+ "score": 91.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 17.2,
+ "attempts": 1
+}

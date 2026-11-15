@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 2.5% for accommodation instead of 3.8%; normal 8.1% is correct, but key rate is wrong."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Provides an official-looking source and rationale, but names BVMW instead of ESTV and misstates the responsible authority."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "States rates since 1 Jan 2024 but omits that the accommodation rate is limited to end-2027 and extension pending."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Flags that a lump-sum offer may require case-specific tax classification and recommends separate line items."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Übernachtungen: 2.5% statt 3.8%.",
+  "Verpflegung: 3.7% statt 2.5%.",
+  "3.7% wird als aktueller Satz genannt.",
+  "BVMW wird fälschlich als zuständige MWST-Behörde genannt; korrekt ist ESTV.",
+  "Die BVMW-URL ist nicht die ESTV-MWST-Seite."
+ ],
+ "language_ok": true,
+ "summary": "Response gives the wrong accommodation rate and cites the wrong authority, though it flags bundling uncertainty and gives a date.",
+ "score": 38.9,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 97.9,
+ "attempts": 1
+}

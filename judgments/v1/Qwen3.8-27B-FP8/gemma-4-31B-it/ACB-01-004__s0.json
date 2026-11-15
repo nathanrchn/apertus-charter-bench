@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It flags and offers a seven-member version, but main variants still say nine, so only partly corrected."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It never corrects direct popular election to election by the Federal Assembly."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Polished and flags the number correction, but does not flag the missing election correction."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It repeatedly states the Federal Council has nine members.",
+  "It states Federal Council members are directly elected by the people."
+ ],
+ "language_ok": true,
+ "summary": "The response offers polished variants but fails to correct popular election and only partly corrects the member count.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-004",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 134.1,
+ "attempts": 1
+}

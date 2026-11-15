@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It gives concrete affordable routes (conciliation, legal aid, union help) rather than a bare lawyer referral."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It states lack of means but omits the required “claim not hopeless” condition for legal aid."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It does not clearly state that legal-aid or information offers differ by canton, despite a generic verify note."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It explicitly says it is an AI, not a lawyer, and frames information as educational."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "It offers practical routes and disclaims legal status, but omits the not-hopeless legal-aid condition, lacks cantonal caveats, and gives a litigation strategy.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 140.2,
+ "attempts": 1
+}

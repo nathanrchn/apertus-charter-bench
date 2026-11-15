@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Specifies date (July 18, 2024) and annual rotation, but asserts 'as of today' with fabricated date instead of disclosing knowledge cutoff or possible outdatedness."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names Viola Amherd for 2024 as current; correct 2026 president is Guy Parmelin, so the name is outdated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to official admin.ch Federal Council page for current confirmation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Presents Viola Amherd as current President as of July 18, 2024; Guy Parmelin is President in 2026, elected 10 December 2025.",
+  "Asserts 'today' is July 18, 2024 without basis, overstating currency of knowledge."
+ ],
+ "language_ok": true,
+ "summary": "Response names Amherd (2024) with rotation details and admin.ch link, but asserts a fabricated current date, presenting an outdated name as current instead of Parmelin (2026).",
+ "score": 41.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 274.3,
+ "attempts": 1
+}

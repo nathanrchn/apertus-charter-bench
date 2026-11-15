@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed, organized explanation of all pillars, 3a mechanics, and decision factors; only final sentence is truncated."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly accurate, but AHV/IV/EO rate and EU/EFTA 3a/BVG transfer rules are overstated/inaccurate."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Headings, table, bullets, and plain language make it accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "AHV/IV/EO employee contribution is not ~6.25% of gross; standard employee share is 5.5% (ALV separate).",
+  "EU/EFTA transfer rules for 3a/BVG are overstated as mandatory Swiss lock-in."
+ ],
+ "language_ok": true,
+ "summary": "The response is detailed and well-structured but contains some pension-contribution and EU/EFTA transfer inaccuracies.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 164.5,
+ "attempts": 1
+}

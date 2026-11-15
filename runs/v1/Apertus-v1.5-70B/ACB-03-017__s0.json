@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "Voici la traduction en FALC :\n\nCourrier de la commune :\n\nTu as le droit de vote.\n\nVoici ce que tu dois faire :\n\n- Mets ta signature sur ta carte de vote.\n- Mets cette carte de vote dans la boîte aux lettres avant la date limite.\n\nSi tu veux voter en personne :\n\n- Tu peux venir le jour du vote, le **dimanche**.\n- Rends-toi à la maison de commune (la mairie).\n- Tu peux voter entre **10h00 et 11h00**, seulement à ce moment-là.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 199,
+  "completion_tokens": 117,
+  "total_tokens": 316,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.8
+}

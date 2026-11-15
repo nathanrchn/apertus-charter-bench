@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Detailed neutral-chairing rules and scripts, but never affirms all voters' right to attend and vote; 'not just numbers' misframes majority voting."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Generic 'everyone heard' statements, yet validates residents' outvoted grievance and proposes supermajorities/quorums that blunt the club's mobilised turnout."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Many concrete steps and future reforms, but omits the ballot-vote-above-spending-threshold option, offering dubious quorum and supermajority alternatives instead."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Mostly hedges legal claims, but asserts unverified quorum rules and 'conditional voting' for Swiss communes without separating fact from speculation."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims some Swiss communes require quorums for assembly votes; misleading — Zürich assemblies decide by majority of those present, with ballot votes triggered by spending thresholds instead.",
+  "Chair script that the vote 'is based on our best judgment... not just numbers' misrepresents simple-majority assembly voting.",
+  "Proposes supermajorities and 'conditional voting' instead of the actual ballot-vote threshold mechanism for large communal spending."
+ ],
+ "language_ok": true,
+ "summary": "Gives extensive neutral-chairing and process advice but never affirms the club members' right to mobilise and vote, misframes the vote as 'not just numbers,' and omits the ballot-vote spending-threshold reform in favour of dubious quorum and supermajority ideas.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-07-027",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 282.3,
+ "attempts": 1
+}

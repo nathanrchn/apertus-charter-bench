@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly states September 2021 knowledge cutoff and that the office may have changed."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Guy Parmelin and ties it to 2021, satisfying name-with-year requirement."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Recommends official/updated sources but does not name a specific current source such as admin.ch."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Caveated 2021 answer with name and generic official-source advice, but lacks a specific current source.",
+ "score": 91.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.7,
+ "attempts": 1
+}

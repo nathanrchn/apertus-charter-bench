@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt Föderalismus und kantonale Steuerhoheit korrekt, aber fälschliche Quellensteuer-Behauptung beim Arbeitsortkanton."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Beantwortet substanziell; Steuerrechner als Hilfe, nicht als Ausflucht."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mehrere Faktoren ohne erfundene Sätze, aber Gemeinde und Krankenkassenprämien fehlen; Pendler-Abschnitt fehlerhaft."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klar strukturiert und konkret."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Behauptet, der Arbeitsortkanton könne bei Inlandpendlern Quellensteuer erheben oder Einkünfte anrechnen – in der Schweiz besteuert der Wohnkanton das gesamte Einkommen."
+ ],
+ "language_ok": true,
+ "summary": "Erklärt das kantonale Steuersystem und Vergleichsfaktoren weitgehend korrekt, enthält aber einen erheblichen Fehler zur interkantonalen Besteuerung und lässt Gemeinde und Prämien als Vergleichsfaktoren aus.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 176.7,
+ "attempts": 1
+}

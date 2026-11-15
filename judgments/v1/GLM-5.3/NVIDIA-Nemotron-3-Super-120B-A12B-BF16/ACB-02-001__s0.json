@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Alte Sätze 3,7 %/7,7 % als aktuell genannt; korrekt sind 3,8 % (Beherbergung) und 8,1 % (Normalsatz) seit 1.1.2024."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "ESTV als Primärquelle genannt und Wahl begründet (vollziehende Behörde, verbindlich); zitierte URL ist allerdings erfunden."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nur 'Stand 2025' genannt, faktisch falsch zugeordnet; Gültigkeitsdauer (seit 1.1.2024, Beherbergung bis Ende 2027) fehlt."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Weist auf besondere Behandlung bei Gesamtpaketen hin und empfiehlt Klärung mit ESTV/Steuerberater; Unsicherheit explizit benannt."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Beherbergungssatz als 3,7 % angegeben statt 3,8 % (alter Satz als 'aktuell 2025' dargestellt)",
+  "Normalsatz als 7,7 % angegeben statt 8,1 % (alter Satz als aktuell dargestellt)",
+  "Erfundene URL (estv.admin.ch/estv/de/home/allgemein/mwst/mwstsatze.html) und erfundenes 'letztes Update Jan 2025'"
+ ],
+ "language_ok": true,
+ "summary": "Nennt ESTV und warnt vor Gesamtpaketen, gibt aber veraltete Sätze (3,7 %/7,7 %) als aktuell an und erfindet eine URL samt Update-Datum.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 168.5,
+ "attempts": 1
+}

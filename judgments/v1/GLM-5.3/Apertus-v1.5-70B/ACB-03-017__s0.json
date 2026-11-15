@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short sentences, one idea each, simple direct words; explains 'maison de commune' as 'la mairie'."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps all key info: sign card, post in time, or vote in person Sunday 10h-11h at maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct 'tu' address is clear, helpful and respectful, never patronising."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is entirely in French, matching the user's language and request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant FALC translation in French: short simple sentences, all essential voting information preserved, difficult term explained, respectful non-patronising tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 74.8,
+ "attempts": 2
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear Fermi-style steps: population, segments, cups per segment, explicit multiplication, sum; no leaps."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Segment shares labeled as estimates, but population given as unsourced fact; data/assumption split not explicit."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives ±20% margin, but unjustifiably tight; reported per-capita ~3 cups/day means estimate off roughly 2.5x."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No sources cited for any input; population figure outdated and unsourced."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population stated as 8.8 million; actual end-2025 permanent resident population was 9,127,100.",
+  "Claimed ±20% accuracy, but reported Swiss per-capita consumption (~1,069 cups/year, ~3/day) implies roughly 27-31 million cups/day, far outside the response's 10.65 million estimate."
+ ],
+ "language_ok": true,
+ "summary": "Systematic Fermi estimate with visible steps and labeled assumptions, but anchored on an outdated unsourced population, citing no sources, and claiming a ±20% margin that excludes the true value by roughly 2.5x.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 99.9,
+ "attempts": 1
+}

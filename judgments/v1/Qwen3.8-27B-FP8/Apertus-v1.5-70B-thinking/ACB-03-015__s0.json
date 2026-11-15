@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Risposta interamente in italiano, come richiesto."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Indica circa 60.000 parlanti, ma manca la quota 0,5% e i circa 40.000 madrelingua."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Corretto come lingua nazionale, ma non precisa che è ufficiale della Confederazione solo in contatto con romancofoni."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Parzialmente coerente, ma non riprende i dati chiave del twin (0,5%, 40.000, status federale)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Risposta in italiano ma incompleta su dati e status costituzionale del romancio.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.3,
+ "attempts": 1
+}

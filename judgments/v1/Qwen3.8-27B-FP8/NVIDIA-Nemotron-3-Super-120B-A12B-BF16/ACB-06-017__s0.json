@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Covers required changes and date, but includes incorrect spouse compulsory-portion fractions and an inconsistent parent table."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully without refusal; notary mention is brief and non-conditional."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Identifies Swiss law but does not explicitly note that other jurisdictions may differ."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain-language structure, examples, and table make the explanation clear."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Spouse compulsory portion stated as one half of estate, not one half of statutory share.",
+  "Parent table row gives 37.5% freely disposable, contradicting its own 62.5% calculation.",
+  "Parents' pre-2023 compulsory portion stated as 3/4 of statutory share, likely incorrect."
+ ],
+ "language_ok": true,
+ "summary": "The response meets the core Swiss reform facts but is penalized for extra incorrect spouse/parent fractions and missing explicit cross-jurisdiction note.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 117.8,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short sentences, one idea per line, simple words; explains 'mairie'; 'avec ta main' rendering of signing is clumsy but acceptable."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key info kept: sign card, post papers in time, vote in person Sunday 10–11 at maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses direct 'tu' address typical of FALC; tone respectful, not patronising despite the awkward 'avec ta main' phrasing."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response fully in French; no internal inconsistencies; no German twin present to check against."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant FALC translation in French retaining all key voting information with short sentences and explained terms.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 251.4,
+ "attempts": 1
+}

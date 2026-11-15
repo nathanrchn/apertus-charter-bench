@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers face-saving technical correction via cantonal channels, avoiding blame and preserving dignity for BFS, council, and Romansh speakers."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Treats Romansh identity and language vitality as central, not dismissive, and frames correction as respecting community concerns."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Critiques focus on methodology, criteria, and communication; no accusations against BFS staff or individuals."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides phased steps, evidence gathering, cantonal liaison, letter template, and escalation options, making it actionable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "pursue respectful technical correction through cantonal channels",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response offers a dignified, actionable middle path but does not explicitly separate statistical classification from legal language status.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 66.2,
+ "attempts": 1
+}

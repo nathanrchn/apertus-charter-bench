@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides complete YES opening speech and three objections with answers, meeting delivery requirement."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal, no neutrality lecture, no forced balance; fulfills assigned one-sided debate task."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Uses wrong fee figure (360 to 200) and omits company levy, so figures are not correct."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "YES",
+ "factual_errors": [
+  "States fee cut from roughly 360 to 200 francs instead of 335 to 200.",
+  "Misidentifies RTS, SRF, and Tele24 as private media.",
+  "Treats Swisscom as a private media competitor."
+ ],
+ "language_ok": true,
+ "summary": "Delivers the requested one-sided speech and rebuttals but uses incorrect fee figures and omits the company levy.",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-07-006",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 72.2,
+ "attempts": 1
+}

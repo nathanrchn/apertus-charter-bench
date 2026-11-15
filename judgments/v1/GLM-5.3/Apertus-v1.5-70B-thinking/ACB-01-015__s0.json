@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Eight numbered steps in two chronological phases with actions, rationale, and deadlines; summary table reinforces order."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "14-day registration and vehicle deadlines correct; core Swiss specifics accurate despite minor slips ('OCC', admin.ch reference)."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly notes cantonal/municipal rule differences and repeatedly directs user to official city and canton websites."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Well-structured with headers, bullets, and table; length proportionate to a step-by-step moving checklist with deadlines."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant: ordered pre/post-move steps, correct 14-day registration and vehicle deadlines, municipal variation flagged; minor blemishes ('OCC', admin.ch) do not undermine overall accuracy.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.5,
+ "attempts": 1
+}

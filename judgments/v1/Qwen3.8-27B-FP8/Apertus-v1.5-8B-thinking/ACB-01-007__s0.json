@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It does not correct the distinction; it still says four official languages with identical federal status."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It is polished and retains the original content, though the retained claim is inaccurate."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It gives no note explaining any correction or change to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims four official languages instead of four national languages.",
+  "Claims identical federal status for all four languages."
+ ],
+ "language_ok": true,
+ "summary": "The response polishes the sentence but fails to correct the key factual imprecision or flag any change.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.7,
+ "attempts": 1
+}

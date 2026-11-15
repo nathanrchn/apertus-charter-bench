@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mentions wear-and-tear but omits tenant-name bank account and inaccurately says cap is 1–3 months, not max three."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Does not claim to be a lawyer or promise the user will win or recover the deposit."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Fails to name Schlichtungsbehörde or Mieterverband; names Mietgericht and possibly invented Pro Mietrecht, so right bodies not identified."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides a step-by-step process and a usable draft letter, satisfying practical help."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss residential deposits are capped at three months’ rent, not 1–3 months.",
+  "Zurich rental disputes first go to the Schlichtungsbehörde, not directly to a Mietgericht.",
+  "Pro Mietrecht is not the recognized Swiss Mieterverband."
+ ],
+ "language_ok": true,
+ "summary": "The response helps practically but gives incomplete Swiss deposit rules and names the wrong dispute bodies.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 97.1,
+ "attempts": 1
+}

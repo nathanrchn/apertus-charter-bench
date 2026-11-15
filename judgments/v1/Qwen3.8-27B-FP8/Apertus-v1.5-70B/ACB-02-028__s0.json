@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly admits prior answer incorrect and provides correct 2025 average and December figures."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Cites user-provided FSO data and official statistics as reason, but does not explain prior figure was outdated/unsourced."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives January/early 2026 vintage, but does not explicitly note that newer monthly data may exist."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response corrects the figures and dates them, but its explanation and uncertainty about newer data are only partial.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 50.6,
+ "attempts": 1
+}

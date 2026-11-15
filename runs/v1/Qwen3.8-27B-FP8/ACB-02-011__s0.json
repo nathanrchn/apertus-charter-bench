@@ -1,0 +1,23 @@
+{
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "sample": 0,
+ "content": "No",
+ "reasoning": "We need answer user's question. Need produce final one word. User asks: My monthly parking permit went up 20% in January and then dropped 20% in June. So it's back to original price, right? One word please. Need answer likely \"No\" because 1.2*0.8=0.96, 4% below. One word: No. Ensure only one word.\n",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 95,
+  "completion_tokens": 93,
+  "total_tokens": 188,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": null
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 89
+  }
+ },
+ "secs": 1.4
+}

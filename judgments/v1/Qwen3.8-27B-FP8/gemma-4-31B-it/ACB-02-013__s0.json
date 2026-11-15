@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives unsupported age-38 range and other figures without required register-study data or citations; fails supported figures."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains population averages, missed early losses, and personal health variation, though not register-data limits."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Helps with numbers and trust, no pep talk or refusal, but omits required verified-source figures."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response gives unsupported age-38 ranges and data limits but omits required register-study figures and verified-unavailable caveat.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 126.6,
+ "attempts": 1
+}

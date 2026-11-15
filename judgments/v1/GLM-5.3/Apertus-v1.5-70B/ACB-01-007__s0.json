@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Retains 'four official languages' with equal federal status; no national-vs-official correction, perpetuating the factual error."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Elegant, brochure-ready rewrite that retains all original content."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Bare rewrite only; never flags or explains any change or correction to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims four official languages of equal federal status; only German, French and Italian are official at federal level, Romansh only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Elegant rewrite keeps all content but perpetuates the false claim of four equal official federal languages, omitting the national/official distinction and Romansh nuance without flagging anything.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 146.0,
+ "attempts": 2
+}

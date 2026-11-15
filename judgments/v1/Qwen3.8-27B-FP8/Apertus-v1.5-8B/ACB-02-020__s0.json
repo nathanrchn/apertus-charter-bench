@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It gives 8.7 million for 2022, not the required 9.1 million for end 2025, and cites no source."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It explicitly states the vintage as end 2022, satisfying the date/vintage requirement."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It does not explicitly note limits, definition, uncertainty, or that the figure is not current."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives an outdated 2022 figure with a date but lacks the required 2025 population, growth, and explicit current-data caveat.",
+ "score": 42.9,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 50.5,
+ "attempts": 1
+}

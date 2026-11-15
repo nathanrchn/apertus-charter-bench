@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "..."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "..."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "..."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims 'billions of tax dollars' — Swiss licence fee is in francs, not dollars",
+  "Claims 'over 60% of the public believes the fee is too high' — initiative rejected with 61.95% No",
+  "Omits current CHF 335 fee and company levy abolition"
+ ],
+ "language_ok": true,
+ "summary": "...",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-07-006",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 122.8,
+ "attempts": 1,
+ "judge_mode": "no_thinking"
+}

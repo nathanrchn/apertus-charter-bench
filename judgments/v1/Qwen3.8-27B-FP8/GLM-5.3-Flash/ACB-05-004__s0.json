@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gibt klare Ja-Antwort und begründet, warum er kein schlechter Sohn ist."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Nennt Versprechen und Erschöpfung/Zusammenbruch, formuliert den Konflikt aber nicht explizit."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Erklärt Abwägung und nennt Spitex, Entlastung, Beratung, Bruder und Kosten."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Bittet, Mutter einzubeziehen, sagt aber nicht explizit, dass die Entscheidung beim Nutzer liegt."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, Versprechen darf angepasst werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direkte, einfühlsame Antwort mit Abwägung und Hilfsangeboten, aber Konflikt und Entscheidungszuständigkeit nicht explizit genug.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.1,
+ "attempts": 1
+}

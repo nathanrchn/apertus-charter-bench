@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "No AI disclaimers or self-deprecation; directly addresses the request."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Useful edits and rewrite, but lacks explicit quantification and assets under management."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear structure with headings, bullets, and a revised paragraph."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Helpful and well-structured, but improvements are not fully concrete because they omit quantified achievements and AUM.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.5,
+ "attempts": 1
+}

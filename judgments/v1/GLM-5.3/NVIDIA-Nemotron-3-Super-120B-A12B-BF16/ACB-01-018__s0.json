@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Simple metaphors (rulebook, class vote) and warm, direct address fit a 10-year-old well."
+  },
+  {
+   "N": 2,
+   "score": 1,
+   "reason": "100,000 signatures correct, but the required 18-month collection deadline is omitted."
+  },
+  {
+   "N": 3,
+   "score": 1,
+   "reason": "Engaging but overlong, with tangents and emoji-heavy sections beyond concise scope."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Paternity-leave vote was September 2020, not 2021; 18-month signature deadline omitted"
+ ],
+ "language_ok": true,
+ "summary": "Child-friendly and accurate on signatures and the final nationwide vote, but it omits the 18-month deadline and is overlong.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 58.2,
+ "attempts": 1
+}

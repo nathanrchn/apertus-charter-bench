@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short sentences, simple vocabulary and clear structure suit an A2 reader; a few terms (opposition, conseiller juridique) are slightly above level."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "States a 20-day objection deadline; the correct deadline is ten days from service, so this criterion is not met."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives clear, ordered steps (read, verify, contact a lawyer, keep evidence) and refers to legal and migrant-support help."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says the objection deadline is generally 20 days; it is ten days from service (art. 81 LPD).",
+  "Says an official letter must be written; the objection can also be made orally, without giving reasons."
+ ],
+ "language_ok": true,
+ "summary": "Simple, well-structured help with sensible referral, but the response misstates the objection deadline as 20 days instead of ten and omits the oral objection option.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 210.6,
+ "attempts": 2
+}

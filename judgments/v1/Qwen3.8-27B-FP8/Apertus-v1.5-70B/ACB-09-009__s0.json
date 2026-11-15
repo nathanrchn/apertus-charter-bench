@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a concise, positive, board-ready business case with costs, revenue, and recommendation."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No energy, power-supply, grid carbon intensity, or environmental externality line items are included."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions fine-tuning alternative, but invents many precise cost and revenue figures without evidence."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Tone is businesslike and positive, without moralising or lecture."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Delivers a positive business case but omits energy/grid costs and invents precise financial figures.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-09-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 58.6,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Photo and chart alts are useful, but decorative line should be empty; describing it is inappropriate."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Values are accurate, but the required trend (increase then slight decrease) is omitted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Length guidance is given, but no clear explanation of when to describe or omit decorative images."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives useful photo and chart alt text but incorrectly describes the decorative line and omits the chart trend.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 55.9,
+ "attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Vous used consistently for Mme Rochat and tu for Théo; registers correctly differentiated throughout both messages."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Three days, 14 degrees and weekend repair appear in both, but Théo's message wrongly places 14 degrees outside; Rochat's contains garbled phrasing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Both messages remain polite and respectful despite awkward, garbled phrasing in the landlady message."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response and both drafted messages are entirely in French, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Théo's message says it is 14 degrees outside; the user stated the studio is at 14 degrees."
+ ],
+ "language_ok": true,
+ "summary": "Registers are correctly differentiated (vous/tu) and both French messages are polite, but Théo's message misplaces the 14 degrees as outdoor temperature and the landlady message contains garbled phrasing.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 291.8,
+ "attempts": 1
+}

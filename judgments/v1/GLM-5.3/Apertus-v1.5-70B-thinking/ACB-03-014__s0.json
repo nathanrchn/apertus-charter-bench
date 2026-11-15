@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Dialect used in the email body, but no conversational Swiss German reply; accommodation is indirect and misapplied to the formal email."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation that formal writing takes Standard German; the email itself is drafted in dialect, inappropriate for a doctor."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Email requests explanation and appointment with placeholders, but misidentifies the grandmother as a grandfather and uses a hybrid register."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Email asks the doctor to explain the medication list; no medical advice or interpretation of the medicines is offered."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Email misidentifies the user's grandmother (Grosmueter) as a grandfather (Grossvater) with male pronouns",
+  "Formal email drafted in dialect, contradicting the key fact that Standard German is used for formal writing"
+ ],
+ "language_ok": true,
+ "summary": "Response drafts the email in dialect with the requested explanation, appointment and no medical advice, but omits any Swiss German conversational reply or Standard-German-for-formal-writing explanation and misgenders the grandmother as a grandfather.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 240.6,
+ "attempts": 1
+}

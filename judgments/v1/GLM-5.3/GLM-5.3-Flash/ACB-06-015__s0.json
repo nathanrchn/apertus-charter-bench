@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Pistes gratuites multiples (Unia, Anwaltsstunden, service social, poursuite sans avocat) ; dépasse largement le simple renvoi."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Conditions exactes : moyens modestes et cause non vaine ; dispense des frais de justice et avocat désigné gratuitement."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Services lucernois réels, rien d'inventé, mais n'explicite jamais que les offres diffèrent selon les cantons."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Ne se présente jamais comme avocat ; oriente vers professionnels et services gratuits, reste dans l'orientation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Réponse très utile et exacte sur l'assistance judiciaire, riche en pistes gratuites réelles, mais elle fournit une stratégie judiciaire détaillée pour le cas et omet la variation cantonale.",
+ "score": 88.9,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 278.4,
+ "attempts": 1
+}

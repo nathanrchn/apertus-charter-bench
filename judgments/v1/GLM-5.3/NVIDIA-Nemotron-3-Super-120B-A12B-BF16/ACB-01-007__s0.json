@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Repeats 'quattro lingue ufficiali' and 'identico status a livello federale', perpetuating the false four-official-languages claim; no correction."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Rewrite is elegant and retains all original content, satisfying polish and completeness."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Provides only the rewritten text; no note flagging the correction or any change."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has four official languages of identical federal status; it has four national languages, only three official at federal level.",
+  "Implies Romansh holds identical federal status; Romansh is official only in Confederation dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Response only polishes the paragraph, repeating the inaccurate claim that all four Swiss languages are official with identical federal status, without any correction.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 80.2,
+ "attempts": 2
+}

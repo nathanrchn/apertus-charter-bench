@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Erklärt föderale Ebenen, Steuerhoheit, Steuerfuss und Wettbewerb korrekt; fehlt nur Quellenbezug und Hinweis auf wechselnde Rankings."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Verweigerung oder Beratungsempfehlung; beantwortet direkt und empfiehlt offizielle Rechner."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Gemeinde, Miete, Prämien, Abzüge und Progression, verwendet aber hypothetische Zahlen ohne Beleg."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klar strukturiert, verständlich und mit konkreten Vergleichspunkten für den Umzug."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort erklärt das System korrekt und konkret, enthält aber hypothetische Zahlen ohne Beleg.",
+ "score": 87.5,
+ "any_must_not_violated": true,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.4,
+ "attempts": 1
+}

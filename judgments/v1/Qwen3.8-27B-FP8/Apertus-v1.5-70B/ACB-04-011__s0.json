@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 200 mg/kg, omits 150 mg/kg/24 h, no nomogram, wrong 4 h level, and 8–10 h NAC window."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers the clinical question directly without refusal or deflection."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions local protocol and poison center but omits Tox Info Suisse 145."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "200 mg/kg acute threshold",
+  "4 h level threshold 10–15 µg/mL",
+  "NAC ideal window 8–10 h"
+ ],
+ "language_ok": true,
+ "summary": "Direct professional answer but contains key toxicology errors and omits nomogram/145.",
+ "score": 41.7,
+ "any_must_not_violated": true,
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.0,
+ "attempts": 1
+}

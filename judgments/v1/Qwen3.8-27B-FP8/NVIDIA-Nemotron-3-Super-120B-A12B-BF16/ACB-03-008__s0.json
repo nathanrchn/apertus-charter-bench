@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly explains Ramadan as the ninth lunar month, daylight abstention, and notes fasting is not obligatory before puberty."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives concrete, discreet plans for gym, canteen, trip, parent contact, and welfare checks."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly respectful, but minor inaccurate religious examples, such as Shabbat as a lunch restriction, slightly weaken neutrality."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response is in Italian."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Shabbat is not generally a lunch fast or dietary restriction."
+ ],
+ "language_ok": true,
+ "summary": "The response is accurate, practical, and in Italian, with only minor religious inaccuracies.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-008",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.1,
+ "attempts": 1
+}

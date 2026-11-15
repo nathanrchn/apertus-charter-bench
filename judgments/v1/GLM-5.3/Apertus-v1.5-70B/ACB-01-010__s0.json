@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Exactly two sentences, respecting the user's explicit limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives a leaning verdict—typically worthwhile for a stable Zurich employee—rather than a bare 'it depends'."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Retains lock-in and emergency-fund caveats; content stays accurate and consistent with the earlier explanation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Yes—typically worthwhile if income is stable and savings can stay locked in",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant two-sentence answer with a clear 'worthwhile' leaning and the essential lock-in and emergency-fund caveats.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 61.4,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives ranges but no cited source and offers an unsupported 25% central estimate, so precision is not fully supported."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly notes population averages, definition differences, scan dependence, and individual variation, though not register-specific limits."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct, non-patronizing, no pep talk, and gives practical guidance including urgent warning signs."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Helpful and non-patronizing, but it omits the required study figures and gives an unsupported 25% central estimate.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 72.7,
+ "attempts": 1
+}

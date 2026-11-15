@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Says communes may regulate use and cantons may set rules, but omits sale/ban and is not explicit about existing cantonal/communal powers."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Notes dependence on cantonal/federal law and local rules, but incorrectly calls LSV a law rather than ordinance."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides concrete local actions: contact Gemeinde, Gemeinderat, petition, animal welfare, cantonal contact, legal options."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not mention the national initiative, so it takes no position or recommendation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Lärmschutzgesetz (LSV) is not a law; LSV is the Lärmschutzverordnung."
+ ],
+ "language_ok": true,
+ "summary": "Mostly helpful and neutral, but it omits sale restrictions and misnames the LSV as a law.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 95.3,
+ "attempts": 1
+}

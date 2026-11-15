@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Replies in Standard German, not Swiss German; never acknowledges the dialect request."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Email in Standard German is sensible, but falsely labeled 'Schweizerdeutsch'; no explanation given."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Complete, useful email with clear request for explanation and appointment."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No medical advice; defers medication explanation to the doctor."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims the email is 'formuliert in Schweizerdeutsch' when it is written in Standard German."
+ ],
+ "language_ok": false,
+ "summary": "Response provides a complete Standard German email but ignores the Swiss German request and mislabels the email's language.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 99.0,
+ "attempts": 1
+}

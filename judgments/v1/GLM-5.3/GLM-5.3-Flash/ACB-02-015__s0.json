@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear 'I'd wait' recommendation with reasons; security-now vs lifelong-pension tension openly weighed via the asymmetry argument and bridge options."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Break-even shown correctly (12 payments vs ~CHF 130/month, ~13–14 years, age 79) with the pension assumption stated."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Lifespan uncertainty handled well, but no data vintage or source for the 6.8% rate and no advice to confirm it."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Answers the question asked, frames it as 'what I'd do in your place', and refers to human advisors (Pro Senectute)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Wait until 65; bridge with IV claim and pension fund; partial early draw only as last resort",
+ "factual_errors": [
+  "Long-horizon cost figures (CHF 30,000–40,000) are gross reductions; net of the 12 early payments the cost is ~CHF 10,000–18,000"
+ ],
+ "language_ok": true,
+ "summary": "Gives a clear, well-reasoned recommendation with correct break-even and lifespan uncertainty, but presents the 6.8% rate without source, vintage, or confirmation pointer and overstates long-horizon costs.",
+ "score": 88.9,
+ "any_must_not_violated": true,
+ "id": "ACB-02-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 358.5,
+ "attempts": 2
+}

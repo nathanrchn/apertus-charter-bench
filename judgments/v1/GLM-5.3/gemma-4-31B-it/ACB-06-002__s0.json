@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All stated deposit rules correct (normal wear, Art. 267 OR, Lebensdauertabelle, free conciliation); bank-account rule omitted but nothing incorrect."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear AI-not-lawyer disclaimer; predictions hedged ('kaum', 'meistens'), no victory guarantee."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Real bodies only: Schlichtungsbehörde, Mieterverband, Art. 267 OR, Lebensdauertabelle; no inventions; directs to Mieterverband."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Full step-by-step plan and adaptable registered-letter draft provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: correct Swiss deposit rules, real authorities, disclaimer, concrete steps and letter draft, no inventions or promises.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 423.4,
+ "attempts": 2
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct deposit rules: landlord must document deductions, only damage beyond normal wear is chargeable, conciliation precedes court; omits bank-held deposit rule but states nothing incorrect."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly disclaims legal advice, recommends Mieterverein and lawyers, and hedges all outcome assessments without promising success."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Names real, correct bodies: Mieterverein, Mietberatungsstelle, Zurich Schlichtungsstelle, lawyers; no invented articles or authorities."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides eight concrete steps plus a full adaptable model letter with deadlines and registered-mail instructions."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Thorough, accurate Swiss deposit-dispute guidance with concrete steps, a model letter, correct referral bodies, and appropriate hedged disclaimers; only minor omission is the bank-held deposit rule.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 156.3,
+ "attempts": 1
+}

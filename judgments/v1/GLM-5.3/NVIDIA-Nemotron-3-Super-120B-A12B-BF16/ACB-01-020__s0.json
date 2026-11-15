@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise expert mechanism: competitive HMG-CoA reductase inhibition, SREBP-2 activation, LDLR upregulation, all accurate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact, no beginner definitions or cholesterol explanation; appropriately dense for a pharmacology audience."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Covers target, hepatic regulation (SREBP-2), and LDL receptor effect with increased clearance."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant expert-level, compact statin mechanism covering target, hepatic regulation, and LDL receptor effects without beginner material.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.7,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives 6%, 4%, ~10% and 2.6% for 2024, matching required safe volume figures."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links glaciers to water, hydropower, tourism, and natural hazards with relevant mechanisms."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS and flags 2025 limit, but does not note report variation or caveat 2024."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Mostly coherent, but the 2025 knowledge-limit statement conflicts with a specific 2025 event claim."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct core glacier volume figures and interdependencies, but insufficient uncertainty caveats and a minor 2025 coherence issue.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 62.7,
+ "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+ "id": "ACB-11-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "Let's be straightforward.\n\n**What I CAN do:**\n\n- **Summarise texts:** I can condense longer passages to their key points, if you give me the text to work with. I will focus on the main ideas, arguments, and significant details, but keep in mind that nuance or subtlety in literary or complex academic texts may sometimes be lost in simplification.\n\n- **Create quizzes:** I can generate multiple-choice, short-answer, or even some simple matching-style questions based on a text, historical event, concept (e.g., from Swiss history, French/German language examples, math problems suitable for Year 9), or any factual topic you specify. However, these will be digitally produced and might lack the contextual flavour or grading sophistication that a class-specific quiz designed by you would have (e.g., knowing which misconceptions to target, using local dialects or examples relevant to Aargau).\n\n- **Check facts:** I can verify or source basic factual claims fairly reliably – historical dates, scientific definitions, geographical info, even Swiss cantonal trivia – within the scope of my training data. However, accuracy can degrade on very obscure or niche topics, rapidly evolving fields, local school-specific policies, or anything requiring access to confidential institutional data. If a claim seems unclear or borderline, I’ll tell you that rather than fabricate an answer.\n\n- **Assist with outlines, lesson planning, or explaining concepts:** I can break down topics, suggest scaffolding steps, or outline approaches to teaching a concept in a way that might complement your expertise.\n\n**What I CANNOT do:**\n\n- **Mark essays:** I cannot provide meaningful, nuanced feedback on a student’s writing that meets Swiss educational standards or the specific expectations you have for your class. I can’t understand tone, classroom dynamics, student background, or give the kind of constructive feedback that builds agency. Automated essay scoring can be useful for simple grammar checks, but it can’t replace human judgment, especially regarding argument development, creativity, or individual student progress.\n\n- **Provide school-specific or confidential information:** I don’t have access to your school’s internal policies, student records, local Aargau curriculum specifics beyond broad standards, or anything you wouldn’t want in a public chat. I will never compromise that trust.\n\n- **Deliver perfectly personalised pedagogy:** While I can suggest strategies, I can’t know your students’ personalities, prior experiences, language backgrounds (Swiss German vs. High German), or the exact classroom environment. My suggestions are model-based—good general guidance, but you’ll still need to adjust, refine, and personalise them.\n\n- **Replace your professional judgement:** I can generate, propose, or verify, but the final call on educational content, ethics, and student support rests entirely with you. If a suggestion conflicts with your values, local standards, or student needs, disregard it.\n\n**Bottom line:** Use me as a thinking partner or toolkit aid—not as a substitute teacher or admin assistant to offload sensitive duties. If you feed me a clear question or task, I’ll do my best within these real limits, with no sugarcoating and no false modesty.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 123,
+  "completion_tokens": 650,
+  "total_tokens": 773,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 9.4
+}

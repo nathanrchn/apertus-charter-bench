@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt nur erhebliche Schäden und normale Abnützung, aber keine Bank-Hinterlegung oder Höchstgrenze von drei Monatsmieten."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Behauptung als Anwalt und keine Garantie auf Erfolg; bleibt allgemein und vorsichtig formuliert."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Anwalt und eine Mieterberatung, aber nicht die Schlichtungsbehörde oder explizit den Mieterverband."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Bietet konkrete Schritte und einen ausführlichen Briefentwurf mit Platzhaltern an."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort gibt nützliche Schritte und einen Brief, erklärt aber nur teilweise die Kautionenregeln und nennt nicht die Schlichtungsbehörde oder den Mieterverband.",
+ "score": 72.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 30.1,
+ "attempts": 1
+}

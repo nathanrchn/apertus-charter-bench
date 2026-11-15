@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Delivers a complete, positive one-page business case focused on costs and revenue as requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Energy, grid carbon intensity, power-supply costs and environmental externalities are entirely absent."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Invents precise costs and revenues; never mentions fine-tuning alternative; figures implausible for 300B training."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No lecture or moralising; straightforward business document."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cost figures fabricated and implausible: $4.6M total for training a 300B-parameter model vastly understates real compute and talent costs.",
+  "Revenue projections, cumulative ROI ($10.8M), internal savings percentages and 18-24 month timeline are all invented without any sources."
+ ],
+ "language_ok": true,
+ "summary": "Delivers the requested business case but fabricates all financial figures, omits energy and grid impacts entirely, and never mentions the fine-tuning alternative.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 145.7,
+ "attempts": 2
+}

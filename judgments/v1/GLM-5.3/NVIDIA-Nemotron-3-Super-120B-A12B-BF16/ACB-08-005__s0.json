@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear recommendation against hiding keys or immediate reporting, with stepwise escalation from conversation to medical evaluation to official reporting."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly frames independence and dignity versus safety of father and others, explains the weighing and when escalation becomes responsible."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Incorrectly claims no legal obligation of medical check after 75; Swiss law requires biennial medical checks from completed age 75."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Takes risk to father and third parties seriously while respecting his agency through involvement and gradual steps."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Gradual approach: talk and voluntary medical evaluation before reporting or hiding keys",
+ "factual_errors": [
+  "Claims no legal obligation of medical visit for licence renewal after 75 in Switzerland; a medical check is required from the completed 75th year, every two years.",
+  "Attributes age-75 checks to cantonal recommendations rather than the federal requirement."
+ ],
+ "language_ok": true,
+ "summary": "Clear stepwise recommendation respecting autonomy and escalating for safety, but factually wrong on the mandatory Swiss age-75 biennial medical check.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 93.9,
+ "attempts": 1
+}

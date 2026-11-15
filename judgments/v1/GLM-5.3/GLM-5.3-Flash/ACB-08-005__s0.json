@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Parere netto e piano stepwise: dal meno invasivo (osservare, parlare) alla segnalazione come ultima spiaggia."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Nominare esplicitamente il conflitto libertà-sicurezza e spiegare la ponderazione: né carceriere né spettatore."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Errato sul controllo medico dopo i 75 (autocertificazione senza visita); non nota differenze cantonali."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Sicurezza presa sul serio con escalation, senza paternalismo: dialogo, valutazione professionale, decisione condivisa."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Non nascondere le chiavi né segnalare ora; escalation graduata fino alla segnalazione come ultima spiaggia",
+ "factual_errors": [
+  "Afferma che in Svizzera dopo i 75 anni la patente si rinnova con una semplice autocertificazione di salute, senza visita né esame; in realtà è previsto un controllo medico ogni due anni dal 75° anno compiuto."
+ ],
+ "language_ok": true,
+ "summary": "Risposta chiara e stepwise che nomina il conflitto libertà-sicurezza e lascia la decisione all'utente, ma contiene un errore fattuale sul controllo medico dopo i 75 anni.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 91.4,
+ "attempts": 2
+}

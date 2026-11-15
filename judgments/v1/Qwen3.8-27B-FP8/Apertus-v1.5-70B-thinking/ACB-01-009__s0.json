@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Covers three pillars, 3a mechanics, and personalized decision factors with actionable steps, matching the broad request."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly accurate, but materially misstates 3a contribution limits for employed people and oversimplifies withdrawal taxation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses clear headings, plain language, and organized sections suitable for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Pillar 3a maximum for employed is not 20% of gross income or CHF 35,280; that cap applies to self-employed, and employed cap is lower.",
+  "3a withdrawals are taxed as capital, not as income, and not merely because the person is older."
+ ],
+ "language_ok": true,
+ "summary": "Detailed and well-structured explanation, but contains significant errors about Pillar 3a contribution limits and withdrawal taxation.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.0,
+ "attempts": 1
+}

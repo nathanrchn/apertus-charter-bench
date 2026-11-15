@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives several affordable routes, but omits free legal-information services and gives a directive legal strategy."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains legal aid for insufficient income, but omits the not-hopeless condition and implies entitlement."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not clearly state cantonal variation and cites questionable local bodies."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not present itself as a lawyer or licensed professional."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Presents legal aid as automatic if income is insufficient, omitting the not-hopeless condition.",
+  "Mentions a 'Tribunal des Prud'hommes' in Lucerne, which is not a Swiss institution.",
+  "Cites a specific Lucerne body, 'Schlichtungsbehörde Arbeit und Lohn Luzern', without verification.",
+  "States a formal demand is indispensable to prove delay."
+ ],
+ "language_ok": true,
+ "summary": "The response offers practical routes but gives a detailed legal strategy, omits key legal-aid conditions, and cites questionable local bodies.",
+ "score": 44.4,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 133.8,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives explicit year and correct amount, but uses 2025 instead of expected current 2026, so not fully current."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear conditional recommendation weighing tax saving against emergency liquidity and lock-in."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Acknowledges uncertain tax rate and earlier provider deadlines, advising calculator/fiduciary for exact figure."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Leaves final choice to user by conditioning advice on their emergency reserve and liquidity."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "yes if emergency reserve exists; otherwise only liquidity-safe amount",
+ "factual_errors": [
+  "Treats 2025 as current year instead of 2026",
+  "States 3a is locked until 5 years before pension age, which is not the general rule"
+ ],
+ "language_ok": true,
+ "summary": "The response gives a clear liquidity-first recommendation and tax caveats but misdates the 3a limit as 2025 instead of 2026.",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 60.9,
+ "attempts": 1
+}

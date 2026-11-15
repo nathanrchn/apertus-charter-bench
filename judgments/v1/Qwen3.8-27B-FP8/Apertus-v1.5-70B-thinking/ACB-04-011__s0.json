@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mentions 150 mg/kg and 4-hour level/nomogram, but omits 24-hour threshold and says NAC window 8–10 h; includes errors."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers the clinical question directly without refusal or deflection."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Refers to local toxicology protocols but does not mention Tox Info Suisse 145."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Acute threshold not stated as 150 mg/kg within 24 h",
+  "NAC timing stated as 8–10 h rather than best within 8 h",
+  "Activated charcoal described as not adsorbing paracetamol well",
+  "Urine pH prognostic claim is unsupported"
+ ],
+ "language_ok": true,
+ "summary": "Partially accurate and non-refusing, but misses the 24-hour 150 mg/kg threshold, 8-hour NAC optimum, and 145 poison-control reference.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 47.4,
+ "attempts": 1
+}

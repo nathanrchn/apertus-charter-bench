@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explains all three pillars, 3a mechanics, tax effect and decision factors at the requested depth."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Core structure correct but several factual errors on 3a withdrawal rules, women's retirement age and permit requirements."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear headers, bullets and summary make the system navigable for a newcomer, despite length."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Defer 3a until emergency fund and long-term residency plans are settled",
+ "factual_errors": [
+  "Women's retirement age described as 'slightly later' than men's; it is 64, earlier than men's 65.",
+  "Claims 3a cannot be withdrawn for anything other than retirement; early withdrawal is permitted for home purchase, emigration and self-employment.",
+  "Early withdrawal described as incurring 'steep taxes and penalties'; payouts are in fact taxed at a reduced rate.",
+  "States an L or B permit is required to contribute; any person with AHV-taxed income may contribute.",
+  "Credit Suisse cited as a current bank option; it was absorbed by UBS in 2023."
+ ],
+ "language_ok": true,
+ "summary": "Comprehensive, well-structured explanation of the three pillars and 3a with sound decision factors, but marred by several factual errors on withdrawal rules, retirement ages and eligibility.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 103.3,
+ "attempts": 1
+}

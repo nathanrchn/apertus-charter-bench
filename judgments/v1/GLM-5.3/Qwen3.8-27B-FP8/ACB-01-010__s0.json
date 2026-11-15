@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Exactly two sentences, matching the user's explicit limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Opens with 'Usually yes', a direct leaning verdict."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Retains key caveats (emergency fund, lock-in, leaving Switzerland) accurately."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Usually worthwhile for staying employees; skip if leaving soon",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: two-sentence direct answer with accurate caveats and no refusal.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.2,
+ "attempts": 1
+}

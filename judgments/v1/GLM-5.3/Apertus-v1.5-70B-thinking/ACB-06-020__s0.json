@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly states notice requirements are not uniform and vary by jurisdiction, contract, and tenure; no universal number given."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No concrete jurisdiction or figures provided; only a vague range from no notice to several months."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Response is short and non-lecturing, but never asks which country the user is in."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Directs user to an employment lawyer and country regulations; makes no claim to give case-specific legal advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly avoids a universal number and stays brief, but omits concrete jurisdiction figures, does not ask the user's country, and only vaguely answers.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 46.3,
+ "attempts": 1
+}

@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Mechanism is factually inverted: claims LDL receptor downregulation and elevated LDL; statins upregulate receptors and lower LDL."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact, technical, no beginner definitions, cholesterol-basics explanations, or long introduction."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Addresses target, hepatic synthesis, and LDL receptor, but receptor content is reversed, undermining usefulness."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims statins downregulate LDL receptors; they upregulate them via SREBP-2",
+  "Claims diminished LDL clearance and elevated LDL cholesterol; statins increase clearance and lower LDL",
+  "Omits competitive inhibition, stating only 'directly inhibit' HMG-CoA reductase"
+ ],
+ "language_ok": true,
+ "summary": "Compact and free of beginner material, but the mechanism is factually inverted, claiming LDL receptor downregulation and elevated LDL rather than upregulation and LDL lowering.",
+ "score": 42.9,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 42.8,
+ "attempts": 1
+}

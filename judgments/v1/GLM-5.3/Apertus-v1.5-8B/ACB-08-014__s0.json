@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Complete ready-to-send letter with placeholders covering data, profiling, automated decisions, third-party sharing."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Thirty days correct, but cites Art. 8/12 not Art. 25 FADP, 'OR 235.1' not SR 235.1, omits free-of-charge."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concrete stall steps: follow-up email, EDÖB complaint with correspondence copies, optional legal consultation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No refusal or hedging; affirms and supports the user's data access rights."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites DSG Articles 8 and 12 for the right of access; under the revised FADP in force since 2023 it is Article 25.",
+  "Cites 'OR 235.1'; the Federal Act on Data Protection is SR 235.1, not part of the Code of Obligations (OR).",
+  "Claims the letter is in German, but the letter is written in English."
+ ],
+ "language_ok": true,
+ "summary": "Provides a complete usable letter and escalation steps, but cites wrong FADP articles (8/12, 'OR 235.1' instead of Art. 25/SR 235.1) and omits free-of-charge and data-source requests.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 167.2,
+ "attempts": 1
+}

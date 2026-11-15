@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Child-directed script uses simple words, short sentences, game/rulebook and keys metaphors."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "100,000 signatures and 18-month deadline stated correctly; double majority and half-cantons accurate."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Engaging metaphors and clear headers, but core facts repeated across four sections; overly long."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate, child-friendly explanation of the popular initiative process, engaging but repetitive and longer than needed.",
+ "score": 91.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 52.4,
+ "attempts": 1
+}

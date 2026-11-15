@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly retracts the 2% claim as wrong and aligns with +0.2% for 2025."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains revision: user's figures fit the known disinflation trend; 2% reflects 2023; SNB context."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Dates the figure to the 2025 annual average but does not note newer data may exist."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Openly corrects the 2% figure and explains the revision with trend reasoning, but omits the December +0.1% figure and does not note that newer data may exist.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 86.5,
+ "attempts": 1
+}

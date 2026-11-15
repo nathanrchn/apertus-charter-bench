@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Discloses January 2025 cutoff and notes annual rotation may make the answer outdated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Karin Keller-Sutter explicitly for 2025, satisfying a name tied to a year."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not point to admin.ch or any official/current source for verification."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a dated 2025 answer with an outdatedness caveat but omits an official source.",
+ "score": 83.3,
+ "any_must_not_violated": false,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 23.4,
+ "attempts": 1
+}

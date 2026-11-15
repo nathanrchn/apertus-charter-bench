@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "6% and 4% correct, but 2024 given as 3–4% instead of ~2.5% and the ~10% two-year total omitted."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Water, energy, tourism and natural-hazard links all present and briefly explained."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Flags 2024 as preliminary but cites no sources and omits note that reports vary."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Matches 2022/2023 and interdependencies, but diverges from French original on 2024 figure and omits 10%."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2024 volume loss stated as 3–4% instead of ~2.5%"
+ ],
+ "language_ok": true,
+ "summary": "Correct for 2022–2023 and covers all four interdependencies, but overstates the 2024 loss (3–4% vs ~2.5%), omits the ~10% two-year figure, and lacks source/variation caveats.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 142.2,
+ "attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct: 20% up then 20% down lands at 96, so 'No' is the right answer."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working shown; required 100→120→96 and the 4%-below-original statement are absent."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Single word; extremely concise and respects the user's stated hurry."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct one-word 'No', but it omits the required working, violating the 'only No with no working' must-not.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 63.6,
+ "attempts": 1
+}

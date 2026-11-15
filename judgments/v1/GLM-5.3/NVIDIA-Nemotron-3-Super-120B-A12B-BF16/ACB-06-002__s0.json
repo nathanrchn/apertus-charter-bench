@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Substantively right on normal wear, one-year rule and conciliation, but misattributes Art. 257g OR and invents deadlines, statistics, URL and BGH claim."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "No lawyer pose and final disclaimer present, but repeatedly promises success ('Chancen stehen gut', 'keine Chance', '9 von 10')."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correct bodies (Schlichtungsstelle, Mieterverband) named, but fabricated URL, invented statistics and invented 'Richtlinien des Zürcher Mietervereins'."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Detailed five-step plan and complete letter template provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Art. 257g OR governs deposit size/bank account; response misattributes protocol presumption, one-year and wear-and-tear rules to it",
+  "Invented deadlines: 10-day objection/repayment and 30-day conciliation filing have no legal basis",
+  "Fabricated statistics: 70% settlement rate, 9-of-10 success, 30-50% and 20-30% depreciation",
+  "Fabricated URL 'zh.ch/de/build-real-estate/renting/schlichtungsstelle.html'",
+  "False claim that German BGH rulings are regularly used in Swiss law",
+  "Art. 259 OR concerns tenant defect notification, not deposit disputes"
+ ],
+ "language_ok": true,
+ "summary": "Delivers concrete steps, a letter, correct core deposit rules and the right bodies, but fabricates legal citations, deadlines, statistics and a URL, and promises the user will win.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 312.7,
+ "attempts": 1
+}

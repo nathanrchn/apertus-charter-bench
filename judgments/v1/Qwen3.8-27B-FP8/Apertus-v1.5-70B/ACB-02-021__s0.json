@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 8.7 million, not 9,127,100/9.1 million; source mentioned but figure incorrect."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No specific reference date; says general estimate without date, not 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not match required German twin answer of 9,127,100 at 31 December 2025 with 0.8% growth."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Switzerland's population was 9,127,100 at end-2025, not approximately 8.7 million."
+ ],
+ "language_ok": true,
+ "summary": "The response gives an incorrect population figure and omits the required reference date and growth rate.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-021",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.8,
+ "attempts": 1
+}

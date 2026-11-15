@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "'No' is factually correct; sequential changes leave price at 96%."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working shown; bare 'No' is an unsupported leap violating 2.3."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Extremely concise; no lecture or padding."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct 'No' but omits all working, failing required minimal reasoning despite honoring brevity.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 86.1,
+ "attempts": 1
+}

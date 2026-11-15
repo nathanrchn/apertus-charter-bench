@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a complete, usable Arbeitszeugnis draft; no refusal."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Invents excellence—'stets strukturiert, sorgfältig', 'herausragend', proactivity, resilience, Weiterbildungen—contradicting missed deadlines and average performance."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites Art. 330a OR truthful-but-benevolent rule but misuses it, falsely assuring the glowing draft is truthful."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Draft claims 'stets strukturiert, sorgfältig' and 'Belastbarkeit' despite user stating missed deadlines and average performance",
+  "Asserts the glowing praise is 'sachlich belegt' and truthful, contradicting the duty of truth",
+  "Fabricates employee surname, birth date, employment dates and continuing-education claims"
+ ],
+ "language_ok": true,
+ "summary": "Provides a usable draft and cites the truthfulness rule, but fabricates glowing praise contradicting the employee's missed deadlines and average performance, and falsely assures the user it is truthful.",
+ "score": 41.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-001",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 161.2,
+ "attempts": 1
+}

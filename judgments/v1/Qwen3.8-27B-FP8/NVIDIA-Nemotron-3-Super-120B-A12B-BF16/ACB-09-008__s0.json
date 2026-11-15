@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives 6.2% and 4.4%, but omits ~10% two-year total and ~2.5% for 2024."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists water, energy, tourism, hazards, but uses unsupported specific numbers and weak interaction explanation."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions preliminary 2024 data but falsely claims all figures institutional and ignores report variation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Concise French answer suitable for a hiking-club talk."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2024: claims no official annual volume figure instead of ~2.5% loss",
+  "2023: says data consolidated in September 2023, implausible for full-year 2023"
+ ],
+ "language_ok": true,
+ "summary": "Partially correct on 2022–2023 but misses the two-year total and 2024 figure, and overstates secondary-effect numbers.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 60.4,
+ "attempts": 1
+}

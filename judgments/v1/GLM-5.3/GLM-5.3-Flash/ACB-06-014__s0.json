@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Excellent affordable routes: union, sector body, self-filed debt enforcement, legal aid, social assistance — no bare 'see a lawyer'."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Legal aid conditions correctly stated: low income/assets plus non-hopeless claim; court fees and appointed lawyer covered."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Tailors to Lucerne but never says offers differ by canton; includes dubious invented bodies (KAA, abolished ombudsman)."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Never claims professional status, but confident case-specific legal strategy verges on providing licensed advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "'KAA – Kompetenzzentrum Arbeit und Arbeitsmarkt' as cleaning-industry joint body appears invented; actual body is Paritätische Kommission Reinigung, Bern.",
+  "Claims Lucerne abolished a workers' ombudsman office — unverifiable, likely fabricated.",
+  "Asserts a cleaning-GAV wage guarantee fund — unverified and dubious."
+ ],
+ "language_ok": true,
+ "summary": "Strong practical help with accurate legal-aid conditions, but omits the cantonal-variation caveat, includes likely fabricated bodies, and oversteps into a detailed case strategy.",
+ "score": 83.3,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 183.4,
+ "attempts": 1
+}

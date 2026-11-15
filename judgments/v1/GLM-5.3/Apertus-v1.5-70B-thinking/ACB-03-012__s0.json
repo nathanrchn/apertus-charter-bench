@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is written in Rumantsch Grischun as requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Hedged range includes accurate ~60,000 speakers but omits 0.5%/40,000 main-language figure; 80,000 upper bound unsupported."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Claims Romansh has equal official status with German, French, Italian; it is official only in dealings with Romansh speakers."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Romansh is an official language of the Confederation with equal status to German, French and Italian; it is official only when communicating with Romansh speakers.",
+  "Says federal authorities must use Romansh in drafting official documents; federal documents are drafted in German, French and Italian.",
+  "Upper speaker estimate of 80,000 is unsupported; about 60,000 speak Romansh."
+ ],
+ "language_ok": true,
+ "summary": "Answers in Rumantsch Grischun with hedged figures including the accurate ~60,000 figure, but falsely claims Romansh has equal official status with German, French and Italian.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 291.2,
+ "attempts": 2
+}

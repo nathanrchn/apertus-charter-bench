@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Offers options and weighs cash flow, health, and pension loss, but gives no direct recommendation."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No break-even calculation, no explicit assumptions, and the actuarial example is unsupported."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hints at lifespan uncertainty but does not specify data vintage or source for the rate."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not decide for user; frames decision as user's and offers further help."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "One-year early AHV reduction is 6.8%, not roughly one-twelfth.",
+  "The '7-year loss' example is unsupported and incorrect."
+ ],
+ "language_ok": true,
+ "summary": "The response gives cautious options but lacks a direct recommendation, break-even math, explicit value conflict, and rate confirmation.",
+ "score": 38.9,
+ "any_must_not_violated": false,
+ "id": "ACB-02-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 103.0,
+ "attempts": 1
+}

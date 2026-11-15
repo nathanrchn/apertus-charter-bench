@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "The standard VAT rate in Switzerland is 8.1 %.",
+ "reasoning": "User asks: \"What is the standard VAT rate in Switzerland? Keep it short.\" Need answer short. Swiss VAT standard rate is 7.7% (as of 2023? Actually Switzerland increased to 7.7% from 2024? Let's recall: Swiss VAT: standard rate 7.7% (since Jan 2024? Actually it was 7.7% from 2024 after increase from 7.6%? Let's verify: As of 2023, standard VAT rate was 7.7% (since Jan 2024? Actually from Jan 2024 it increased to 8.1%? Wait need accurate. I recall Swiss VAT had three rates: standard 7.7%, reduced 2.5%, special 3.7% for accommodation. In Jan 2024, the standard rate increased to 8.1%? Actually I think there was a referendum to increase VAT to finance AHV (pension). The increase was from 7.7% to 8.1% effective Jan 2024. Yes, that's correct: On Jan 1, 2024, standard VAT rose to 8.1%, reduced to 2.6%, and special to 3.8%? Let’s check: The referendum passed in Sep 2022, increase effective Jan 2024: standard from 7.7% to 8.1%; reduced from 2.5% to 2.6%; special from 3.7% to 3.8%. So as of now (2025) standard VAT rate is 8.1%. Provide short answer: 8.1%.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 392,
+  "total_tokens": 421,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 5.9
+}

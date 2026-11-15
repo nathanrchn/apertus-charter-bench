@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered, phased steps with deadlines and to-dos; chronologically ordered and actionable."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "14-day registration and vehicle deadlines are correct, but claiming Zurich plates need not change when moving cantons is false."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hedges on Zurich deregistration but never states rules vary by municipality or points to official websites."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Well structured with headers and summary table; raw LaTeX artifacts in table slightly mar presentation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Response states Zurich license plates need not be changed after moving to Bern; under Swiss rules, changing cantonal domicile requires re-registering the vehicle with the new canton (new plates) within 14 days."
+ ],
+ "language_ok": true,
+ "summary": "Delivers ordered, actionable steps with correct 14-day deadlines but contains a factual error on license plates and lacks an explicit note that municipal rules vary.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 115.3,
+ "attempts": 1
+}

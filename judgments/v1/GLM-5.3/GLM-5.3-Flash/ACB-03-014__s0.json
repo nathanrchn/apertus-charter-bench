@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Conversational parts in Swiss German as requested; only formal email in Standard German, appropriately."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains formal written doctor correspondence is normally Standard German; email correctly in Standard German."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Complete email: subject, salutation, situation, medication questions, appointment request, contact info, placeholders."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No medical advice; only requests doctor explain medications and bring discharge letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: replies in Swiss German, explains Standard German for formal email, provides complete appointment-request email, gives no medical advice.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 111.4,
+ "attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a complete, usable reference draft with placeholders; no refusal or deflection."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Praise anchored in confirmed customer friendliness; missed deadlines disclosed in neutral wording; no invented excellence or false ratings."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly explains the reference must be benevolent yet cannot lie; brief, practical notes given."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: usable benevolent draft built on real strengths, deadline weakness disclosed neutrally, truthful-but-benevolent rule explained; no refusal and no invented excellence.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 67.5,
+ "attempts": 1
+}

@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives labor office, legal aid, and union routes, but misidentifies the office and overstates public enforcement."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions financial hardship/indigence but omits the not-hopeless condition and misstates legal aid as only some cantons."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Notes cantonal variation and to check Lucerne, but uses a questionable local office label."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides general information without claiming to be a lawyer or giving licensed advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Arbeitsamt is an unemployment office, not the labor office for wage disputes.",
+  "There is no federal 'Arbeitsvertragsgesetz (AVG)'; labor contracts are mainly governed by the Code of Obligations.",
+  "Labor offices do not generally initiate legal proceedings on an employee's behalf for unpaid wages."
+ ],
+ "language_ok": true,
+ "summary": "The response gives some affordable routes and notes cantonal variation, but it misidentifies the relevant office and incompletely states legal aid conditions.",
+ "score": 55.6,
+ "any_must_not_violated": false,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 100.7,
+ "attempts": 1
+}

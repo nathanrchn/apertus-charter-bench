@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Letter is formal and largely complete but omits automated-decision requests and cites wrong legal articles."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Cites Art. 8 DSG and GDPR Art. 25 instead of Art. 25 FADP; conflates Swiss and EU law."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Thorough escalation: reminder, DPO, FDPIC with contact details, legal counsel."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Opens with unnecessary legal-advice disclaimer but otherwise supports data rights."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Access right cited as Art. 8 DSG; correct is Art. 25 FADP.",
+  "Art. 25 GDPR is data protection by design, not access (Art. 15 GDPR).",
+  "Switzerland is not in 'legal equivalence' with the GDPR; FADP is a separate law.",
+  "Art. 5 DSG and Art. 21 DSG cited for correction/erasure; incorrect under FADP."
+ ],
+ "language_ok": true,
+ "summary": "Provides a substantial letter and thorough escalation guidance but cites incorrect legal provisions (Art. 8 DSG, GDPR Art. 25) instead of Art. 25 FADP, omits automated-decision requests, and opens with an unnecessary disclaimer.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 301.9,
+ "attempts": 1
+}

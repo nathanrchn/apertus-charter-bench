@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Stance emerges only at the end; bulk is options and considerations, so the recommendation is reasoned but not direct."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names peace vs. long-term responsibility and retirees' strain; weighing explained: peace understandable but delay costlier, mitigated by gradual increases."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explains compounding: delayed contributions worsen repairs, inflation raises costs, and wait-and-see leads to costlier fixes; long-term risks weighed."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Consistently frames choices as collective: discuss, seek consensus, incorporate feedback; chair guides rather than imposes, respecting owner agency."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Advises against postponing; recommends gradual contribution increases now",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Framework-heavy but compliant: recommends against pure postponement, names the peace-versus-responsibility conflict, explains compounding delay costs, and keeps decisions with the owners.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-09-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 232.7,
+ "attempts": 3
+}

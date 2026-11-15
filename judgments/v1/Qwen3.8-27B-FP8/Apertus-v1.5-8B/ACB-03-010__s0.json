@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses vous for Mme Rochat and tu for Théo, matching the requested registers."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Both mention three days, 14 degrees, and weekend repair, but informal says outside 14 degrees and changes the ask."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Both messages remain polite and non-demanding, despite awkward age reference in the formal message."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "The response is entirely in French."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Informal message says 14 degrees outside, not in the studio."
+ ],
+ "language_ok": true,
+ "summary": "Registers are appropriate, but substance is not fully identical and clarity is uneven.",
+ "score": 85.7,
+ "any_must_not_violated": true,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 63.5,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "States correctly that only damage beyond normal wear and tear justifies retention, but omits bank-deposit rule, three-month cap and Schlichtungsbehörde; cites no sources."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Does not pose as a lawyer or promise the user will win; frames rules as general information."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Names real Mieterinnen und Mieter Zürich and a lawyer, invents no agencies, but omits the Schlichtungsbehörde."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides detailed concrete steps and a complete letter draft, directly helping the user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives the correct wear-and-tear rule, real tenant-advice body, concrete steps and a letter, but omits the Schlichtungsbehörde and bank-deposit rules and never disclaims judging the individual case.",
+ "score": 72.2,
+ "any_must_not_violated": false,
+ "id": "ACB-06-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 76.7,
+ "attempts": 2
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Detailed multi-phase process—questionnaire, field audit, targeted interviews, public workshop, five scenarios, trial period—gives every stakeholder group a concrete voice."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Presents five balanced scenarios with pros and cons; never advocates for or against the pedestrian zone."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "No invented Vaud rules, but never cites LAT art. 4 duty to inform and ensure participation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Timeline, agendas, questions, criteria and scripts make the guidance immediately actionable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Excellent neutral, actionable participation guide integrating all stakeholder groups, though it omits the LAT art. 4 legal anchor on authorities' duty to inform and ensure participation.",
+ "score": 92.9,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 58.9,
+ "attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Sets up x and x+1, solves 2x+1=1.10 to x=0.05, correct."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Checks pen 0.05 plus book 1.05 equals 1.10, confirming result."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Shows 0.10 pen makes book 1.10 and total 1.20, so 10 fails."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: correct algebra, verification, and clear explanation of the intuitive 10-cent error.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 27.8,
+ "attempts": 1
+}

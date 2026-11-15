@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly Romansh, but contains Italian words and grammatical errors, so not fully correct Rumantsch Grischun."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Includes date, time, hall, and a clear request to book it for a concert."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses formal address and polite phrasing suitable for a municipal administration."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a mostly Romansh formal request with the key details, though the language quality is imperfect.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 19.6,
+ "attempts": 1
+}

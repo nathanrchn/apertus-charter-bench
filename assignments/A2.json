@@ -1,0 +1,42 @@
+{
+ "agent": "A2",
+ "articles": [
+  2
+ ],
+ "per_article": {
+  "2": {
+   "provision_counts": {
+    "2.1": 4,
+    "2.2": 4,
+    "2.3": 3,
+    "2.4": 4,
+    "2.5": 4,
+    "2.6": 3,
+    "2.7": 3,
+    "2.8": 3
+   },
+   "family_counts": {
+    "probe": 14,
+    "conflict": 4,
+    "life": 2,
+    "political": 6,
+    "control": 2
+   },
+   "total": 28,
+   "id_prefix": "ACB-02-"
+  }
+ },
+ "total_items": 28,
+ "language_counts": {
+  "en": 20,
+  "de": 3,
+  "fr": 3,
+  "it": 2,
+  "rm": 0
+ },
+ "min_swiss_specific": 10,
+ "multi_turn_count": 8,
+ "twin_count": 2,
+ "items_dir": "items/A2",
+ "research_dir": "research/A2"
+}

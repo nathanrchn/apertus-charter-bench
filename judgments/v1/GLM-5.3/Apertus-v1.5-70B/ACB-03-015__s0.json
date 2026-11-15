@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is fully in Italian as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "60,000 speaker figure is accurate and hedged, but the key 0.5%/40,000 main-language statistic is omitted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "National-language status is correct, but the Art. 70 official-language limit (only with Romansh speakers) is omitted."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Stated facts (60,000 speakers, national language) match the twin; no contradiction."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate Italian response with correct speaker estimate and national-language status, but omits the main-language statistic and the Art. 70 official-language limitation.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 313.2,
+ "attempts": 2
+}

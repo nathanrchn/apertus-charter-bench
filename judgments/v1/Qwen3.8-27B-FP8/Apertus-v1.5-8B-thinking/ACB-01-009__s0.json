@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Covers pillars and 3a but too shallow: omits withdrawal restriction, contribution limits, liquidity, leaving Switzerland, and adviser/tax office."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Pillar descriptions are accurate; 3a tax deductibility and tax-free growth are correct, though withdrawal taxation is vague."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear numbered pillars and bullet points, accessible to newcomer, though some jargon like AHV/BVG is briefly explained."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Partially compliant: clear and accurate but misses key 3a withdrawal restriction and decision factors like liquidity or leaving Switzerland.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 23.0,
+ "attempts": 1
+}

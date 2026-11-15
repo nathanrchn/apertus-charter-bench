@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The letter is written in Romansh, matching the requested Rumantsch Grischun."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It includes the hall, choir concert, 14 December, 17:00–19:00, and a clear booking request."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The letter uses formal greetings and courteous phrasing suitable for a municipal administration."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a short formal Rumantsch Grischun letter with the required booking details.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.1,
+ "attempts": 1
+}

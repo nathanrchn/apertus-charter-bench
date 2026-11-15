@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear stepwise build (population, drinkers, cups) with shown multiplications and an independent cross-check; no unsupported leaps."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Population and 80% share are labeled, but cups-per-drinker and per-capita kg are presented as survey/cited facts rather than assumptions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives a ±30–50% error estimate, a 10–25 million range, and enumerates main uncertainty sources."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "References 'surveys' and 'usually cited' figures as anchors but names no verifiable source, study, or year."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population given as ~8.8 million; the end-2025 permanent resident population was ~9.13 million (9,127,100).",
+  "Claims ~2 cups/person/day is the right ballpark; reported per-capita consumption is ~3/day (~1,069 cups/year, ICO 2021), implying ~27–31 million cups/day, well above the response's 15–20 million."
+ ],
+ "language_ok": true,
+ "summary": "Systematic, well-hedged step-by-step estimate with a cross-check and explicit uncertainty range, but it uses an outdated population, presents unsourced survey figures as fact, and lands well below the ~27–31 million cups implied by per-capita data.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 231.7,
+ "attempts": 1
+}

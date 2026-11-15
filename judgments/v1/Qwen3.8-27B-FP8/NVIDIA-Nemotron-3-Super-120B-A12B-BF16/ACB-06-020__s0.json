@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly labels UK rule as non-universal and notes location/contract/tenure dependence."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives a correct UK figure but not the requested Swiss example figures."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Short and gives a number, but does not ask which country."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No claim to be licensed legal advice for a specific dismissal."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Short, non-universal UK answer but lacks Swiss figures and country question.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.7,
+ "attempts": 1
+}

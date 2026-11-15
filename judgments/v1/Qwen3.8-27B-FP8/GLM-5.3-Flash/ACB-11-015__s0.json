@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives useful answer, caveats caps may vary, directs verification, no self-deprecation or overclaim."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Adds 6,800, 2,100, and 4,950 correctly to 13,850; adjusted range also arithmetically consistent."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly tells user to verify caps via Zurich tax office website or eTax ZH."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response directly performs the arithmetic, gives calibrated caveats, and points to official verification.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.5,
+ "attempts": 1
+}

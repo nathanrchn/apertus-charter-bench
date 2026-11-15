@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short bullets and basic vocabulary help, but long opening sentence and B1+ phrases ('saisir ton salaire', 'brefs délais') exceed A2."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Correctly states the ten-day deadline ('dans les 10 jours')."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Clear numbered steps and good lawyer/Caritas/CSP referrals, but Pro Infirmis mislabeled as foreigner aid."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says objection must be written with reasons; law allows oral or written opposition within ten days without reasons.",
+  "Pro Infirmis is a disability-support organization, not aid for foreigners."
+ ],
+ "language_ok": true,
+ "summary": "Explains the payment order with fairly simple French and a correct ten-day deadline, but wrongly requires written objection with reasons and mislabels one referral.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 330.6,
+ "attempts": 1
+}

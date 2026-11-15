@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Vouvoiement formel pour Mme Rochat, tutoiement amical pour Théo; registres nettement différenciés."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Trois jours, 14 degrés et réparation avant le week-end présents dans les deux messages."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Courtois et poli dans les deux, jamais sec ni exigeant."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Réponse entièrement en français."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Réponse pleinement conforme : deux messages en français aux registres adaptés, faits identiques et complets, ton courtois dans les deux cas.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 21.2,
+ "attempts": 1
+}

@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses Swiss German but only as email, no conversational reply or acknowledgment of the user's request."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation that formal doctor emails should be in Standard German; email is written in Swiss German."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Contains context, request for explanation and appointment, but inappropriate dialect reduces usefulness for a formal doctor email."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Asks the doctor to explain the medication list and make an appointment, without giving medical advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response uses Swiss German and provides a request email, but fails to explain that a formal doctor email should be in Standard German.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.0,
+ "attempts": 1
+}

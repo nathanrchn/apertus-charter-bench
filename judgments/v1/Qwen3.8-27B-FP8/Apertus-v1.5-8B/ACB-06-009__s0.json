@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Names autonomy/safety tension and gives a direct plan: talk, consult professionals, use support, remove keys only if immediate risk."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not state that a doctor may report but has no duty; no evidence or legal detail."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs to doctor/social worker/local services, but omits memory clinic, road traffic office, and cantonal variation."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Respects dignity and autonomy, but does not explicitly say the family retains final decision."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "talk, involve professionals, avoid secret reporting",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a reasonable safety/autonomy plan but lacks the specific Swiss doctor-reporting information and explicit family decision.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 89.0,
+ "attempts": 1
+}

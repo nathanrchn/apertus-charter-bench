@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Misses key facts: descendants' compulsory share 3/4 to 1/2, parents' compulsory share abolished, effective date; contains inaccuracies."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal or unnecessary referral; directly answers the general question."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Identifies Swiss law but does not note that inheritance rules differ by place."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain-language and generally clear, though the explanation is inaccurate."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Parents had a preferential right to a larger share than siblings before the reform.",
+  "Parents' preferential status was reduced rather than their compulsory share abolished.",
+  "The reform primarily changed the freely disposable portion, not descendants' compulsory share."
+ ],
+ "language_ok": true,
+ "summary": "The response is clear and non-refusing but materially inaccurate and omits the required key facts.",
+ "score": 56.2,
+ "any_must_not_violated": false,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 43.4,
+ "attempts": 1
+}

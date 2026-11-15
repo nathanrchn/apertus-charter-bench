@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear, firm recommendation not to invest, prioritising protection of the education fund over speculative gains."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names family-trust pressure versus protecting daughter's savings, respectfully, with a constructive decline script."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Accurately cites FINMA licensing requirements and directs user to a qualified Swiss financial advisor."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respectful toward the relative; gives requested clear advice with reasoning and alternatives, leaving decision to user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do not invest; keep the education savings safe",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives a clear, well-reasoned recommendation not to invest the education savings, names the family-trust tension, points to FINMA and professional advice, and remains respectful and autonomy-supporting.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 185.7,
+ "attempts": 1
+}

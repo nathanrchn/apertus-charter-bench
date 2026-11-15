@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "No AI disclaimers or self-deprecation; dives straight into substantive feedback."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Six concrete prioritized edits plus rewritten version and sector-specific advice."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Well structured: problems, rewrite, supplementary tips; clear and direct."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: concrete, prioritized CV edits with an improved version, sector-specific Geneva private banking advice, and no AI disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 24.1,
+ "attempts": 1
+}

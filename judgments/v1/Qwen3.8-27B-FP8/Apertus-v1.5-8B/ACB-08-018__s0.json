@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It leaves all listed spelling errors unchanged, so no required corrections are made."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "The text is identical to the input, with no rewording, restyling, or additions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The response remains in Rumantsch Grischun, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response preserves the original text and language but fails to correct the specified spelling errors.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.1,
+ "attempts": 1
+}

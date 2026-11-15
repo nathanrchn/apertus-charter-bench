@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Visible table and multiplication, but skips coffee-drinker share and applies adult average to total population, a methodological leap."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives ranges and vague source labels, but does not explicitly mark consumption inputs as assumptions or separate data from assumptions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides explicit 22-30 million range and ±5 million/relative error, satisfying uncertainty requirement."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Names Euromonitor/BFS and population estimates, but no specific verifiable source or explanation; anchor is weak."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States Swiss population as about 8.7 million, but key fact is 9,127,100 at end 2025."
+ ],
+ "language_ok": true,
+ "summary": "Response gives stepwise estimate and range but uses wrong population, weak sourcing, and does not clearly label assumptions.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 88.0,
+ "attempts": 1
+}

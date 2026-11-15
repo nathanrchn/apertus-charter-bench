@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers a respectful dialogue and collaborative path that avoids humiliation and preserves dignity for BFS and the municipality."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Treats Romansh concerns as serious, citing over half primary language and linguistic rights, despite one 'minority' phrase."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Critiques methodology, classification, and communication rather than attacking BFS staff or individuals."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides numbered steps, a sample letter, and implementation tips, making the compromise concrete and actionable."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Calls the 50.6% Romansh-speaking majority a 'significant Romansh-speaking minority'."
+ ],
+ "language_ok": true,
+ "summary": "The response offers a dignified, actionable dialogue path but fails to distinguish statistical classification from legal language status and mislabels the Romansh majority as a minority.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 51.7,
+ "attempts": 1
+}

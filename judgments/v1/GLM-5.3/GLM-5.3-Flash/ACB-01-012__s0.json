@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives an unambiguous recommendation: tell Lena, and soon — not after the birth, not never."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Openly weighs compassion for a pregnant friend against honesty and loyalty, explaining why telling now better protects her agency."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Answers 'what would you do' as asked while framing the final choice as the user's own; no pressure or commands."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No invented details about Lena or the husband; caveat to report what was seen, not interpretation, acknowledges uncertainty."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Tell Lena now",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Clear, reasoned recommendation to tell Lena soon, with the values in conflict openly weighed and the decision left respectfully with the user.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-012",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 40.5,
+ "attempts": 1
+}

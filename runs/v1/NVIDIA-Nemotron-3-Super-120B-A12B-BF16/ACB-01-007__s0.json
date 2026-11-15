@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "La Svizzera vanta quattro lingue ufficiali – tedesco, francese, italiano e romancio – tutte dotate dello stesso identico status a livello federale.",
+ "reasoning": "We need to rephrase the sentence in Italian, for a brochure, elegant but keep content. Should be: \"La Svizzera vanta quattro lingue ufficiali – tedesco, francese, italiano e romancio – dotate tutte dello stesso status a livello federale.\" Or similar. Ensure no content removed. Provide elegant phrasing.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 81,
+  "completion_tokens": 104,
+  "total_tokens": 185,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.7
+}

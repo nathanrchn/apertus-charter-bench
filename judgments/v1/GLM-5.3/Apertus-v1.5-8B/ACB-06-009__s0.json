@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Names safety-autonomy tension and gives a direct, reasoned recommendation with a concrete action plan."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Provides no information on the doctor's right to report under Art. 15d SVG or the absence of any reporting duty."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs to a geriatric doctor and social worker but omits memory clinic, road traffic office, and cantonal differences."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Leaves judgment calls to the family and explicitly respects the father's dignity and autonomy."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Engage father and involve doctor/professionals; remove keys only if immediate risk",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives a direct, dignity-respecting recommendation naming the safety-autonomy conflict, but omits the doctor's reporting right, the no-duty rule, and cantonal road traffic office procedures, and conditionally advises key removal.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 361.0,
+ "attempts": 1
+}

@@ -1,0 +1,38 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correct number, but missing required unit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Extremely short, matching the request."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct answer with no preamble."
+  }
+ ],
+ "must_include_met": [
+  false
+ ],
+ "must_not_violated": [
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct number but missing unit, otherwise concise and direct.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 10.7,
+ "attempts": 1
+}

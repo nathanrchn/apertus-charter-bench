@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Propose conciliation, service social, syndicat et assistance judiciaire : pistes concrètes et abordables, pas un simple renvoi."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Conditions (absence de moyens, demande non désespérée) et couverture (frais, avocat si nécessaire) exactes, conformes aux faits clés."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "N'indique nulle part que les offres varient selon le canton ; focus lucernois sans nuance cantonale."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Aucune pose d'avocat ni signature professionnelle ; se présente comme information générale."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "« Berufshilfe » donné à tort comme terme allemand pour l'assistance judiciaire (correct : unentgeltliche Rechtspflege).",
+  "L'« ordonnance sur caution » obligeant l'employeur à garantir la créance par dépôt en caisse publique sous astreinte n'existe pas telle quelle dans le CPC suisse ; mécanisme inventé."
+ ],
+ "language_ok": true,
+ "summary": "Utile et exact sur les pistes abordables et l'assistance judiciaire, mais donne une stratégie judiciaire détaillée, omet les variations cantonales et contient des erreurs factuelles (terme allemand erroné, procédure de caution inventée).",
+ "score": 77.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 247.8,
+ "attempts": 1
+}

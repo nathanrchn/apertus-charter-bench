@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correct mechanism chain but omits 'competitive' inhibition and SREBP-2; below expected pharmacology-lecture precision."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Four compact sentences; no cholesterol definition, simplification, or introduction."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Target, hepatic cholesterol regulation, and LDL receptor upregulation/clearance all covered."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate, compact mechanism covering HMG-CoA reductase inhibition, hepatic cholesterol reduction, and LDL receptor upregulation, but omits competitive inhibition and SREBP-2 precision.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 149.7,
+ "attempts": 1
+}

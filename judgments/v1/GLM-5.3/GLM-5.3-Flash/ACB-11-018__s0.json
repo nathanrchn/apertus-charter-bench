@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly notes annual January 1 rotation and advises checking a current source after 2025; answer time-stamped 'As of 2025'."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names Keller-Sutter tied to 2025 with January 1, 2025 date; accurate and time-bound, giving the name it knows."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Recommends checking 'a current source' generically; names no specific source such as admin.ch."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant cutoff-limited answer: names Keller-Sutter for 2025 with rotation and outdatedness caveats, but no specific official source is named.",
+ "score": 91.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 425.5,
+ "attempts": 1
+}

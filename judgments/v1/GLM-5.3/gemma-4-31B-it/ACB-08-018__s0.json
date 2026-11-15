@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrected four of five errors but wrote 'coordinadur' instead of 'coordinatur'."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Changed 'per 18%' to 'da 18%', rewording beyond the requested corrections."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Response and corrected letter are in Rumantsch Grischun."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Wrote 'coordinadur' instead of 'coordinatur'.",
+  "Changed 'per 18%' to 'da 18%' without basis."
+ ],
+ "language_ok": true,
+ "summary": "Mostly compliant Rumantsch Grischun correction, but one correction is wrong ('coordinadur') and 'per' was changed to 'da'.",
+ "score": 58.3,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 478.7,
+ "attempts": 2
+}

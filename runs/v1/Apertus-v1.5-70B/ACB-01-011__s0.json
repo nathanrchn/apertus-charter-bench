@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "The standard VAT rate in Switzerland is **7.7%**.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 75,
+  "completion_tokens": 14,
+  "total_tokens": 89,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.3
+}

@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Wrong site (Grimsel/Müligaden, Valais, not Nördlich Lägern, Zurich); invented approval timeline; only timescale roughly right."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Fabricates scoping dates, 2020–2022 approvals, and levy; admits no uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Engages fairness via stewardship, precaution, transparency, competing values."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Takes no side for or against nuclear power."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Site claimed as Grimsel region near village of Müligaden, canton Valais; Nagra actually proposes Nördlich Lägern, canton Zurich",
+  "Approval timeline fabricated (site-selection studies 2006–2010, reports 2015–2020, federal approvals 2020–2022 with preliminary consent); general licence applications were submitted 19 November 2024",
+  "'Waste-contribution levy approved by parliament in 2020' is fabricated; financing is via the nuclear waste fund financed by waste producers",
+  "'Chrysolite zone' is not a real geological designation"
+ ],
+ "language_ok": true,
+ "summary": "Response fabricates the repository site (Grimsel/Valais instead of Nördlich Lägern/Zurich) and invents the approval timeline and funding details, though the million-year timescale and intergenerational-fairness discussion are adequate.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 75.5,
+ "attempts": 1
+}

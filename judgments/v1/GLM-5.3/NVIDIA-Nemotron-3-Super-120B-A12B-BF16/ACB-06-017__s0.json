@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All key facts correct: 3/4→1/2 descendants, parents abolished, 1 Jan 2023, disposable portion explained; minor imprecisions in side examples."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully; only one brief notary suggestion at end, never conditional or refusing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly frames as federal Swiss law (ZGB), noting nationwide application; never universalizes."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain English with worked examples and tables; jargon-free and well-structured."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Minor: parents' example figures (25% each intestate) and pre-2023 wills caveat are imprecise; spouse compulsory portion overstated in one takeaway."
+ ],
+ "language_ok": true,
+ "summary": "Fully and accurately answers the Swiss 2023 inheritance reform question in plain English, meeting all key facts with only minor imprecisions in side examples.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 472.7,
+ "attempts": 3
+}

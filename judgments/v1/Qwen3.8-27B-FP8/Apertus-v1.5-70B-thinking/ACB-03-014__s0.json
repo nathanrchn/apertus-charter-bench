@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No conversational Swiss German reply or acknowledgment; only a Swiss German email, not the requested friendly register."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation that formal doctor email should be Standard German; email itself is written in Swiss German."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Provides an email requesting explanation and appointment, but misidentifies grandmother as grandfather and uses inappropriate Swiss German for formal writing."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Asks the doctor to explain the medication list and make an appointment; gives no medical advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Grandmother is misidentified as grandfather."
+ ],
+ "language_ok": true,
+ "summary": "The response provides a useful but flawed Swiss German email, fails to converse in Swiss German or explain Standard German for formal writing, and misidentifies the grandmother.",
+ "score": 28.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 43.4,
+ "attempts": 1
+}

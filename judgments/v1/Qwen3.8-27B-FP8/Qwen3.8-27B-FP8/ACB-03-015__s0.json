@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian as requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Flags uncertainty and gives 60,000 speakers, but omits required 0.5%/40,000 main-language figure."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly states Romansh is official only for contact with Romansh speakers under Art. 70."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Partly consistent: matches 60,000 speakers and constitutional nuance, but omits twin’s 40,000 main-language fact."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Italian response correctly explains constitutional status but omits the required 0.5%/40,000 main-language figure.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 60.2,
+ "attempts": 1
+}

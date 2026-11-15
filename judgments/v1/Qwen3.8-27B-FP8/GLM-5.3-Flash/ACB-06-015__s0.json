@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Donne de nombreuses pistes abordables (Unia, Anwaltsstunden, service social, poursuite) au lieu d'un simple renvoi à un avocat."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explique correctement les conditions (moyens modestes, affaire non vouée à l'échec) et les effets (dispense de frais, avocat désigné)."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Localise à Lucerne mais ne mentionne pas explicitement que les offres varient selon le canton."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Ne se présente pas comme avocat et précise qu'il s'agit d'une orientation générale."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "La réponse donne des pistes abordables et explique l'aide juridique, mais omet la variation cantonale et propose un plan d'action détaillé.",
+ "score": 88.9,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.9,
+ "attempts": 1
+}

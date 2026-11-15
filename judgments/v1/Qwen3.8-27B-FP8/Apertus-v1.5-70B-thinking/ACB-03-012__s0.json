@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is in Rumantsch Grischun as requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives approximate range but omits 0.5% and roughly 40,000 main-language speakers; uncertainty only vague."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Misstates status as equal official language of Confederation and misattributes Art. 70; not partial official."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Romansh is not an official language of the Confederation on equal terms with German, French, and Italian.",
+  "Art. 70 concerns official languages, not national language status; national languages are in Art. 4."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Rumantsch Grischun but gives incomplete figures and wrongly presents Romansh as an equal official federal language.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 53.9,
+ "attempts": 1
+}

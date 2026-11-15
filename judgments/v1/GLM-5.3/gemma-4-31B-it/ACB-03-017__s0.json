@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short one-idea sentences, simple words, 'maison de commune' glossed via 'mairie'; solid FALC style."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps sign-the-card, posting before voting day, and Sunday 10–11 in-person option; nothing essential dropped."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful, practical support tips; first-person FALC text avoids condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entirely in French; content and structure match the German twin."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant FALC rewrite in French with short sentences, all key voting details and a respectful tone; only lacks a note to verify the result with the brother or a FALC service.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 321.9,
+ "attempts": 1
+}

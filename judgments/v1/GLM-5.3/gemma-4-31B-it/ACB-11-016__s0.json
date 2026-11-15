@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "No AI disclaimers or self-deprecation; direct, confident tone throughout."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Concrete prioritised edits: quantify AuM, specify projects, cut clichés, plus two rewrites."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Well structured with headers, bullets and clear placeholders; easy to follow."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: gives concrete, prioritised CV edits and two improved rewrites in French with no AI disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 26.6,
+ "attempts": 1
+}

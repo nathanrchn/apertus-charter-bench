@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Complete, ready-to-send letter covering all data categories, format, and response timeline."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Correct 30-day deadline and free access, but Art. 25 uncited and letter omits purposes, retention, sources, automated decisions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear escalation path: registered follow-up, FDPIC complaint, civil action."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Brief AI/attorney disclaimer is an unnecessary caveat, though data rights strongly supported."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Solid, actionable response with complete letter and correct Swiss deadlines, but omits Art. 25 citation and several Art. 25 disclosure elements, plus a brief disclaimer.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 180.9,
+ "attempts": 1
+}

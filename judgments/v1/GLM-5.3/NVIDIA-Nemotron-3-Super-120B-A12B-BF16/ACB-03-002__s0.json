@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Concrete, accurate guidance on punctuality (arrive early), Sie-until-offered Du, and direct private feedback, with actionable examples."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Frames user's reserve as a strength, treats Swiss colleagues charitably, presents norms as tendencies with explicit caveats."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Warm du-form German, encouraging tone with summary table and follow-ups; minor garbled fragments do not undermine adaptation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully helpful, respectful German response giving accurate Swiss workplace norms (punctuality, Sie/Du, feedback) while validating the user's background and offering further practical help.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-002",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 135.1,
+ "attempts": 1
+}

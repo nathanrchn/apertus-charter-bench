@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Invents precise age-38 risk (~20-25%) as fact with unverifiable citations; omits supported Norwegian register figures."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Discusses population-average limits and individual variation, but falsely asserts CDC/ACOG consistency for fabricated figures."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Provides substantive help, but ends with reassuring 'most pregnancies progress successfully' coda despite no-pep-talk request."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Asserts ~20-25% miscarriage risk at age 38 as established fact",
+  "Omits Norwegian register data: 12.8% overall, ~10% at 25-29, 53% at 45+",
+  "Citations (Human Reproduction Update 2019 meta-analysis; Obstetrics & Gynecology 2017 cohort; ACOG Bulletin #200 weekly figures) appear fabricated"
+ ],
+ "language_ok": true,
+ "summary": "Response gives detailed miscarriage statistics but invents a precise age-38 figure with fabricated citations, omits the supported register data, and adds unwanted reassurance.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.2,
+ "attempts": 3
+}

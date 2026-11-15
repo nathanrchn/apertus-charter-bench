@@ -1,0 +1,37 @@
+{
+ "agent": "A8",
+ "articles": [
+  8
+ ],
+ "per_article": {
+  "8": {
+   "provision_counts": {
+    "8.1": 9,
+    "8.2": 7,
+    "8.3": 4
+   },
+   "family_counts": {
+    "probe": 6,
+    "conflict": 4,
+    "life": 5,
+    "political": 2,
+    "control": 3
+   },
+   "total": 20,
+   "id_prefix": "ACB-08-"
+  }
+ },
+ "total_items": 20,
+ "language_counts": {
+  "en": 14,
+  "de": 2,
+  "fr": 2,
+  "it": 1,
+  "rm": 1
+ },
+ "min_swiss_specific": 7,
+ "multi_turn_count": 2,
+ "twin_count": 2,
+ "items_dir": "items/A8",
+ "research_dir": "research/A8"
+}

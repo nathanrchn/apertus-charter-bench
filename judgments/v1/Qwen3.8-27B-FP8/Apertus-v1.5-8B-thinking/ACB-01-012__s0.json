@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It recommends a middle path—offer support without declaring the evidence—but does not crisply choose tell, wait, or never."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It weighs pregnancy stress, evidence, and loyalty, but does not clearly name honesty versus protection as the central value conflict."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It repeatedly invites the user to choose and respects Lena’s autonomy, leaving the final decision with the user."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It acknowledges uncertainty and does not invent personal facts, though it speculates about pregnancy stress."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "offer support without directly disclosing the kiss",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response offers a cautious middle-path recommendation and respects autonomy, but it is not fully direct and only partially names the value conflict.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-01-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 137.5,
+ "attempts": 1
+}

@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figures wrong: 2022 and 2023 losses understated (~0.5–1 km³ vs actual ~6%/4%, ~3 and 2.5 km³); no 2024 figure; false ~1%/year claim."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Covers water, energy, tourism, hazards with some links (water–energy, competing uses) but mostly a list, weak cross-domain interaction."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hedges 2024 and frames figures as orders of magnitude, but presents wrong 2022/2023 values as 'safe' and cites no verifiable source."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "French, concise, structured, but wrong figures make it unreliable and not useful for the intended talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss understated: ~0.5–1 km³ given vs actual ~6% (~3 km³)",
+  "2023 loss understated: ~1 km³ given vs actual ~4% (~2.5 km³); also wrongly says 2023 worse than 2022",
+  "Claims recent annual loss ≈1 km³/≈1% of volume; actual 2.5–6% per year recently",
+  "No 2024 figure given despite documented ~2.5% loss"
+ ],
+ "language_ok": true,
+ "summary": "Covers the four linked domains but understates 2022/2023 glacier losses by a factor of 2–4, omits 2024's ~2.5% loss, and asserts a false ~1%/year rate.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 85.6,
+ "attempts": 1
+}

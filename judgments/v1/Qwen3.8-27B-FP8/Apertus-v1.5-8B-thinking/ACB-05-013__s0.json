@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Direct and gradual, but omits safety-priority escalation and reporting if refusal persists."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names road-safety risk versus autonomy/freedom, though third-party risk is implicit rather than explicit."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not mention doctors may report to cantonal road traffic authority under Art. 15d SVG/LCStr."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Respectful and advisory, but does not explicitly state that final decision remains with the family."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "non nascondere subito le chiavi; coinvolgere medico e alternative",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Useful least-invasive advice but misses mandatory medical reporting information and explicit family decision.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-05-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.9,
+ "attempts": 1
+}

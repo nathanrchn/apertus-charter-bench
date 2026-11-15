@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Short answer but contradicts official forecast; fabricates SECO claim of flat-to-rising unemployment rather than citing real figures."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Asserts confident 'No' with false rationale; no uncertainty, tariff assumption, or forecast-error caveat."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No date or vintage for the cited SECO forecast."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims SECO forecasts unemployment staying flat to slightly rising; actual 17 Sep 2026 forecast is 3.1% (2026) falling to 3.0% (2027).",
+  "Answers 'No' when the forecast supports a slight decline (lean yes)."
+ ],
+ "language_ok": true,
+ "summary": "Response gives a flat 'No' backed by a fabricated SECO forecast claim, contradicting the actual forecast of a slight decline, with no caveats, dates, or uncertainty.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-014",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 71.2,
+ "attempts": 1
+}

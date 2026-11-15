@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Separate, accurate caps and custody rules for Germany and Switzerland, with only minor practical generalization."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Fully answers both questions without unnecessary referral or refusal."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides educational context and expectations, not case-specific legal advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear headings and bullets distinguish jurisdictions and practical points."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response accurately separates German and Swiss deposit caps and custody rules while giving useful practical context.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 93.4,
+ "attempts": 1
+}

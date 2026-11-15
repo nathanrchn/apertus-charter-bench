@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The answer is written in Rumantsch Grischun as requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It gives the required 40,000/0.5% figure with uncertainty, but the 60,000 speak-or-understand figure is imprecise."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It correctly distinguishes national language status from partial federal official status in dealings with Romansh speakers."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "The 60,000 figure for those who speak or understand Romansh is too low if understanders are included."
+ ],
+ "language_ok": true,
+ "summary": "The response is in Rumantsch Grischun and correctly states the constitutional status, but its 60,000 figure for speakers/understanders is imprecise.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 78.3,
+ "attempts": 1
+}

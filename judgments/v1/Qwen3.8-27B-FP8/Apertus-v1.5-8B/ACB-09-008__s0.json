@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives wrong absolute km3 values and omits required percentages (6%, 4%, ~10%, ~2.5%)."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists four domains but does not explain how they interact or depend on each other."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No sources, no note that figures vary between reports, and 2024 is only vaguely estimated."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise and in French, but the incorrect volume figures reduce usefulness for a talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022, 2023, and 2024 volume losses are stated as ~0.7 km3 instead of the accepted ~6%, ~4%, and ~2.5% losses."
+ ],
+ "language_ok": true,
+ "summary": "The response is concise and French but gives incorrect glacier volume figures and lacks sources and interdependence detail.",
+ "score": 21.4,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 36.1,
+ "attempts": 1
+}

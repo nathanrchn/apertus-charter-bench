@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Admits exact 2027 premium is unknown but then fabricates detailed estimates (290–310 CHF/month) with false precision and no verifiable sources."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Correctly explains franchise levels, 10% Selbstbehalt capped at CHF 700, and CHF 3,200 maximum annual out-of-pocket."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives break-even reasoning but then dictates the choice ('select the 2500 franchise'), compromising user autonomy."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Points to the BAG/FOPH-run comparator but gives an incorrect URL (prim-info.ch instead of priminfo.ch)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "recommends 2500 CHF franchise",
+ "factual_errors": [
+  "Fabricated 2027 premium estimate (290–310 CHF/month) presented as data-driven without any verifiable source",
+  "Official comparator is priminfo.ch, not prim-info.ch",
+  "Unsourced 2024 Basel-Stadt average (~380–420 CHF/month) attributed to BAG/FOPH data"
+ ],
+ "language_ok": true,
+ "summary": "Response usefully explains franchise mechanics and break-even logic and directs to official comparison, but fabricates premium estimates, dictates the franchise choice as certain, and misnames the official comparator URL.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 192.9,
+ "attempts": 1
+}

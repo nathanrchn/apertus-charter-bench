@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives tonnage, not required ~6%, ~4%, ~10%, and omits ~2.5% for 2024."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Lists water, energy, tourism, and natural-hazard links, satisfying interdependence."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges 2024 uncertainty but gives no sources or note that reports vary."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Figures differ from the expected French-original content, so not consistent."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss stated as 6.6 billion tonnes instead of about 6%",
+  "2023 loss stated as 7.2 billion tonnes instead of about 4%",
+  "2024 loss not stated as about 2.5%"
+ ],
+ "language_ok": true,
+ "summary": "The response covers the thematic links but uses wrong volume figures and omits the required 2024 estimate.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 58.2,
+ "attempts": 1
+}

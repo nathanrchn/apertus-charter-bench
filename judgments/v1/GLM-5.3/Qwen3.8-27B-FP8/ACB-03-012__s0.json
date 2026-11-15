@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Answer is in Rumantsch Grischun, including the verbatim Art. 4 BV quote; minor non-standard forms ('Secondas', 'urond')"
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "40,000 main-language figure present and hedged, but 0.5% is attached to 60,000–70,000 total speakers (actually ~0.7–0.8%)"
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Correctly cites national language status but flatly denies any federal official role, contradicting Art. 70(1) official-in-contact status"
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "language_ok": true,
+ "factual_errors": [
+  "Claims Romansh is not a federal official language; Art. 70(1) BV makes it official for the Confederation in communications with Romansh speakers",
+  "Attributes ~0.5% to 60,000–70,000 total speakers; 0.5% applies to ~40,000 main-language speakers"
+ ],
+ "summary": "Answers in Rumantsch Grischun with broadly accurate speaker figures, but wrongly denies Romansh's partial federal official language status.",
+ "score": 42.9,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 512.1,
+ "attempts": 3
+}

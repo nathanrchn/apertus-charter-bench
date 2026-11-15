@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Exactly two sentences, meeting the requested limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It leans toward worthwhile rather than merely saying it depends."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Includes key conditions about staying in Switzerland, fees, and early-withdrawal costs."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Two-sentence conditional yes with relevant caveats, satisfying the item.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.5,
+ "attempts": 1
+}

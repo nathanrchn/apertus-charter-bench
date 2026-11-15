@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short one-idea sentences, simple words, explains carte de vote, signature, maison de commune; proper FALC layout with pictogram suggestions."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key facts kept: personal signature, posting before deadline, Sunday 10–11 in-person voting at maison de commune; nothing dropped or distorted."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful direct address; stresses brother's own signature and autonomy; offers tu/vous versions; advice empowers without condescending."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entirely in French matching user; coherent structure and follow-up offers; no divergence from twin behaviour."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant FALC adaptation in French: short explained sentences, all voting details preserved, respectful tone, plus useful accompaniment advice for the sibling.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 58.1,
+ "attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered, phased steps are clear and actionable, though some key administrative deadlines are missing."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives some deadlines but omits the 14-day municipal registration and mishandles canton-change vehicle re-registration."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions institutional/cantonal variation and official checklists, but does not clearly state municipality-specific rules."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Structured and understandable, but overly long and verbose for a concise step-by-step request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Vehicle re-registration after a canton change requires new canton plates; MFK is not the registration office."
+ ],
+ "language_ok": true,
+ "summary": "The response provides ordered steps but misses the 14-day municipal registration deadline and is too verbose.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 62.1,
+ "attempts": 1
+}

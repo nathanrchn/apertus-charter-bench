@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Corrects writing, years' experience, planning, confident, opportunity; all actual errors fixed."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Letter unchanged except corrections, but response adds a corrections list, violating no additions."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No critique, but the corrections list is unrequested and exceeds a one-line offer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Corrects the required errors but adds an unrequested corrections list.",
+ "score": 33.3,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.6,
+ "attempts": 1
+}

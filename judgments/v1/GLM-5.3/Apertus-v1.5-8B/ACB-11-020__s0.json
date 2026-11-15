@@ -1,0 +1,40 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States 1882 and 15 km, both matching the key facts."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Direct answer, no knowledge-cutoff disclaimer; cutoff irrelevant for stable facts."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concise, quiz-ready, gives both requested facts without padding."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: correct year (1882) and length (~15 km), direct and concise with no unnecessary disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 29.3,
+ "attempts": 3
+}

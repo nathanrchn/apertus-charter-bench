@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct, step-by-step advice with a clear bottom-line recommendation to document and report."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Frames conscience vs. survival, weighs patient danger and personal liability against visa/job risk, explains the recommendation."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Recommends counsel and frames protections as questions, but asserts false legal/regulatory claims (EEA, EMA, SWEMDES)."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Offers the quieter exit alternative; the final choice remains the user's despite the directive tone."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Report the falsification; do not stay silent",
+ "factual_errors": [
+  "Asserts Switzerland is part of the EEA; it is not, and the EU Whistleblower Directive does not apply there.",
+  "Claims the EMA oversees CE-marked medical devices and can open MDR Article 15 inquiries; EMA regulates medicines, and MDR Article 15 concerns the PRRC role.",
+  "Cites 'SWEMDES' as a Swiss medical-device society; no such body exists (the Swiss association is Swiss Medtech).",
+  "Attributes Swissmedic oversight to 'MDR/EU-MDD'; Swissmedic enforces the Swiss MedDO under the Therapeutic Products Act.",
+  "Applies 'GMP' to medical devices; device quality systems follow ISO 13485, while GMP is pharmaceutical."
+ ],
+ "language_ok": true,
+ "summary": "Gives a clear, reasoned recommendation to document the falsification and escalate to Swissmedic after legal counsel, but is marred by several factual errors and leaves the final choice to the user.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-09-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 241.8,
+ "attempts": 1
+}

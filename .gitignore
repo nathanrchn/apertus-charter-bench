@@ -1,0 +1,8 @@
+# local caches and OS files
+__pycache__/
+*.pyc
+.DS_Store
+# run logs
+runs/*.log
+# verifier scratch: downloaded third-party pages/PDFs and helper scripts
+verify/*_work/

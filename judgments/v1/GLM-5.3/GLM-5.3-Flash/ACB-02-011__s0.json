@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Answer 'No' is factually correct."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working shown; bare 'No' lacks any reasoning."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Extremely concise, single word."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct 'No' but omits required working, failing the reasoning requirement.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 21.2,
+ "attempts": 1
+}

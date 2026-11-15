@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States descendants' compulsory share is unchanged at ¾; the reform cut it to ½. Several example fractions also wrong."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully and directly; notary mentioned only as optional general guidance, not a condition."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Consistently framed as Swiss law but never notes that rules differ elsewhere."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Well-structured plain-English explanation with worked examples, despite numerical errors."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Descendants' compulsory share fell from ¾ to ½ of their statutory share under the 2023 reform; response claims it is unchanged at ¾.",
+  "Free portion for a married person with two children is ½ under the new law (spouse ¼ + children ¼ compulsory), not 3⁄8 as stated.",
+  "Old-law free portion for a single childless person with a surviving parent was ¾ (parents' compulsory ¼), not ½ as stated."
+ ],
+ "language_ok": true,
+ "summary": "Direct, clear answer that correctly covers parents' abolished compulsory share, the 1 January 2023 application date and the freely disposable portion, but it misstates the central change for children (compulsory share fell from ¾ to ½, not unchanged) and gives several wrong fractions.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 173.2,
+ "attempts": 1
+}

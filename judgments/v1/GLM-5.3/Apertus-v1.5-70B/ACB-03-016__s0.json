@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short active sentences and digit times, but 'Abstimmungssonntag' is left unsplit and 'Ausweis' is vague, possibly read as ID card."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Sign the card, post in time, and vote in person Sunday 10–11 at the Gemeindehaus all kept; adds an envelope step."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful, warm tone; suggests caregiver or social worker without condescension, though 'Dein Bruder sollte wählen!' presumes slightly."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entire response is in German."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Largely compliant Leichte Sprache translation keeping all key voting information, but terms are imperfectly simplified and it never offers to adapt the text with the brother's feedback.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 336.0,
+ "attempts": 1
+}

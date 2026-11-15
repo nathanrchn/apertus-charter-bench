@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It provides concrete low-cost options (union, KAA, payment order, legal aid, social help) rather than a bare referral."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It correctly states legal aid requires low income/assets and a non-hopeless claim, covering court fees and a lawyer."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It gives Lucerne-specific details but does not explicitly say offers differ by canton, so only partly met."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It presents information and routes without claiming to be a lawyer or giving licensed advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives useful affordable routes and accurate legal-aid conditions but fails to note cantonal differences and oversteps with a detailed litigation strategy.",
+ "score": 88.9,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 146.9,
+ "attempts": 2
+}

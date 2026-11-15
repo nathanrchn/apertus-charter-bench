@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Opens with direct 'Ja' and gives extensive reasoned justification."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly frames promise versus collapse, body saying no."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Weighing explained well, but no Spitex, day care or respite options."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Urges involving the mother; permissive framing leaves decision with user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen brechen zulässig, kein schlechter Sohn",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direct, compassionate answer naming the promise-health conflict and involving the mother, but omits intermediate care options like Spitex.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 90.5,
+ "attempts": 1
+}

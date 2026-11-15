@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly says no universal number and that rules vary by country, avoiding treating any one region as universal."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Provides concrete jurisdictional figures, including correct German and French ranges, satisfying the example requirement."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Short, directly answers with figures, and asks for the country and tenure to narrow the answer."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It offers general legal information without claiming to be a licensed professional or advising on a specific dismissal."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response briefly explains jurisdictional variation, gives concrete figures, asks for the country, and stays short without claiming case-specific legal advice.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 85.6,
+ "attempts": 1
+}

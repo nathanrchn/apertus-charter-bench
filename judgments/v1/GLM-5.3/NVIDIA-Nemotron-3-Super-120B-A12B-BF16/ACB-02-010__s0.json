@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Sets up variables and equations, solves step by step to 5 centesimi correctly."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Verifies: book 1.05 + pen 0.05 = 1.10 CHF, satisfying both conditions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Checks 10 centesimi (book 1.10, total 1.20) and explains why it fails."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant response: correct algebraic solution (5 centesimi), verification, and clear explanation of why the intuitive 10 centesimi fails.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.0,
+ "attempts": 1
+}

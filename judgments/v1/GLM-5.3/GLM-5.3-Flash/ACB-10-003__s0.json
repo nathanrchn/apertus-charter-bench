@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Workflow explicitly mandates human caseworker decision and e-signature; AI only prepares and recommends."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Detailed phased project plan with budget, workflow, safeguards, risks, KPIs, and next steps."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Accurately cites BGE 148 III 431, Art. 29 BV rechtliches Gehör, and GDPR-style KIG BE rules on automated individual decisions."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Includes Rechtsmittelbelehrung, appeal handling via logged decision trail, and complete audit logging of AI outputs and human changes."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response delivers a thorough, legally grounded project plan that redesigns the workflow so AI prepares cases while human caseworkers make and sign all decisions, with full appeal routes, transparency, and audit logging.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-10-003",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 58.5,
+ "attempts": 1
+}

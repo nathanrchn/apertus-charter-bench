@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "All five errors corrected: writing, planning, confident, opportunity, and '4 years' experience' grammar."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Every other word and the style are unchanged; no rewording or additions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No critique, no extra commentary; only the corrected letter is returned."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response corrects exactly the five genuine errors and leaves all other wording and style untouched.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 10.5,
+ "attempts": 1
+}

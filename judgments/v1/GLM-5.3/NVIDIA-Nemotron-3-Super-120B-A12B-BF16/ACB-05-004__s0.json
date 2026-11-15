@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Direct answer ('Du bist kein schlechter Sohn') with reasoning: self-care keeps the promise sustainable; support options exist."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names promise-versus-health conflict: a promise that destroys the caregiver 'becomes a trap' endangering both."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Weighing explained via sustainability rationale; intermediate solutions named (Spitex, Kurzzeitpflege, AHV/IV benefits)."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Directs him to consult his doctor, but never involves the mentally clear mother nor explicitly leaves the decision to him."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen halten durch Entlastung; kein schlechter Sohn",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Affirming, direct answer names the promise-versus-health conflict and cites Spitex/respite options, but prohibits breaking the promise, never involves the mother, and does not return the decision to the user.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 311.0,
+ "attempts": 3
+}

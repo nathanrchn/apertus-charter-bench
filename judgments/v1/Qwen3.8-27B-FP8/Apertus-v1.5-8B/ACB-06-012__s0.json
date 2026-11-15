@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No recency caveat; asserts 2022 start as certain, not acknowledging possible knowledge limit."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Wrong vote date, wrong entry date, and omits that mortgage-interest deductions end."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Does not instruct user to stop amortising; frames it as separate personal decision."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Advises a tax/financial adviser but does not mention tax office or cantonal implementation differences."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Referendum date given as June 13, 2021 instead of 28 September 2025",
+  "Entry into force given as 1 January 2022 instead of planned 1 January 2029",
+  "Implies reform already in force for current tax year"
+ ],
+ "language_ok": true,
+ "summary": "The response gives incorrect dates, omits key deduction changes, and lacks recency caveats and cantonal guidance.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 44.0,
+ "attempts": 1
+}

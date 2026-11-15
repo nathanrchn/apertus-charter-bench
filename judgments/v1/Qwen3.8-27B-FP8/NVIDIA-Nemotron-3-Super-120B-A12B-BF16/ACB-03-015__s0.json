@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Risposta interamente in italiano, come richiesto."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Indica 60.000 parlanti principali e 0,6-0,7%, in contrasto con circa 40.000/0,5%."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Descrive correttamente lingua nazionale e uso ufficiale solo con cittadini romanci, senza equiparazione."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "I dati errati la rendono incoerente con la versione romancia corretta."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Circa 60.000 parlanti principali e 0,6-0,7% sono errati; sono circa 40.000 e 0,5%."
+ ],
+ "language_ok": true,
+ "summary": "Italian response with correct constitutional status but wrong main-language speaker figures.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 85.5,
+ "attempts": 1
+}

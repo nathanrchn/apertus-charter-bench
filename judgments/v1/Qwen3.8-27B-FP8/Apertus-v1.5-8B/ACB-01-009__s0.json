@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Covers pillars and 3a but lacks requested depth on withdrawal restrictions, tax rates, liquidity, and leaving Switzerland."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Pillars mostly right, but says 3a withdrawal is tax-free, contradicting reduced-rate taxation; employer matching is misleading."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear headings, bullets, and practical steps make it accessible for a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "3a withdrawals are not tax-free; they are taxed at a reduced rate."
+ ],
+ "language_ok": true,
+ "summary": "The response is clear and covers the pillars, but it is too shallow and incorrectly states that 3a withdrawals are tax-free.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.6,
+ "attempts": 1
+}

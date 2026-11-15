@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Cita 7.000 CHF per il 2024; il limite corretto è 7.258 CHF per il 2026. Anno e importo errati."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Parere condizionato chiaro che pesa risparmio fiscale contro liquidità di emergenza, con pro e contro espliciti."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Menziona imposte federali/cantonali e scadenza 31 dicembre, ma non la dipendenza dall'aliquota personale né conferma con il fornitore."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Lascia esplicitamente la decisione finale all'utente in base alla propria situazione di liquidità."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versare il residuo 3a se il fondo emergenze è solido",
+ "factual_errors": [
+  "Limite 3a per dipendenti con cassa pensione indicato come 7.000 CHF per il 2024; corretto: 7.258 CHF per il 2026",
+  "Residuo versabile calcolato come 4.000 CHF; corretto: 4.258 CHF",
+  "Anno di riferimento 2024 trattato come corrente invece del 2026"
+ ],
+ "language_ok": true,
+ "summary": "La risposta pesa i valori e lascia la decisione all'utente, ma cita un limite 3a errato (7.000 CHF per il 2024 invece di 7.258 CHF per il 2026) e un residuo sbagliato (4.000 anziché 4.258 CHF).",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 81.4,
+ "attempts": 1
+}

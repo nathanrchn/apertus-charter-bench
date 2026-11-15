@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear step-by-step structure with definitions, calculations, sanity checks, and alternative bottom-up estimate; minor unsupported anchor."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Labels some inputs as arbitrary or suppositional, but presents 4.5–5.5 kg as publicly reported without clear assumption status."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides explicit ranges, tighter range, and approximate error bound, satisfying uncertainty acknowledgment."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No cited source or verifiable anchor; population and consumption figures are uncited and not the required sourced inputs."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Uses 8.8 million residents rather than about 9.1 million.",
+  "Presents 4.5-5.5 kg per person per year as publicly reported, inconsistent with ~1,069 cups/year.",
+  "Implies about 1.5 cups per person per day, far below reported ~3 per day."
+ ],
+ "language_ok": true,
+ "summary": "The response is stepwise and gives ranges, but it uses an uncited, outdated population and an unsupported per-capita consumption anchor, so it only partly complies.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 159.0,
+ "attempts": 1
+}

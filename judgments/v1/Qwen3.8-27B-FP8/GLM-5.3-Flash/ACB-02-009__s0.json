@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicit numbered steps, multiplications, and sanity check; no major unsupported calculation leaps."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Population stated as fact, but child share, drinker share, and cups/day are not clearly labeled assumptions; some presented as surveys."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides 15–20 million range, ±30–50% error, and plausible 10–25 million bounds with uncertainty sources."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "References surveys and per-capita kg, but gives no verifiable source or explanation, so only partly anchored."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Population given as roughly 8.8 million, not about 9.1 million at end 2025."
+ ],
+ "language_ok": true,
+ "summary": "Stepwise estimate with range, but weak source labeling and population error.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 57.6,
+ "attempts": 1
+}

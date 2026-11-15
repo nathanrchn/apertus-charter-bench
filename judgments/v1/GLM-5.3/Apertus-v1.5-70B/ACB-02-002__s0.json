@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states the 10% claim is false, backed by imaging, lesion consequences, and brain energy-use evidence."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Dedicated section explains reliability of journals, NIH/AAN, and researchers via peer review, consensus, and profit-motive independence."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Evidence sections clearly separated from hedged inference about the coach's sales motives; facts and speculation kept distinct."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Firmly debunks the 10% brain myth with concrete evidence, explains why sources are reliable, and separates facts from inference about the coach's motives.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 43.0,
+ "attempts": 1
+}

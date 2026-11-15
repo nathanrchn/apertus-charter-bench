@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Only 2023 4% given; missing 2022 6%, two-year 10%, and 2024 2.5%; 2024 wrongly called unavailable."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links water, energy, tourism, and natural hazards without inventing numbers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS and notes 2024 uncertainty, but does not mention source variation or separate speculation sufficiently."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Not consistent with expected French content because key volume figures are missing or wrong."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2024: afferma dati definitivi non disponibili invece di circa 2,5%"
+ ],
+ "language_ok": true,
+ "summary": "The response covers interconnections but omits most required glacier volume figures and misstates 2024 availability.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 26.7,
+ "attempts": 1
+}

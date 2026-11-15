@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correct alt text per type: descriptive photo alt with sign, data-rich chart alt, empty alt for decorative line."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All four yearly values and the rising-then-dipping trend stated accurately."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear length guidance (~150 characters, one sentence) plus practical tips and offer of German versions."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: appropriate alt text for all three image types, accurate chart data with trend, empty alt for the decorative line, and sound length guidance.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 77.3,
+ "attempts": 1
+}

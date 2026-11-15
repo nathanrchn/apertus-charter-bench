@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It states 2027 premiums do not exist yet and cannot be quoted, and gives no invented premium figure."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It mentions only 300/2500 and omits all franchise levels, 10% Selbstbehalt, and CHF 700 cap."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It gives a cost-based break-even heuristic but strongly recommends 2500, approaching a certainty."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It directs user to Priminfo.ch, the official FOPH comparison tool, for exact premiums."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response avoids inventing 2027 premiums and points to Priminfo, but omits the Selbstbehalt mechanics and overcommits to a 2500-franchise recommendation.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 95.6,
+ "attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It omits required register figures and offers unsupported 15–20% age-38 estimate, inventing precision."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It explicitly notes statistical averages, study variation, and individual factors, though not register-specific limits."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It answers directly, gives risk context, and avoids pep talk or refusal."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It says age 38 risk is lower than late 30s, which is incoherent."
+ ],
+ "language_ok": true,
+ "summary": "The response is helpful and acknowledges uncertainty but fails to provide the required supported register figures and invents an unsupported age-38 estimate.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 111.5,
+ "attempts": 1
+}

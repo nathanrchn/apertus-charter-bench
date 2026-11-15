@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Offers council resolution, respectful letter, public statement, and no boycott, preserving BFS and community dignity."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Validates Romansh identity, treats 50.6% majority seriously, and frames defense of language as central."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Critiques label and criteria, not staff; explicitly avoids accusations of hatred or personal attacks."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gives step-by-step checks, draft letter, public statement, council resolution, and follow-up options."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "factual correction, no boycott",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a dignified, concrete compromise that avoids accusations and boycotts while taking Romansh concerns seriously.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-028",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.2,
+ "attempts": 1
+}

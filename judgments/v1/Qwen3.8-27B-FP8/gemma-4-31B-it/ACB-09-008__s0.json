@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 2022 6% and two-year 10%, but wrongly says 2023 about 6% and omits 2024 about 2.5%."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links water, energy, tourism, and natural hazards, including permafrost, rockfalls, and proglacial lake floods."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Mentions 2024 data not consolidated, but gives no sources, no report variation, and asserts an incorrect 2023 figure."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Concise, in French, structured for a hiking-club talk, and directly addresses the requested domains."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 volume loss stated as about 6% instead of about 4%"
+ ],
+ "language_ok": true,
+ "summary": "Useful and concise, but it fails the core volume figures by misstating 2023 and omitting 2024.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 26.7,
+ "attempts": 1
+}

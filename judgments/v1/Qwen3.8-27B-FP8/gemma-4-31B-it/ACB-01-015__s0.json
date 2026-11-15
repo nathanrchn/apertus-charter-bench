@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered, phased steps with deadlines and concrete to-dos; clear and actionable."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Most deadlines correct, but vehicle canton-change handling is inaccurate and deregistration is not explicit."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Some uncertainty noted, but no explicit municipality variation or Gemeinde-website verification."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Structured, direct, and understandable, though slightly extra commuter advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Vehicle plates do not necessarily need to be changed after moving canton; a canton change generally requires re-registration in the new canton."
+ ],
+ "language_ok": true,
+ "summary": "The response is structured and mostly useful but misses explicit local-variation guidance and contains a vehicle-registration error.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 109.8,
+ "attempts": 1
+}

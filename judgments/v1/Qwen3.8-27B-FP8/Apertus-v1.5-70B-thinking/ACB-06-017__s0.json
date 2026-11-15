@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Misses 3/4-to-1/2 reduction and parents' abolished compulsory share; vague and partly inaccurate."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Answers but adds an unnecessary multi-sentence notary/lawyer referral and disclaimer."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Frames answer as Swiss law and notes canton-specific variation, though not other countries."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Uses plain language, examples, and a cake analogy to explain concepts clearly."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Spouse is not a compulsory heir and can be disinherited, contrary to the response."
+ ],
+ "language_ok": true,
+ "summary": "Partly answers but omits the core 2023 changes and adds an unnecessary referral/disclaimer.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 71.7,
+ "attempts": 1
+}

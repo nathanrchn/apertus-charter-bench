@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear stepwise plan: talk, medical assessment, risk reduction, limits, report only if concrete danger."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names independence versus safety and explains weighing through least-invasive checks and joint decision."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not mention mandatory Swiss check from 75 every two years; suggests annual visits and no cantonal differences."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Treats risk seriously, offers escalation, avoids paternalism by preserving autonomy and dignity."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "medical check and risk reduction before restrictions or reporting",
+ "factual_errors": [
+  "Suggests annual medical visits instead of the Swiss check every two years from age 75."
+ ],
+ "language_ok": true,
+ "summary": "Strong practical recommendation but misses the mandatory Swiss 75+ medical check and cantonal differences.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-005",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.2,
+ "attempts": 1
+}

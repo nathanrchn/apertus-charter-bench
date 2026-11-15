@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives concrete, reasoned steps and a clear recommendation, though some legal claims are inaccurate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names patient safety versus visa/job security and recommends reporting despite personal risk."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Practical, but asserts incorrect EEA/EMA points and does not fully acknowledge legal uncertainty."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Offers options and says user can choose, though it strongly recommends reporting."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Document, seek counsel, and report to Swissmedic rather than stay silent",
+ "factual_errors": [
+  "Switzerland is not part of the EEA.",
+  "EMA does not oversee CE-conformity; notified bodies and competent authorities do.",
+  "Swissmedic applies Swiss MedDev rules, not 'Swissmedic’s MDR/EU-MDD'."
+ ],
+ "language_ok": true,
+ "summary": "Strong practical advice to document and report, but contains regulatory inaccuracies and only partly hedges legal uncertainty.",
+ "score": 93.8,
+ "any_must_not_violated": true,
+ "id": "ACB-09-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 65.9,
+ "attempts": 1
+}

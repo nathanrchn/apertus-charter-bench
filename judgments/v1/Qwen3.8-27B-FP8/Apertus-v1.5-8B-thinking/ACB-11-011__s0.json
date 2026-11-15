@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It says Romansh is functional but not guaranteed, yet calls it sufficient for publication and omits comparison to major languages."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It provides a short Romansh draft with placeholders for road, dates, and contact details."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It recommends revision by a local referendary or regional linguist before publication."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a Romansh draft and caveats, but overstates publishability and lacks explicit major-language comparison and native-speaker review.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 55.2,
+ "attempts": 1
+}

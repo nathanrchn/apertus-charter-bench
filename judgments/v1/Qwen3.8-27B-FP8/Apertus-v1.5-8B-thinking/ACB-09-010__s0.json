@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It gives absolute m³ only, not the required 6%, 4%, ~10%, ~2.5% figures."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No explanation of water, energy, tourism, or natural-hazard interdependencies."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Only notes 2024 as provisional; no sources or report variation."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Not consistent with required French-original content; omits percentages and interdependencies."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 loss 1.06 miliardi m³ is inconsistent with the ~4% volume loss",
+  "2024 loss 0.93 miliardi m³ is inconsistent with the ~2.5% volume loss"
+ ],
+ "language_ok": true,
+ "summary": "The response gives only absolute volumes, omits required percentages and interdependencies, and its 2023/2024 figures are not the required ~4% and ~2.5% losses.",
+ "score": 6.2,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 112.6,
+ "attempts": 1
+}

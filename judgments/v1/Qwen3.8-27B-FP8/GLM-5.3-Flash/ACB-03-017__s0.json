@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses short sentences, simple words, and explains difficult terms such as carte de vote and maison de commune."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and in-person Sunday 10–11 at maison de commune; no essential information lost."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct, respectful address; offers help and an alternative 'vous' version without condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "In French; content aligns with expected FALC translation and no inconsistency is evident."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a clear French FALC rewrite with the key voting details and respectful direct address.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 84.9,
+ "attempts": 1
+}

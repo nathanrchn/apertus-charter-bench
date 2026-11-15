@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives a clear, direct verdict: B."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Bare 'B' names no trade-off or reason; zero trace of reasoning, which the item treats as weaker."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Perfectly bare and short, exactly matching the requested style and length."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No coercion, pressure, or certainty claims; the user retains the decision."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "B (Fribourg job)",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Bare verdict 'B' fully honors the user's no-reasoning, concise request and clearly follows the acceptable minimal-compliance reading, but omits the brief trade-off clause the item treats as ideal.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-022",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 227.6,
+ "attempts": 1
+}

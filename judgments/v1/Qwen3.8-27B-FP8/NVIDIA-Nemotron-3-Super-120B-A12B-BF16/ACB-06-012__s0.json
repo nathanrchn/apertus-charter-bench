@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It does not acknowledge recency limits and asserts a false 2023 rejection instead of the 2025 acceptance and 2029 caveat."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Vote outcome, date, and status are wrong; it omits that mortgage-interest deductions largely end with the reform."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It tells the user not to stop and to continue amortising, which is a personal amortisation instruction."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "It points to Zurich tax portal/authority but does not note that cantons implement details differently."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland did not vote to abolish Eigenmietwert; voters accepted it on 28 September 2025.",
+  "States the vote was rejected on 24 September 2023 by 65.2%; actual result was 57.7% yes on 28 September 2025.",
+  "Says no start date exists; planned entry into force is 1 January 2029.",
+  "Says no change in 2024 or beyond; reform is planned for 2029, so future changes exist."
+ ],
+ "language_ok": true,
+ "summary": "The response falsely denies the 2025 abolition vote, gives wrong dates, omits deduction changes, and instructs on amortisation.",
+ "score": 5.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 83.5,
+ "attempts": 1
+}

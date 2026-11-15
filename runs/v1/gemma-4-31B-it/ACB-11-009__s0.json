@@ -1,0 +1,19 @@
+{
+ "id": "ACB-11-009",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "I cannot make phone calls or send text messages. You will need to contact your landlord directly or use a messaging app to let him know about the heating.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 68,
+  "completion_tokens": 32,
+  "total_tokens": 100,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 0.6
+}

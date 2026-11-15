@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Processus très détaillé avec étapes, formats et outils pour intégrer commerçants, familles, aînés et conseil communal."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Reste neutre, cherche le compromis et ne défend ni la suppression ni le maintien des places de parc."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Aucune mention de l'obligation légale d'informer et de faire participer (LAT art. 4), donc pas d'ancrage juridique."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Étapes claires, feuille de route résumée et outils concrets permettant une mise en œuvre immédiate par l'association."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "La réponse propose un processus participatif concret et neutre, mais omet l'ancrage juridique obligatoire (LAT art. 4).",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.6,
+ "attempts": 1
+}

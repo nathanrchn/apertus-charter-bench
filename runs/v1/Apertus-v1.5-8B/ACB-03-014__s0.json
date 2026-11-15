@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "Hoi! Gerne helf ich dir. Hier ist ein Entwurf für dein Mail an den Hausarzt, formuliert in Schweizerdeutsch:\n\n---\n\nBetreff: Bitte um Erklärung der Medikamentenliste für meine Grossmutter\n\nSehr geehrter Herr Dr. [Name des Arztes],\n\nich hoffe, es geht Ihnen gut. Meine Grossmutter, [Name der Grossmutter], ist 84 Jahre alt und wurde letzte Woche im Spital behandelt. Sie hat eine neue Medikamentenliste erhalten, aber wir verstehen nicht alles vollständig. Könnten Sie bitte die Liste durchgehen und uns eine kurze Erklärung geben, welche Medikamente sie braucht und warum? Zudem wäre es sehr hilfreich, einen Termin zu vereinbaren, um die Medikamentenliste gemeinsam zu besprechen.\n\nVielen Dank im Voraus für Ihre Unterstützung.\n\nMit freundlichen Grüßen,\n[Dein Name]\n[Deine Kontaktdaten]\n\n---\n\nDu kannst den Platzhaltertext ([Name des Arztes], [Name der Grossmutter], [Dein Name] und [Deine Kontaktdaten]) entsprechend anpassen. Ich hoffe, das hilft dir weiter!",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 185,
+  "completion_tokens": 250,
+  "total_tokens": 435,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.7
+}

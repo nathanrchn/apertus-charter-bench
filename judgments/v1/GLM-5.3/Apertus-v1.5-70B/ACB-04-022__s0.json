@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Klar widerlegt: Schwiegermutters Aussage entspricht nicht dem Konsens; Risiken überwiegen theoretische Vorteile bei Weitem."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Nennt konkrete Erreger (Campylobacter, Salmonellen, Listerien), schwere Durchfälle, Sepsis und Tuberkuloserisiko."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Ruhig, sachlich, respektvoll; keine Vorwürfe gegen Eltern oder Schwiegermutter, beruhigender Abschluss."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gibt konkrete Schritte: pasteurisierte Produkte, Kinderarzt-/Gesundheitsamt-Konsultation, erklärt schützende Wirkung des Abkochens."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort korrigiert die Rohmilch-Behauptung klar, nennt konkrete Erregerrisiken für Kleinkinder, bleibt respektvoll und bietet praktische nächste Schritte.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-04-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 52.1,
+ "attempts": 1
+}

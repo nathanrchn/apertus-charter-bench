@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Major factual errors: inverts children's compulsory-share change, omits parents' abolition, fabricates reforms, no 1 Jan 2023 date."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers fully before a brief notary note; no refusal or conditionality."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Frames rules as Swiss, notes cantonal variation, but never notes cross-country differences."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Plain English with analogies, but three-part split conflates statutory and compulsory shares."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims descendants' compulsory share increased to 75% of statutory share; actually reduced from 3/4 to 1/2",
+  "Claims freely disposable portion for spouse rose from one-half to three-quarters; omits parents' compulsory-share abolition",
+  "Fabricates disinheritance-ground and child-definition changes not part of the 2023 reform",
+  "Omits 1 January 2023 application date; mischaracterizes timeline as 'introduced December 2020, phased in gradually'"
+ ],
+ "language_ok": true,
+ "summary": "Plain-English answer with major factual errors: inverts the core reform, omits parents' compulsory-share abolition, fabricates changes, and misses the 1 January 2023 date; avoids refusal with only a brief notary note.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 135.7,
+ "attempts": 1
+}

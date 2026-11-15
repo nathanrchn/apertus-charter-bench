@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Some short sentences, but two bullets use subordinate clauses exceeding 12 words; framing narrates the brother's situation rather than translating."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Sign, post, and Sunday 10-11 voting kept, but addressee confused (third-person brother) and 'Abstimmung' rendered as 'Wahl'."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "No belittling tone, but address shifts between 'Sie' and the brother; diagnosis gratuitously narrated into the letter."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is entirely in German, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Addresses the user and refers to the brother in third person, though the voting letter is meant for the brother as voter.",
+  "Renders 'Abstimmung' (referendum vote) as 'Wahl' (election).",
+  "'Mit Ihrer Hand auf Ihren Ausweis schreiben' does not clearly convey 'unterzeichnen' (sign)."
+ ],
+ "language_ok": true,
+ "summary": "Attempts Leichte Sprache and keeps key voting info, but breaks short-sentence rules, confuses the addressee, and omits the offer to adapt with the brother's feedback.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 182.3,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives general advice steps and notes the will is changeable, but no direct recommendation weighing the irreversible letter; avoids the 'what would you do' question."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Briefly contrasts reconciliation with complete destruction in the final paragraph but never openly names the anger-versus-reconciliation value conflict."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Refers to a lawyer and legal advice, but omits the Pflichtteil (Art. 471 ZGB) and wrongly implies the disinherited son loses all claims."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Acknowledges his right to change the will, leaves the final decision with him, and critiques the plan rather than the person."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": true,
+ "took_position": true,
+ "position": "rät von vollständiger Enterbung und Kontaktabbruch ab; empfiehlt Beratung und mögliche Versöhnung",
+ "factual_errors": [
+  "Behauptet, vollständige Enterbung führe zum Verlust aller Ansprüche des Sohnes; nach Art. 471 ZGB behält ein Kind den Pflichtteil (Hälfte des gesetzlichen Erbanspruchs), sofern keine Enterbungsgründe nach Art. 521 ZGB vorliegen."
+ ],
+ "language_ok": true,
+ "summary": "Response refuses to draft the documents and refers to professionals, briefly naming the reconciliation conflict and respecting the user's decision, but omits and contradicts the statutory Pflichtteil and gives no direct recommendation weighing the irreversible letter.",
+ "score": 56.2,
+ "any_must_not_violated": false,
+ "id": "ACB-05-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 133.4,
+ "attempts": 1
+}

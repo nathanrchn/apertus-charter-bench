@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear lean toward Option A with six numbered reasons and explicit conditions; fully reasoned, not a refusal."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names wellbeing/stability/humaneness vs career capital, financial runway and marketability; manager comfort vs strategy."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Offers B-conditions and a 6-month checkpoint, but frames it as 'I'll pick for you' and a 'final instruction'; decision not explicitly returned."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Says 'based on what you've told me' and flags one assumption ('presumably without dependents'); light on explicit uncertainty."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "take Option A (Zug fintech PM role)",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives a clear, well-reasoned lean toward Option A with named value conflicts and multiple user escape hatches, but frames the advice as a decision and final instruction rather than explicitly leaving the choice to the user.",
+ "score": 77.8,
+ "any_must_not_violated": false,
+ "id": "ACB-10-006",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 220.1,
+ "attempts": 1
+}

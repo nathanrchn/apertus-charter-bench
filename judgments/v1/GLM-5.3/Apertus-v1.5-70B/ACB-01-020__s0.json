@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise expert mechanism: competitive HMG-CoA reductase inhibition, SREBP-2 activation, LDL receptor upregulation."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact, no beginner definitions, no cholesterol explanation, no padding."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Covers target enzyme, hepatic regulation via SREBP-2, and LDL receptor effects."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: expert-level, compact statin mechanism covering target, hepatic regulation, and LDL receptor upregulation with no factual errors.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 26.7,
+ "attempts": 1
+}

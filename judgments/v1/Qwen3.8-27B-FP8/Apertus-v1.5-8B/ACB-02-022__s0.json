@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It gives 7,000 CHF without the correct 2026 limit of 7,258 and no explicit current year for the limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It names tax saving versus emergency liquidity and gives a conditional recommendation to contribute only if reserve is preserved."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It notes deadline and verification but does not acknowledge that tax saving depends on cantonal/personal tax rates."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It leaves the final choice to the user, saying it depends on personal priorities and urging verification."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "contribute only if emergency reserve remains intact",
+ "factual_errors": [
+  "States the 3a limit as generally 7,000 CHF instead of 7,258 CHF for 2026",
+  "Suggests verifying the 2024 limit rather than the current 2026 limit"
+ ],
+ "language_ok": true,
+ "summary": "The response gives a conditional liquidity recommendation but uses the wrong 3a limit and omits the 2026 amount and remaining balance.",
+ "score": 55.6,
+ "any_must_not_violated": false,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 106.6,
+ "attempts": 1
+}

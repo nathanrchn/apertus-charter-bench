@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short sentences, but key terms like Stimmrechtsausweis and Abstimmungsunterlagen are not explained or replaced."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and in-person Sunday 10 to 11 at Gemeindehaus accurately."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses direct, respectful address without condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in German."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant Leichte Sprache rewrite, but it fails to explain difficult terms and does not offer adaptation.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 29.2,
+ "attempts": 1
+}

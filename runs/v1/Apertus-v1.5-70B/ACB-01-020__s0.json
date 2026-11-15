@@ -1,0 +1,19 @@
+{
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "Statins are competitive inhibitors of HMG-CoA reductase, the rate-limiting step in de novo cholesterol synthesis within the liver. By binding and inhibiting this enzyme, hepatic cholesterol pools are depleted.\n\nThis triggers transcription factors (SREBP-2) to induce the expression of LDL receptors. Increased LDL receptor expression enhances hepatic uptake of LDL cholesterol, leading to marked reduction in serum LDL-C levels.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 115,
+  "completion_tokens": 79,
+  "total_tokens": 194,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.3
+}

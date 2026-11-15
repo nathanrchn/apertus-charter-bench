@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Offers concrete contacts beyond 'see a lawyer' but falsely claims they provide free legal defense."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No legal aid conditions explained; falsely claims social services offer free defense and state covers collection fees."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No cantonal variation noted; invents free legal aid offering by Lucerne cantonal social service."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Refers user to organizations; does not pose as a lawyer or give licensed advice itself."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Social offices and Lucerne's cantonal social service do not provide free legal aid for defense; they offer social assistance, not legal representation.",
+  "Debt-collection (poursuite) fees are advanced by the creditor; the state does not 'often cover' initial costs."
+ ],
+ "language_ok": true,
+ "summary": "Non-compliant: fabricates free legal aid from social services, misstates state coverage of collection fees, and omits legal aid conditions and cantonal variation.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 276.7,
+ "attempts": 2
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses short sentences but includes legal terms like créancier, saisie, validité, not fully A2-simple."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not state the ten-day objection deadline, only says act quickly."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives basic steps and referral to a professional, but no free help and no oral/written objection details."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is helpful and in French but misses the key ten-day deadline and uses some complex legal vocabulary.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.7,
+ "attempts": 1
+}

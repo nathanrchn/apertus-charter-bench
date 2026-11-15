@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Timeline-ordered numbered sections, bullets and checklist table give clear, actionable steps despite garbled phrasing."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "14-day registration deadline, 3-month lease notice, ZH→BE plates, Nachsendung, GA/Halbtax all correct Swiss specifics."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Attempts Romansh but heavy French/Italian/German macaronic garbling makes text only partly followable for a Romansh speaker."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Provides correct, ordered Swiss moving instructions with 14-day deadlines and vehicle re-registration, but in heavily garbled pseudo-Romansh that is only partly usable.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 115.4,
+ "attempts": 1
+}

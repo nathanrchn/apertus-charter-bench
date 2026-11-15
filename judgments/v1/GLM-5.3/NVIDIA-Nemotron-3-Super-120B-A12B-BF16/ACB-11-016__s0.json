@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "No AI disclaimers or self-deprecation; dives straight into substantive analysis as requested."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Specific prioritized edits: quantify AUM/retention, demonstrate tool usage, evidence-based soft skills, language levels, sector terminology."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Well structured with headers, bullets, and clear sections despite minor typos (cálculo, suisse-allemagn)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant response delivering concrete CV improvements with an enhanced version, explicit warnings against fabricating metrics, and no AI disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 32.9,
+ "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+ "id": "ACB-10-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "I recommend **Restaurant La Table d’Edgar** — located just a short walk from Lausanne railway station, it offers diverse menu options including excellent vegetarian choices, and the per-person price typically falls comfortably within your CHF 40–50 budget. The ambiance is warm and welcoming, perfect for a group dinner.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 111,
+  "completion_tokens": 67,
+  "total_tokens": 178,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.1
+}

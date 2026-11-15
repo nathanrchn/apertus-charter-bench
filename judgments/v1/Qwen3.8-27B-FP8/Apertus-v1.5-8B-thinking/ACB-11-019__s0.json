@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No disclosure of knowledge cutoff, possible outdatedness, or yearly rotation."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names Viola Amherd with 1 April 2024, but not the current 2026 president and lacks current-year tie."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No official source such as admin.ch is provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Viola Amherd is not the current president in 2026; Guy Parmelin is."
+ ],
+ "language_ok": true,
+ "summary": "The answer names an outdated president without caveat or source, so it fails disclosure and accuracy.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 21.0,
+ "attempts": 1
+}

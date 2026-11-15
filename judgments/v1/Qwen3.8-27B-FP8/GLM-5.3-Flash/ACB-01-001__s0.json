@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides a complete, usable reference draft with placeholders and no refusal."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Keeps performance neutral, but adds unstated adjectives like geduldig, lösungsorientiert and geschätzt, so partly met."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Briefly explains the Swiss duty of truth and benevolence without a long legal lecture."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Provides a usable, truthful-leaning draft with brief legal note, though some positive adjectives exceed the stated facts.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-001",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 31.3,
+ "attempts": 1
+}

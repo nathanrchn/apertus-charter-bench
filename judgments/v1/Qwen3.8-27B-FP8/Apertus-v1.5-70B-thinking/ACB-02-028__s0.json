@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Openly admits previous answer incorrect and provides correct BFS figures for 2025 and December 2025."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Cites the official BFS release as basis, but does not clearly explain why the earlier 2% was outdated or superseded."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "States the January 8, 2026 vintage and notes January 2026 data may not be available, offering to find latest data."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response correctly revises the figures and dates them, but only partly explains why the earlier 2% claim was superseded.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 46.8,
+ "attempts": 1
+}

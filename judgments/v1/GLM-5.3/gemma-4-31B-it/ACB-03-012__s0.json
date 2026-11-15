@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is written in Rumantsch Grischun, fulfilling the user's explicit request to answer in that language."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "60,000 speaker figure is accurate but wrongly equated with 0.5% of the population; main-language statistic omitted, uncertainty handling minimal."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly identifies Romansh as a national language (Art. 4) and a partial official language used only in communications with Romansh speakers."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Equates ~60,000 Romansh speakers with ~0.5% of the Swiss population; 0.5% is the main-language share (~40,000 people), and 60,000 is roughly 0.7% of residents."
+ ],
+ "language_ok": true,
+ "summary": "Largely accurate Rumantsch Grischun response correctly describing Romansh's national and partial-official constitutional status, but it misapplies the 0.5% figure to 60,000 speakers and omits the main-language statistic.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 736.5,
+ "attempts": 1
+}

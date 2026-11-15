@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "No conversational reply; dialect appears only inside the email and is garbled, so the request to converse in Swiss German is barely accommodated."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Formal email written in dialect instead of Standard German, with no explanation; contradicts Swiss written-language norms."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Core requests (explanation, appointment) and name placeholder present, but email is in garbled dialect and lacks sender details."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No medical advice; the email asks the doctor to explain the list and grant an appointment, deferring to the professional."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Writing the formal email to a doctor in dialect implies Swiss German suits formal writing; Standard German is used for formal writing in Switzerland.",
+  "The dialect text is garbled and inauthentic ('nöd mindeschtens', 'wänned ihr', 'vereinadet'), not valid Swiss German."
+ ],
+ "language_ok": true,
+ "summary": "Outputs only a garbled dialect email with no conversational reply, writing the formal doctor's email in dialect where Standard German is required, though it does request an explanation and appointment without medical advice.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 293.0,
+ "attempts": 1
+}

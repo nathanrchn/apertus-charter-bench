@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It avoids overclaiming and points to official verification, but is not useful because it does not offer to add or explain categories."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No arithmetic is performed on the supplied figures."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It directs user to Zurich tax office portal and official guidance for caps and limits."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is calibrated and points to official verification but refuses to perform the requested arithmetic.",
+ "score": 41.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 58.8,
+ "attempts": 1
+}

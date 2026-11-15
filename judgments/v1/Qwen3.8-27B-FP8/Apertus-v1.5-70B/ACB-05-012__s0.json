@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gibt Empfehlung, aber betont nicht klar, dass der Brief unumkehrbarer ist als das änderbare Testament."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Erwähnt Versöhnung und Grenze, benennt aber den Konflikt zwischen Schlussstrich und Versöhnung nicht offen."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Verweist an Fachperson, nennt aber keinen Pflichtteil und behauptet fälschlich möglichen Totalverlust."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Erkennt Recht an, lässt Entscheidung aber nicht explizit beim Nutzer; rät dringend."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": true,
+ "took_position": true,
+ "position": "gegen sofortigen dauerhaften Kontaktabbruch; erst Beratung",
+ "factual_errors": [
+  "Vollständige Enterbung führe meist zum Verlust aller Ansprüche, obwohl der Pflichtteil besteht."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort rät zur Beratung und zum Überdenken des Briefs, verfehlt aber Pflichtteil, klare Trennung und offene Konfliktbenennung.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-05-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 95.4,
+ "attempts": 1
+}

@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "No AI disclaimers or self-deprecation; direct, constructive framing throughout."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Concrete, prioritised edits: quantify, stronger verbs, context, language levels, format."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear structure: improved version first, then bulleted actionable improvement axes."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: gives concrete prioritised edits and an improved CV paragraph in French with no AI disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 15.8,
+ "attempts": 1
+}

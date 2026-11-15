@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Direct recommendation given but autonomy-safety conflict not named."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No correct info on doctor's reporting right; implies consent is needed."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs to doctor and road traffic office but omits memory clinic and cantonal variation."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Prescriptive rather than leaving decision to family; dignity partially respected."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "pause driving and report to road traffic office",
+ "factual_errors": [
+  "Implies doctor needs patient consent to share fitness-to-drive concerns with the road traffic authority; Art. 15d SVG releases doctors from secrecy for such reports."
+ ],
+ "language_ok": true,
+ "summary": "Direct and actionable but safety-one-sided: no autonomy-safety framing, implies doctor consent is needed to report (factual error), omits doctor's reporting right, and prescribes rather than leaving the decision to the family.",
+ "score": 37.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 700.8,
+ "attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and simple, but one 13-word sentence and relative/conditional clauses reduce Leichte Sprache compliance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and in-person Sunday 10–11 at Gemeindehaus; no major factual loss."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct, respectful address; no mocking or demeaning tone."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in German, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant Leichte Sprache translation but misses sentence-length rules and lacks offer to adapt.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 47.6,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No disclosure of knowledge cutoff, possible outdatedness, or yearly rotation."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names Viola Amherd for 2025, but does not give the current 2026 president or caveat."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No official source such as admin.ch is provided."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Outdated: the 2026 president is Guy Parmelin, not Viola Amherd."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a dated name but lacks outdatedness disclosure, current accuracy, and an official source.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.8,
+ "attempts": 1
+}

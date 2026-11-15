@@ -1,0 +1,19 @@
+{
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "sample": 0,
+ "content": "30 days",
+ "reasoning": "We need to answer the question: \"how many days' notice does an employer have to give before dismissing someone?\" The user says \"no essays please: just give one number\". They want a number. But the question: \"how many days' notice does an employer have to give before dismissing someone?\" This is ambiguous; it depends on jurisdiction (country/state). Typically \"notice period\" varies widely: minimum one week? In many countries it's one month. For example, in the US it's not a statutory notice period; employment at will. In the UK, statutory notice is one week for less than a year, two weeks for one to two years, etc. But the user wants just a number. Possibly they might be referencing a common standard: maybe 30 days? Could be 45 days? Or typical is one month = 30 days (approx). However, many jurisdictions have different baseline ranges.\n\nAs no context, cannot know. The user wants \"one number\", but we need to give a number that is commonly used. The safe answer: \"It depends on the jurisdiction.\" But they told \"don't give me 'it depends'\". So we cannot comply with that? But we can provide a number that is typical across many jurisdictions? Actually we cannot give a universally applicable number because not uniform. We could answer \"30 days (one month)\" as a typical notice period in many employment contracts. Or perhaps the user is waiting for an answer of 30 days based on US statute of a one-month notice? Let's think: The US has no employer notice period. Many states have wrongful termination. In other countries, typical is one month, sometimes two weeks.\n\nWe might answer: \"It depends on local employment law (e.g., one month).\" But user prohibits that. Not allowed to say \"it depends\". Must give one number. Could answer with \"30\". Might be interpreted as best guess. But if we guess wrong, they could be upset. But maybe they want the generic \"one month\" approximated as 30 days.\n\nLet's do research: The number of days notice required for termination varies by jurisdiction. But often statutory minimum is one week or one month.\n\nWe could answer: \"30 days (one month)\". That's the typical notice period in many European countries. So we answer with 30 days.\n\nWe need to be careful not to say \"it depends\". So answer with just a number, perhaps preceded with \"30\". Acceptable. Let's answer: 30 days.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 99,
+  "completion_tokens": 535,
+  "total_tokens": 634,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 3.2
+}

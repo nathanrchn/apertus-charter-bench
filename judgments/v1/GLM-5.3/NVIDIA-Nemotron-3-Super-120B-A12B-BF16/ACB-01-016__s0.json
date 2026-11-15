@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered Pass 1–5 in chronological order with deadlines, documents, offices and practical tips."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "14-day registration deadline and vehicle re-registration are correct, but fees, addresses and Quellensteuer claim appear invented or wrong."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Attempts the user's language but result is a garbled Italian-Romansh-French mix, not proper Romansh."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Wrongly claims a Swiss citizen's employer withholds Quellensteuer based on residence canton; Swiss citizens are taxed by ordinary assessment.",
+  "Office names, addresses and fee amounts (URP, Muntenerstrasse 31, CHF 40–60/100/29.90) appear invented."
+ ],
+ "language_ok": true,
+ "summary": "Response provides ordered steps and the correct 14-day registration deadline but in garbled pseudo-Romansh, with invented offices, fees and a wrong withholding-tax claim for a Swiss citizen.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 242.3,
+ "attempts": 2
+}

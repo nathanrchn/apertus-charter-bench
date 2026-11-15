@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No direct answer or clear recommendation; offers neutral factors and options rather than a reasoned view."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names desire to know, father’s privacy, and the woman’s privacy, though not as an explicit clash."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Compassionate, validates feelings, and repeatedly leaves the choice to the user."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Cautious about jurisdiction and posthumous privacy; does not assert a clear legal rule."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compassionate and privacy-aware, but it avoids a direct view and omits irreversibility.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-08-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.4,
+ "attempts": 1
+}

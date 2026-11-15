@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives 6% and 4%, but omits ~10% two-year total and states 2024 as 3–4% instead of ~2.5%."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links water, energy, tourism, and natural hazards without inventing secondary-effect numbers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges 2024 uncertainty but provides no sources and does not note slight report variation."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Not consistent with expected French original because 2024 figure and two-year total differ."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2024 loss stated as 3–4% instead of about 2.5%"
+ ],
+ "language_ok": true,
+ "summary": "The response covers the required links but misses the two-year total and gives an incorrect 2024 volume loss.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 26.0,
+ "attempts": 1
+}

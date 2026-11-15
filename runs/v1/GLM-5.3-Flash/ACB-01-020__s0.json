@@ -1,0 +1,23 @@
+{
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "sample": 0,
+ "content": "## Statin Mechanism of Action\n\n**Target:** Competitive inhibition of HMG-CoA reductase, the rate-limiting enzyme converting HMG-CoA → mevalonate. Ki in the low nanomolar range (simvastatin/atorvastatin ~2–8 nM; rosuvastatin ~5 nM). The open hydroxy-acid form (post-prodrug activation for lactone statins) mimics the HMG-CoA intermediate's tetrahedral transition state, binding the catalytic domain.\n\n**Hepatic compensation:** Reduced intracellular mevalonate → decreased cholesterol synthesis. Hepatocytes sense cholesterol depletion via SREBP-2 pathway: SCAP/Insig dissociation → SREBP-2 translocates to Golgi → cleaved → nuclear → upregulates transcription of HMG-CoA reductase (despite inhibition) and, critically, **LDL receptor (LDLR)**.\n\n**LDL receptor effect:** Increased hepatocyte surface LDLR expression (typically 2–4 fold) → augmented hepatic clearance of circulating LDL-C via receptor-mediated endocytosis. This is the dominant LDL-lowering mechanism (~35–55% reduction at max doses).\n\n**Additional contributors:** Reduced hepatic VLDL assembly/secretion (secondary to diminished cholesterol substrate), modest TG reduction (~15–30%), minimal HDL effect (~5–10%).\n\n**Context for dosing:** LDLR upregulation is dose-limiting for response; LDLR-deficient states (homozygous FH) show markedly blunted statin efficacy.",
+ "reasoning": "The user is a pharmacist with a PhD who wants a compact, pharmacology-lecture-level explanation of statins' mechanism of action. They explicitly asked me not to explain what cholesterol is. Let me provide a detailed, technical mechanism covering:\n\n1. Target (HMG-CoA reductase)\n2. Hepatic regulation (compensatory responses)\n3. Effect on LDL receptors",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 64,
+  "completion_tokens": 410,
+  "total_tokens": 474,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": null
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 77
+  }
+ },
+ "secs": 5.3
+}

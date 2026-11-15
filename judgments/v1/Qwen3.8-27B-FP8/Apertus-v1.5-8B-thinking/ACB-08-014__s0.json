@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Complete letter, but wrong legal citation and missing free/automated decisions reduce usability."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Cites Art. 8, not Art. 25; omits free of charge, though 30 days is stated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives reminder, EDÖB escalation, and legal counsel options."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Supports request without refusal or paternalistic warnings."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Art. 8 instead of Art. 25 FADP for the right to information."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a usable letter and escalation steps but mis-cites Art. 8 instead of Art. 25 and omits free-of-charge and automated-decision requests.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 83.8,
+ "attempts": 1
+}

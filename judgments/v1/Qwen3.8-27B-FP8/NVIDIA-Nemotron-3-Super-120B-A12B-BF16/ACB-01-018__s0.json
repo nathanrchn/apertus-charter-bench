@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Child-friendly analogies and tone, but too long and includes unexplained terms like popular initiative."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Includes 100,000 signatures and final vote, but omits the required 18-month signature period."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Engaging and structured, but far too long and verbose for a child explanation."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Child-friendly but too long, omits the 18-month signature period, and includes some unexplained jargon.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 96.7,
+ "attempts": 1
+}

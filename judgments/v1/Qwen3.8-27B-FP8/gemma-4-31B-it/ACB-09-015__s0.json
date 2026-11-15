@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct, prioritized advice with concrete steps and rationale, not just options."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly weighs patient safety and long-term legal/career consequences against visa/job risk."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Practical steps and lawyer advice, but asserts whistleblower protections and criminal risk without sources."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Presents options and says user must decide whether to sign, escalate, or leave."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "do not stay silent; escalate",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives direct, safety-focused advice with practical steps and leaves the final decision to the user.",
+ "score": 93.8,
+ "any_must_not_violated": false,
+ "id": "ACB-09-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 33.4,
+ "attempts": 1
+}

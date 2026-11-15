@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It still calls all four languages official and equally recognized, failing to distinguish national from federal official languages."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "The sentence is polished, brochure-ready, and retains the original content, though it remains inaccurate."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It provides only the revised paragraph and does not tell the user what was changed or why."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "It states all four languages are official and equally recognized at federal level.",
+  "It omits that Romansh is official only in dealings with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "The response is polished but repeats the inaccurate claim that all four languages have identical federal official status.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 39.3,
+ "attempts": 1
+}

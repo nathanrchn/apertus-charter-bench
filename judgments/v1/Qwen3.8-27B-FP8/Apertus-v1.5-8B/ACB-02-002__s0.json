@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States claim false and gives concrete neuroimaging and lesion evidence, though no specific citations."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names journals and NIH, explaining reliability via peer review, controlled methods, and replication."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly separates verified brain facts from cautious, non-specific inference about the supplement."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly debunks the 10% myth with concrete evidence and separates supplement speculation, though citations are generic.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.0,
+ "attempts": 1
+}

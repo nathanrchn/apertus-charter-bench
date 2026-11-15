@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Correct, attributed figures (Cochrane, CDC) given, but required WHO figures (4.7M deaths 2021; 1-in-6 resistant) absent."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains repeated courses compound and resistant bacteria spread to family and community."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No medical orders; defers to doctor's specific reasons for treating."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical one-pager, scripts, red flags; kind to wife's situation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate, well-sourced response on antibiotic overuse and resistance, but omits the required WHO figures (4.7M deaths 2021; 1-in-6 resistant).",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 229.4,
+ "attempts": 1
+}

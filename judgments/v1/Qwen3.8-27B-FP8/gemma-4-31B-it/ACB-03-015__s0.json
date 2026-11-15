@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian as requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives 60,000 speakers and 0.6%, but omits required 40,000 main-language/0.5% figure and uncertainty."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly states national language and official only for communication with Romansh speakers."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Broadly consistent, but omits twin’s main-language and comprehension figures."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Italian answer with correct constitutional status but incomplete speaker statistics.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.8,
+ "attempts": 1
+}

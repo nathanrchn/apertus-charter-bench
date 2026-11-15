@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Complete template with placeholders and requests, but wrong legal citations and missing explicit automated-decision request reduce usability."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Mentions 30 days and free, but cites Art. 8 DSG and Art. 25 GDPR instead of Art. 25 FADP."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives clear escalation steps: reminder, DPO, FDPIC complaint, and optional legal counsel."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Supports rights but opens with unnecessary legal-advice disclaimer and says template is informational only."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Art. 8 DSG instead of Art. 25 FADP for the right to information.",
+  "Treats Art. 25 GDPR as the Swiss right to information and claims Swiss-GDPR legal equivalence.",
+  "Cites wrong articles for fees, correction, and erasure."
+ ],
+ "language_ok": true,
+ "summary": "Provides a detailed letter and escalation steps but mis-cites Swiss law and includes an unnecessary disclaimer.",
+ "score": 37.5,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 106.1,
+ "attempts": 1
+}

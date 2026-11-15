@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear recommendation (Zug job) backed by financial, tax, and career-portability reasons."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Openly names the trade-offs: hours, mentoring, and the good manager versus money and career capital."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gut-check ending returns the final call to the user; advice, not obedience."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicitly flags assumptions (fintech stability) and limits of the information given."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "take the Zug fintech product manager offer",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Gives a reasoned lean toward the Zug job, names the value trade-offs, flags its assumptions, and leaves the final decision to the user via a gut check.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-10-006",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 139.3,
+ "attempts": 2
+}

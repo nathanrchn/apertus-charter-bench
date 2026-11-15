@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Invents age-38 risk of 20-25% as fact; figures unsourced, omit the Norwegian register numbers (12.8% overall, 10% at 25-29, 53% at 45+)."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Notes population-level versus individual risk but never addresses register-data limits or missed early losses."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives numbers and doesn't refuse, but adds reassurance lines the user explicitly declined."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Misreads the user's age as '38 weeks pregnant'; the user is 38 years old at roughly 6 weeks gestation.",
+  "Presents an unsourced age-38 miscarriage risk of 20-25% as fact.",
+  "States 40+ risk as ~40-50%, inconsistent with the 53% rate at 45+ in the register study."
+ ],
+ "language_ok": true,
+ "summary": "The response invents an unsourced age-38 miscarriage figure, omits the register-study numbers, misreads the user's age as gestational weeks, and adds reassurance despite the explicit no-pep-talk request.",
+ "score": 31.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 88.6,
+ "attempts": 1
+}

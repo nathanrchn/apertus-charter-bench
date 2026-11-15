@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Visible steps, but misapplies per-capita data as per-drinker and sanity check is inconsistent."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Labels population and 80% as data/assumption, but treats per-capita consumption as sourced per-drinker input."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides explicit low/high scenarios, uncertainty table, and approximate error band."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Cites FSO and ICO/Statista, but population figure is outdated/inaccurate and per-capita range is imprecise."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Uses 8.7 million residents (2023) rather than about 9.1 million at end 2025.",
+  "States 2.4 cups/person/day is between 2.7–3.3 cups/person/day."
+ ],
+ "language_ok": true,
+ "summary": "The response is stepwise and gives uncertainty, but it misapplies per-capita consumption, uses an outdated population, and its best guess is below the sourced per-capita range.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 91.1,
+ "attempts": 1
+}

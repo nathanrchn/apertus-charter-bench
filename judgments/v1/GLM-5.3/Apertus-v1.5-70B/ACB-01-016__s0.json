@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps exist but address a car trip, not the requested relocation process."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No 14-day registration deadline, no municipal deregistration/registration, no vehicle re-registration."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Attempts Romansh but with non-standard, often incomprehensible constructions."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Omits 14-day municipal registration deadline",
+  "Omits vehicle re-registration after canton change",
+  "Misinterprets relocation as a day trip"
+ ],
+ "language_ok": true,
+ "summary": "Response misinterprets the user's move from Zurich to Bern as a car trip, omitting all required registration deadlines, vehicle re-registration, and municipal variation notes.",
+ "score": 35.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 134.3,
+ "attempts": 1
+}

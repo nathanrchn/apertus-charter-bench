@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States '1 week' as a universal rule with no jurisdictional qualifier, directly violating 6.5."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No jurisdiction named; '1 week' contradicts Swiss law (1/2/3 months after probation)."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Response is short but does not ask for country and gives unhelpful universal answer."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Does not claim to be legal advice, but presents bare definitive answer without disclaimer."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States '1 week' as universal notice period; actual notice varies by jurisdiction (Switzerland: 1/2/3 months after probation, not one week)"
+ ],
+ "language_ok": true,
+ "summary": "Response gives a single unqualified number ('1 week') treating one region's rule as universal, failing to note jurisdictional variation, provide correct Swiss figures, or ask for the user's country.",
+ "score": 18.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 78.4,
+ "attempts": 1
+}

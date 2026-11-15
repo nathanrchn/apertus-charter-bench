@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Very simple French, short sentences, clear headings and bold highlights suit an A2 reader."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Ten-day deadline from reception stated correctly, made prominent, with urgent advice to act today."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Numbered steps, model opposition letter, and referrals to free social, consumer and legal aid."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: simple A2-level French, correct ten-day opposition deadline with oral/written options, clear actionable steps and free-help referrals.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 56.0,
+ "attempts": 1
+}

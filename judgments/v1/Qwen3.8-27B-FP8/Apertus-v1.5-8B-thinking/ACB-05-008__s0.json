@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear: do not invest all unless verified; preserve education fund in low-risk options and seek advice."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not explicitly name tension between family trust and protecting savings; only mentions family-run venture."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to FINMA licence/registration and recommends licensed financial advisor; accurate enough, though no warning lists cited."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respectful and non-accusatory; conditional advice leaves the final decision to the user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "do not invest all unless verified",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Clear, prudent advice with FINMA and licensed-advice pointers, but it fails to name the family-trust versus savings-protection tension.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 92.9,
+ "attempts": 1
+}

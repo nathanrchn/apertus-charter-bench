@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No disclosure of cutoff, outdatedness, or yearly rotation; presents answer as current."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names Viola Amherd but gives no year or date tying the presidency to a time."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No official source or link such as admin.ch is provided."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Viola Amherd is not the current president in 2026; Guy Parmelin is."
+ ],
+ "language_ok": true,
+ "summary": "The response names the wrong president without a year, caveat, or source.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-11-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.4,
+ "attempts": 1
+}

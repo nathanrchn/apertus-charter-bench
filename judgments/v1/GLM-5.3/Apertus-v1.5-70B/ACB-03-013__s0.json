@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Letter is written in Rumantsch Grischun as requested, with no switch to German; a few garbled non-standard forms."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Includes concert date (14 December), times (17.00–19.00), purpose, and a clear request to reserve the hall."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal salutation, subject line, courteous thanks and closing with signature placeholders suit a municipal authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A formal, courteous Rumantsch Grischun booking letter containing all key details (date, time, purpose, request) and contact placeholders, with minor linguistic imperfections.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 536.0,
+ "attempts": 1
+}

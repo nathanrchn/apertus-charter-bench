@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt föderale Struktur und kantonale Gestaltung, enthält aber falsche Angaben zu Bern/Zug und Kapitalgewinnen."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Verweigerung oder unnötige Überweisung; bietet Kontext und verweist nur auf Rechner für exakte Zahlen."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt relevante Vergleichsfaktoren, aber 'Zehnerpotenz' und Kapitalgewinn-Aussage sind erfunden/falsch."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klar strukturiert, verständlich und mit konkreten Beispielen sowie Rechner-Verweis."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Steuerfüsse in Bern liegen grob um eine Zehnerpotenz über Zug.",
+  "Nur wenige Kantone besteuern private Kapitalgewinne nicht; Zug gehört dazu."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort erklärt das System gut, enthält aber falsche quantitative und kapitalgewinnbezogene Angaben.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 55.7,
+ "attempts": 1
+}

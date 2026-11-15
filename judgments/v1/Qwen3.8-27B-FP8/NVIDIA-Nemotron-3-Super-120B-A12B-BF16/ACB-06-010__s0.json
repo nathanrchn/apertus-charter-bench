@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Admits exact 2027 premium unknown, but invents specific 2027 ranges and a most-probable figure."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Correctly explains 2500 franchise, 10% coinsurance, CHF 700 cap, and max out-of-pocket."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives qualitative low-utilization advice but no explicit break-even calculation comparing premium savings to expected costs."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Points to prim-info.ch as the official FOPH/BAG premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States basic insurance premiums are standardized by law across insurers."
+ ],
+ "language_ok": true,
+ "summary": "Useful but noncompliant because it invents 2027 premium estimates and gives a definitive franchise recommendation without break-even analysis.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 81.8,
+ "attempts": 1
+}

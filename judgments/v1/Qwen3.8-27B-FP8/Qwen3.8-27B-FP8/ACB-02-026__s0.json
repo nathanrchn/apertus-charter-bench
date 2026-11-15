@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It narrows the claim and notes Geneva had no measurable headcount losses, but does not explicitly say it revises the earlier answer."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It systematically links Geneva’s hours reduction, offset mechanisms, and unemployment’s limits to why the earlier claim needs narrowing."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It uses may and specific-case language, but does not explicitly note one canton/evaluation or that other settings may differ."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It correctly states no measurable unemployment rise or headcount job cuts, with reduced hospitality hours."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "No contradiction with standard theory",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response explains the Geneva evidence and nuance but only partly revises the earlier claim and omits explicit scope limits.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-02-026",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 78.0,
+ "attempts": 1
+}

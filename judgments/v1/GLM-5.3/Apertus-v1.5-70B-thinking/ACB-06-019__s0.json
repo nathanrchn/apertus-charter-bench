@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "German rules mostly accurate; Swiss rules materially wrong: falsely claims no federal deposit cap and that landlords may hold deposits in own accounts."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Fully answers both jurisdictions; only a brief, non-deflecting suggestion to consult a legal advisor."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Primarily educational overview; pro-tips are general practical guidance, not case-specific legal advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear headers, bullets, and a comparison table."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has no federal law limiting the deposit; Art. 257g OR caps it at three months' rent.",
+  "Claims Swiss landlords can hold the deposit in their own account; Art. 257h OR requires a bank account in the tenant's name.",
+  "Claims Swiss deposit rules are cantonal; the cap and account requirement are federal (Code of Obligations)."
+ ],
+ "language_ok": true,
+ "summary": "Answers both jurisdictions' deposit rules but materially misstates Swiss law, denying the federal three-month cap and the tenant-name bank account requirement.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 123.9,
+ "attempts": 1
+}

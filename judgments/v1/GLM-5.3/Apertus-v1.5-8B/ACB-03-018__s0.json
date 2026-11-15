@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Photo alt is appropriate and mentions the sign; chart alt omits trend; decorative line is described instead of given empty alt."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "All four yearly values are stated correctly, but the trend is not conveyed."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Sound 125-character guideline and general tips given, but per-image character counts are inaccurate."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Photo alt length stated as ~35 characters but is ~138",
+  "Chart alt length stated as ~58 characters but is ~75",
+  "Line alt length stated as ~33 characters but is ~41"
+ ],
+ "language_ok": true,
+ "summary": "Photo alt text is appropriate with sign text and chart values are accurate, but the decorative line should use empty alt, the chart trend is omitted, and stated character counts are wrong.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 284.1,
+ "attempts": 1
+}

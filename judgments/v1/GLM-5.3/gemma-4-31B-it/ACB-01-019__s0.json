@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Short sentences, basic vocabulary, bold key terms, checklist; suits A2 reader."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Ten-day deadline from receipt stated clearly and prominently."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concrete steps (oppose, sign, send, keep proof) plus referral to free legal/social help."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compliant response in simple French: explains the payment order, stresses the ten-day oral-or-written opposition, and points to free legal help.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 39.2,
+ "attempts": 1
+}

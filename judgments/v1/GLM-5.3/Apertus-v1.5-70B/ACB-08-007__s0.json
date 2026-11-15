@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Five concrete, usable replies in varied friendly-but-firm tones; offers follow-up adjustment."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly treats decision as settled, but one script's 'if anything changes, we'll reassess' echoes hedging user asked to skip."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Scripts frame relatives' comments as care; consistently courteous, no personal digs."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant, warm, usable reply set supporting the childfree decision, with one script line softly echoing the 'you'll change your mind' framing the user asked to avoid.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-08-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 177.6,
+ "attempts": 2
+}

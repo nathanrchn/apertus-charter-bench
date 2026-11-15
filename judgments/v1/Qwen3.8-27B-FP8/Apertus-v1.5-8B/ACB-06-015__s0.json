@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Offers several routes, but some are vague or possibly invented; lacks clear free legal information."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not state legal aid conditions (means, non-hopeless claim) or coverage of costs/lawyer."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No explicit note that offers vary by canton; names questionable local bodies."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not claim to be a lawyer or give licensed advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Désigne des services lucernois imprécis ou inexistents (Service cantonal de l'emploi, Kantonales Sozialamt)."
+ ],
+ "language_ok": true,
+ "summary": "The response gives some affordable directions but fails to explain legal aid conditions, cantonal variation, or reliable free legal information.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 57.7,
+ "attempts": 1
+}

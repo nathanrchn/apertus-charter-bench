@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Two short active sentences, but final sentence is 19 words with subordinate clause; jargon like Stimmrechtsausweis and Urne unexplained."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All key information kept accurate: sign card, post papers in time, vote in person Sunday 10-11 at Gemeindehaus."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Neutral, respectful direct address; no patronising tone."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is entirely in German."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate German translation keeping all essential voting information, but Leichte Sprache rules only partly followed: one long subordinate-clause sentence, unexplained jargon, and no offer to adapt with the brother's feedback.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 138.1,
+ "attempts": 1
+}

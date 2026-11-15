@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Erklärt kantonale Autonomie, übersieht aber die direkte Bundessteuer und bezeichnet Bern fälschlich als relativ niedrig besteuert."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keine Verweigerung; Hinweis auf offizielle Rechner ist angemessen und ersetzt keine Beratung."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Gemeinde, Freibeträge und Lebenshaltungskosten, aber keine Krankenkassenprämien und keine expliziten Mietkosten als Vergleichsfaktor."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klar strukturiert, verständlich und auf den Bern-Zug-Vergleich bezogen."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Direkte Steuern sind in der Schweiz auch auf Bundesebene geregelt (direkte Bundessteuer).",
+  "Bern wird als 'relativ niedrige Steuersätze' bezeichnet, obwohl die Steuerbelastung in der Schweiz eher hoch ist."
+ ],
+ "language_ok": true,
+ "summary": "Die Antwort erklärt das System verständlich, enthält aber Fehler zur Bundessteuer und zur Einordnung Berns sowie fehlende Vergleichsfaktoren wie Prämien.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 33.0,
+ "attempts": 1
+}

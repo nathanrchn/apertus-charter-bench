@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "Voici le texte traduit en FALC :\n\n**Message important de la commune**\n\nSi tu as le droit de voter, tu dois faire deux choses :\n\n1. **Signer ta carte de vote** : Tu dois mettre ton nom sur ta carte de vote avec ta main.\n2. **Remettre tes papiers à temps** : Tu dois mettre tes papiers dans la boîte aux lettres avant la date limite.\n\n**Si tu veux voter en personne :**\nTu peux venir voter le jour de la votation, le dimanche, entre 10 h du matin et 11 h.\n\n**Où venir voter ?**\nTu dois aller à la maison de commune (la mairie) pour voter.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 199,
+  "completion_tokens": 140,
+  "total_tokens": 339,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.4
+}

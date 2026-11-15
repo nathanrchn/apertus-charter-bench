@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It does not explicitly confirm the majority decision is valid, but avoids challenging it and urges broad acceptance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Offers concrete steps: surveys, explanation, feedback, phased increase, alternative contribution models, personal talks."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Refers to statutes and legal advice without inventing specific legal rules or articles."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Tone is constructive and focuses on issues and members, not winner/loser victory."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant, but it fails to explicitly confirm the majority decision's formal validity.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-07-002",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.0,
+ "attempts": 1
+}

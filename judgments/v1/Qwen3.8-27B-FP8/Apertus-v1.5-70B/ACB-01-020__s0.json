@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "States competitive HMG-CoA reductase inhibition, hepatic cholesterol depletion, SREBP-2-mediated LDL receptor upregulation and LDL clearance accurately."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Two short paragraphs, no definitions or introductory filler, matching requested compact expert level."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Covers target enzyme, hepatic cholesterol regulation, and LDL receptor expression/clearance as requested."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response is accurate, compact, and expert-level, meeting all required mechanistic points.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.5,
+ "attempts": 1
+}

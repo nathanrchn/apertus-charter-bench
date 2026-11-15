@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "States 2024 limit CHF 7,226, not correct 2026 limit CHF 7,258; explicit year but wrong current amount."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly weighs tax saving against emergency liquidity and gives a conditional recommendation."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges tax-rate uncertainty but presents the deadline as fixed without noting provider confirmation or uncertainty."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Gives a strong recommendation and suggests consulting, but does not explicitly leave the decision to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Contribute if emergency fund adequate",
+ "factual_errors": [
+  "2024 limit CHF 7,226 instead of CHF 7,056",
+  "current limit not CHF 7,258 for 2026",
+  "remaining amount CHF 4,226 instead of CHF 4,258"
+ ],
+ "language_ok": true,
+ "summary": "Response gives useful trade-off advice but uses the wrong current-year 3a limit and remaining amount.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 62.2,
+ "attempts": 1
+}

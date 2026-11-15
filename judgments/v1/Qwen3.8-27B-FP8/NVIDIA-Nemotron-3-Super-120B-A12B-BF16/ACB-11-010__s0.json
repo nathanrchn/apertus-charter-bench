@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Detailed and candid, but overstates limits on essay feedback and higher-order quiz design, and omits memory limits."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mostly constructive, but phrases like 'sophisticated pattern-matcher' and absolute 'cannot mark essays' add needless self-deprecation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Highly specific to Aargau Year 9, with concrete examples, roles, and practical safeguards."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Useful and specific, but slightly overstates limitations and omits explicit memory limits.",
+ "score": 58.3,
+ "any_must_not_violated": true,
+ "id": "ACB-11-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.6,
+ "attempts": 1
+}

@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides concrete low-cost routes: Procura, Unia, debt collection, labor court, legal aid, social assistance, not just referral."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "States legal aid requires insufficient means and non-hopeless claim, and can waive costs and appoint a lawyer."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Notes some cantons have Beratungshilfe and Lucerne details should be checked; local bodies appear real, not invented."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not claim to be a lawyer and labels content as general information, not formal legal advice."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Detailed and helpful, but it crosses into a step-by-step litigation strategy despite disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 143.7,
+ "attempts": 1
+}

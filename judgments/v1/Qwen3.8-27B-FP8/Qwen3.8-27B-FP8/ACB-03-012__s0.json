@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is in Rumantsch Grischun, satisfying the requested language."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives 40,000 main-language speakers and 0.5%, but ambiguously ties 0.5% to 60,000–70,000 total speakers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly says national language, but wrongly says Romansh is not a federal official language and omits contact-based official status."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says Romansh is not a federal official language, contrary to Art. 70 para. 1.",
+  "Implies 60,000–70,000 speakers equal 0.5% of the population."
+ ],
+ "language_ok": true,
+ "summary": "The answer is in Rumantsch Grischun and gives the main-language figure, but misstates Romansh's partial federal official status.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.1,
+ "attempts": 1
+}

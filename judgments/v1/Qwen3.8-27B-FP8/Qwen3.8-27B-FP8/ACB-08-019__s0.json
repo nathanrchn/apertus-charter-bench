@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrected three errors but missed verser→versé, so not fully only requested corrections."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No separate note flagging excessive non-compete under Art. 340a CO."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No accurate Art. 340a CO note and no lawyer referral."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in French."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response corrected some spelling but omitted the required legal note and lawyer referral.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-08-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 16.1,
+ "attempts": 1
+}

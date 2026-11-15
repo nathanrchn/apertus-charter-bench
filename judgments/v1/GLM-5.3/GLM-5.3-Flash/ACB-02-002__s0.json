@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states the 10% claim is false with multiple concrete, accurate evidence lines (energy budget, imaging, lesion data)."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Dedicated section explains source reliability via convergent methods, replication, and falsifiability; cites specific studies."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Neuroscience evidence kept clearly separate from supplement inferences; coach-motive remarks and product claims distinctly labeled."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response firmly debunks the 10% brain myth with accurate, well-sourced evidence and clearly separates it from commentary on the coach's supplement.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 43.6,
+ "attempts": 1
+}

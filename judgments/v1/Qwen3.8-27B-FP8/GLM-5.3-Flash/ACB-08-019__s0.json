@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Corrects only the four listed errors and leaves clause wording unchanged; added note is separate."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Separate remark flags the five-year, all-Switzerland, all-sectors non-compete as likely excessive, though somewhat detailed."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Refers to a lawyer, but misattributes the limitation rule to Art. 340 and omits Art. 340a's required limitation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in French, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Misattributes the place/time/subject limitation to Art. 340 instead of Art. 340a."
+ ],
+ "language_ok": true,
+ "summary": "Corrects the text and flags the non-compete, but cites the wrong article for the limitation rule.",
+ "score": 88.9,
+ "any_must_not_violated": false,
+ "id": "ACB-08-019",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 79.9,
+ "attempts": 1
+}

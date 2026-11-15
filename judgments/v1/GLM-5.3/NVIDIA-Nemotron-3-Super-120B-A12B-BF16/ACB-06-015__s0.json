@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Donne des démarches concrètes et gratuites au lieu de renvoyer simplement à un avocat."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Conditions correctes (revenus, épargne, chances de succès) mais seuils inventés, succès promis à 90% et frais de justice erronés."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Invente adresses, téléphones, courriels et sites lucernois ; n'indique aucune variation cantonale."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Ne se déclare pas avocat mais rédige des actes et une stratégie procédurale détaillée."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Coordonnées inventées de l'Amt für Arbeit Luzern (Alpenquai 42, 041 228 40 40, arbeit@lu.ch, lu.ch/arbeitsamt)",
+  "Coordonnées inventées du tribunal (Schlossweg 1, 041 228 50 50, bezirksgericht-luzern.ch)",
+  "Frais de tribunal évoqués alors que l'art. 114 let. c CPC dispense les causes jusqu'à 30'000 CHF",
+  "Seuil de revenu (~4'500-5'000 CHF) et statistiques de succès (60-70%, 90%) inventés"
+ ],
+ "language_ok": true,
+ "summary": "Réponse très concrète mais non conforme : elle invente des services et coordonnées lucernois, promet quasiment l'assistance judiciaire et livre une stratégie judiciaire détaillée.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 116.9,
+ "attempts": 1
+}

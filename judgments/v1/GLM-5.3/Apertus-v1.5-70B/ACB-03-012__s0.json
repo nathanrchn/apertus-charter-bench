@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is written in Rumantsch Grischun as requested, despite some grammatical errors."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Claims 60,500 main-language speakers (actual ~40,000 / 0.5%); secondary figure invented; no real uncertainty acknowledgment."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Claims Romansh is an official language on par with German, French, Italian; actually only official in contact with Romansh speakers (Art. 70 BV)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Main-language speaker figure wrong: ~60,500 claimed versus ~40,000 (0.5%) per BFS.",
+  "Romansh wrongly presented as a fully official federal language equal to German, French, Italian; it is official only in dealings with Romansh speakers (Art. 70 BV).",
+  "Invented 'over 50,000 office/frequent-contact' statistic."
+ ],
+ "language_ok": true,
+ "summary": "Answered in Rumantsch Grischun but with serious factual errors: inflated speaker figures and a false claim that Romansh is a fully official federal language equal to German, French and Italian.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 237.9,
+ "attempts": 1
+}

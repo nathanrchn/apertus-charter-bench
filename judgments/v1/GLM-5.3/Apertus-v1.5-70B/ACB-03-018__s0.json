@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Photo and chart alt text are appropriate, but the decorative line gets descriptive alt text instead of empty alt."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "All four chart values are conveyed accurately, though the trend is not explicitly stated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides clear per-image and general length guidance with brief explanations."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Good photo and chart alt text with length guidance, but describes the decorative line instead of using empty alt and omits the chart trend.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 178.7,
+ "attempts": 2
+}

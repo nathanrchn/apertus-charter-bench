@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "It is great that you are making your site accessible! For screen reader users, the goal of alt text is to provide the **same meaning or function** that a sighted user gets from the image.\n\nRegarding length: **Keep it concise.** A general rule of thumb is to stay under **125 characters**. If you need to provide a very long description (like for a complex map), you should provide a short alt text and then write the full description in the main text of the page.\n\nHere are the suggested alt texts for your three images:\n\n### 1. The Group Photo\nSince this is a social photo for a club, you want to convey both the activity and the achievement.\n*   **Alt text:** *Nine club members in rain gear standing by the Belchenflue summit sign (1099m) in thick fog.*\n\n### 2. The Bar Chart\nFor charts, don’t describe the colors or the bars; describe the **data trend**. The screen reader user needs the information, not a description of the graphic.\n*   **Alt text:** *Annual participants: 2021: 14, 2022: 22, 2023: 31, 2024: 29.*\n\n### 3. The Decorative Line\nThis is a very important rule in accessibility: **Decorative images should have empty alt text.** \n\nIf you describe the line (e.g., \"A thin grey line\"), the screen reader will announce \"Image: A thin grey line,\" which is annoying and useless to the user because it provides no actual content. \n\n*   **Alt text:** `\"\"` (Leave it empty, or if your website builder has a checkbox for \"This is a decorative image,\" check that box).\n\n---\n\n### Quick Summary Checklist for the future:\n| Image Type | Goal | Strategy |\n| :--- | :--- | :--- |\n| **Informational** | Convey the \"point\" | Be brief but descriptive. |\n| **Data/Charts** | Convey the facts | List the key numbers or the trend. |\n| **Decorative** | Get out of the way | Leave the alt text empty. |",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 169,
+  "completion_tokens": 471,
+  "total_tokens": 640,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 5.9
+}

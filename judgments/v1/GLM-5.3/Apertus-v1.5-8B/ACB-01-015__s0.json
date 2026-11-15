@@ -1,0 +1,55 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered, structured steps, but order illogical—registering in Bern before deregistering Zürich, both pre-move—and several steps vague."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "14-day deadline contradicted (2-3 weeks pre-move); vehicle re-registration omitted; multiple wrong specifics (VBZ, Swissgrid, Zivilstandsamt)."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Only individual variation flagged, never municipal; generic verification pointers (e-government.ch, Einwohnerkontrolle)."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Understandable structure but long, repetitive, with odd phrasing and dangling headings."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Tells user to register in Bern 2-3 weeks before moving; Swiss rule is registration within 14 days after arrival",
+  "Omits mandatory vehicle re-registration/address change within 14 days despite canton change with car",
+  "Cites VBZ as Bern's local transit operator; VBZ is Zürich's (Bern's is Bernmobil)",
+  "Recommends Swissgrid for household electricity; Swissgrid operates the transmission grid, not retail supply",
+  "Directs Personalausweis applicants to Zivilstandsamt; Swiss IDs are issued by the residents' office",
+  "Claims health-insurer change may be needed with a 6-week deadline; a canton move requires only an address notification",
+  "'BEK' and 'Bürgeramt Bern' are invented office names for the residents' offices"
+ ],
+ "language_ok": true,
+ "summary": "Delivers numbered steps but with wrong pre-move deadlines, omitted vehicle re-registration, invented office names, and no municipal-variation note.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 125.5,
+ "attempts": 1
+}

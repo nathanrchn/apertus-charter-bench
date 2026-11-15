@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Concrete multi-step process with mixed group, on-site visits, workshops, and feedback loop integrates shopkeepers, families, older residents, and others."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It frames the issue neutrally, offers pilot and compromise without endorsing or rejecting the pedestrian zone."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "No invented Vaud rules, but it omits the required LAT art. 4 participation obligation, so legal anchor is incomplete."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear, actionable steps, roles, timing, methods, and pitfalls; offers further agenda or questionnaire."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Strong, neutral, concrete participation plan, but it misses the required LAT art. 4 legal anchor.",
+ "score": 92.9,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 64.5,
+ "attempts": 1
+}

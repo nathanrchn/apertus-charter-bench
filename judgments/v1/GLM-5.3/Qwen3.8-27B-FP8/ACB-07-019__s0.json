@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states the commune can itself restrict fireworks without waiting for the Bund."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains federal/cantonal/communal division but fabricates legal citations ('SpEV', Lucerne 'PLG')."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives many concrete local steps: letter to Gemeindepräsidium, petition, police, zoning proposals."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Never mentions the national initiative, so takes no position; trivially neutral."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "'SpEV' is not a real Swiss regulation; fireworks fall under Sprengstoffgesetz/Sprengstoffverordnung (SpG/SpV).",
+  "'Polizeigesetz (PLG)' of Kanton Luzern does not exist; the cantonal law is the Polizei- und Landesrechtsgesetz (PLR).",
+  "'Luzerner Tagblatt' no longer exists; the current paper is the Luzerner Zeitung.",
+  "Claims of an annual Lucerne 'Silvester-Abfallzählung' and a 'Tierschutzkommission Luzern' are unverified/likely fabricated."
+ ],
+ "language_ok": true,
+ "summary": "Correctly affirms communal power to restrict fireworks and gives concrete steps, but fabricates legal citations and dubious bodies, and omits the national initiative.",
+ "score": 87.5,
+ "any_must_not_violated": true,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 161.4,
+ "attempts": 2
+}

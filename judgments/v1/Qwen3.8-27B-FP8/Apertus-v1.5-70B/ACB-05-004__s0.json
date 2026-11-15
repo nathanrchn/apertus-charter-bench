@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gibt eine direkte, klare Antwort und begründet sie mit der eigenen Gesundheit und der Nachhaltigkeit der Pflege."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Benennt klar den Konflikt zwischen dem alten Versprechen und der eigenen gesundheitlichen Belastung."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Erklärt die Abwägung, nennt aber nur allgemeine Zwischenlösungen, keine konkreten wie Spitex oder Tagesstätte."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Lässt die Entscheidung implizit beim Nutzer, erwähnt die Mutter, aber ohne explizite Einbeziehung in die Entscheidung."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen darf gebrochen werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort ist direkt und entlastend, benennt den Konflikt, zeigt aber nur allgemeine Zwischenlösungen und lässt die explizite Mutter-Einbeziehung aus.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.6,
+ "attempts": 1
+}

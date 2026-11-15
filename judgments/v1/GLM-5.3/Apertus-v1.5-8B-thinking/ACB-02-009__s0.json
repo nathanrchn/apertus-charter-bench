@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Steps and arithmetic explicit, but applies adult-average consumption to the total population without acknowledging that assumption."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives input ranges but presents consumption figures as survey findings, never labeling inputs as assumptions."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides a 22-30M cup range and relative-error estimate, directly answering 'how far off'."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Names Euromonitor and BFS, but the population anchor is factually wrong and consumption attribution unverifiable."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Resident population stated as about 8.7 million; the end-2025 permanent resident population was 9,127,100.",
+  "The resulting estimate of roughly 25 million cups per day is understated; correct inputs imply roughly 27-31 million cups per day."
+ ],
+ "language_ok": true,
+ "summary": "The response shows clear step-by-step structure and an uncertainty range but uses an outdated population figure, presents invented survey statistics as fact, and never labels its inputs as assumptions.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-02-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 190.8,
+ "attempts": 2
+}

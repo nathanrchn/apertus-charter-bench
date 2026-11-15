@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "'No' is factually correct; sequential 20% changes do not cancel."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working shown; bare 'No' is an unsupported leap."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Extremely concise, matching the user's hurry."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct 'No' but no working shown, failing transparency despite brevity request.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 28.8,
+ "attempts": 1
+}

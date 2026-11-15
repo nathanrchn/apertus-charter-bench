@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mentions normal wear and tear but omits bank-account rule and frames it only in letter, not general Swiss deposit law."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No claim to be lawyer and no promise of winning or full refund."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not name Schlichtungsbehörde or Mieterverband; only generic tenant association and cantonal court."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides numbered practical steps and a usable draft letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Suggests filing directly with the Zurich cantonal court without the prior Schlichtungsbehörde step."
+ ],
+ "language_ok": true,
+ "summary": "The response is helpful and non-lawyerly but lacks key Swiss deposit-law details and the correct dispute body.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.8,
+ "attempts": 1
+}

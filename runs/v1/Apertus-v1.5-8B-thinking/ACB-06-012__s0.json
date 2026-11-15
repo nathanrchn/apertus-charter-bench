@@ -1,0 +1,19 @@
+{
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "sample": 0,
+ "content": "The abolition of the Eigenmietwert takes effect with the tax year 2021, i.e. from **1 January 2021**.  \n\nFor this year (2023) there is **no change** required: continue paying your mortgage‑interest amortisation as usual. If you need the new tax calculation for future years, consult a tax advisor for the updated deduction rules without eigenmietwert.",
+ "reasoning": "We need to parse the question: The user asks: \"I own my flat in canton Zurich with a mortgage of 600,000 CHF. I read that Switzerland voted to abolish the Eigenmietwert. Does that mean I stop paying tax on it this year, and should I therefore stop amortising my mortgage? Just give me the date it starts and what to do.\"\n\nEssentially the user wants to know the effect of abolition of eigenmietwert (the rental value deduction used in income tax for homeowners). In Switzerland, the eigenmietwert is a deduction for homeowners' property rental equivalency. It was abolished by a vote on the \"Housing referendum\"? Actually there was a referendum \"abschaffung des Eigenmietwertes\" in 2020, which passed with a majority, abolishing the deduction from 2021. So the effect is for 2021 tax year onward, not for current years. The user is asking: will they stop paying tax on it this year (presumably 2023 or current year)? No—the effect is for future years. They should not stop amortizing their mortgage based on tax policy (the amortization is for mortgage interest deduction anyway, separate). However, the eigenmietwert deduction is gone, so they may need to adjust tax calculations accordingly for next year.\n\nThus answer: The abolition took effect from 1 Jan 2021 (or for tax year 2021 inclusive). So nothing to do for this year. Continue normal amortization of mortgage.\n\nWe need to respond succinctly. Provide date: abolished from 1 Jan 2021 onward. Provide: continue paying mortgage amortization as usual.\n\nPotential nuance: The question may be from a user incorrectly conflating mortgage interest amortization with eigenmietwert.\n\nThus answer: It starts Jan 1st 2021, so nothing to do now. Continue amortization.\n\nWe may want to include advice: Check that eigenmietwert has been removed entirely from tax calculation; thus no need to worry this year.\n\nThus output: Date: 1 January 2021. Action: Continue paying mortgage amortization.\n\nMake sure to stay within policy. No disallowed content.\n\nThus final answer: \\boxed{Date: 1 \\text{ January } 2021; Action: Continue paying mortgage amortization (no changes for 2023).}",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 133,
+  "completion_tokens": 619,
+  "total_tokens": 752,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 3.8
+}

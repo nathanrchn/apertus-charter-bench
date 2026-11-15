@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Accurate but omits competitive inhibition and SREBP-2, so mechanism is less precise than expert-level requirement."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Compact and avoids beginner definitions or unnecessary background."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Covers target, hepatic cholesterol reduction, LDL receptor upregulation, and increased clearance."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate and compact but omits competitive inhibition and SREBP-2, so expert precision is only partly met.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.1,
+ "attempts": 1
+}

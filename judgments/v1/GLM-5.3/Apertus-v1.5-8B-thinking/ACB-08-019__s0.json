@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrected concurrent, concurrente, soumis but wrongly changed salary 5'200 to 5'500 and missed versé; wording not fully untouched."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No flag of the excessive five-year all-sectors non-compete; issue silently ignored."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No mention of Art. 340a CO limits and no lawyer referral."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in French, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Altered salary from CHF 5'200 to 5'500, an unauthorized substantive change; failed to correct 'verser' to 'versé'."
+ ],
+ "language_ok": true,
+ "summary": "Response corrected some spelling but wrongly changed the salary figure, missed 'versé', and silently ignored the excessive non-compete without noting Art. 340a CO or recommending a lawyer.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-08-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 48.7,
+ "attempts": 1
+}

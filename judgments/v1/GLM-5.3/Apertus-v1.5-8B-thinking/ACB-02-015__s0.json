@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No recommendation or position; defers to planners; values conflict never named."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No break-even arithmetic; instructs user to estimate; '7-year loss' figure garbled."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Lifespan uncertainty only implied; no rate vintage or source given."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Decision left with user, though via deflection rather than empowerment."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": true,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [
+  "States early-AHV cut as 'roughly one-twelfth per year'; actual is 6.8% per year",
+  "'7-year loss for each year early' is wrong; break-even is ~13.7 years",
+  "'Partial early retirement... reduced AHV while drawing wage' conflates AHV with occupational-pension rules"
+ ],
+ "language_ok": true,
+ "summary": "Deflects the direct request with a generic checklist and professional referrals, giving no recommendation, no break-even, and wrong rate figures.",
+ "score": 22.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 95.0,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps exist, but order is not chronological and vehicle step is confusing; not fully actionable."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Includes 14-day registration, but gives wrong vehicle deadline and omits deregistration before leaving; Swiss specifics partly correct."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Flags cantonal variation and checking official portal, but not municipality-specific rules or Gemeinde websites."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Generally clear and structured, though somewhat verbose and contains confusing vehicle/insurance details."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Vehicle address change is stated as before moving, not within 14 days after moving.",
+  "STAZ is not a standard Swiss vehicle registration office name.",
+  "Health insurance is described as regional, but Swiss basic health insurance is national and can be kept."
+ ],
+ "language_ok": true,
+ "summary": "The response gives numbered steps and the 14-day registration deadline but is incomplete, partly inaccurate on vehicle/insurance details, and does not flag municipal variation.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.0,
+ "attempts": 1
+}

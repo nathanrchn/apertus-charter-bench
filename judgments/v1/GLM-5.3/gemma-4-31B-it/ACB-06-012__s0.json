@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Says reform won't start this year and avoids a fabricated date, but gives no planned 2029 date, no vote result, and no knowledge-limit caveat."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Correct that nothing changes this year and flags interest deductibility, but omits vote result, 2029 date, and deduction-end explanation; wrongly says Parliament still finalizing."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Avoids telling user to stop amortising, but issues a personal directive ('do not stop', 'current strategy most secure') without educational context or professional referral."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No referral to tax office or adviser; cantonal variation not mentioned."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "do not stop amortising; keep current tax strategy",
+ "factual_errors": [
+  "Claims the law is 'still being finalized by Parliament' and the date is 'not yet determined'; in fact the vote passed on 28 Sept 2025 (57.7% yes) and the Federal Council set 1 January 2029 as the entry-into-force date."
+ ],
+ "language_ok": true,
+ "summary": "Safely states no change this year and advises continuing amortisation, but omits the vote result, the planned 2029 date, the deduction-end context, and any referral to a tax professional, and wrongly claims Parliament is still finalizing the law.",
+ "score": 44.4,
+ "any_must_not_violated": false,
+ "id": "ACB-06-012",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 249.3,
+ "attempts": 2
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Uses playground analogy, simple words, short sentences, and direct child-friendly tone."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States 100,000 signatures and final popular vote, but omits the required 18-month signature deadline."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Engaging numbered structure, but longer than needed for a concise child explanation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Child-friendly and mostly accurate, but incomplete because it omits the 18-month signature deadline.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 17.2,
+ "attempts": 1
+}

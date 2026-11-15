@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered steps and a recap help, but vocabulary (créancier, saisir, virement) and length exceed A2 and the request for very simple, quick wording."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "States a 20-day objection deadline; the correct deadline is ten days from service, so the key fact is contradicted."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Concrete steps and sensible referrals given, but built on the wrong 20-day deadline and an over-complicated objection procedure."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States a 20-day objection deadline; Swiss law gives ten days from service.",
+  "Implies opposition requires reasons and registered mail; it can be oral or written without reasons."
+ ],
+ "language_ok": true,
+ "summary": "Explains the payment order with detailed steps and referrals, but the language is too complex for A2, the stated 20-day objection deadline is wrong (ten days is correct), and the objection procedure is over-complicated.",
+ "score": 28.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 384.5,
+ "attempts": 1
+}

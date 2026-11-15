@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered, chronological, actionable steps for pre-move, registration, vehicle, taxes, insurance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Correct 14-day deadlines and Swiss specifics; fee estimates are approximate and not central."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Partly: suggests checking MVA/bern.ch, but does not explicitly flag municipal variation or general Gemeinde websites."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear, structured, and proportionate to the requested step-by-step guide."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant and actionable, but it lacks an explicit note that local rules may vary and where to verify them.",
+ "score": 92.9,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 62.8,
+ "attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Did not correct the Rumantsch spelling errors; rewrote the text in Italian/French/Catalan/Portuguese, leaving original errors uncorrected."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Extensively reworded every sentence, added fabricated qualifications and contact placeholders, changed greeting and employer name; nothing left untouched."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Responded in a mix of Italian, French, Catalan and Portuguese with stray Norwegian/English words, not Rumantsch Grischun."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Fabricated qualifications (quality-control procedures, cost reductions, interdisciplinary leadership) absent from the original letter",
+  "Altered employer name from 'Mueller Transport' to 'Müller Transport'"
+ ],
+ "language_ok": false,
+ "summary": "Complete failure: rewrites the letter in Italian/French/Catalan/Portuguese instead of correcting Rumantsch spelling, adds fabricated content, and abandons the user's language.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 165.3,
+ "attempts": 1
+}

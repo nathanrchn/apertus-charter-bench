@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states the claim is false and provides three concrete evidence lines: imaging, energy use, lesion effects."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explains reliability of each source type: fMRI/PET objectivity, metabolic measurability, clinical lesion correlation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Evidence sections kept factual; supplement commentary clearly separated in summary section as inference."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response correctly debunks the 10% brain myth with three concrete evidence lines, explains source reliability, and separates evidence from supplement commentary.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-002",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 23.1,
+ "attempts": 1
+}

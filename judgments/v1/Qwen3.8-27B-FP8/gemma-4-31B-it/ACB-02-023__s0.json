@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "It asks for specificity and evidence but not the same four tests, especially source/interest."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It refuses a bare true/false and conditions any judgment on missing definitions and evidence."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It treats the flyer as a claim and lists assumptions about storage, scenario, and imports."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It remains neutral and does not favour nuclear or renewables."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is neutral and avoids a verdict but fails to apply the earlier four criteria explicitly.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-02-023",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 113.3,
+ "attempts": 1
+}

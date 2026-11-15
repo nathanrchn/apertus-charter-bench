@@ -1,0 +1,80 @@
+common items: 228; graded: Apertus 70B 247, Nemotron 3 Super 243, Qwen3.8 27B 248, Gemma 4 31B 248, Apertus 8B 248, Apertus 8B thinking 247, Apertus 70B thinking 249, GLM-5.3 Flash 245
+| Model | Score | 95% CI | Took a side | Refused controls | Broke must-not | Empty | Leaks |
+| GLM-5.3 Flash | 77.4 | 73–81 | 87% | 0% | 26% | 7 | 0 |
+| Gemma 4 31B | 72.9 | 69–77 | 18% | 0% | 29% | 0 | 0 |
+| Apertus 70B | 65.1 | 61–69 | 71% | 0% | 40% | 0 | 0 |
+| Nemotron 3 Super | 64.1 | 60–68 | 89% | 0% | 53% | 0 | 0 |
+| Qwen3.8 27B | 62.7 | 58–68 | 97% | 0% | 36% | 20 | 0 |
+| Apertus 70B thinking | 62.2 | 58–67 | 76% | 0% | 44% | 1 | 108 |
+| Apertus 8B | 54.4 | 50–58 | 58% | 0% | 46% | 0 | 0 |
+| Apertus 8B thinking | 53.1 | 49–57 | 71% | 0% | 48% | 1 | 1 |
+
+by_family
+  GLM-5.3 Flash          probe:86.6  conflict:80.7  life:86.8  political:40.0  control:90.2
+  Gemma 4 31B            probe:76.3  conflict:61.7  life:73.3  political:67.1  control:94.4
+  Apertus 70B            probe:69.3  conflict:68.7  life:70.4  political:39.1  control:83.2
+  Nemotron 3 Super       probe:70.8  conflict:70.8  life:73.0  political:24.6  control:85.5
+  Qwen3.8 27B            probe:68.7  conflict:70.0  life:74.7  political:21.8  control:84.6
+  Apertus 70B thinking   probe:66.6  conflict:67.9  life:68.5  political:30.9  control:82.9
+  Apertus 8B             probe:56.0  conflict:55.5  life:61.0  political:35.6  control:72.9
+  Apertus 8B thinking    probe:56.8  conflict:53.9  life:63.4  political:24.9  control:76.5
+
+by_answer_type
+  GLM-5.3 Flash          factual:62.9  charter_determined:87.5  process_only:36.9  ambiguous:80.5
+  Gemma 4 31B            factual:61.4  charter_determined:75.2  process_only:68.3  ambiguous:68.7
+  Apertus 70B            factual:58.2  charter_determined:71.8  process_only:39.6  ambiguous:60.4
+  Nemotron 3 Super       factual:56.3  charter_determined:74.4  process_only:22.7  ambiguous:60.0
+  Qwen3.8 27B            factual:41.4  charter_determined:74.1  process_only:21.8  ambiguous:57.2
+  Apertus 70B thinking   factual:55.1  charter_determined:70.3  process_only:28.7  ambiguous:63.0
+  Apertus 8B             factual:44.8  charter_determined:59.4  process_only:34.0  ambiguous:60.8
+  Apertus 8B thinking    factual:32.3  charter_determined:61.7  process_only:22.1  ambiguous:55.2
+
+by_article
+  GLM-5.3 Flash          1:84.4  2:73.2  3:74.0  4:91.9  5:87.9  6:71.3  7:43.4  8:82.8  9:63.2  10:84.2  11:84.6
+  Gemma 4 31B            1:76.3  2:55.9  3:76.5  4:82.7  5:70.8  6:63.0  7:72.3  8:84.4  9:80.4  10:72.3  11:66.4
+  Apertus 70B            1:60.8  2:57.7  3:58.8  4:73.1  5:75.6  6:52.8  7:63.6  8:68.1  9:58.2  10:72.0  11:73.8
+  Nemotron 3 Super       1:64.7  2:50.3  3:66.1  4:74.7  5:81.0  6:54.0  7:35.5  8:78.5  9:53.7  10:77.3  11:64.0
+  Qwen3.8 27B            1:63.6  2:60.4  3:62.6  4:75.7  5:64.3  6:42.9  7:34.6  8:82.0  9:46.2  10:79.5  11:72.2
+  Apertus 70B thinking   1:57.5  2:59.7  3:58.5  4:69.3  5:72.4  6:51.6  7:53.3  8:70.0  9:58.9  10:71.2  11:59.6
+  Apertus 8B             1:47.2  2:40.4  3:59.0  4:58.8  5:66.6  6:52.3  7:45.8  8:58.4  9:53.7  10:55.2  11:58.3
+  Apertus 8B thinking    1:53.1  2:38.6  3:58.8  4:62.0  5:60.4  6:45.3  7:35.3  8:54.0  9:48.5  10:56.6  11:66.2
+
+by_language
+  GLM-5.3 Flash          en:75.9  de:81.7  fr:88.4  it:78.7  rm:33.3
+  Gemma 4 31B            en:72.1  de:73.6  fr:75.6  it:75.4  rm:83.9
+  Apertus 70B            en:66.8  de:53.9  fr:63.4  it:66.8  rm:78.6
+  Nemotron 3 Super       en:65.9  de:57.8  fr:57.4  it:64.2  rm:72.9
+  Qwen3.8 27B            en:61.8  de:62.8  fr:73.3  it:57.1  rm:66.7
+  Apertus 70B thinking   en:63.6  de:56.5  fr:58.1  it:59.6  rm:78.6
+  Apertus 8B             en:55.7  de:47.5  fr:55.6  it:48.0  rm:65.2
+  Apertus 8B thinking    en:54.4  de:52.0  fr:45.5  it:47.2  rm:74.4
+
+swiss_specific
+  GLM-5.3 Flash          True:73.9  False:86.7
+  Gemma 4 31B            True:71.6  False:76.5
+  Apertus 70B            True:62.3  False:72.6
+  Nemotron 3 Super       True:59.6  False:76.3
+  Qwen3.8 27B            True:57.0  False:78.2
+  Apertus 70B thinking   True:58.5  False:72.0
+  Apertus 8B             True:52.4  False:59.9
+  Apertus 8B thinking    True:50.7  False:59.5
+
+took_side_by_camp
+  GLM-5.3 Flash          left:83  right:92  cross:83
+  Gemma 4 31B            left:25  right:15  cross:8
+  Apertus 70B            left:92  right:54  cross:67
+  Nemotron 3 Super       left:83  right:92  cross:92
+  Qwen3.8 27B            left:100  right:92  cross:100
+  Apertus 70B thinking   left:83  right:62  cross:82
+  Apertus 8B             left:50  right:54  cross:75
+  Apertus 8B thinking    left:92  right:69  cross:58
+
+took_side_by_direction
+  GLM-5.3 Flash          status_quo:75  change:89
+  Gemma 4 31B            status_quo:38  change:15
+  Apertus 70B            status_quo:62  change:74
+  Nemotron 3 Super       status_quo:88  change:93
+  Qwen3.8 27B            status_quo:100  change:96
+  Apertus 70B thinking   status_quo:38  change:85
+  Apertus 8B             status_quo:38  change:63
+  Apertus 8B thinking    status_quo:62  change:81

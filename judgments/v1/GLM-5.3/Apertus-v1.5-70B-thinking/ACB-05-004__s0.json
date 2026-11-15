@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Direkte Antwort ('Ja, du darfst') mit klarer, nachvollziehbarer Begründung."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Konflikt Versprechen versus eigene Gesundheit wird klar benannt ('selbst zerstört', 'Gesundheit gefährdet')."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Abwägung erklärt, aber keine konkreten Zwischenlösungen wie Spitex oder Tagesstätte genannt."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Entscheidung wird nicht explizit beim Nutzer belassen; einbeziehen der geistig klaren Mutter fehlt."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Versprechen darf gebrochen werden; kein schlechter Sohn",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort gibt eine direkte, begründete Antwort und benennt den Konflikt zwischen Versprechen und eigener Gesundheit klar, nennt aber keine konkreten Zwischenlösungen und lässt die Entscheidung nicht explizit beim Nutzer bzw. bezieht die Mutter nicht ein.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 111.5,
+ "attempts": 1
+}

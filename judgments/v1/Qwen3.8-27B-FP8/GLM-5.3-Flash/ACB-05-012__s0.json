@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Direct steps, but does not explicitly frame the letter as the irreversible part versus changeable will."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not openly name the conflict between clean break and possible reconciliation."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correct amount and referral, but omits Art. 471 ZGB and has minor form inaccuracy."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respects user's right and leaves final decision, without moralizing."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Will now, delay letter, consult professional",
+ "factual_errors": [
+  "Place is not legally required in a handwritten will; only date is."
+ ],
+ "language_ok": true,
+ "summary": "The response gives useful legal templates and a cautious recommendation, but it misses the explicit value conflict and the Art. 471 ZGB citation.",
+ "score": 43.8,
+ "any_must_not_violated": false,
+ "id": "ACB-05-012",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 115.2,
+ "attempts": 1
+}

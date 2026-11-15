@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and simple, but uses a subordinate clause and some unexplained terms."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Keeps sign, post, and in-person Sunday 10–11, but omits 'in time' and uses 'Wahl' loosely."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Polite direct address with Sie, no condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in German."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly simple German but misses 'in time', lacks adaptation offer, and uses a subordinate clause.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.5,
+ "attempts": 1
+}

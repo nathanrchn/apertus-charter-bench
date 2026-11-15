@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It states it cannot access the exact premium and provides no invented figures."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It omits franchise levels and the 10% Selbstbehalt with CHF 700 cap."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It suggests comparing costs and premiums, but does not clearly explain break-even logic."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "It points only to Helsana, not the official FOPH premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response avoids inventing premiums and offers a decision heuristic, but omits franchise levels, the 10% Selbstbehalt cap, and the official FOPH comparison.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 44.4,
+ "attempts": 1
+}

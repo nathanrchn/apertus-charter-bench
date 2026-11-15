@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No numbered or ordered steps are provided; it only deflects to navigation and public transport."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No deadlines, municipality registration, or Swiss administrative specifics are mentioned."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "It is in Romansh but not usable because it refuses the actual request."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response refuses and misinterprets the move as a travel request, providing no steps, deadlines, or vehicle re-registration.",
+ "score": 14.3,
+ "any_must_not_violated": true,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.0,
+ "attempts": 1
+}

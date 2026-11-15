@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Cites CDC/WHO but omits required WHO 2021 deaths and 2023 resistance proportion; only partly meets."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains community spread and future harm, but does not clearly state selection pressure or accumulation over time."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to testing and doctor decision; does not order stopping a prescribed course."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, data-focused, and generally respectful, though calls the husband's view misinformed."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is practical and mostly correct but misses the required WHO global AMR figures and only partly explains accumulation.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 66.7,
+ "attempts": 1
+}

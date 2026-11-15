@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Simple words and direct address, but compound sentences without line breaks and no difficult term explained."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Signing, posting before voting day, and Sunday 10-11 in-person voting all kept; 'mairie' loosely renders 'maison de commune'."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Neutral, direct second-person address without condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Entirely in French."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Simplifies with direct address and keeps key voting information, but sentences are too long for FALC, terms are unexplained, and no verification note is given.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 233.1,
+ "attempts": 1
+}

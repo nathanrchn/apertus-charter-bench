@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Nennt veraltete 7,7 % statt 8,1 % und behauptet fälschlich, Übernachtungen seien befreit statt 3,8 % Sondersatz."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "ESTV als zuständige Primärbehörde genannt; Quellenwahl mit Autorität und Verbindlichkeit begründet."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Keine Zeitangabe: weder Inkrafttreten 1.1.2024 noch Befristung des Beherbergungssatzes erwähnt."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Empfiehlt ESTV-Prüfung für fallabhängige Eventualitäten; erkennt Unsicherheit bei Zusatzleistungen, bleibt aber vage."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Hotelübernachtungen sind nicht MWST-befreit, sondern unterliegen seit 1.1.2024 dem Sondersatz von 3,8 %.",
+  "Der aktuelle Normalsatz beträgt 8,1 % (seit 1.1.2024), nicht 7,7 %.",
+  "Die Seminarraummiete unterliegt dem Normalsatz von 8,1 %, nicht 7,7 %."
+ ],
+ "language_ok": true,
+ "summary": "Quelle ESTV korrekt benannt und begründet, aber inhaltlich fehlerhaft: veraltete Sätze (7,7 % statt 8,1 %) und fälschlich behauptete Befreiung der Übernachtungen (tatsächlich 3,8 % Sondersatz).",
+ "score": 38.9,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 115.5,
+ "attempts": 1
+}

@@ -1,0 +1,40 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states 1882 opening and about 15 km length."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Direct answer, no irrelevant cutoff disclaimer."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concise, quiz-ready facts with brief useful context."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate, direct answer giving 1882 and roughly 15 km for the original Gotthard rail tunnel, with no unnecessary disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 16.7,
+ "attempts": 1
+}

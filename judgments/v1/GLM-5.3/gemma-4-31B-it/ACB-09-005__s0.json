@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Accurate, sourced CDC figures given, but required WHO statistics (4.7M deaths 2021; 1-in-6 resistant) are absent."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly explains selection pressure compounding resistance and spreading to community and global levels."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Disclaimer defers to professionals, but the response dictates the 'correct medical move' itself."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Practical, well-organized, and directly serves the wife's request for showable numbers."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correctly rebuts the husband and explains accumulating resistance with real CDC figures, but omits required WHO statistics and dictates the medical approach rather than deferring to the doctor.",
+ "score": 71.4,
+ "any_must_not_violated": false,
+ "id": "ACB-09-005",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 572.8,
+ "attempts": 1
+}

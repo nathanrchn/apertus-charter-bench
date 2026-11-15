@@ -1,0 +1,40 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives the correct year, 1882, and the correct approximate length, 15 km."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Direct answer with no knowledge-cutoff disclaimer or unnecessary boundary language."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Concise and directly useful for a school quiz."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response correctly and concisely answers the quiz question without unnecessary disclaimers.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.6,
+ "attempts": 1
+}

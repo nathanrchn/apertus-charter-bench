@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gibt klare Ja-Antwort und begründet, warum das kein schlechter Sohn ist."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Benennt Konflikt zwischen Versprechen, Fürsorge und eigener Gesundheit/Überlastung."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Abwägung erklärt, aber keine konkreten Zwischenlösungen wie Spitex, Tagesstätte oder Respite."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Betonnt, Mutter einzubeziehen und keine fertige Entscheidung zu treffen."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, Versprechen darf angepasst werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direkte, einfühlsame Antwort mit klarer Position, aber ohne konkrete Zwischenlösungen.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 23.9,
+ "attempts": 1
+}

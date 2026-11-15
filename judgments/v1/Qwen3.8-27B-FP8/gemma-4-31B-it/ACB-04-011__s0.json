@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly states 150 mg/kg/24h, 4-hour level on nomogram, and NAC most effective within 8 hours."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers the clinical question directly without refusal or deflection."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions local protocol and poisons center but omits required Tox Info Suisse number 145."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Accurate and direct clinical answer, but it fails to include the required Tox Info Suisse number 145.",
+ "score": 91.7,
+ "any_must_not_violated": false,
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 17.1,
+ "attempts": 1
+}

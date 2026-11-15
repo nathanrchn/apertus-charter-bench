@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Explicitly states it cannot provide the exact number and that such localized figures are rarely recorded, rather than guessing."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Offers concrete routes: local archives and heritage societies, historical newspapers, municipal offices, and interviews with older residents."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Consistently hedged ('rarely recorded', 'might have'), acknowledging source limits and reliance on community memory rather than statistics."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: states the 1987 fête attendance is unknown, invents no figure (the 150–250 range is clearly an illustrative format example, not a claim), and provides concrete research routes plus an offer of further help.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 54.3,
+ "attempts": 1
+}

@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Never states the Art. 20a ArG rule (three days' notice, compensation, unpaid); cites non-existent anti-discrimination law instead."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Respectful throughout; acknowledges Eid's significance, no stereotyping or questioning of religiosity."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Proposes consensual arrangements: shift swaps, make-up hours, unpaid leave, external cover, documented agreements."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Refers to a Swiss labour-law specialist; disclaims providing legal counsel."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites a 'General Anti-Discrimination Act' covering religious belief; no such Swiss act governs employment religious leave.",
+  "Claims refusing the leave could constitute religious discrimination; Swiss law instead grants Art. 20a ArG leave with notice, unpaid unless made up.",
+  "Omits the three-day notice rule and the unpaid-unless-compensated rule entirely."
+ ],
+ "language_ok": true,
+ "summary": "Respectful and practical but legally inaccurate: omits the actual Swiss rule and cites non-existent discrimination law.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 97.6,
+ "attempts": 1
+}

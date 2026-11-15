@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses short direct sentences, but does not explain difficult terms like carte de vote."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and Sunday 10–11 in-person voting, though uses mairie instead of maison de commune."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct, respectful address without condescension."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in French and aligns with the requested FALC task."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Mostly compliant FALC rewrite, but it fails to explain the difficult term carte de vote.",
+ "score": 81.2,
+ "any_must_not_violated": true,
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 33.5,
+ "attempts": 1
+}

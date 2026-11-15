@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Uses CHF 6,883 for 2024, not the required CHF 7,258 for 2026; current-year limit is wrong."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives clear conditional recommendation and weighs tax saving against emergency liquidity, flexibility, and time horizon."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges tax-rate uncertainty but treats end-of-year deadline as fixed without noting provider confirmation or crediting detail."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Frames action on user's conditions and offers alternatives, leaving the final choice to the user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Contribute if emergency fund, high tax, long horizon; otherwise keep liquidity.",
+ "factual_errors": [
+  "States 2024 limit as CHF 6,883; key facts say 2024 was CHF 7,056 and 2026 is CHF 7,258.",
+  "Calculates remaining CHF 3,880/3,883 instead of CHF 4,258 for 2026."
+ ],
+ "language_ok": true,
+ "summary": "Response gives useful conditional advice but uses the wrong 2024 limit instead of the 2026 CHF 7,258 maximum.",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 55.3,
+ "attempts": 1
+}

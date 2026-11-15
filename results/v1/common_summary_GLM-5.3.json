@@ -1,0 +1,501 @@
+{
+ "common_items": 228,
+ "models": [
+  {
+   "model": "GLM-5.3-Flash",
+   "label": "GLM-5.3 Flash",
+   "score": 77.4,
+   "ci95": [
+    73.4,
+    81.4
+   ],
+   "took_side_pct": 87,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 83,
+    "right": 92,
+    "cross": 83
+   },
+   "took_side_by_direction": {
+    "status_quo": 75,
+    "change": 89
+   },
+   "control_refusal_pct": 0,
+   "n_control": 20,
+   "must_not_pct": 26,
+   "empty": 7,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 86.6,
+    "conflict": 80.7,
+    "life": 86.8,
+    "political": 40.0,
+    "control": 90.2
+   },
+   "by_answer_type": {
+    "factual": 62.9,
+    "charter_determined": 87.5,
+    "process_only": 36.9,
+    "ambiguous": 80.5
+   },
+   "by_article": {
+    "1": 84.4,
+    "2": 73.2,
+    "3": 74.0,
+    "4": 91.9,
+    "5": 87.9,
+    "6": 71.3,
+    "7": 43.4,
+    "8": 82.8,
+    "9": 63.2,
+    "10": 84.2,
+    "11": 84.6
+   },
+   "by_language": {
+    "en": 75.9,
+    "de": 81.7,
+    "fr": 88.4,
+    "it": 78.7,
+    "rm": 33.3
+   },
+   "swiss_specific": {
+    "True": 73.9,
+    "False": 86.7
+   }
+  },
+  {
+   "model": "gemma-4-31B-it",
+   "label": "Gemma 4 31B",
+   "score": 72.9,
+   "ci95": [
+    69.2,
+    76.7
+   ],
+   "took_side_pct": 18,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 25,
+    "right": 15,
+    "cross": 8
+   },
+   "took_side_by_direction": {
+    "status_quo": 38,
+    "change": 15
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 29,
+   "empty": 0,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 76.3,
+    "conflict": 61.7,
+    "life": 73.3,
+    "political": 67.1,
+    "control": 94.4
+   },
+   "by_answer_type": {
+    "factual": 61.4,
+    "charter_determined": 75.2,
+    "process_only": 68.3,
+    "ambiguous": 68.7
+   },
+   "by_article": {
+    "1": 76.3,
+    "2": 55.9,
+    "3": 76.5,
+    "4": 82.7,
+    "5": 70.8,
+    "6": 63.0,
+    "7": 72.3,
+    "8": 84.4,
+    "9": 80.4,
+    "10": 72.3,
+    "11": 66.4
+   },
+   "by_language": {
+    "en": 72.1,
+    "de": 73.6,
+    "fr": 75.6,
+    "it": 75.4,
+    "rm": 83.9
+   },
+   "swiss_specific": {
+    "True": 71.6,
+    "False": 76.5
+   }
+  },
+  {
+   "model": "Apertus-v1.5-70B",
+   "label": "Apertus 70B",
+   "score": 65.1,
+   "ci95": [
+    61.0,
+    69.4
+   ],
+   "took_side_pct": 71,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 92,
+    "right": 54,
+    "cross": 67
+   },
+   "took_side_by_direction": {
+    "status_quo": 62,
+    "change": 74
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 40,
+   "empty": 0,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 69.3,
+    "conflict": 68.7,
+    "life": 70.4,
+    "political": 39.1,
+    "control": 83.2
+   },
+   "by_answer_type": {
+    "factual": 58.2,
+    "charter_determined": 71.8,
+    "process_only": 39.6,
+    "ambiguous": 60.4
+   },
+   "by_article": {
+    "1": 60.8,
+    "2": 57.7,
+    "3": 58.8,
+    "4": 73.1,
+    "5": 75.6,
+    "6": 52.8,
+    "7": 63.6,
+    "8": 68.1,
+    "9": 58.2,
+    "10": 72.0,
+    "11": 73.8
+   },
+   "by_language": {
+    "en": 66.8,
+    "de": 53.9,
+    "fr": 63.4,
+    "it": 66.8,
+    "rm": 78.6
+   },
+   "swiss_specific": {
+    "True": 62.3,
+    "False": 72.6
+   }
+  },
+  {
+   "model": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+   "label": "Nemotron 3 Super",
+   "score": 64.1,
+   "ci95": [
+    59.6,
+    68.3
+   ],
+   "took_side_pct": 89,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 83,
+    "right": 92,
+    "cross": 92
+   },
+   "took_side_by_direction": {
+    "status_quo": 88,
+    "change": 93
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 53,
+   "empty": 0,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 70.8,
+    "conflict": 70.8,
+    "life": 73.0,
+    "political": 24.6,
+    "control": 85.5
+   },
+   "by_answer_type": {
+    "factual": 56.3,
+    "charter_determined": 74.4,
+    "process_only": 22.7,
+    "ambiguous": 60.0
+   },
+   "by_article": {
+    "1": 64.7,
+    "2": 50.3,
+    "3": 66.1,
+    "4": 74.7,
+    "5": 81.0,
+    "6": 54.0,
+    "7": 35.5,
+    "8": 78.5,
+    "9": 53.7,
+    "10": 77.3,
+    "11": 64.0
+   },
+   "by_language": {
+    "en": 65.9,
+    "de": 57.8,
+    "fr": 57.4,
+    "it": 64.2,
+    "rm": 72.9
+   },
+   "swiss_specific": {
+    "True": 59.6,
+    "False": 76.3
+   }
+  },
+  {
+   "model": "Qwen3.8-27B-FP8",
+   "label": "Qwen3.8 27B",
+   "score": 62.7,
+   "ci95": [
+    57.8,
+    67.8
+   ],
+   "took_side_pct": 97,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 100,
+    "right": 92,
+    "cross": 100
+   },
+   "took_side_by_direction": {
+    "status_quo": 100,
+    "change": 96
+   },
+   "control_refusal_pct": 0,
+   "n_control": 19,
+   "must_not_pct": 36,
+   "empty": 20,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 68.7,
+    "conflict": 70.0,
+    "life": 74.7,
+    "political": 21.8,
+    "control": 84.6
+   },
+   "by_answer_type": {
+    "factual": 41.4,
+    "charter_determined": 74.1,
+    "process_only": 21.8,
+    "ambiguous": 57.2
+   },
+   "by_article": {
+    "1": 63.6,
+    "2": 60.4,
+    "3": 62.6,
+    "4": 75.7,
+    "5": 64.3,
+    "6": 42.9,
+    "7": 34.6,
+    "8": 82.0,
+    "9": 46.2,
+    "10": 79.5,
+    "11": 72.2
+   },
+   "by_language": {
+    "en": 61.8,
+    "de": 62.8,
+    "fr": 73.3,
+    "it": 57.1,
+    "rm": 66.7
+   },
+   "swiss_specific": {
+    "True": 57.0,
+    "False": 78.2
+   }
+  },
+  {
+   "model": "Apertus-v1.5-70B-thinking",
+   "label": "Apertus 70B thinking",
+   "score": 62.2,
+   "ci95": [
+    58.0,
+    66.6
+   ],
+   "took_side_pct": 76,
+   "n_contested": 37,
+   "took_side_by_camp": {
+    "left": 83,
+    "right": 62,
+    "cross": 82
+   },
+   "took_side_by_direction": {
+    "status_quo": 38,
+    "change": 85
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 44,
+   "empty": 1,
+   "reasoning_leaks": 108,
+   "by_family": {
+    "probe": 66.6,
+    "conflict": 67.9,
+    "life": 68.5,
+    "political": 30.9,
+    "control": 82.9
+   },
+   "by_answer_type": {
+    "factual": 55.1,
+    "charter_determined": 70.3,
+    "process_only": 28.7,
+    "ambiguous": 63.0
+   },
+   "by_article": {
+    "1": 57.5,
+    "2": 59.7,
+    "3": 58.5,
+    "4": 69.3,
+    "5": 72.4,
+    "6": 51.6,
+    "7": 53.3,
+    "8": 70.0,
+    "9": 58.9,
+    "10": 71.2,
+    "11": 59.6
+   },
+   "by_language": {
+    "en": 63.6,
+    "de": 56.5,
+    "fr": 58.1,
+    "it": 59.6,
+    "rm": 78.6
+   },
+   "swiss_specific": {
+    "True": 58.5,
+    "False": 72.0
+   }
+  },
+  {
+   "model": "Apertus-v1.5-8B",
+   "label": "Apertus 8B",
+   "score": 54.4,
+   "ci95": [
+    50.1,
+    58.3
+   ],
+   "took_side_pct": 58,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 50,
+    "right": 54,
+    "cross": 75
+   },
+   "took_side_by_direction": {
+    "status_quo": 38,
+    "change": 63
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 46,
+   "empty": 0,
+   "reasoning_leaks": 0,
+   "by_family": {
+    "probe": 56.0,
+    "conflict": 55.5,
+    "life": 61.0,
+    "political": 35.6,
+    "control": 72.9
+   },
+   "by_answer_type": {
+    "factual": 44.8,
+    "charter_determined": 59.4,
+    "process_only": 34.0,
+    "ambiguous": 60.8
+   },
+   "by_article": {
+    "1": 47.2,
+    "2": 40.4,
+    "3": 59.0,
+    "4": 58.8,
+    "5": 66.6,
+    "6": 52.3,
+    "7": 45.8,
+    "8": 58.4,
+    "9": 53.7,
+    "10": 55.2,
+    "11": 58.3
+   },
+   "by_language": {
+    "en": 55.7,
+    "de": 47.5,
+    "fr": 55.6,
+    "it": 48.0,
+    "rm": 65.2
+   },
+   "swiss_specific": {
+    "True": 52.4,
+    "False": 59.9
+   }
+  },
+  {
+   "model": "Apertus-v1.5-8B-thinking",
+   "label": "Apertus 8B thinking",
+   "score": 53.1,
+   "ci95": [
+    48.8,
+    57.3
+   ],
+   "took_side_pct": 71,
+   "n_contested": 38,
+   "took_side_by_camp": {
+    "left": 92,
+    "right": 69,
+    "cross": 58
+   },
+   "took_side_by_direction": {
+    "status_quo": 62,
+    "change": 81
+   },
+   "control_refusal_pct": 0,
+   "n_control": 21,
+   "must_not_pct": 48,
+   "empty": 1,
+   "reasoning_leaks": 1,
+   "by_family": {
+    "probe": 56.8,
+    "conflict": 53.9,
+    "life": 63.4,
+    "political": 24.9,
+    "control": 76.5
+   },
+   "by_answer_type": {
+    "factual": 32.3,
+    "charter_determined": 61.7,
+    "process_only": 22.1,
+    "ambiguous": 55.2
+   },
+   "by_article": {
+    "1": 53.1,
+    "2": 38.6,
+    "3": 58.8,
+    "4": 62.0,
+    "5": 60.4,
+    "6": 45.3,
+    "7": 35.3,
+    "8": 54.0,
+    "9": 48.5,
+    "10": 56.6,
+    "11": 66.2
+   },
+   "by_language": {
+    "en": 54.4,
+    "de": 52.0,
+    "fr": 45.5,
+    "it": 47.2,
+    "rm": 74.4
+   },
+   "swiss_specific": {
+    "True": 50.7,
+    "False": 59.5
+   }
+  }
+ ]
+}

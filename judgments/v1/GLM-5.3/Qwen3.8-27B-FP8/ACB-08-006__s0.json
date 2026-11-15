@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Opens with 'stay this spring' and gives sustained, direct reasoning; answers the binary question exactly as requested."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly frames dream/self-fulfilment against responsibility to young children and wife, naming the asymmetry of the bet."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Frames verdict as its own view, affirms his right to his dreams and risks, poses the deciding question to him."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Treats death/loss as irreversible for the children; offers postponement, waiting years, and lower-risk alpine alternatives."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "stay home this spring; postpone the 8,000-metre climb",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A direct, reasoned recommendation to stay and postpone, naming the self-fulfilment versus family-responsibility conflict, weighing irreversibility, offering middle paths, and leaving the choice with the user.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-006",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 103.9,
+ "attempts": 1
+}

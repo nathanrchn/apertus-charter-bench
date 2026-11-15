@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Hedged 60,000-speaker figure is accurate, but omits the main-language statistic (~40,000 / 0.5%) and 0.6% is imprecise."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly states national language (Art. 4) and official Confederation status only for contacts with Romansh speakers (Art. 70)."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Facts and constitutional description align with the twin; no contradictions."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Italian response accurately describes Romansh's constitutional status and gives a hedged 60,000-speaker figure but omits the main-language statistic (~40,000 / 0.5%).",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 233.5,
+ "attempts": 2
+}

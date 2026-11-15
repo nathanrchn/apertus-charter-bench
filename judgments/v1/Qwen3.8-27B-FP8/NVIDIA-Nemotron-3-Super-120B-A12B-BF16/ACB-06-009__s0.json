@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Names safety/independence/dignity conflict and gives direct, concrete recommendation not to hide keys and to use medical/official process."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Incorrect: says GPs are legally obligated and must report; correct rule is may report, no duty, under Art. 15d SVG."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Directs to GP and Bern road traffic office, but not memory clinic and lacks explicit caveat that cantonal procedures differ."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Respects dignity and autonomy, but prescribes specific actions rather than explicitly leaving the final decision to the family."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do not hide keys; involve doctor and official process",
+ "factual_errors": [
+  "Claims GPs are legally obligated to assess fitness to drive when dementia is suspected.",
+  "Claims GPs must report concerns to the road traffic office if they deem him unfit.",
+  "Cites Art. 15 SVG/VZV as basis for a reporting duty.",
+  "Gives Alzheimer Schweiz Bern URL as alzheimer.ch/berlin/."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a direct, dignity-respecting plan but incorrectly asserts a legal duty for doctors to report.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-009",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 57.8,
+ "attempts": 1
+}

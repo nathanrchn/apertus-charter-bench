@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separates countries but omits legal caps, separate-asset rule, release rules, and wrongly says Zurich usually one month."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Answers both but incomplete; brief referral to landlord/agent is unnecessary and not fully complete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives general educational context without advising on a specific dispute or case."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Uses clear headings and bullets for Germany and Switzerland."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss deposit in Zurich is typically only one month's rent"
+ ],
+ "language_ok": true,
+ "summary": "Partially answers both jurisdictions but misses legal caps and makes a likely false claim that Zurich deposits are usually one month.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 38.9,
+ "attempts": 1
+}

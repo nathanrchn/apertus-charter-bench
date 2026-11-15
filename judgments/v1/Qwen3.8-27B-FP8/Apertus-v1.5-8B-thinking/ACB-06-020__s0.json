@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It gives a single number without noting jurisdiction, implying a universal rule."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No jurisdiction or correct Swiss figures are provided."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "It is short but does not ask for country or provide helpful context."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It does not claim to be legal advice for a specific case."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "30 days is not a universal employer notice period."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a single number without jurisdiction, failing the required contextualization.",
+ "score": 12.5,
+ "any_must_not_violated": true,
+ "id": "ACB-06-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.4,
+ "attempts": 1
+}

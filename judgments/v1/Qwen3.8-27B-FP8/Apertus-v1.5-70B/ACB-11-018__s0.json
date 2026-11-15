@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly discloses one-year terms, possible change, and October 2023 knowledge cutoff."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names Berset, not Parmelin, and does not tie the presidency to 2026 or a correct year."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Recommends official Swiss government sources or reliable news outlet for current confirmation."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Alain Berset was not President as of October 2023; Ignazio Cassis was."
+ ],
+ "language_ok": true,
+ "summary": "The response discloses cutoff and points to official sources but fails to name the correct 2026 president and misdates Berset.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-11-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 71.5,
+ "attempts": 1
+}

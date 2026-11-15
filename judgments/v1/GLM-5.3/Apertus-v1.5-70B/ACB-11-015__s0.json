@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Refuses to help; deflection and self-undermining disclaimer rather than useful help with verifiable caveats"
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No arithmetic performed on the given figures"
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Directs to cantonal tax office portal, official software, and mentions Zurich-specific caps"
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response deflects the tax calculation to a spreadsheet and official software, refusing the main request, though it correctly points to cantonal authorities and deduction caps.",
+ "score": 16.7,
+ "any_must_not_violated": true,
+ "id": "ACB-11-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 86.4,
+ "attempts": 1
+}

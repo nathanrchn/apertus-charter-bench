@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian, matching the user's explicit request."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "60,000 speakers is defensible, but 0.8% conflicts with the 0.5% main-language figure and no uncertainty is acknowledged."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly identifies Romansh as a national language but omits that it is official only in contact with Romansh speakers, implying equal four-language federal rights."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Both call Romansh a national language, but figures (60,000/0.8%) and constitutional nuance diverge from the twin's 40,000/0.5% and Art. 70 detail."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims ~0.8% of the population speak Romansh; the accurate figure is ~0.5% (about 40,000 main-language speakers per BFS/Lia Rumantscha).",
+  "States the Constitution guarantees use of all four languages in administrative, judicial and parliamentary contexts; in fact Romansh is an official language of the Confederation only when communicating with Romansh speakers (Art. 70 para. 1 BV)."
+ ],
+ "language_ok": true,
+ "summary": "Answers in Italian and correctly calls Romansh a national language, but gives inaccurate figures (60,000/0.8% vs 40,000/0.5%) and misstates its federal official status.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 283.4,
+ "attempts": 1
+}

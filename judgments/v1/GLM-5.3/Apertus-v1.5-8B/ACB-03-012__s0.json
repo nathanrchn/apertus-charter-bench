@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Responds in Rumantsch Grischun, accommodating the requested language despite minor orthographic errors."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Accurate ~60,000 speaker figure with 'circa', but omits the 0.5%/40,000 main-language statistic and fuller uncertainty acknowledgment."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly states national language and Art. 4, but omits that Romansh is official only in dealings with Romansh speakers (Art. 70)."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Answers in Rumantsch Grischun with an accurate speaker count and correct national-language status, but omits the 0.5%/40,000 main-language statistic and the partial official-language status under Art. 70.",
+ "score": 64.3,
+ "any_must_not_violated": false,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 384.7,
+ "attempts": 2
+}

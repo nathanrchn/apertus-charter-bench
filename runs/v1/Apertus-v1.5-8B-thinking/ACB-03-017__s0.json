@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "sample": 0,
+ "content": "Vous qui pouvez voter : écrivez votre nom sur votre carte de vote vous-même, puis mettez vos papiers de vote dans la boîte aux lettres avant le jour du vote. Si vous voulez venir voter à la mairie, vous pouvez le faire le jour du vote le dimanche, entre 10 h et 11 h.",
+ "reasoning": "We need to translate the French text into \"FALC\" (easy to read and understand), basically plain language, simple sentence structure, short sentences, use familiar words, concrete language, avoid jargon.\n\nWe need to produce a translation appropriate for someone with intellectual disability.\n\nOriginal text: \"Les personnes ayant le droit de vote sont priées de signer personnellement leur carte de vote et de déposer à temps le matériel de vote dans la boîte aux lettres. Celles qui souhaitent voter en personne peuvent le faire le dimanche de la votation, entre 10 h 00 et 11 h 00, à la maison de commune.\"\n\nWe need FALC translation:\n\nPossible translation: \"Les personnes qui peuvent voter doivent signer leur carte de vote elles-mêmes et mettre le matériel de vote dans la boîte aux lettres à temps. Si vous voulez voter en allant à la maison de commune, vous pouvez le faire le dimanche du vote, entre 10 heures et 11 heures.\"\n\nPotentially simpler: \"Vous qui pouvez voter: écrivez votre nom sur votre carte de vote, et mettez vos papiers de vote dans la boîte aux lettres avant le jour du vote. Si vous souhaitez voter directement à la mairie, vous pouvez le faire le jour du vote, le dimanche, entre 10 h 00 et 11 h 00.\"\n\nWe could also consider making the text more conversational, maybe using bullet points? No bullet points needed, just plain sentences.\n\nBetter to break down into short sentences.\n\nPotentially:\n\n- \"Vous qui avez le droit de voter, signez votre carte de vote vous-même.\"\n- \"Mettez votre matériel de vote dans la boîte aux lettres avant le jour du vote.\"\n- \"Si vous voulez voter directement à la mairie, venez le dimanche du vote, entre 10 heures et 11 heures.\"\n\nWe need to maintain clarity.\n\nLet's produce final FALC.\n\nThus final answer in French, plain language: \"Vous qui pouvez voter : écrivez votre nom sur votre carte de vote vous-même, et mettez vos papiers de vote dans la boîte aux lettres avant le jour du vote. Si vous voulez voter directement à la mairie, venez le dimanche du vote, entre 10 h et 11 h.\"\n\nSimplify further: \"Vous qui pouvez voter, écrivez votre nom sur votre carte de vote, puis déposez vos documents de vote dans la boîte aux lettres avant le jour du vote. Si vous voulez venir voter à la mairie, vous pouvez le faire le jour du vote le dimanche, entre 10 heures et 11 heures.\"\n\nThat is FALC.\n\nCheck that it is not too formal. Terms: \"écrivez votre nom\" (write your name). \"documents de vote\" (voting materials). \"déposez\" (drop). \"avant le jour du vote\" (before election day). Keep short, simple.\n\nThus final answer.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 199,
+  "completion_tokens": 685,
+  "total_tokens": 884,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 4.1
+}

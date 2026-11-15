@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses headings and short sentences, but legal terms like créancier, poursuites, saisies, juridique are not A2-simple."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It never states the ten-day objection deadline, only mentions a payment due date."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives steps to contact office and seek free legal help, though some advice is overconfident."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is helpful and gives steps and help referrals, but it is not A2-simple and omits the crucial ten-day oral/written objection deadline.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 37.5,
+ "attempts": 1
+}

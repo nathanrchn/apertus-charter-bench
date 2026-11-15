@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short and simple, but some complex terms like aide juridictionnelle and formal template reduce A2 suitability."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly states ten days after receipt to object, with urgency and what to do if missed."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives concrete steps, letter template, office visit, and referrals to social, consumer, and legal aid."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Clear, correct, and actionable, but slightly too long and includes some complex legal terms for an A2 reader.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 45.8,
+ "attempts": 1
+}

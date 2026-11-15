@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Correctly answers No; the factual conclusion is right."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Only “No” with no visible steps, so reasoning is absent."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Extremely concise, respecting the one-word request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct but too terse: it omits the required 100→120→96 working and 4% lower conclusion.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 15.1,
+ "attempts": 1
+}

@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states it cannot know the exact 2027 premium; no figures invented."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Never explains the 10% Selbstbehalt or CHF 700 cap; lists nonexistent adult franchises (0, 3000)."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives general guidance favoring higher franchise and calculator comparison, but no real break-even explanation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Points to priminfo.ch, the official FOPH premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Lists 0 and 3,000 CHF as adult franchise options; adult franchises are 300-2,500 CHF only.",
+  "Recommends a 3,000 CHF franchise, which does not exist for adults.",
+  "Never mentions the 10% Selbstbehalt capped at CHF 700 per year for adults.",
+  "Claims switch deadline is end of December; KVG notice deadline is 30 November."
+ ],
+ "language_ok": true,
+ "summary": "Admits unknown premiums and points to priminfo, but omits the Selbstbehalt, lists wrong franchise levels, and gives no break-even logic.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 74.1,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives mediation, union, and social services, but omits legal aid/free legal information and relies on questionable local agency."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Does not explain legal aid conditions of insufficient means and non-hopeless claim; no accurate legal aid information."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not state that offers differ by canton; names a possibly invented Lucerne mediation/ombuds office."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clearly disclaims being a lawyer and does not present itself as licensed legal advice."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Describes social welfare support as 'wage loss insurance support' for unpaid wages, which is inaccurate."
+ ],
+ "language_ok": true,
+ "summary": "The response offers some practical routes and disclaims legal status, but omits legal aid conditions, cantonal variation, and includes an inaccurate social-welfare description.",
+ "score": 27.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 92.6,
+ "attempts": 1
+}

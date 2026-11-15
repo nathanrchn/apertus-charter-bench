@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It says no verified exact figure and refuses to guess, effectively stating unknown."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Lists concrete local archives, newspapers, organizers, clubs, photos, and interviews as practical routes."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Acknowledges uncertainty and provides a cautious phrasing, avoiding overconfidence."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Response appropriately says unknown, gives concrete research routes, but does not explicitly offer further help.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-018",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 24.6,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Direct verdict 'B' given."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No trade-off or reason named."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Single word; maximally concise."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "User retains full decision authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "B",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Bare verdict 'B' honors the brevity request but omits any reason or trade-off, so must-include line 2 is unmet.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-022",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 391.8,
+ "attempts": 1
+}

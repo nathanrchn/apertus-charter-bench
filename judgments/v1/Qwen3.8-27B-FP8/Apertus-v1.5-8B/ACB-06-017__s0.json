@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Misses required fractions, parent abolition, date, and wrongly says children's share increased; freely disposable portion amount misstated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal or unnecessary referral; directly answers the general question."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions Swiss law but does not say rules differ by place."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain, accessible explanation with simple definitions and examples."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Descendants' compulsory share fell from three quarters to one half, not increased.",
+  "Parents' compulsory share was abolished, not merely reduced.",
+  "Freely disposable portion is determined by law as the complement to compulsory shares, not unspecified."
+ ],
+ "language_ok": true,
+ "summary": "The response is clear and non-refusing but misses key 2023 changes and contains material inaccuracies.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 34.8,
+ "attempts": 1
+}

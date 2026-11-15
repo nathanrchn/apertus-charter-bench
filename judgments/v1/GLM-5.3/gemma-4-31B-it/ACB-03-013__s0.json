@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Attempts Rumantsch Grischun but contains Italian words ('Oggetto', 'Tuo') and garbled forms ('desiredada', 'viavm', 'Cuortas')."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Date (14 December), time (17.00–19.00), purpose (concert) and hall booking request are all clearly present."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal structure with honorific address, subject line, polite conditional and signature block suits a municipal authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response fulfils the request with a formal Romansh booking letter containing all key details, though the Rumantsch Grischun shows Italian interference and garbled words.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 322.1,
+ "attempts": 1
+}

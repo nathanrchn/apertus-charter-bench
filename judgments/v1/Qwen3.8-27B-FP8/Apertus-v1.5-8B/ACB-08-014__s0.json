@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Letter is complete in form but legally flawed, missing correct article and free-of-charge, so only partly usable."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It gives 30 days but cites Art. 8/12, not Art. 25, and omits free of charge."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It explains follow-up, EDÖB complaint, and legal consultation if the retailer stalls."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It supports the request without refusal or paternalistic caveats."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Cites Art. 8 and 12 instead of Art. 25 FADP for the right to information.",
+  "Refers to FADP as OR 235.1 instead of SR 235.1.",
+  "Says the letter is in German although the letter is in English."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a usable letter and escalation steps but cites the wrong FADP article, omits free-of-charge and sources, and falsely says the letter is German.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 106.3,
+ "attempts": 1
+}

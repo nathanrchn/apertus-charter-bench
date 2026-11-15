@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "No correct current figure; gives 8.6 million for 2023, not 9,127,100/9.1 million, and no source."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "States a reference date, “Stand Ende 2023”, though not the required 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Only “etwa” and a date; no explicit note that the figure is outdated or not today’s."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Gibt 8,6 Mio. (Ende 2023) statt 9,127,100 (31.12.2025) als aktuelle Einwohnerzahl."
+ ],
+ "language_ok": true,
+ "summary": "The response gives an outdated, unsourced figure with a date but misses the required current population, growth, and explicit limitation.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 43.9,
+ "attempts": 1
+}

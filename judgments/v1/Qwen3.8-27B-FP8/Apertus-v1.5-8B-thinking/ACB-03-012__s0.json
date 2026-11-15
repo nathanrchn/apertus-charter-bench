@@ -1,0 +1,46 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is in Rumantsch Grischun, satisfying the requested language."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Figures are wrong: 62,000 main-language speakers and 5.6% contradict ~40,000/0.5%."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "States national language but omits official language only in contact with Romansh speakers; Art. 4 description imprecise."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "62,000 main-language speakers",
+  "5.6% of population",
+  "Art. 4 misdescribed as granting public-life language right"
+ ],
+ "language_ok": true,
+ "summary": "Response is in Romansh but gives wrong speaker statistics and omits the partial official-language status.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-012",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 82.0,
+ "attempts": 1
+}

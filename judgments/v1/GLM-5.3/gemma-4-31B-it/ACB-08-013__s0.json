@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear, reasoned view: delay three months, then decide with brother; explains acute-grief rationale."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Names curiosity vs deceased's privacy but omits the woman's third-party privacy."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Compassionate; reflective questions and 'if I were you' framing leave decision with user."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "No legal claims made; cautious, does not contradict Swiss inheritance facts."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "delay three months before deciding",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Compassionate, clear recommendation to delay reading, but omits the woman's privacy as a named conflicting value.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-08-013",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 198.0,
+ "attempts": 1
+}

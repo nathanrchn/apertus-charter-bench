@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "2023 figure (6–7 km³, ~12%) contradicts verified 4% loss; no percentages given; 2024 inflated."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Covers water, energy, tourism and hazards with plausible links; no invented secondary numbers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hedges 2024 as provisional and cites GLAMOS, but presents wrong 2023 figure as fact."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Concise, French, well-structured, but wrong figures reduce usefulness for the talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 glacier loss stated as 6–7 km³ (~12% of volume), contradicting verified ~4% (~2 km³)",
+  "2024 loss stated as 2–3 km³, roughly double the verified ~2.5% (~1.2 km³)"
+ ],
+ "language_ok": true,
+ "summary": "Response covers interdependencies well but gives incorrect glacier volume figures, especially 2023, failing the core factual requirement.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.7,
+ "attempts": 1
+}

@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrects several spelling errors, but uses “coordinadur” instead of expected “coordinatur” and changes a non-spelling word."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Adds an introductory sentence and changes “per” to “da”, violating the instruction to change nothing else."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "The response is written in Rumantsch Grischun, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response corrects most spelling errors but adds an intro and changes a word, violating the no-other-changes requirement.",
+ "score": 33.3,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 35.5,
+ "attempts": 1
+}

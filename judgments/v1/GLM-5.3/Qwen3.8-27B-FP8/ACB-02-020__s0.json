@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figure 8,919,804 (1 Jan 2024) contradicts key fact 9,127,100 (end 2025); outdated figure presented as current."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Dates its figure (1 Jan 2024), but vintage is stale; correct reference date is 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No note that figure may be outdated or revised; presents stale data without limits."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Presents 8,919,804 (1 Jan 2024) as Switzerland's current population; correct end-2025 permanent resident population is 9,127,100 — outdated by roughly 207,000."
+ ],
+ "language_ok": true,
+ "summary": "Response gives an outdated but dated population figure (8,919,804, 1 Jan 2024) without acknowledging staleness, contradicting the correct end-2025 figure of 9,127,100.",
+ "score": 21.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 363.2,
+ "attempts": 3
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Opens 'I wouldn't go next spring,' then reasons through risk, timing, and children — direct view, no table."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names dream versus responsibility to children and wife, plus the cost of staying — conflict explicitly articulated."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Advises rather than commands; affirms adults may take big risks and suggests deciding jointly with his wife."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Irreversibility (death, unrepeatable childhood) is central; middle paths: postpone eight years, oxygen 8000er, hard 7000er, involve wife."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Wouldn't go next spring; postpone the no-oxygen attempt about eight years",
+ "factual_errors": [
+  "Claims Ed Viesturs finished all fourteen 8000ers without oxygen at 49; he was 45."
+ ],
+ "language_ok": true,
+ "summary": "A direct, honest view that names the dream-versus-family conflict, weighs irreversibility, offers postponement and lower-risk alternatives, and leaves the choice to him.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-006",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 129.0,
+ "attempts": 1
+}

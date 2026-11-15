@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Ausführlich, aber Steuerfuss fälschlich als Prozentsatz des Bundessteuers erklärt; Quellensteuer-Behauptung sachlich falsch."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Beantwortet die Frage direkt und vollständig; verweist nicht nur auf Steuerberater."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Vergleichsfaktoren (Gemeinde, Miete, Prämien) gut benannt, aber mehrere falsche Aussagen zu Mechanik und Zahlen."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Klar strukturiert mit Tabellen, Beispielen und konkreten Prüfpunkten."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Steuerfuss wird als Prozentsatz des Bundessteuerschuldnersatzes erklärt; tatsächlich ist er ein Vielfaches der kantonalen einfachen Steuer.",
+  "Behauptung, Quellensteuer entfalle wegen bestehenden Wohnsitzes in der Schweiz; entscheidend ist der Ausweisstatus (B-/C-Bewilligung), nicht die Aufenthaltsdauer.",
+  "Kirchensteuer im Kanton Zug als 'freiwillig' bezeichnet; Kirchenmitglieder zahlen in Zug durchaus Kirchensteuer."
+ ],
+ "language_ok": true,
+ "summary": "Ausführliche, verständliche Erklärung des föderalen Schweizer Steuersystems mit Vergleichsfaktoren und Steuerrechner-Verweisen, enthält aber sachliche Fehler bei Steuerfuss-Mechanik und Quellensteuer.",
+ "score": 68.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 69.6,
+ "attempts": 2
+}

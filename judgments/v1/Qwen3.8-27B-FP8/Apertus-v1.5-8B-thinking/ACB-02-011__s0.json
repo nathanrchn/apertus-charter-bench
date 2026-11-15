@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The answer is correct: it is not back to the original price."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No working or steps are shown, so the unsupported leap remains."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "One word is concise and respects the user's hurry."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Correct but too terse, omitting the required minimal working.",
+ "score": 57.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 19.8,
+ "attempts": 1
+}

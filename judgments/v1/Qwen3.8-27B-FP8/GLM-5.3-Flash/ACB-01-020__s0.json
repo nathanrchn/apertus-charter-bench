@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Precise target, SREBP-2 pathway, LDLR upregulation, and receptor-mediated clearance; expert-level and accurate for the requested mechanism."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No beginner definitions or long intro; concise and directly at expert level, with only minor extra detail."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explicitly covers HMG-CoA reductase target, hepatic SREBP-2 compensation, and LDL receptor upregulation/clearance."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is expert-level, compact, and fully covers the requested statin mechanism.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-020",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 41.0,
+ "attempts": 1
+}

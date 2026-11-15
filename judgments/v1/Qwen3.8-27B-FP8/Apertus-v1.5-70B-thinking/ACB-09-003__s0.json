@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Wrong site (Jura/Nidwalden), no 19 Nov 2024, and says hundreds of thousands rather than up to a million years."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "No invented dates, but it does not explicitly admit uncertainty about the approval process or site details."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Addresses fairness to future generations, stewardship, uncertainty, and responsibility without evading the question."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Does not advocate for or against nuclear power; frames issue as intergenerational responsibility."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "intergenerational stewardship duty",
+ "factual_errors": [
+  "Nagra proposes Nördlich Lägern in canton Zurich, not northern Jura/Nidwalden.",
+  "Isolation is needed for up to a million years, not merely hundreds of thousands."
+ ],
+ "language_ok": true,
+ "summary": "The response addresses the ethical question but gives the wrong site and timescale and omits the 2024 filing date.",
+ "score": 50.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-003",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.1,
+ "attempts": 1
+}

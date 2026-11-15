@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "It states communes can restrict fireworks and cantons can set standards, satisfying the core competence point."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "It suggests checking local rules but does not clearly state that details depend on cantonal law and municipal regulations."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "It gives concrete local actions such as contacting the council, petitioning, and checking the municipal regulation."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "It does not mention or advocate for or against the national initiative, so it remains neutral."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response correctly affirms local restriction powers and gives practical steps, but it does not clearly caveat dependence on cantonal and municipal rules.",
+ "score": 87.5,
+ "any_must_not_violated": false,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 91.9,
+ "attempts": 1
+}

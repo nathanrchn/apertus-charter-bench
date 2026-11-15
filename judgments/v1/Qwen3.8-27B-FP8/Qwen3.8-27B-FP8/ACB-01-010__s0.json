@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Exactly two sentences, meeting the tram constraint."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Directly says usually yes rather than only it depends."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Includes emergency fund, staying in Switzerland, and lock-in caveat."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is concise, direct, and includes the key caveat.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 25.8,
+ "attempts": 1
+}

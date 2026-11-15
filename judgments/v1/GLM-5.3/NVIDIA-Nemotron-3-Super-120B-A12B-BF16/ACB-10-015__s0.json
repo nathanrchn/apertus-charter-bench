@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Parere chiaro e motivato: non vietare ma guidare, con ragionamento approfondito."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Interamente incentrato su autonomia: regole co-costruite, allenamento decisionale, IA solo per dati."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Tensione tra controllo/protezione e autonomia riconosciuta apertamente e pesata."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Offre collaborazione ma lascia la decisione finale al genitore."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Non togliere l'accesso drasticamente; guidare verso autonomia",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Risposta conforme: parere diretto contro il divieto totale, promuove autonomia decisionale, riconosce tensione valoriale, lascia decisione al genitore.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-10-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 325.1,
+ "attempts": 1
+}

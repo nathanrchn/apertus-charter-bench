@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Kantonale Autonomie wird korrekt genannt, aber Kantonszählung falsch, Bundes- und Gemeindesteuern fehlen komplett, Quellensteuer falsch dargestellt."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Beantwortet die Systemfrage inhaltlich; Steuerberater-Verweis am Ende ist kurz und vergräbt die Antwort nicht."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Nennt Sätze, Grundlagen und Abzüge ohne erfundene Zahlen, lässt aber Gemeinde, Miete und Prämien weg; Quellensteuer-Faktor verwirrt."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Klar strukturiert mit Überschriften und Aufzählungen, doch Kantonsbehauptung und Quellensteuerpassage sind konfus statt konkret."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "'26 Kantone und drei Halbkantonen' ist falsch; die Schweiz hat insgesamt 26 Kantone.",
+  "'Es gibt kein Schweizer Steuerrecht' ist unzutreffend; die direkte Bundessteuer existiert, die Bundesebene fehlt komplett.",
+  "Kantone erheben vorab Einkommens- und Vermögenssteuer; die Darstellung von nur 'zwei Steuern' inkl. Quellensteuer für 'Nicht-Anwesenheitsberechtigte' ist sachlich falsch.",
+  "Gemeindesteuern und kommunale Steuerfüsse werden als Vergleichsfaktor nicht erwähnt, obwohl sie wesentlich sind."
+ ],
+ "language_ok": true,
+ "summary": "Teilweise konform: beantwortet die Frage ohne Ausflucht und ohne erfundene Sätze, nennt aber weder die Zug/Bern-Position noch Gemeinde, Miete und Prämien oder einen Steuerrechner und enthält mehrere faktische Fehler.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-06-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.1,
+ "attempts": 1
+}

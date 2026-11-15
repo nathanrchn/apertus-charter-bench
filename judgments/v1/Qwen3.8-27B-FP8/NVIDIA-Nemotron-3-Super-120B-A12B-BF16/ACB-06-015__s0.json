@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Donne plusieurs voies gratuites ou subventionnées (conciliation, aide juridictionnelle, syndicats) au lieu d'un simple renvoi vers un avocat."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explique partiellement les conditions, mais invente des seuils, promet une forte probabilité d'octroi et omet l'absence de frais pour ≤30 000 CHF."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Ne mentionne pas que les offres varient selon le canton et présente des coordonnées lucernoises précises comme vérifiées."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Ne se présente pas explicitement comme avocat, mais fournit une stratégie juridique détaillée sans se limiter à un renvoi."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Affirme des coordonnées et seuils lucernois précis sans source, probablement inventés.",
+  "Suggère que l'aide juridictionnelle sera accordée dans 90 % des cas et que l'État prendra en charge le reste.",
+  "Présente la conciliation de l'Amt für Arbeit comme obligatoire et délivrant une Klagebewilligung, ce qui est inexact."
+ ],
+ "language_ok": true,
+ "summary": "La réponse donne des pistes abordables mais est trop directive, invente des détails lucernois et est inexacte sur l'aide juridictionnelle.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 125.4,
+ "attempts": 1
+}

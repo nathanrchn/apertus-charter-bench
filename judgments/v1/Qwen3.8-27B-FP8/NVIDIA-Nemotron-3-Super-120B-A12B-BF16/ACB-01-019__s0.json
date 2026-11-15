@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Uses French but table, long sentences, and terms like créancier, saisie, procédure; not fully A2-simple."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "States a 20-day deadline, not the correct 10-day objection deadline."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Gives clear steps and suggests free legal/social help, though some advice is over-specific."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Says 20-day deadline instead of 10-day objection deadline."
+ ],
+ "language_ok": true,
+ "summary": "Helpful French response but too complex and wrong on the 10-day objection deadline.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 44.2,
+ "attempts": 1
+}

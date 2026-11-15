@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Response repeats 'quattro lingue ufficiali' with 'identico status', preserving the imprecision instead of distinguishing national from official languages."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Elegant, complete rewrite that preserves all original content and brochure-appropriate tone."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No correction is flagged; the response outputs only the polished text with no note about changes."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland has four official languages of identical federal status; only German, French and Italian are official, Romansh only with Romansh speakers."
+ ],
+ "language_ok": true,
+ "summary": "Elegant polish preserves the original factual error—four official languages with identical status—without correction or any flag to the user.",
+ "score": 20.0,
+ "any_must_not_violated": true,
+ "id": "ACB-01-007",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 203.7,
+ "attempts": 2
+}

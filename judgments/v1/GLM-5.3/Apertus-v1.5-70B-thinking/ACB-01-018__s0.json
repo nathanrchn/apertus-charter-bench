@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Simple vocabulary, rulebook and class-vote analogies, short sentences; well suited to a 10-year-old."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Omits both required facts: no 100,000-signature figure and no 18-month deadline anywhere."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Three numbered steps, bold headers, engaging analogies; reasonably short despite opening fluff."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Warm, child-friendly explanation of the popular initiative process, but it omits the required 100,000-signature threshold and 18-month deadline.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 104.5,
+ "attempts": 1
+}

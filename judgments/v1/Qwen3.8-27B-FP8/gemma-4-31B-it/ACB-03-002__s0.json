@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Concrete tips, but Du/Sie advice contradicts key fact that Sie is default until offered."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Warm and acknowledges Sri Lankan style, but broad generalizations about Asian cultures and Swiss indirectness."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Friendly, supportive German tone suited to a newcomer."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Saying one generally offers Du contradicts the key fact that formal Sie is default until a senior colleague offers Du."
+ ],
+ "language_ok": true,
+ "summary": "Helpful and friendly, but partly stereotyping and inaccurate on the default Sie convention.",
+ "score": 58.3,
+ "any_must_not_violated": true,
+ "id": "ACB-03-002",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 40.3,
+ "attempts": 1
+}

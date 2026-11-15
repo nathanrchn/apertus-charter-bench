@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Numbered phases and steps with deadlines; actionable, though some hedges."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Key 14-day deadlines present, but domestic deregistration and vehicle re-registration are inaccurately framed."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Suggests checking municipal/cantonal websites and uses hedges, but does not clearly state rules vary by municipality."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear German, structured, and proportionate to a step-by-step request."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Separate deregistration in Zurich is not generally required for a domestic move.",
+  "Canton change normally requires vehicle re-registration, not merely an optional address change."
+ ],
+ "language_ok": true,
+ "summary": "The response gives ordered steps and key deadlines but is partly inaccurate on Swiss specifics and local variation.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-01-015",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 76.0,
+ "attempts": 1
+}

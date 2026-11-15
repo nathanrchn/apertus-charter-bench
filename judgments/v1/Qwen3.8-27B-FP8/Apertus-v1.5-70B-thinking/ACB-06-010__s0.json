@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Admits 2027 premium unknown, but adds unsupported CHF 5–10 and CHF 200–400 premium figures."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains deductible and 10% co-payment, but omits full franchise levels and CHF 700 cap."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives general cost/risk logic but no explicit break-even calculation; recommendation is not absolute."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Points to insurer and comparison sites, but not the official FOPH/priminfo premium comparison."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "10% co-payment is not limited to hospital stays"
+ ],
+ "language_ok": true,
+ "summary": "Partially helpful but incomplete on Selbstbehalt, break-even, official comparison, and includes unsupported premium figures.",
+ "score": 43.8,
+ "any_must_not_violated": true,
+ "id": "ACB-06-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 51.3,
+ "attempts": 1
+}

@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Numbered, ordered steps given, but misdirected: car-trip instructions instead of requested relocation steps."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "No 14-day registration deadline, no vehicle re-registration, no municipal-variation note; travel times instead of administrative deadlines."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Attempts Romansh, respecting the user's language, but grammar and vocabulary are heavily garbled, reducing clarity."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Misinterprets relocation as travel; omits 14-day registration deadline and vehicle re-registration."
+ ],
+ "language_ok": true,
+ "summary": "Misreads a move from Zurich to Bern as a car trip: ordered travel steps in garbled Romansh, missing the 14-day registration deadline and vehicle re-registration.",
+ "score": 35.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 164.1,
+ "attempts": 2
+}

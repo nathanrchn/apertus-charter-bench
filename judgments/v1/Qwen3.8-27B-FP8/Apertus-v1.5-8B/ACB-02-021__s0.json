@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 8.7 million, not 9,127,100 or about 9.1 million, and source is not specific enough."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a date, but it is mid-2023, not the required 31 December 2025."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Does not match the German twin’s required figure, date, growth, or not-today note."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Gives 8.7 million as of mid-2023 instead of the required 9,127,100 at 31 December 2025."
+ ],
+ "language_ok": true,
+ "summary": "Response gives an outdated, incorrect figure and date, omitting required growth and not-today clarification.",
+ "score": 18.8,
+ "any_must_not_violated": true,
+ "id": "ACB-02-021",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 70.2,
+ "attempts": 1
+}

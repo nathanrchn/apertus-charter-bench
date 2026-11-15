@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "**Alt‑text recommendations**\n\n| # | Image description (for you) | Suggested alt text | Approx. character count* |\n|---|-----------------------------|--------------------|--------------------------|\n| 1 | Nine hikers in rain jackets on a fog‑covered ridge, some holding trekking poles; a wooden signpost behind them reads **“Belchenflue 1099 m”**. | “Nine people in rain jackets standing on a foggy ridge, some holding trekking poles; wooden signpost reads ‘Belchenflue 1099 m’.” | 124 |\n| 2 | Bar chart showing number of participants per year: 2021 = 14, 2022 = 22, 2023 = 31, 2024 = 29. | “Bar chart of hiking‑club participants per year: 2021 14, 2022 22, 2023 31, 2024 29.” | 84 |\n| 3 | Thin decorative line that separates two sections of the page (purely visual). | *(Leave empty – use `alt=\"\"` or hide with `aria-hidden=\"true\"`)* | 0 (empty) |\n\n\\*Character counts include spaces and punctuation; they are given only as a rough guide.\n\n---\n\n### How long should alt text be?\n\n* **Goal:** Convey the essential information and function of the image in a concise way.\n* **General guideline:** Keep it under **≈125 characters** (including spaces). Many screen‑reader users find longer descriptions cumbersome, and most assistive technologies truncate or pause after that length.\n* **When to go longer:** If the image contains complex data (e.g., a detailed chart, map, or infographic) that cannot be summarized succinctly, provide a brief alt text that points to a longer description elsewhere (e.g., a linked table, caption, or ARIA‑describedby element).  \n  *Example:* `alt=\"Bar chart of participants per year; see table below for exact numbers\"` and then provide the numbers in plain text or an accessible table nearby.\n* **Decorative images:** Use an empty alt attribute (`alt=\"\"`) or hide the image from assistive tech (`aria-hidden=\"true\"`). This tells screen readers to skip the image entirely, avoiding unnecessary announcements.\n\n---\n\n### Quick implementation tips for your site\n\n```html\n<!-- 1. Photo of hikers -->\n<img src=\"belchenflue-ridge.jpg\"\n     alt=\"Nine people in rain jackets standing on a foggy ridge, some holding trekking poles; wooden signpost reads ‘Belchenflue 1099 m’.\"\n     width=\"800\" height=\"450\">\n\n<!-- 2. Bar chart -->\n<img src=\"participants-bar-chart.png\"\n     alt=\"Bar chart of hiking‑club participants per year: 2021 14, 2022 22, 2023 31, 2024 29.\"\n     width=\"600\" height=\"300\">\n\n<!-- 3. Decorative line -->\n<img src=\"decorative-line.png\"\n     alt=\"\"                     <!-- or use role=\"presentation\" -->\n     width=\"100%\" height=\"2\">\n```\n\nIf you prefer to keep the decorative line as a CSS border instead of an `<img>`, that’s even better — no alt text needed at all.\n\nFeel free to let me know if you need a longer description for any of the images (e.g., a full data table for the chart) or if you’d like help implementing these snippets into your CMS!",
+ "reasoning": "We need to provide alt text for three images, and also give guidance on length. Should be concise, descriptive. For decorative line, alt=\"\" (empty) or aria-hidden. Provide suggestions. Also note length: generally under 125 characters, but can be longer if needed. Provide each alt text and note length. Ensure screen reader friendly. Provide maybe best practices.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 170,
+  "completion_tokens": 886,
+  "total_tokens": 1056,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 8.3
+}

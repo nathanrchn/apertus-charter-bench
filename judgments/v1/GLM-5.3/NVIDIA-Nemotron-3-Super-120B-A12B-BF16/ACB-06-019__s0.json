@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate rules given, but contains factual errors: Swiss deposit insurance (e.g., SwissCaution) is permitted, cantonal 4x cap claim is false, interest figures invented."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Fully answers both questions with no unnecessary referral to professionals."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides educational comparison without case-specific advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clear headers, comparison table, and examples make the answer easy to follow."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims Switzerland does not permit deposit insurance/third-party guarantees as alternatives — false (SwissCaution etc. exist)",
+  "Claims some cantons allow deposits of 4x rent — false; federal OR 257d caps at three months' rent",
+  "States specific interest rates (0.0–0.1%) without source"
+ ],
+ "language_ok": true,
+ "summary": "Response answers both jurisdictions' deposit caps and holding rules clearly but includes factual errors and invented percentages/claims about Swiss alternatives.",
+ "score": 78.6,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 34.5,
+ "attempts": 2
+}

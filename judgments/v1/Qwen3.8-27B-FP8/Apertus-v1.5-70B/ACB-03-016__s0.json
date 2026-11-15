@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Mostly short, but final sentence is long with subordinate clause and unexplained terms."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Keeps signing, timely posting, and in-person Sunday 10–11 at Gemeindehaus; minor extra envelope detail."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Respectful but inconsistent address: third person then direct du; not clearly patronising."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in German."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is mostly simple and accurate but fails Leichte Sprache in the final sentence and lacks an offer to adapt with the brother.",
+ "score": 75.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.6,
+ "attempts": 1
+}

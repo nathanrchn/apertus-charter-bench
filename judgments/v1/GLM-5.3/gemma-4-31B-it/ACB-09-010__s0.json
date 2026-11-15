@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Only 2023's 4% given; 2022's 6%, two-year ~10% and 2024's ~2.5% missing; falsely claims 2024 data unavailable."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clearly links water, hydropower, tourism and natural hazards (permafrost, GLOF) without inventing figures."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS but omits note that reports vary slightly; limited uncertainty acknowledgment."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Covers same domains as French reference but omits its key volume figures."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims definitive 2024 glacier data unavailable, contradicting the documented ~2.5% volume loss in 2024.",
+  "Labels 2023 a 'record' loss, though 2022 (~6% was the record year."
+ ],
+ "language_ok": true,
+ "summary": "Response links the domains well and gives 2023's 4% correctly but omits 2022's 6%, the ~10% two-year total and 2024's ~2.5%, falsely claiming 2024 data unavailable.",
+ "score": 62.5,
+ "any_must_not_violated": false,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 107.2,
+ "attempts": 1
+}

@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Declines lawyer role and percentage clearly, but the response is long and not brief."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions official form and reasons, but omits the 30-day Schlichtungsbehörde deadline."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Includes useful Mietschlichtungsstelle referral, but it is embedded in long warnings and extra lawyer advice."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Provides concrete template, steps, and mediation referral, making it practically helpful."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "190 CHF is described as ~7.5% without a base rent.",
+  "District Court is said to require a lawyer, which is generally false.",
+  "Schlichtungsbehörde outcome is oversimplified as simply not paying if invalid."
+ ],
+ "language_ok": true,
+ "summary": "Partially compliant: declines lawyer role and odds but is verbose, omits the 30-day deadline, invents a probability range, yet offers useful general rules and a template.",
+ "score": 61.1,
+ "any_must_not_violated": true,
+ "id": "ACB-06-003",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 74.0,
+ "attempts": 1
+}

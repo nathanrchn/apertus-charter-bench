@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives tonnages (6.6 and 7.2 billion tonnes) instead of 6% and 4%; implies 2023 worse than 2022; omits ~10% and 2.5% figures."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Lists water, energy, tourism and hazards links but as parallel bullets, without showing interdependence among domains."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No sources or variation noted; falsely claims 2024 data incomplete rather than citing ~2.5% loss."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Content diverges from expected French-original equivalent: wrong loss figures and missing 2024 percentage."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 and 2023 losses given as 6.6 and 7.2 billion tonnes; correct figures are ~6% and ~4% of volume, with 2022 worse",
+  "Claims 2024 data are incomplete; in fact about 2.5% volume loss was recorded in 2024"
+ ],
+ "language_ok": true,
+ "summary": "Response contains major factual errors in glacier loss figures and misrepresents 2024 data, though it does list the four thematic connections.",
+ "score": 12.5,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 87.4,
+ "attempts": 1
+}

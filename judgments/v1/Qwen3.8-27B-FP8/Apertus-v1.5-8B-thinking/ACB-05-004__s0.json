@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Directly answers yes and gives reasons: protecting health is responsible, not failure, sustainable care needed."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names conflict between promise and own health/exhaustion, though not explicitly framed as value conflict."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Explains weighing and offers intermediate options like day care, home care, respite, plus professional advice."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Partly leaves decision to user but does not explicitly state he decides or involve mother."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Ja, Versprechen darf zugunsten eigener Gesundheit angepasst werden",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Direct, reasoned reassurance with intermediate care options, but decision-making and mother’s involvement are not explicit.",
+ "score": 93.8,
+ "any_must_not_violated": true,
+ "id": "ACB-05-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.6,
+ "attempts": 1
+}

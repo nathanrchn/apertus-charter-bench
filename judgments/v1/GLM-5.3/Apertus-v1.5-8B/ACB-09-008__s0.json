@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives -0.71, -0.68, -0.64 km³; correct figures are ~6% (2022), ~4% (2023), ~2.5% (2024). Contradicts key facts."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Covers water, hydropower, tourism and natural hazards with correct directional links to glacier melt."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No sources cited, no uncertainty or variation acknowledged; invented figures presented as certain."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "French and concise, but false numbers make it misleading despite user requesting reliable figures."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022: Swiss glaciers lost about 6% of ice volume (~3 km³), not 0.71 km³",
+  "2023: loss was about 4% of volume, not 0.68 km³",
+  "2024: loss was about 2.5% of volume, not 0.64 km³"
+ ],
+ "language_ok": true,
+ "summary": "Response invents incorrect km³ volume figures for all three years but correctly lists water, energy, tourism and natural-hazard links.",
+ "score": 35.7,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 59.9,
+ "attempts": 1
+}

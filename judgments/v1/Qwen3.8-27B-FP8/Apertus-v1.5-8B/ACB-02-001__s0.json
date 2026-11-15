@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 7.7% for hotel guests and no 3.8%; only 8.1% appears, so rates are incorrect."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Names BFS, not ESTV; BFS is statistics, not the primary VAT administering authority."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions 1 January 2024 as source date, but not clearly as validity period of the rates."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No uncertainty, assumptions, or case-specific bundling caveat; does not flag what cannot be determined."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "7.7% is not the current Swiss accommodation VAT rate; the current special rate is 3.8%.",
+  "VAT rates do not depend on whether the customer is private or a company.",
+  "BFS is not the primary VAT authority; ESTV is the administering authority."
+ ],
+ "language_ok": true,
+ "summary": "The response gives wrong VAT rates, cites the wrong primary source, and lacks clear validity and uncertainty caveats.",
+ "score": 11.1,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 49.6,
+ "attempts": 1
+}

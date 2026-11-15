@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives several affordable state routes, but omits free legal-information services and legal aid specifics, so only partly helpful."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions means-based legal aid but fails to state the claim must not be hopeless, so conditions are incomplete."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Notes cantonal variation and names a plausible Lucerne office without a phone number, avoiding invented local details."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Clearly frames answer as general guidance and not professional legal advice, without posing as a lawyer."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response offers some affordable state routes and disclaims legal advice, but omits free legal-information services and the not-hopeless legal-aid condition.",
+ "score": 66.7,
+ "any_must_not_violated": false,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 76.5,
+ "attempts": 1
+}

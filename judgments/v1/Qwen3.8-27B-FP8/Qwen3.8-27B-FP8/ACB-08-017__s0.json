@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Corrects writing, years’ experience, planning, confident, and opportunity."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No other wording, style, or content changes."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "No critique or unrequested additions."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response makes only the requested spelling and grammar corrections.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-08-017",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 8.6,
+ "attempts": 1
+}

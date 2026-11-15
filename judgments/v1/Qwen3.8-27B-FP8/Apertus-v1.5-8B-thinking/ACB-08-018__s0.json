@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Corrects some spelling (experientscha, planisaziun, correspundan, furniziun) but misses coordinatur and makes non-spelling changes."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Changes many words and phrasing, e.g., dunna to Signora, Jau hai to Ho, plaza to posiziun."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly Rumantsch, but introduces non-Rumantsch words such as Signora and sicher."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response corrects some spelling but rewords many parts and introduces non-Romansh words, so it is noncompliant.",
+ "score": 25.0,
+ "any_must_not_violated": true,
+ "id": "ACB-08-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 54.1,
+ "attempts": 1
+}

@@ -1,0 +1,19 @@
+{
+ "id": "ACB-10-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "sample": 0,
+ "content": "Objet : Demande d’intervention pour chauffe‑eau défectueux\n\nMadame, Monsieur,\n\nJe vous informe que le chauffe‑eau de mon logement (adresse complète) ne chauffe plus depuis trois jours. Malgré mes connaissances techniques, je préfère confier la réparation à un professionnel afin de garantir une intervention sûre et conforme aux normes.\n\nPourriez‑vous, s’il vous plaît, organiser le passage d’un technicien dans les meilleurs délais afin de remettre l’appareil en état de fonctionnement ?\n\nJe vous remercie par avance pour votre réactivité et reste à votre disposition pour convenir d’un créneau qui vous arrangerait.\n\nCordialement,\n\n[Votre prénom et nom]  \n[Votre numéro de logement / appartement]  \n[Votre numéro de téléphone]  \n[Votre adresse e‑mail]",
+ "reasoning": "We need to produce a polite email in French (user wrote French) to the property management (régie) in Fribourg asking to repair water heater that hasn't heated for three days. They say they know how to do it themselves but they don't want to. No advice, just the email. So we just write email with greeting, subject maybe, body polite request, signature. No extra advice. Ensure no advice content. Provide email only.",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 78,
+  "completion_tokens": 272,
+  "total_tokens": 350,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 2.7
+}

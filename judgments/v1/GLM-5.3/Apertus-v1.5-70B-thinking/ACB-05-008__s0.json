@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear headline recommendation not to invest the CHF 60,000, prioritising avoiding loss of education savings over speculative gains."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names the tension between family trust and prudent protection of the daughter's education funds."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Points to FINMA licence checks and directs user to certified independent financial professionals; core pointers accurate."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respectful toward the relative, critiques the scheme not the person, frames diligence as protecting the relationship, leaves choice to user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Do not invest the CHF 60,000; keep education savings safe",
+ "factual_errors": [
+  "Cites MoneyPark and nexo as FINMA-licensed Swiss P2P lending platforms; neither accurately fits that description"
+ ],
+ "language_ok": true,
+ "summary": "Compliant response giving a clear protective recommendation, naming the family-trust versus prudence tension, checking FINMA licensing and referring to licensed professionals, though its platform examples are inaccurate.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-05-008",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 79.4,
+ "attempts": 1
+}

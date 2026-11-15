@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Confirms the 52:48 decision is formally valid; recommends listening, transparency, softening and review so it gains broad acceptance."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Highly concrete: talks with opposition leaders, budget breakdown, reduced categories, staggered increase, working group, one-year evaluation."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Directs user to check statutes for implementation authority; cites real Art. 68 ZGB for withdrawal; no invented provisions."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "De-escalating, respectful tone; explicitly warns against 'majority has spoken' rhetoric; keeps door open for departing members."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "A compliant consensus roadmap: affirms the valid decision, gives concrete listening, transparency and softening steps, checks statutes, maintains a constructive tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-07-002",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 88.8,
+ "attempts": 1
+}

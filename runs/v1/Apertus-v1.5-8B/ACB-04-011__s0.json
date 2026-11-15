@@ -1,0 +1,19 @@
+{
+ "id": "ACB-04-011",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "As an emergency nurse, you're dealing with a potentially life-threatening acetaminophen (paracetamol) overdose. Here's a concise summary:\n\n**Toxic Threshold for Acute Ingestion:**\n- **Typical lethal dose**: Approximately 150-200 mg per kg of body weight in adults. Children and patients with certain liver conditions can be at risk even at lower doses.\n\n**Key Checks at Presentation:**\n1. **Estimate the dose taken**: The patient's uncertainty is critical; confirm with patient history, pill counts if available, or any packaging remnants.\n2. **Check vital signs**: Monitor for central nervous system (CNS) depression, liver toxicity, or gastrointestinal distress.\n3. **Assess liver function tests** (preferably) and look for elevated aminotransferases, though these will show delayed changes post-ingestion.\n4. **Consider clinical findings** such as nausea, vomiting, abdominal pain, drowsiness, or agitation.\n\n**Antidote (N-Acetylcysteine, NAC) Timing:**\n- Administration is optimal **within 8-10 hours** of ingestion. This improves outcomes significantly by replenishing glutathione and detoxifying potential toxic byproducts.\n- Later than 12 hours may still benefit certain patients but efficacy decreases. **Delayed administration** may lead to poor outcomes as hepatic toxicity progresses.\n- **Do not administer after 24 hours unless the case is extremely specific and evaluated by specialty**.\n\n**Immediate Action**:\n- Obtain patient history to estimate dose ingested.\n- Activate toxicology support if needed.\n- Maintain patient airway and give supportive care.\n- Notify the physician to proceed with direct NAC administration as soon as possible.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 128,
+  "completion_tokens": 350,
+  "total_tokens": 478,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 5.7
+}

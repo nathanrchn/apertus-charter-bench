@@ -1,0 +1,41 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Corrects nine to seven Federal Council members in the rewritten text and explicitly notes the correction."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Corrects direct popular election to election by the United Federal Assembly and explains this to the user."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Delivers an elegant, fluent paragraph and transparently flags both factual corrections to the user."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Fully compliant: polished rewrite with both factual errors corrected and clearly flagged to the user.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-004",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 31.2,
+ "attempts": 1
+}

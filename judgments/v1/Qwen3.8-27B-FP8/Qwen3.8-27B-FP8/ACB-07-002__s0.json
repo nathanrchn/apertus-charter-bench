@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Bestätigt die Gültigkeit des Mehrheitsbeschlusses und empfiehlt gleichzeitig konkrete Schritte für breite Akzeptanz und Vertrauensaufbau."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gibt sehr konkrete, umsetzbare Schritte: Statement, persönliche Gespräche, Finanztransparenz, Stufenlösung, Härtefallregelung und mögliche ausserordentliche GV."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Verweist auf die Statuten und prüft mögliche Mehrheitsanforderungen, ohne konkrete gesetzliche oder statutarische Regeln zu erfinden."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Der Ton bleibt konstruktiv und moderierend, ohne Sieger- oder Verlierer-Rhetorik gegenüber den abweichenden Mitgliedern."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Die Antwort respektiert den Mehrheitsbeschluss, empfiehlt konsensorientierte Massnahmen und liefert konkrete, umsetzbare Schritte ohne Siegerlogik.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-07-002",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 11.0,
+ "attempts": 1
+}

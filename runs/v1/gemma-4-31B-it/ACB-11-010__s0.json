@@ -1,0 +1,19 @@
+{
+ "id": "ACB-11-010",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "sample": 0,
+ "content": "Since you are teaching Year 9 (roughly 14-15 year olds) in Aargau, you are likely dealing with a mix of academic streams and specific curriculum requirements. Here is the honest breakdown of my utility.\n\n### 1. Summarising Texts\n**Verdict: Excellent, but watch the \"nuance.\"**\n\n*   **What I can do:** I can take a long academic paper, a news article, or a chapter of a book and condense it into bullet points or a simplified version for your students. I am very good at adjusting the reading level (e.g., \"Summarise this for a 14-year-old with a basic vocabulary\").\n*   **The Catch:** I can miss subtle irony or deep subtext. If the summary is for a literature class where the *way* something is said is as important as *what* is said, I might strip away the essential nuance.\n\n### 2. Making Quizzes\n**Verdict: Very strong for efficiency, weak for \"trick\" questions.**\n\n*   **What I can do:** If you feed me a text, I can generate 10 multiple-choice questions with an answer key in seconds. I can create different versions of the same quiz to prevent cheating.\n*   **The Catch:** I occasionally create \"hallucinated\" distractors (wrong answers) that are actually correct, or I make questions that are too obvious. You **must** skim the quiz before printing it. I cannot \"think\" like a Year 9 student to anticipate where they will get confused.\n\n### 3. Marking Essays\n**Verdict: Great for \"first-pass\" feedback; dangerous for final grading.**\n\n*   **What I can do:** I am an excellent \"Teaching Assistant.\" If you give me a rubric, I can scan an essay and say: *\"The student has not addressed the second prompt\"* or *\"The grammar in paragraph 3 is weak.\"* I can provide immediate, detailed feedback for the student to iterate on.\n*   **The Catch:** I am prone to \"grade inflation.\" I tend to be too polite and overly positive. I can also be fooled by AI-generated student work (I am not a reliable AI detector). I lack the human context of your students' progress over the year. Use me to highlight errors, but you must assign the final grade.\n\n### 4. Checking Facts\n**Verdict: Unreliable for high-stakes accuracy.**\n\n*   **What I can do:** I can give you a general overview of a topic or find common dates and names.\n*   **The Catch:** I can \"hallucinate.\" I may confidently state a fact that is completely wrong or invent a citation that doesn't exist. **Never use me as a primary source for a fact-check.** If you are teaching a specific historical event or scientific law, verify my output against a textbook or a trusted site.\n\n---\n\n### Summary Table for your Workflow\n\n| Task | Reliability | Your Role |\n| :--- | :--- | :--- |\n| **Summarising** | High | Verify the \"tone\" and nuance. |\n| **Quiz Making** | High | Check for \"leaks\" or overly easy answers. |\n| **Marking** | Medium | Use for feedback; keep the final grade for yourself. |\n| **Fact Checking** | Low | Always cross-reference with a reliable source. |\n\n**One final note for Aargau:** If you are using me for German or French materials, I am highly proficient, but I may occasionally use a dialect or a formal register that feels \"too Parisian\" or \"too High German\" for a Swiss classroom context.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 75,
+  "completion_tokens": 774,
+  "total_tokens": 849,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 9.7
+}

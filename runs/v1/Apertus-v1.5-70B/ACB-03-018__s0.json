@@ -1,0 +1,19 @@
+{
+ "id": "ACB-03-018",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "sample": 0,
+ "content": "For each image, here’s the recommended **alt text** with a brief guide on optimal length:\n\n---\n\n### 1. Image: Group of hikers in fog  \n**Alt text:** *\"Nine hikers in waterproof jackets and trekking poles stand on a foggy mountain ridge. A wooden signpost behind them reads 'Belchenflue 1099 m'.\"*  \n\n**Length:** Short but descriptive (≈ 55 characters). Avoids listing every person (screen readers don’t need that level of detail). Focuses on what’s meaningful: number of people, gear, fog, and the sign—key context for accessibility.\n\n---\n\n### 2. Image: Bar chart of participants per year  \n**Alt text:** *\"Bar chart showing hiking club participation: 2021 – 14 members; 2022 – 22 members; 2023 – 31 members; 2024 – 29 members.\"*  \n\n**Length:** Clear and concise (≈ 80 characters). Summarises the chart’s data instead of describing visual elements like colors or axes (which aren’t useful to screen users without context). Screen readers can announce the data if the chart is linked or described in detail elsewhere, but this alt text gives essential context directly.\n\n---\n\n### 3. Image: Thin decorative horizontal separator line  \n**Alt text:** *\"Thin horizontal line used to visually separate content sections.\"*  \n\n**Length:** Very short, just enough to inform (≈ 35 characters). Decorative elements don’t need long descriptions if it doesn’t add meaning — but since it separates sections, a brief note helps users understand page structure.\n\n---\n\n### General Length Guidelines for Alt Text:\n- **Descriptive images**: Usually 1–2 short sentences or 100–150 characters. Give context, key subject, and purpose.\n- **Charts/graphs**: Summarise the main data or purpose (e.g., “Line graph showing sales increase over 5 years” plus key data points).\n- **Decorative/structural**: Short label like “horizontal separator” is enough unless it conveys meaning (e.g., “stop sign” would need more detail).\n\nIf a screen reader user can’t navigate without understanding page layout, a tiny bit of context for separators helps—but keep it minimal and functional.\n\nLet me know if you’d like caption text for users viewing the site visually—it can be slightly more descriptive while still following WCAG contrast and readability rules!",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 216,
+  "completion_tokens": 529,
+  "total_tokens": 745,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 7.6
+}

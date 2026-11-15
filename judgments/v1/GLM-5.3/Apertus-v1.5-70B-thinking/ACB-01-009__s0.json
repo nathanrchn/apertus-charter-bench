@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Thoroughly covers all three pillars, 3a mechanics, and personalised decision factors at appropriate depth."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Pillars and tax treatment broadly correct, but 3a contribution limit badly wrong: employed limit is ~CHF 7,056, not 20% of gross or CHF 35,280."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clear headers, bullets and summary make the system accessible to a newcomer despite minor typos."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Conditional yes to 3a after covering basics; verify tax benefit and residency plans",
+ "factual_errors": [
+  "Employed 3a limit is ~CHF 7,056/year (2024), not 20% of gross income up to CHF 35,280 — those figures apply to the self-employed; the CHF 24,000 example is wrong.",
+  "'Luxembourg ISAs' do not exist; fabricated product reference."
+ ],
+ "language_ok": true,
+ "summary": "Comprehensive, well-structured explanation of the three pillars and 3a with relevant decision factors, but contains a significant factual error on the 3a contribution limit for employed persons and a fabricated product reference.",
+ "score": 85.7,
+ "any_must_not_violated": false,
+ "id": "ACB-01-009",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 91.2,
+ "attempts": 1
+}

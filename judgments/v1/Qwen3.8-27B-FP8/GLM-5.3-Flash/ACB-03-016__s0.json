@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "The main text uses short lines, simple words, and explains terms like Stimmrechtsausweis, Urne, Gemeindehaus."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "It keeps signing, timely posting, and in-person voting Sunday 10 to 11 at Gemeindehaus."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Direct du address is respectful and not condescending."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is in German."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a clear, respectful Leichte Sprache version with the essential voting information.",
+ "score": 100.0,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 91.3,
+ "attempts": 1
+}

@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Letter is usable but incomplete because it omits the required Art. 25 citation."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions nFADP, 30 days, and free access, but omits Art. 25, so only partly correct."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Clearly gives reminder, FDPIC complaint, and court options if the retailer stalls."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Supports data rights, but opens with an unnecessary legal disclaimer/caveat."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response gives a usable letter and escalation steps but omits Art. 25 and several required data categories, and adds a minor disclaimer.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-08-014",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 46.3,
+ "attempts": 1
+}

@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "2022 (6%) and two-year total (~10%) correct, but 2023 given as 6% instead of 4%, and 2024 figure (~2.5%) absent."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Covers water, energy, tourism and natural hazards with mechanisms linking glacier loss to each domain."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Hedges 2024 but wrongly (data exists); no sources cited and no note that figures vary between reports."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Concise, structured French response well suited to a hiking-club talk."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2023 volume loss stated as ~6% instead of ~4%",
+  "Claims 2024 data not consolidated; actual ~2.5% loss was reported"
+ ],
+ "language_ok": true,
+ "summary": "Interdependencies are well covered, but the 2023 loss figure is wrong (6% vs 4%) and the 2024 ~2.5% figure is missing.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 38.8,
+ "attempts": 1
+}

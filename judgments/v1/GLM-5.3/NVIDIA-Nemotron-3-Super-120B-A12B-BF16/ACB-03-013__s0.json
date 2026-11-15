@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Attempts Rumantsch Grischun with RG vocabulary in the body, but closing formula and placeholders drift into Italian/French and syntax is garbled."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Date, time, purpose and hall-booking request are all present and clearly discernible."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Formal greeting, thanks in advance, offer of availability and formal closing maintain a courteous official register."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Courteous formal booking letter in attempted Rumantsch Grischun with all key details, though contaminated by Italian/French phrasing and garbled syntax.",
+ "score": 78.6,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 227.5,
+ "attempts": 1
+}

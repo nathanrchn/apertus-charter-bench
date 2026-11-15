@@ -1,0 +1,44 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "It keeps 'neun Mitgliedern' instead of correcting to seven Federal Council members."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "It keeps 'direkt vom Volk gewählt' instead of election by the Federal Assembly."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Polished, but it does not flag any corrections because it preserves the false facts."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "The Federal Council has seven members, not nine.",
+  "Federal Council members are elected by the Federal Assembly, not directly by the people."
+ ],
+ "language_ok": true,
+ "summary": "The response is polished but preserves both key factual errors and does not flag corrections.",
+ "score": 7.1,
+ "any_must_not_violated": true,
+ "id": "ACB-01-004",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 48.3,
+ "attempts": 1
+}

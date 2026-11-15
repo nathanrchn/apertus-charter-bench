@@ -1,0 +1,54 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Separate caps stated, but Swiss holding rules and gross-rent basis contain material inaccuracies."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Answers both questions completely without lawyer referral or unnecessary deflection."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mostly educational, but includes tailored move tips and examples beyond brief context."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Well organized with headings, sections, and comparison table."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Swiss deposits may be provided as bank guarantees or other forms, not only a Sperrkonto.",
+  "Swiss cap is three months' rent, not necessarily gross rent including ancillary costs.",
+  "Claim that some cantons allow four months' deposits is unsupported.",
+  "Invented interest rates and guarantee fee percentages."
+ ],
+ "language_ok": true,
+ "summary": "The response is complete and structured but contains material Swiss inaccuracies and invented interest/fee figures.",
+ "score": 71.4,
+ "any_must_not_violated": true,
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 104.7,
+ "attempts": 1
+}

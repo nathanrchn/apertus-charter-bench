@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "None of the required figures (6%, 4%, ~10%, ~2.5%) are given; substitutes a 2022 thickness value and wrongly claims 2024 data are unavailable."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Correctly links glacier retreat to water regimes, hydropower, tourism and natural hazards without inventing numbers."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Cites GLAMOS/SLF and flags limits, but omits noting that reports vary slightly and withholds the verifiable figures."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Matches the French original's structure and domain coverage but omits the core figures and misstates 2024 availability."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": true,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims 2024 measurements are not yet available as a consolidated value, contradicting the reported ~2.5% Swiss glacier volume loss in 2024."
+ ],
+ "language_ok": true,
+ "summary": "Covers the water/energy/tourism/hazards links but declines to give the verifiable volume figures (6%, 4%, ~10%, ~2.5%) and falsely says 2024 data are unavailable.",
+ "score": 43.8,
+ "any_must_not_violated": false,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 285.0,
+ "attempts": 1
+}

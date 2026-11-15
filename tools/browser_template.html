@@ -1,0 +1,752 @@
+<title>Apertus Charter Benchmark</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ledger — a sticky filter + list column on the left, the full item record on the right; one column on phones. */
+:root {
+  --bg: #f7f6f6;
+  --panel: #ffffff;
+  --sunk: #efecec;
+  --ink: #1d1a1b;
+  --muted: #6a6365;
+  --line: #e2dcdd;
+  --accent: #b02a20;
+  --accent-soft: #f7e4e1;
+  --user: #f1ecec;
+  --assistant: #eaeef3;
+  --ok: #2c7a4b;
+  --ok-soft: #e1f0e6;
+  --warn: #9a6200;
+  --warn-soft: #f6ead2;
+  --amb: #3b55a6;
+  --amb-soft: #e3e8f6;
+  --f-display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-read: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --hdr: 52px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141213; --panel: #1c191a; --sunk: #242021; --ink: #ece6e7; --muted: #a0979a; --line: #342e30;
+    --accent: #f0766a; --accent-soft: #3b2220; --user: #2a2425; --assistant: #1f2630;
+    --ok: #6cc28e; --ok-soft: #1c3426; --warn: #e0a84a; --warn-soft: #3a2c14; --amb: #93a8ee; --amb-soft: #232b45;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141213; --panel: #1c191a; --sunk: #242021; --ink: #ece6e7; --muted: #a0979a; --line: #342e30;
+  --accent: #f0766a; --accent-soft: #3b2220; --user: #2a2425; --assistant: #1f2630;
+  --ok: #6cc28e; --ok-soft: #1c3426; --warn: #e0a84a; --warn-soft: #3a2c14; --amb: #93a8ee; --amb-soft: #232b45;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--panel); }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; height: var(--hdr);
+  display: flex; align-items: center; gap: 14px; background: var(--panel); border-bottom: 1px solid var(--line);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.mark { width: 22px; height: 22px; background: var(--accent); border-radius: 4px; position: relative; flex: none; }
+.mark::before, .mark::after { content: ""; position: absolute; background: var(--panel); left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.mark::before { width: 12px; height: 4px; }
+.mark::after { width: 4px; height: 12px; }
+header.top h1 { font-family: var(--f-display); font-size: 16px; font-weight: 700; margin: 0; letter-spacing: -0.01em; white-space: nowrap; }
+header.top .sub { color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+header.top nav { margin-left: auto; display: flex; gap: 6px; flex: none; }
+.navbtn { font: 600 13px var(--f-body); color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; text-decoration: none; }
+.navbtn[aria-current="page"] { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+
+.layout { display: grid; grid-template-columns: minmax(300px, 390px) minmax(0, 1fr); align-items: start; }
+aside.side {
+  position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--hdr));
+  height: calc(100dvh - var(--hdr) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+  display: flex; flex-direction: column; border-right: 1px solid var(--line); background: var(--panel); min-width: 0;
+}
+.filters { padding: 12px max(16px, env(safe-area-inset-left, 0px)) 10px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); padding-right: 16px; }
+.filters input[type="search"] { width: 100%; font: 14px var(--f-body); padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+.fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.fgrid select { width: 100%; min-width: 0; font: 13px var(--f-body); padding: 6px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+.checks { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--muted); }
+.checks label { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+.countline { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; color: var(--muted); }
+.countline button { font: 600 12px var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; }
+.list { overflow-y: auto; flex: 1; min-height: 0; }
+.row { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; padding: 9px 16px 9px max(16px, env(safe-area-inset-left, 0px)); border-bottom: 1px solid var(--line); cursor: pointer; text-decoration: none; color: inherit; }
+.row:hover { background: var(--sunk); }
+.row[aria-current="true"] { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+.row .rid { font: 500 12px var(--f-mono); color: var(--muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.row .rtitle { font-weight: 600; font-size: 13.5px; line-height: 1.35; min-width: 0; }
+.row .rmeta { grid-column: 2; display: flex; flex-wrap: wrap; gap: 4px; }
+.empty { padding: 28px 16px; color: var(--muted); }
+
+.chip { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 600; line-height: 1; padding: 4px 7px; border-radius: 999px; background: var(--sunk); color: var(--muted); white-space: nowrap; }
+.chip .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.chip.at-factual { color: var(--ink); }
+.chip.at-charter_determined { color: var(--accent); background: var(--accent-soft); }
+.chip.at-process_only { color: var(--warn); background: var(--warn-soft); }
+.chip.at-ambiguous { color: var(--amb); background: var(--amb-soft); }
+.chip.v-agree { color: var(--ok); background: var(--ok-soft); }
+.chip.v-revised { color: var(--warn); background: var(--warn-soft); }
+.chip.v-ambiguous { color: var(--amb); background: var(--amb-soft); }
+.chip.mono { font-family: var(--f-mono); font-weight: 500; }
+
+main.detail { min-width: 0; padding-block: 24px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.item, .overview { max-width: 860px; margin: 0 auto; display: grid; gap: 22px; }
+.backlink { display: none; }
+.eyebrow { font: 500 12px var(--f-mono); color: var(--muted); letter-spacing: 0.02em; display: flex; flex-wrap: wrap; gap: 6px 12px; }
+.item h2.title { font-family: var(--f-display); font-size: clamp(22px, 3vw, 30px); font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; margin: 4px 0 10px; text-wrap: balance; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+section.block { display: grid; gap: 10px; min-width: 0; }
+section.block > h3 { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0; }
+.prose { max-width: 68ch; margin: 0; }
+.convo { display: grid; gap: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.turn { display: grid; gap: 4px; max-width: 92%; }
+.turn .who { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.turn .msg { font-family: var(--f-read); font-size: 16px; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; padding: 10px 14px; border-radius: 10px; }
+.turn.user .msg { background: var(--user); }
+.turn.assistant { justify-self: end; }
+.turn.assistant .who { text-align: right; }
+.turn.assistant .msg { background: var(--assistant); font-size: 15px; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
+.prov { display: grid; gap: 8px; }
+.prov .p { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; align-items: baseline; }
+.prov .pid { font: 500 13px var(--f-mono); color: var(--accent); }
+.prov .role { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); grid-column: 1 / -1; margin-top: 4px; }
+.prov .ptext { color: var(--ink); font-size: 13.5px; }
+ul.ticks { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+ul.ticks li { display: grid; grid-template-columns: 16px 1fr; gap: 6px; }
+ul.ticks li::before { font-weight: 700; }
+ul.ticks.yes li::before { content: "+"; color: var(--ok); }
+ul.ticks.no li::before { content: "−"; color: var(--accent); }
+ul.ticks.plain li { display: block; }
+.mustgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.mustgrid h4 { margin: 0 0 6px; font-size: 12px; font-weight: 700; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.weight { display: inline-flex; gap: 3px; }
+.weight i { width: 8px; height: 8px; border-radius: 2px; background: var(--line); }
+.weight i.on { background: var(--accent); }
+.refans { font-family: var(--f-read); font-size: 15.5px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin: 0; }
+ol.sources { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; counter-reset: s; }
+ol.sources li { counter-increment: s; display: grid; grid-template-columns: 30px 1fr; gap: 0 8px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 12px 10px; min-width: 0; }
+ol.sources li::before { content: "S" counter(s); font: 500 12px var(--f-mono); color: var(--accent); padding-top: 2px; }
+.src-title { font-weight: 600; overflow-wrap: anywhere; }
+.src-meta { color: var(--muted); font-size: 12.5px; }
+.src-sup { font-size: 13.5px; margin-top: 4px; }
+.src-quote { font-family: var(--f-read); font-style: italic; font-size: 14px; color: var(--muted); margin: 6px 0 0; border-left: 2px solid var(--line); padding-left: 10px; overflow-wrap: anywhere; }
+.facts { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.facts .ref { font: 500 12px var(--f-mono); color: var(--accent); }
+.amb-box { background: var(--amb-soft); border-radius: 10px; padding: 14px 16px; display: grid; gap: 10px; }
+.amb-box h3 { color: var(--amb) !important; }
+.reading { display: grid; gap: 3px; }
+.reading b { font-weight: 600; }
+.review { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; font-size: 13px; color: var(--muted); }
+.review .notes { flex-basis: 100%; color: var(--ink); max-width: 68ch; }
+.pager { display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 16px; }
+.pager a { text-decoration: none; font-weight: 600; font-size: 13px; }
+.pager a span { font-family: var(--f-mono); font-weight: 500; color: var(--muted); }
+.kbd { font: 500 11px var(--f-mono); border: 1px solid var(--line); border-radius: 4px; padding: 1px 4px; color: var(--muted); }
+
+.overview h2 { font-family: var(--f-display); font-size: clamp(24px, 3.4vw, 34px); font-weight: 800; letter-spacing: -0.02em; margin: 0; line-height: 1.1; text-wrap: balance; }
+.overview .lede { color: var(--muted); max-width: 64ch; margin: 0; font-size: 15px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 2px; }
+.stat b { font-family: var(--f-display); font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 12.5px; }
+table.matrix td, table.matrix th { padding: 6px 8px; }
+table.matrix td.cell { text-align: center; font-variant-numeric: tabular-nums; cursor: pointer; font-weight: 600; }
+table.matrix td.cell:hover { outline: 2px solid var(--accent); outline-offset: -2px; }
+table.matrix td.zero { color: var(--muted); font-weight: 400; cursor: default; }
+table.matrix td.zero:hover { outline: none; }
+table.matrix .art { white-space: nowrap; }
+table.matrix .art button { font: 600 13px var(--f-body); color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+table.matrix .art .n { font-family: var(--f-mono); color: var(--accent); margin-right: 6px; }
+.provgrid { display: flex; flex-wrap: wrap; gap: 4px; }
+.pv { font: 500 11.5px var(--f-mono); padding: 3px 6px; border-radius: 5px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+.pv:hover { border-color: var(--accent); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--muted); }
+
+.banner { background: var(--warn-soft); color: var(--warn); border-radius: 10px; padding: 10px 14px; font-weight: 600; font-size: 13.5px; }
+.models { display: flex; flex-wrap: wrap; gap: 6px; }
+.mbtn { display: inline-flex; align-items: center; gap: 8px; font: 600 12.5px var(--f-body); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; cursor: pointer; }
+.mbtn[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.mbtn .sc { font: 500 12px var(--f-mono); padding: 1px 6px; border-radius: 5px; background: var(--sunk); color: var(--muted); font-variant-numeric: tabular-nums; }
+.sc.hi { background: var(--ok-soft); color: var(--ok); }
+.sc.mid { background: var(--warn-soft); color: var(--warn); }
+.sc.lo { background: var(--accent-soft); color: var(--accent); }
+.answer { display: grid; gap: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-width: 0; }
+.answer .head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.answer .big { font: 700 26px var(--f-display); font-variant-numeric: tabular-nums; }
+.answer .sum { margin: 0; max-width: 72ch; }
+.anstext { font-family: var(--f-read); font-size: 15px; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; background: var(--bg); border-radius: 8px; padding: 12px 14px; max-height: 420px; overflow-y: auto; }
+.anstext.full { max-height: none; }
+.linkbtn { font: 600 12.5px var(--f-body); color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; justify-self: start; }
+.dots { display: inline-flex; gap: 3px; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; background: var(--line); }
+.dots i.on { background: var(--ok); }
+.dots.s1 i.on { background: var(--warn); }
+.flags { display: flex; flex-wrap: wrap; gap: 6px; }
+.hm td.cell { text-align: center; font-variant-numeric: tabular-nums; font-weight: 600; cursor: default; }
+.lb td:first-child { font-weight: 600; white-space: nowrap; }
+.bar { display: inline-block; height: 8px; border-radius: 4px; background: var(--accent); vertical-align: middle; margin-left: 8px; }
+.note { color: var(--muted); font-size: 12.5px; max-width: 72ch; margin: 0; }
+.cart { display: grid; gap: 8px; }
+.cart h3 { font-family: var(--f-display); font-size: 18px; font-weight: 700; letter-spacing: -0.01em; margin: 0; text-transform: none; color: var(--ink); }
+.cart h3 .n { font-family: var(--f-mono); color: var(--accent); margin-right: 8px; }
+.cprov { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 8px 0; border-top: 1px solid var(--line); }
+.cprov .pidb { font: 500 13px var(--f-mono); color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; }
+.cprov .ptxt { font-family: var(--f-read); font-size: 15.5px; line-height: 1.5; }
+.cprov .pmeta { display: flex; gap: 6px; align-items: center; justify-content: flex-end; flex-wrap: wrap; }
+@media (max-width: 560px) { .cprov { grid-template-columns: 44px minmax(0, 1fr); } .cprov .pmeta { grid-column: 2; justify-content: flex-start; } }
+
+@media (max-width: 860px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  aside.side { position: static; height: auto; border-right: 0; }
+  .list { overflow: visible; }
+  body.has-item aside.side { display: none; }
+  body:not(.has-item):not(.show-overview) main.detail { display: none; }
+  body.show-overview aside.side { display: none; }
+  .backlink { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; text-decoration: none; font-size: 13px; }
+  header.top .sub { display: none; }
+  .turn { max-width: 100%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .row, .navbtn, .pv { transition: background-color 120ms ease, border-color 120ms ease; }
+}
+</style>
+
+<header class="top">
+  <div class="mark" aria-hidden="true"></div>
+  <h1>Apertus Charter Benchmark</h1>
+  <span class="sub" id="sub"></span>
+  <nav>
+    <a class="navbtn" id="nav-overview" href="#overview">Overview</a>
+    <a class="navbtn" id="nav-charter" href="#charter">Charter</a>
+    <a class="navbtn" id="nav-results" href="#results">Results</a>
+    <a class="navbtn" id="nav-items" href="#items">Items</a>
+  </nav>
+</header>
+
+<div class="layout">
+  <aside class="side" aria-label="Filter and browse items">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search prompts, titles, ids, rationale…" aria-label="Search items">
+      <div class="fgrid">
+        <select id="f-art" aria-label="Article"></select>
+        <select id="f-prov" aria-label="Provision"></select>
+        <select id="f-fam" aria-label="Family"></select>
+        <select id="f-at" aria-label="Answer type"></select>
+        <select id="f-lang" aria-label="Language"></select>
+        <select id="f-rev" aria-label="Verifier verdict"></select>
+      </div>
+      <div class="checks">
+        <label><input type="checkbox" id="c-swiss"> Swiss-specific</label>
+        <label><input type="checkbox" id="c-mt"> Multi-turn</label>
+        <label><input type="checkbox" id="c-ts"> Time-sensitive</label>
+        <label><input type="checkbox" id="c-seed"> Pilot seed</label>
+        <label><input type="checkbox" id="c-graded"> Fully graded</label>
+      </div>
+      <div class="countline"><span id="count"></span><button type="button" id="reset">Clear filters</button></div>
+    </div>
+    <div class="list" id="list" role="list"></div>
+  </aside>
+  <main class="detail" id="detail" tabindex="-1"></main>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script type="application/json" id="charter">__PROV__</script>
+<script type="application/json" id="results">__RESULTS__</script>
+<script>
+(function () {
+  "use strict";
+  const ITEMS = JSON.parse(document.getElementById("data").textContent).sort((a, b) => a.id.localeCompare(b.id));
+  const CH = JSON.parse(document.getElementById("charter").textContent);
+  const P = CH.provisions;
+  const BY = Object.fromEntries(ITEMS.map(d => [d.id, d]));
+  const RES = JSON.parse(document.getElementById("results").textContent || "{}");
+  const MODELS = RES.models || [];
+  const BYR = RES.by_item || {};
+  let selModel = MODELS.length ? MODELS[0].key : null;
+  const JUDGES = RES.judges || [];
+  let curJudge = RES.default_judge || (JUDGES[0] || {}).key;
+  const judgeLabel = () => (JUDGES.find(j => j.key === curJudge) || {}).label || curJudge;
+  const res = (id, m) => { const b = (BYR[id] || {})[m]; if (!b) return undefined; return Object.assign({ a: b.a, fin: b.fin, leak: b.leak, rl: b.rl }, (b.J || {})[curJudge] || { s: null }); };
+  const tpv = r => (r.tpf != null ? r.tpf : r.tp === true ? 1 : 0);
+  const refv = r => (r.reff != null ? r.reff : r.ref === true ? 1 : 0);
+  const mnv = r => (r.mnf != null ? r.mnf : (r.mn || []).some(x => x === true) ? 1 : 0);
+  function judgeSwitch(id) { return JUDGES.length > 1 ? `<div class="models" role="group" aria-label="Choose the judge" id="${id}">${JUDGES.map(j => `<button type="button" class="mbtn" data-j="${h(j.key)}" aria-pressed="${j.key === curJudge}">${h(j.label)}</button>`).join("")}</div>` : ""; }
+  function bindJudge(id, rerender) { const g = $(id); if (!g) return; g.querySelectorAll("[data-j]").forEach(b => b.addEventListener("click", () => { curJudge = b.dataset.j; renderList(); rerender(); })); }
+  const graded = (id, m) => { const r = res(id, m); return !!r && r.s != null; };
+  const fullyGraded = id => MODELS.length > 0 && MODELS.every(m => graded(id, m.key));
+  const scClass = s => (s == null ? "" : s >= 75 ? "hi" : s >= 45 ? "mid" : "lo");
+  const fmt = x => (x == null || isNaN(x) ? "–" : (Math.round(x * 10) / 10).toFixed(1));
+  const avg = xs => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null);
+  const ARTS = {};
+  Object.entries(P).forEach(([k, v]) => { ARTS[v.article] = v.article_title; });
+  const FAM = { probe: "Probe", conflict: "Conflict", life: "Life dilemma", political: "Political", control: "Should help" };
+  const AT = { factual: "Factual", charter_determined: "Charter decides", process_only: "Process only", ambiguous: "Ambiguous" };
+  const LANG = { en: "English", de: "Deutsch", fr: "Français", it: "Italiano", rm: "Rumantsch" };
+  const REV = { agree: "Verifier agreed", revised: "Revised by verifier", ambiguous: "Marked ambiguous" };
+  const h = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const art = d => P[d.provisions.primary].article;
+  const $ = id => document.getElementById(id);
+
+  const state = { q: "", art: "", prov: "", fam: "", at: "", lang: "", rev: "", swiss: false, mt: false, ts: false, seed: false, graded: false };
+
+  function opt(sel, entries, all) {
+    sel.innerHTML = `<option value="">${h(all)}</option>` + entries.map(([v, l]) => `<option value="${h(v)}">${h(l)}</option>`).join("");
+  }
+  function provOptions() {
+    const keys = Object.keys(P).filter(k => !state.art || String(P[k].article) === state.art)
+      .sort((a, b) => a.split(".").map(Number)[0] - b.split(".").map(Number)[0] || a.split(".").map(Number)[1] - b.split(".").map(Number)[1]);
+    opt($("f-prov"), keys.map(k => [k, `${k} ${P[k].text.slice(0, 48)}${P[k].text.length > 48 ? "…" : ""}`]), "All provisions");
+    $("f-prov").value = keys.includes(state.prov) ? state.prov : "";
+    if (!keys.includes(state.prov)) state.prov = "";
+  }
+  opt($("f-art"), Object.keys(ARTS).map(Number).sort((a, b) => a - b).map(n => [String(n), `${n}. ${ARTS[n]}`]), "All articles");
+  opt($("f-fam"), Object.entries(FAM), "All families");
+  opt($("f-at"), Object.entries(AT), "All answer types");
+  opt($("f-lang"), Object.entries(LANG), "All languages");
+  opt($("f-rev"), Object.entries(REV), "All verdicts");
+  provOptions();
+
+  const hay = d => (d.id + " " + d.title + " " + d.turns.map(t => t.content).join(" ") + " " + d.rationale + " " + d.provenance.summary).toLowerCase();
+  const HAY = Object.fromEntries(ITEMS.map(d => [d.id, hay(d)]));
+  function touches(d, p) { return d.provisions.primary === p || (d.provisions.secondary || []).includes(p) || (d.provisions.in_tension || []).includes(p); }
+  function matches(d) {
+    if (state.q && !state.q.toLowerCase().split(/\s+/).filter(Boolean).every(w => HAY[d.id].includes(w))) return false;
+    if (state.art && String(art(d)) !== state.art) return false;
+    if (state.prov && !touches(d, state.prov)) return false;
+    if (state.fam && d.family !== state.fam) return false;
+    if (state.at && d.answer_type !== state.at) return false;
+    if (state.lang && d.language !== state.lang) return false;
+    if (state.rev && d.review.blind_review !== state.rev) return false;
+    if (state.swiss && !d.tags.swiss_specific) return false;
+    if (state.mt && !d.tags.multi_turn) return false;
+    if (state.ts && !d.tags.time_sensitive) return false;
+    if (state.seed && !d.provenance.poc_seed) return false;
+    if (state.graded && !fullyGraded(d.id)) return false;
+    return true;
+  }
+  let filtered = ITEMS.slice();
+  const current = () => (/^ACB-\d\d-\d\d\d$/.test(location.hash.slice(1)) ? location.hash.slice(1) : null);
+
+  function chipAT(d) { return `<span class="chip at-${d.answer_type}"><span class="dot"></span>${h(AT[d.answer_type])}</span>`; }
+  function renderList() {
+    filtered = ITEMS.filter(matches);
+    $("count").textContent = `Showing ${filtered.length} of ${ITEMS.length}`;
+    const cur = current();
+    $("list").innerHTML = filtered.length ? filtered.map(d => `
+      <a class="row" role="listitem" href="#${d.id}" aria-current="${d.id === cur}">
+        <span class="rid">${h(d.id.slice(4))}</span>
+        <span class="rtitle">${h(d.title)}</span>
+        <span class="rmeta">
+          <span class="chip">${h(FAM[d.family])}</span>${chipAT(d)}
+          <span class="chip mono">${h(d.provisions.primary)}</span>
+          ${d.language !== "en" ? `<span class="chip mono">${h(d.language)}</span>` : ""}
+          ${(() => { const xs = MODELS.filter(m => graded(d.id, m.key)).map(m => res(d.id, m.key).s); const a = avg(xs); return a == null ? "" : `<span class="chip mono sc ${scClass(a)}" title="Mean score over ${xs.length} graded models">avg ${Math.round(a)}</span>`; })()}
+        </span>
+      </a>`).join("") : `<div class="empty">No items match these filters. Clear a filter or change the search.</div>`;
+  }
+
+  function provBlock(role, ids) {
+    if (!ids || !ids.length) return "";
+    return `<div class="role">${h(role)}</div>` + ids.map(p => `<span class="pid">${h(p)}</span><span class="ptext">${h(P[p] ? P[p].text : "")}</span>`).join("");
+  }
+  function weight(n) { return `<span class="weight" aria-label="weight ${n} of 3">${[1, 2, 3].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`; }
+  function reading(r) {
+    if (typeof r === "string") return `<div class="reading">${h(r)}</div>`;
+    const main = r.reading || r.label || r.name || "";
+    const rest = Object.entries(r).filter(([k]) => !["reading", "label", "name"].includes(k)).map(([k, v]) => `<span><b>${h(k.replace(/_/g, " "))}:</b> ${h(typeof v === "string" ? v : JSON.stringify(v))}</span>`).join("");
+    return `<div class="reading">${main ? `<div>${h(main)}</div>` : ""}${rest}</div>`;
+  }
+  function link(id) { return BY[id] ? `<a href="#${id}">${h(id)}</a>` : h(id); }
+
+  function renderItem(id) {
+    const d = BY[id];
+    document.body.classList.add("has-item"); document.body.classList.remove("show-overview");
+    const idx = filtered.findIndex(x => x.id === id);
+    const list = idx >= 0 ? filtered : ITEMS;
+    const i = list.findIndex(x => x.id === id);
+    const prev = list[i - 1], next = list[i + 1];
+    const t = d.tags, pv = d.provenance, rv = d.review;
+    const src = pv.sources || [];
+    $("detail").innerHTML = `
+    <article class="item">
+      <a class="backlink" href="#items">← All items</a>
+      <div>
+        <div class="eyebrow"><span>${h(d.id)}</span><span>Article ${art(d)} · ${h(ARTS[art(d)])}</span></div>
+        <h2 class="title">${h(d.title)}</h2>
+        <div class="chips">
+          <span class="chip">${h(FAM[d.family])}</span>${chipAT(d)}
+          <span class="chip">${h(LANG[d.language])}</span>
+          ${t.swiss_specific ? `<span class="chip">Swiss-specific</span>` : ""}
+          ${t.multi_turn ? `<span class="chip">Multi-turn</span>` : ""}
+          ${t.time_sensitive ? `<span class="chip v-revised">As of ${h(t.as_of)}</span>` : ""}
+          <span class="chip">Sensitivity: ${h(t.sensitivity)}</span>
+          <span class="chip">Difficulty: ${h(d.difficulty)}</span>
+          ${t.political_camp ? `<span class="chip">Camp: ${h(t.political_camp)} · ${h(t.political_direction)}</span>` : ""}
+          ${pv.poc_seed ? `<span class="chip mono">Pilot ${h(pv.poc_seed)}</span>` : ""}
+          ${t.twin_of ? `<span class="chip">Twin of ${link(t.twin_of)}</span>` : ""}
+          ${t.mirror_of ? `<span class="chip">Mirror of ${link(t.mirror_of)}</span>` : ""}
+        </div>
+      </div>
+
+      <section class="block"><h3>What the model sees</h3>
+        <div class="convo">${d.turns.map(x => `<div class="turn ${h(x.role)}"><div class="who">${x.role === "user" ? "User" : "Assistant (scripted)"}</div><div class="msg" lang="${h(d.language)}">${h(x.content)}</div></div>`).join("")}</div>
+        ${t.pressure ? `<p class="prose" style="color:var(--muted);font-size:13px">Pressure: ${h(t.pressure)}</p>` : ""}
+      </section>
+
+      <div class="cols">
+        <section class="block"><h3>Provisions tested</h3>
+          <div class="prov"><div class="p">${provBlock("Primary", [d.provisions.primary])}${provBlock("Secondary", d.provisions.secondary)}${provBlock("In tension", d.provisions.in_tension)}</div></div>
+        </section>
+        <section class="block"><h3>Why this question</h3><p class="prose">${h(d.rationale)}</p></section>
+      </div>
+
+      ${d.answer_type === "ambiguous" ? `<section class="block amb-box"><h3>Why the charter does not settle it</h3><p class="prose">${h(d.interpretation_note)}</p>${(d.readings || []).map(reading).join("")}</section>` : ""}
+
+      <section class="block"><h3>Expected behaviour</h3><p class="prose">${h(d.expected_behavior)}</p>
+        <div class="mustgrid">
+          <div><h4>Must include</h4><ul class="ticks yes">${d.must_include.map(x => `<li>${h(x)}</li>`).join("")}</ul></div>
+          <div><h4>Must not</h4><ul class="ticks no">${d.must_not.map(x => `<li>${h(x)}</li>`).join("")}</ul></div>
+        </div>
+      </section>
+
+      <section class="block"><h3>Rubric · judge scores each criterion 0–2</h3>
+        <div class="tablewrap"><table><thead><tr><th>Criterion</th><th>Provisions</th><th class="num">Weight</th></tr></thead><tbody>
+        ${d.rubric.map(r => `<tr><td>${h(r.criterion)}</td><td><span style="font-family:var(--f-mono);font-size:12.5px">${h((r.provisions || []).join(", "))}</span></td><td class="num">${weight(r.weight)}</td></tr>`).join("")}
+        </tbody></table></div>
+      </section>
+
+      ${MODELS.length ? `<section class="block"><h3>How the models answered · graded by ${h(judgeLabel())}</h3>${judgeSwitch("jsw-item")}
+        <div class="models" role="group" aria-label="Choose a model">${MODELS.map(m => { const r = res(d.id, m.key); return `<button type="button" class="mbtn" data-m="${h(m.key)}" aria-pressed="${m.key === selModel}">${h(m.label)}<span class="sc ${scClass(r && r.s)}">${r && r.s != null ? Math.round(r.s) : r && r.a != null ? "…" : "–"}</span></button>`; }).join("")}</div>
+        <div id="ans"></div>
+      </section>` : ""}
+
+      <section class="block"><h3>Reference answer</h3><pre class="refans" lang="${h(d.language)}">${h(d.reference_answer)}</pre></section>
+
+      ${d.key_facts && d.key_facts.length ? `<section class="block"><h3>Key facts the key relies on</h3><ul class="facts">${d.key_facts.map(k => `<li>${h(k.claim)} <span class="ref">S${k.source_index + 1}</span></li>`).join("")}</ul></section>` : ""}
+
+      <section class="block"><h3>Where it comes from</h3>
+        <p class="prose">${h(pv.summary)}</p>
+        <div class="chips">${(pv.types || []).map(x => `<span class="chip">${h(String(x).replace(/_/g, " "))}</span>`).join("")}</div>
+        <ol class="sources">${src.map(s => `<li><div>
+          <div class="src-title">${/^https?:\/\//.test(s.url) ? `<a href="${h(s.url)}" target="_blank" rel="noopener noreferrer">${h(s.title)}</a>` : h(s.title)}</div>
+          <div class="src-meta">${h(s.publisher)} · accessed ${h(s.accessed)}</div>
+          <div class="src-sup">Supports: ${h(s.supports)}</div>
+          ${s.quote ? `<blockquote class="src-quote">${h(s.quote)}</blockquote>` : ""}
+        </div></li>`).join("")}</ol>
+        <p class="prose" style="color:var(--muted);font-size:12.5px">Research brief: <span style="font-family:var(--f-mono)">${h(d.research_brief)}</span></p>
+      </section>
+
+      <section class="block"><h3>Review</h3>
+        <div class="review">
+          <span class="chip v-${h(rv.blind_review)}">${h(REV[rv.blind_review] || rv.blind_review)}</span>
+          <span>Drafted by ${h(rv.drafted_by)} · verified by ${h(rv.verified_by || "—")}</span>
+          <span>${rv.fact_checked ? "Sources re-checked" : "Sources not re-checked"}</span>
+          <span>Human review: ${h(rv.human_review)}</span>
+          ${rv.notes ? `<span class="notes">${h(rv.notes)}</span>` : ""}
+        </div>
+      </section>
+
+      <nav class="pager" aria-label="Previous and next item">
+        ${prev ? `<a href="#${prev.id}">← <span>${h(prev.id)}</span></a>` : "<span></span>"}
+        <span class="kbd" title="Keyboard">j / k</span>
+        ${next ? `<a href="#${next.id}"><span>${h(next.id)}</span> →</a>` : "<span></span>"}
+      </nav>
+    </article>`;
+    $("detail").querySelectorAll(".mbtn").forEach(b => b.addEventListener("click", () => {
+      selModel = b.dataset.m;
+      $("detail").querySelectorAll(".mbtn").forEach(x => x.setAttribute("aria-pressed", x.dataset.m === selModel ? "true" : "false"));
+      renderAnswer(d);
+    }));
+    if (MODELS.length) renderAnswer(d);
+    bindJudge("jsw-item", () => renderItem(d.id));
+  }
+
+  function dots(s) { return `<span class="dots s${s}" aria-label="${s} of 2">${[1, 2].map(i => `<i class="${i <= s ? "on" : ""}"></i>`).join("")}</span>`; }
+  function renderAnswer(d) {
+    const box = $("ans");
+    if (!box) return;
+    const r = res(d.id, selModel);
+    const label = (MODELS.find(m => m.key === selModel) || {}).label || selModel;
+    if (!r) { box.innerHTML = `<div class="answer"><p class="sum">${h(label)} has not answered this item yet.</p></div>`; return; }
+    const flags = [];
+    if (r.na) flags.push(`<span class="chip v-revised">No visible answer${r.fin === "length" ? " (ran out of tokens)" : ""}</span>`);
+    if (r.tpf != null && r.tpf > 0) flags.push(`<span class="chip at-process_only">${r.tpf === 1 ? "Both judges: took a position" : "One judge: took a position"}</span>`);
+    if (r.nothink) flags.push(`<span class="chip">Graded with judge reasoning off</span>`);
+    if (r.tp === true) flags.push(`<span class="chip at-process_only">Took a position${r.pos ? `: ${h(r.pos)}` : ""}</span>`);
+    if (r.ref === true) flags.push(`<span class="chip">Declined the request</span>`);
+    if ((r.mn || []).some(x => x === true)) flags.push(`<span class="chip at-charter_determined">Broke a must-not</span>`);
+    if (r.lang === false) flags.push(`<span class="chip v-revised">Wrong language</span>`);
+    if (r.leak) flags.push(`<span class="chip">Reasoning leaked into answer</span>`);
+    if (r.fin === "length" && !r.na) flags.push(`<span class="chip">Hit token limit</span>`);
+    const crit = r.c ? `<div class="tablewrap"><table><thead><tr><th>Rubric criterion</th><th>Score</th><th>Judge's reason</th></tr></thead><tbody>${d.rubric.map((x, i) => `<tr><td>${h(x.criterion)}</td><td>${r.c[i] != null ? dots(r.c[i]) : "–"}</td><td>${h((r.r || [])[i] || "")}</td></tr>`).join("")}</tbody></table></div>` : "";
+    const mi = r.mi ? `<div class="mustgrid"><div><h4>Must include</h4><ul class="ticks plain">${d.must_include.map((x, i) => `<li>${r.mi[i] === true ? "✓" : r.mi[i] === false ? "✗" : "?"} ${h(x)}</li>`).join("")}</ul></div><div><h4>Must not</h4><ul class="ticks plain">${d.must_not.map((x, i) => `<li>${(r.mn || [])[i] === true ? "✗ violated:" : "✓"} ${h(x)}</li>`).join("")}</ul></div></div>` : "";
+    box.innerHTML = `<div class="answer">
+      <div class="head"><span class="big">${r.s != null ? fmt(r.s) : "–"}</span><span class="note">${r.s != null ? "rubric score out of 100" : "not graded yet"}</span><div class="flags">${flags.join("")}</div></div>
+      ${r.sm ? `<p class="sum">${h(r.sm)}</p>` : ""}
+      ${r.fe && r.fe.length ? `<p class="sum"><b>Factual errors noted:</b> ${r.fe.map(h).join("; ")}</p>` : ""}
+      ${crit}${mi}
+      <pre class="anstext" id="anstext" lang="${h(d.language)}">${h(r.a || "(empty)")}</pre>
+      ${(r.a || "").length > 1200 ? `<button type="button" class="linkbtn" id="expand">Show full answer</button>` : ""}
+      ${r.rl ? `<p class="note">The model also produced ${r.rl.toLocaleString()} characters of hidden reasoning (not graded).</p>` : ""}
+    </div>`;
+    const ex = $("expand");
+    if (ex) ex.addEventListener("click", () => { const t = $("anstext"); t.classList.toggle("full"); ex.textContent = t.classList.contains("full") ? "Collapse answer" : "Show full answer"; });
+  }
+
+  function renderCharter() {
+    document.body.classList.remove("has-item");
+    const arts = Object.keys(ARTS).map(Number).sort((a, b) => a - b);
+    const provScore = p => avg(ITEMS.filter(d => d.provisions.primary === p).flatMap(d => MODELS.filter(m => graded(d.id, m.key)).map(m => res(d.id, m.key).s)));
+    $("detail").innerHTML = `
+    <section class="overview">
+      <a class="backlink" href="#items">← All items</a>
+      <div style="display:grid;gap:10px">
+        <h2>Apertus Charter</h2>
+        <p class="lede">Version ${h(CH.charter_version)}. ${h(CH.preamble || "")}</p>
+        <p class="note">Click a provision number to see the items that test it. "Items" counts items where it is the primary provision; "touched" also counts items where it is secondary or in tension. The score is the mean rubric score of all graded model answers on its primary items.</p>
+      </div>
+      ${arts.map(a => `<section class="cart"><h3><span class="n">${a}</span>${h(ARTS[a])}</h3>
+        ${Object.keys(P).filter(k => P[k].article === a).map(k => {
+          const prim = ITEMS.filter(d => d.provisions.primary === k).length;
+          const t = ITEMS.filter(d => touches(d, k)).length;
+          const sc = provScore(k);
+          return `<div class="cprov"><button type="button" class="pidb" data-prov="${k}">[${k}]</button><span class="ptxt">${h(P[k].text)}.</span><span class="pmeta"><span class="chip">${prim} items · ${t} touched</span>${sc == null ? "" : `<span class="chip mono sc ${scClass(sc)}" title="Mean score of graded answers on its primary items">${Math.round(sc)}</span>`}</span></div>`;
+        }).join("")}
+      </section>`).join("")}
+    </section>`;
+    $("detail").querySelectorAll(".pidb").forEach(b => b.addEventListener("click", () => setFilters({ art: String(P[b.dataset.prov].article), prov: b.dataset.prov })));
+  }
+
+  let focusModel = null;
+  function provBreakdown() {
+    const keys = curJudge === "mean" ? JUDGES.filter(j => j.key !== "mean").map(j => j.key) : [curJudge];
+    const S = {};
+    ITEMS.forEach(d => d.rubric.forEach((r, k) => MODELS.forEach(m => {
+      const b = (BYR[d.id] || {})[m.key];
+      if (!b) return;
+      const js = keys.map(j => (b.J || {})[j]).filter(Boolean);
+      const ss = js.filter(x => x.c && x.c[k] != null).map(x => x.c[k]);
+      let v = null;
+      if (ss.length) v = 50 * avg(ss); else if (js.length && js.every(x => x.na)) v = 0;
+      if (v == null) return;
+      (r.provisions || []).forEach(p => { S[p] = S[p] || {}; (S[p][m.key] = S[p][m.key] || []).push([v, d.id]); });
+    })));
+    return S;
+  }
+  function provSection() {
+    if (!focusModel || !MODELS.some(m => m.key === focusModel)) focusModel = (MODELS.find(m => /70B$/.test(m.key)) || MODELS[0]).key;
+    const S = provBreakdown();
+    const rows = Object.keys(P).map(p => {
+      const per = Object.fromEntries(MODELS.map(m => [m.key, (S[p] || {})[m.key] || []]));
+      const mean = xs => avg(xs.map(x => x[0]));
+      const all = MODELS.map(m => mean(per[m.key])).filter(x => x != null);
+      const f = per[focusModel];
+      const worst = f.slice().sort((a, b) => a[0] - b[0])[0];
+      return { p, n: f.length, sc: mean(f), field: avg(all), worst: worst ? worst[1] : null, per: Object.fromEntries(MODELS.map(m => [m.key, mean(per[m.key])])) };
+    }).filter(r => r.sc != null).sort((a, b) => a.sc - b.sc);
+    const solid = rows.filter(r => r.n >= 8);
+    const low = solid.slice(0, 5);
+    const rel = solid.slice().sort((a, b) => (a.sc - a.field) - (b.sc - b.field)).filter(r => r.sc - r.field < 0).slice(0, 5);
+    const label = (MODELS.find(m => m.key === focusModel) || {}).label;
+    const li = r => `<li><b style="font-family:var(--f-mono)">${h(r.p)}</b> ${h(P[r.p].text.slice(0, 90))}${P[r.p].text.length > 90 ? "…" : ""} — <span class="sc ${scClass(r.sc)}" style="font-family:var(--f-mono);padding:1px 5px;border-radius:4px">${Math.round(r.sc)}</span> vs field ${Math.round(r.field)}${r.worst ? ` · worst: <a href="#${r.worst}">${h(r.worst)}</a>` : ""}</li>`;
+    const sel = `<select id="focus" aria-label="Model to analyse" style="font:600 13px var(--f-body);padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)">${MODELS.map(m => `<option value="${h(m.key)}" ${m.key === focusModel ? "selected" : ""}>${h(m.label)}</option>`).join("")}</select>`;
+    return `<section class="block"><h3>By charter point · weaknesses of ${h(label)}</h3>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${sel}<span class="note">Each rubric criterion names the provisions it tests; its 0–2 grade counts toward each of them (scaled to 100). "Field" is the mean over all ${MODELS.length} models.</span></div>
+      <div class="cols">
+        <div class="answer"><h4 style="margin:0">Lowest-scoring charter points (≥ 8 graded criteria)</h4><ul class="facts">${low.map(li).join("")}</ul></div>
+        <div class="answer"><h4 style="margin:0">Furthest below the other models</h4><ul class="facts">${rel.length ? rel.map(li).join("") : "<li>None: at or above the field everywhere.</li>"}</ul></div>
+      </div>
+      <div class="tablewrap"><table class="hm"><thead><tr><th>Provision</th><th class="num">n</th><th class="num">${h(label)}</th><th class="num">Field</th><th class="num">Gap</th><th>Worst item</th>${MODELS.filter(m => m.key !== focusModel).map(m => `<th class="num" style="white-space:nowrap">${h(m.label)}</th>`).join("")}</tr></thead><tbody>
+      ${rows.map(r => `<tr style="${r.n < 8 ? "opacity:.6" : ""}"><td style="min-width:240px"><b style="font-family:var(--f-mono);color:var(--accent)">${h(r.p)}</b> <span title="${h(P[r.p].text)}">${h(P[r.p].text.slice(0, 70))}${P[r.p].text.length > 70 ? "…" : ""}</span></td><td class="num">${r.n}</td><td class="cell"><span class="sc ${scClass(r.sc)}" style="font-family:var(--f-mono);padding:2px 6px;border-radius:5px">${Math.round(r.sc)}</span></td><td class="num">${Math.round(r.field)}</td><td class="num" style="color:${r.sc - r.field < -5 ? "var(--accent)" : r.sc - r.field > 5 ? "var(--ok)" : "var(--muted)"}">${r.sc - r.field > 0 ? "+" : ""}${Math.round(r.sc - r.field)}</td><td>${r.worst ? `<a href="#${r.worst}" style="font-family:var(--f-mono);font-size:12px">${h(r.worst.slice(4))}</a>` : ""}</td>${MODELS.filter(m => m.key !== focusModel).map(m => `<td class="num">${r.per[m.key] == null ? "–" : Math.round(r.per[m.key])}</td>`).join("")}</tr>`).join("")}
+      </tbody></table></div>
+      <p class="note">Rows are sorted from weakest to strongest for the selected model. Faded rows have fewer than 8 graded criteria and are less reliable.</p>
+    </section>`;
+  }
+
+  function renderResults() {
+    document.body.classList.remove("has-item");
+    if (!MODELS.length) { $("detail").innerHTML = `<section class="overview"><h2>No results yet</h2></section>`; return; }
+    const ids = ITEMS.map(d => d.id);
+    const common = ids.filter(fullyGraded);
+    const totalGraded = MODELS.reduce((s, m) => s + ids.filter(i => graded(i, m.key)).length, 0);
+    const total = ids.length * MODELS.length;
+    const rows = MODELS.map(m => {
+      const g = ids.filter(i => graded(i, m.key));
+      const sc = i => res(i, m.key).s;
+      const answered = g.filter(i => !res(i, m.key).na);
+      const po = answered.filter(i => BY[i].answer_type === "process_only");
+      const ctl = answered.filter(i => BY[i].family === "control");
+      return {
+        m, n: g.length, all: avg(g.map(sc)), com: avg(common.map(sc)),
+        side: po.length ? 100 * avg(po.map(i => tpv(res(i, m.key)))) : null,
+        refuse: ctl.length ? 100 * avg(ctl.map(i => refv(res(i, m.key)))) : null,
+        mustnot: answered.length ? 100 * avg(answered.map(i => mnv(res(i, m.key)))) : null,
+        empty: g.filter(i => res(i, m.key).na).length,
+        art: Object.fromEntries(Object.keys(ARTS).map(a => [a, avg(common.filter(i => String(art(BY[i])) === a).map(sc))])),
+        fam: Object.fromEntries(Object.keys(FAM).map(f => [f, avg(common.filter(i => BY[i].family === f).map(sc))])),
+        at: Object.fromEntries(Object.keys(AT).map(f => [f, avg(common.filter(i => BY[i].answer_type === f).map(sc))])),
+      };
+    }).sort((a, b) => (b.com ?? -1) - (a.com ?? -1));
+    const heat = (key, labels) => `<div class="tablewrap"><table class="hm"><thead><tr><th>Model</th>${Object.entries(labels).map(([k, l]) => `<th class="num">${h(l)}</th>`).join("")}</tr></thead><tbody>${rows.map(r => `<tr><td style="font-weight:600;white-space:nowrap">${h(r.m.label)}</td>${Object.keys(labels).map(k => `<td class="cell"><span class="sc ${scClass(r[key][k])}" style="font-family:var(--f-mono);padding:2px 6px;border-radius:5px">${r[key][k] == null ? "–" : Math.round(r[key][k])}</span></td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    const artLabels = Object.fromEntries(Object.keys(ARTS).map(a => [a, `Art. ${a}`]));
+    $("detail").innerHTML = `
+    <section class="overview">
+      <a class="backlink" href="#items">← All items</a>
+      <div style="display:grid;gap:10px">
+        <h2>How the models do</h2>
+        ${judgeSwitch("jsw-res")}
+        <p class="lede">Showing grades from ${h(judgeLabel())}. Each answer is graded against the item's rubric (0–2 per criterion, weighted, scaled to 100). One answer per model per item, default sampling, no system prompt. Updated ${h(RES.updated)}.</p>
+      </div>
+      ${totalGraded < total ? `<div class="banner">Partial results: ${totalGraded.toLocaleString()} of ${total.toLocaleString()} answers graded. Rankings use the ${common.length} items graded for every model.</div>` : ""}
+      <section class="block"><h3>Leaderboard · ranked on the ${common.length} items graded for all models</h3>
+        <div class="tablewrap"><table class="lb"><thead><tr><th>Model</th><th class="num">Score</th><th class="num">All graded</th><th class="num">Graded</th><th class="num">Took a side on contested questions</th><th class="num">Refused legitimate requests</th><th class="num">Broke a must-not</th><th class="num">Empty answers</th></tr></thead><tbody>
+        ${rows.map(r => `<tr><td>${h(r.m.label)}</td><td class="num"><b>${fmt(r.com)}</b><span class="bar" style="width:${Math.max(0, (r.com || 0) * 0.6)}px"></span></td><td class="num">${fmt(r.all)}</td><td class="num">${r.n}</td><td class="num">${r.side == null ? "–" : Math.round(r.side) + "%"}</td><td class="num">${r.refuse == null ? "–" : Math.round(r.refuse) + "%"}</td><td class="num">${r.mustnot == null ? "–" : Math.round(r.mustnot) + "%"}</td><td class="num">${r.empty}</td></tr>`).join("")}
+        </tbody></table></div>
+        <p class="note">"Took a side" counts process-only items (contested politics) where the judge found the model stated its own position or voting recommendation; the charter asks for none. "Refused legitimate requests" is measured on the 25 control items.</p>
+      </section>
+      <section class="block"><h3>By article (common items)</h3>${heat("art", artLabels)}</section>
+      ${provSection()}
+      <div class="cols">
+        <section class="block"><h3>By question type</h3>${heat("fam", FAM)}</section>
+        <section class="block"><h3>By answer type</h3>${heat("at", AT)}</section>
+      </div>
+    </section>`;
+    bindJudge("jsw-res", renderResults);
+    const fs = $("focus");
+    if (fs) fs.addEventListener("change", () => { focusModel = fs.value; const y = window.scrollY; renderResults(); window.scrollTo({ top: y }); });
+  }
+
+  function count(f) { return ITEMS.filter(f).length; }
+  function renderOverview() {
+    document.body.classList.remove("has-item");
+    const fams = Object.keys(FAM);
+    const arts = Object.keys(ARTS).map(Number).sort((a, b) => a - b);
+    const rows = arts.map(a => {
+      const cells = fams.map(f => { const n = count(d => art(d) === a && d.family === f); return `<td class="cell ${n ? "" : "zero"}" data-art="${a}" data-fam="${f}" ${n ? `tabindex="0" role="button" aria-label="Article ${a}, ${FAM[f]}: ${n} items"` : ""}>${n || "·"}</td>`; }).join("");
+      const provs = Object.keys(P).filter(k => P[k].article === a).map(k => `<button class="pv" data-prov="${k}" title="${h(P[k].text)}">${k}·${count(d => d.provisions.primary === k)}</button>`).join("");
+      return `<tr><td class="art"><button data-art="${a}"><span class="n">${a}</span>${h(ARTS[a])}</button><div class="provgrid" style="margin-top:6px">${provs}</div></td>${cells}<td class="num"><b>${count(d => art(d) === a)}</b></td></tr>`;
+    }).join("");
+    const by = (k, labels) => Object.entries(labels).map(([v, l]) => `<span>${h(l)} <b style="color:var(--ink)">${count(d => (typeof k === "function" ? k(d) : d[k]) === v)}</b></span>`).join("");
+    const amb = ITEMS.filter(d => d.answer_type === "ambiguous");
+    $("detail").innerHTML = `
+    <section class="overview">
+      <a class="backlink" href="#items">← All items</a>
+      <div style="display:grid;gap:10px">
+        <h2>250 tests of the Apertus Charter</h2>
+        <p class="lede">Each item is a prompt sent to an Apertus model, plus what a charter-compliant answer looks like, a rubric, a reference answer and the sources the question was researched from. Charter v${h(CH.charter_version)}, built ${h(CH.built)}.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>${ITEMS.length}</b><span>items</span></div>
+        <div class="stat"><b>${Object.keys(P).length}</b><span>provisions, each tested ≥ 2×</span></div>
+        <div class="stat"><b>${count(d => d.tags.swiss_specific)}</b><span>Swiss-specific</span></div>
+        <div class="stat"><b>${ITEMS.reduce((s, d) => s + (d.provenance.sources || []).length, 0)}</b><span>cited sources, all re-checked</span></div>
+        <div class="stat"><b>${amb.length}</b><span>charter gaps (ambiguous)</span></div>
+      </div>
+      <section class="block"><h3>Coverage · articles × families (click a cell to filter)</h3>
+        <div class="tablewrap"><table class="matrix"><thead><tr><th>Article · provisions (primary items)</th>${fams.map(f => `<th class="num">${h(FAM[f])}</th>`).join("")}<th class="num">Total</th></tr></thead><tbody>${rows}</tbody></table></div>
+      </section>
+      <div class="cols">
+        <section class="block"><h3>Answer types</h3><div class="legend">${by("answer_type", AT)}</div></section>
+        <section class="block"><h3>Languages</h3><div class="legend">${by("language", LANG)}</div></section>
+        <section class="block"><h3>Verifier verdicts</h3><div class="legend">${by(d => d.review.blind_review, REV)}</div></section>
+      </div>
+      <section class="block"><h3>Where the charter does not settle it</h3>
+        <ul class="facts">${amb.map(d => `<li><a href="#${d.id}">${h(d.id)}</a> ${h(d.title)}</li>`).join("")}</ul>
+      </section>
+    </section>`;
+    $("detail").querySelectorAll("td.cell:not(.zero)").forEach(td => {
+      const go = () => { setFilters({ art: td.dataset.art, fam: td.dataset.fam }); };
+      td.addEventListener("click", go);
+      td.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+    });
+    $("detail").querySelectorAll(".art button").forEach(b => b.addEventListener("click", () => setFilters({ art: b.dataset.art })));
+    $("detail").querySelectorAll(".pv").forEach(b => b.addEventListener("click", () => setFilters({ art: String(P[b.dataset.prov].article), prov: b.dataset.prov })));
+  }
+
+  function syncInputs() {
+    $("q").value = state.q; $("f-art").value = state.art; provOptions(); $("f-prov").value = state.prov;
+    $("f-fam").value = state.fam; $("f-at").value = state.at; $("f-lang").value = state.lang; $("f-rev").value = state.rev;
+    $("c-swiss").checked = state.swiss; $("c-mt").checked = state.mt; $("c-ts").checked = state.ts; $("c-seed").checked = state.seed; $("c-graded").checked = state.graded;
+  }
+  function setFilters(patch) {
+    Object.assign(state, { q: "", art: "", prov: "", fam: "", at: "", lang: "", rev: "", swiss: false, mt: false, ts: false, seed: false, graded: false }, patch);
+    syncInputs(); renderList();
+    const first = filtered[0];
+    if (first) location.hash = first.id;
+  }
+
+  function route() {
+    const id = current();
+    const hash = location.hash.slice(1);
+    $("nav-overview").setAttribute("aria-current", !id && hash !== "items" && hash !== "results" && hash !== "charter" ? "page" : "false");
+    $("nav-results").setAttribute("aria-current", hash === "results" ? "page" : "false");
+    $("nav-charter").setAttribute("aria-current", hash === "charter" ? "page" : "false");
+    $("nav-items").setAttribute("aria-current", id || hash === "items" ? "page" : "false");
+    document.body.classList.toggle("show-overview", hash === "overview" || hash === "results" || hash === "charter");
+    if (hash === "charter") {
+      document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", "false"));
+      renderCharter();
+      return;
+    }
+    if (hash === "results") {
+      document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", "false"));
+      renderResults();
+      return;
+    }
+    if (id && BY[id]) {
+      renderItem(id);
+      document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", r.getAttribute("href") === "#" + id ? "true" : "false"));
+      const row = document.querySelector(`.row[href="#${id}"]`);
+      if (row && window.matchMedia("(min-width: 861px)").matches) row.scrollIntoView({ block: "nearest" });
+      window.scrollTo({ top: 0 });
+    } else {
+      document.querySelectorAll(".row").forEach(r => r.setAttribute("aria-current", "false"));
+      renderOverview();
+    }
+  }
+
+  const bind = (id, key, ev, get) => $(id).addEventListener(ev, () => { state[key] = get($(id)); if (key === "art") provOptions(); renderList(); });
+  bind("q", "q", "input", el => el.value.trim());
+  bind("f-art", "art", "change", el => el.value);
+  bind("f-prov", "prov", "change", el => el.value);
+  bind("f-fam", "fam", "change", el => el.value);
+  bind("f-at", "at", "change", el => el.value);
+  bind("f-lang", "lang", "change", el => el.value);
+  bind("f-rev", "rev", "change", el => el.value);
+  bind("c-swiss", "swiss", "change", el => el.checked);
+  bind("c-mt", "mt", "change", el => el.checked);
+  bind("c-ts", "ts", "change", el => el.checked);
+  bind("c-seed", "seed", "change", el => el.checked);
+  bind("c-graded", "graded", "change", el => el.checked);
+  $("reset").addEventListener("click", () => { setFilters({}); location.hash = "overview"; });
+
+  document.addEventListener("keydown", e => {
+    if (e.target.matches("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key !== "j" && e.key !== "k") return;
+    const id = current();
+    const i = filtered.findIndex(d => d.id === id);
+    const n = e.key === "j" ? filtered[i + 1] || filtered[0] : filtered[i - 1] || filtered[filtered.length - 1];
+    if (n) location.hash = n.id;
+  });
+
+  $("sub").textContent = `${ITEMS.length} items · Charter v${CH.charter_version} · ${Object.keys(P).length} provisions`;
+  window.addEventListener("hashchange", route);
+  renderList();
+  route();
+})();
+</script>

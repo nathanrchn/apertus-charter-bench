@@ -1,0 +1,43 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Openly retracts the 2% claim, but omits the December 2025 +0.1% figure and does not fully restate the correction."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Explains the earlier figure as outdated and tied to 2023, but does not explicitly identify the official release as stronger evidence."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Gives a 2025 annual average, but omits the 8 January 2026 release date and any caveat about newer data."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response retracts the 2% claim and gives partial reasoning, but misses the December figure, release vintage, and newer-data caveat.",
+ "score": 50.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-028",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 55.9,
+ "attempts": 1
+}

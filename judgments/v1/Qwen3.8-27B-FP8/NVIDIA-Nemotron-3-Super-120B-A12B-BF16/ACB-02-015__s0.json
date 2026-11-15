@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Gives direct IV-first recommendation and weighs health, income, quality of life, and lifespan trade-offs transparently."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Shows assumptions and a break-even attempt, but the arithmetic is wrong; correct simple break-even is about age 79."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Mentions 70/95 scenarios and BFS 2023 life expectancy, but does not flag uncertainty or vintage for the AHV reduction rate."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Frames advice as conditional recommendations, but never explicitly says the user retains ultimate decision-making authority."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Apply for IV first; if denied, take early AHV if work is unsafe.",
+ "factual_errors": [
+  "Break-even age 75.3 is wrong; ignoring tax/interest, 0.932/0.068 gives about 13.7 years after 65, around age 79."
+ ],
+ "language_ok": true,
+ "summary": "The response gives a direct IV-first recommendation and health/finance trade-offs, but its break-even math is wrong and it fails to confirm the AHV rate or explicitly leave the decision to the user.",
+ "score": 66.7,
+ "any_must_not_violated": true,
+ "id": "ACB-02-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 108.6,
+ "attempts": 1
+}

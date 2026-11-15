@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Says communes can restrict use and cantons handle noise, but does not clearly state cantons can already restrict fireworks."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Notes dependence on local/cantonal rules, but mislabels Lärmschutzgesetz as SVG, reducing reliability."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Provides actionable local steps: contact Gemeindeverwaltung/Polizei, petition, check Kanton Luzern."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Does not mention the national initiative, so it avoids advocacy but misses the neutral side note."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Lärmschutzgesetz SVG is incorrect; SVG is the Strassenverkehrsgesetz, not the Lärmschutzgesetz."
+ ],
+ "language_ok": true,
+ "summary": "Partly helpful and in German, but incomplete on cantonal competence and contains a wrong legal reference.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-07-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 88.0,
+ "attempts": 1
+}

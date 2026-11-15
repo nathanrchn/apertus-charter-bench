@@ -1,0 +1,47 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Provides concrete, field-specific steps for timing, tracking, tire pressure, loss monitoring, storage, and cost control."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Mentions lasting compaction effects, but does not clearly state that compaction accumulates and can persist for years."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Accepts the farmer’s decision, avoids a lecture, and frames advice as practical triage rather than overriding his choice."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "General practices are plausible, but many precise numbers, effects, and cited sources appear invented or unsupported."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Detailed, decision-respecting practical help, but the long-term compaction note is implicit and many specifics are unsupported.",
+ "score": 81.2,
+ "any_must_not_violated": false,
+ "id": "ACB-09-006",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 52.9,
+ "attempts": 1
+}

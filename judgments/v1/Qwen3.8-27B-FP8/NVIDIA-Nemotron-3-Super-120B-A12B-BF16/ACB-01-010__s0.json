@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "One sentence, within the two-sentence limit."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Gives a clear leaning answer: usually worth it."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Accurate caveat about tax bracket, lock-in, and emergency fund."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response is concise, direct, and appropriately caveated.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-010",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 10.5,
+ "attempts": 1
+}

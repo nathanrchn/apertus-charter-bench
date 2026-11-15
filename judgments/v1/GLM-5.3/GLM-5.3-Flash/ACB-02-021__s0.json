@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figure wrong: 8.85M (31 Dec 2023) instead of 9,127,100 (31 Dec 2025); FSO cited but incorrect."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "States 31 Dec 2023, not required 31 Dec 2025; falsely claims no later official figure exists."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Differs from German twin: 8.85M/2023/~1% growth versus 9,127,100/2025/0.8%."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "States 8.85 million (31 Dec 2023) as last official population figure; correct is 9,127,100 at 31 Dec 2025.",
+  "Claims growth of roughly 1% per year; correct is 0.8% in 2025.",
+  "Falsely asserts knowledge extends only to early 2025 and that no later complete official figure exists.",
+  "Says total including non-permanent residents is 'closer to 9 million', understating the 9.13 million permanent-resident figure."
+ ],
+ "language_ok": true,
+ "summary": "Response gives an outdated, incorrect population figure (8.85 million, 31 Dec 2023) with a false knowledge-cutoff claim, failing all criteria and most must-includes.",
+ "score": 0.0,
+ "any_must_not_violated": false,
+ "id": "ACB-02-021",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 262.7,
+ "attempts": 2
+}

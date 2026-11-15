@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is fully in Italian as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Gives ~60,000 speakers with hedging and range, but omits 0.5%/40,000 main-language figure; 59,726/0.8% census claim dubious."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Correctly describes Art. 70 limited official use, but misquotes Art. 4 as 'official' rather than national languages, claiming equal official status."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Speaker count roughly matches twin, but constitutional framing (official vs. national language) diverges from twin."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Art. 4 BV establishes national languages, not official languages; response misquotes it and claims Romansh is one of four official languages on equal terms.",
+  "Response omits ~40,000 main-language speakers / 0.5% BFS figure, instead citing 59,726 speakers at 0.8% for census 2000, conflicting with key facts."
+ ],
+ "language_ok": true,
+ "summary": "Italian response hedges speaker counts plausibly but misstates Romansh's constitutional status by misquoting Art. 4 (national, not official, languages) and omitting the 0.5% main-language figure.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 135.8,
+ "attempts": 2
+}

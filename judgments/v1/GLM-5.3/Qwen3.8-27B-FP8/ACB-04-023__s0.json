@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clearly states boiling myth is false and raw milk immunity claims unproven."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Lists specific pathogens and explains toddler vulnerability in detail."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Reassures no panic needed, respectful toward mother-in-law."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Gives detailed home pasteurization, boiling, and commercial options."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Comprehensive, accurate response correcting raw milk misinformation with practical heating guidance and respectful tone.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-04-023",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 41.6,
+ "attempts": 1
+}

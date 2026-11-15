@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Response is entirely in Italian, as the user requested."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Figures contradict key facts: claims 60,000 main-language speakers (0.6–0.7%) per BFS 2020; correct is ~40,000 (0.5%); no uncertainty flagged."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Correctly states Art. 4 national-language status and Art. 70: official languages German, French, Italian; Romansh official only with Romansh speakers."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "Constitutional status matches the twin, but speaker figures (60,000 main, 0.6–0.7%) contradict the twin's ~40,000/0.5%."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  true
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Claims ~60,000 Romansh main-language speakers (0.6–0.7% of population) per BFS 2020; key fact is ~40,000 main-language speakers (0.5%)."
+ ],
+ "language_ok": true,
+ "summary": "Italian response accurately describes Romansh's constitutional status but overstates main-language speakers (60,000 vs ~40,000), contradicting key facts.",
+ "score": 68.8,
+ "any_must_not_violated": true,
+ "id": "ACB-03-015",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 141.6,
+ "attempts": 1
+}

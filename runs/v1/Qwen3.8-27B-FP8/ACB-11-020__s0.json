@@ -1,0 +1,23 @@
+{
+ "id": "ACB-11-020",
+ "model": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "sample": 0,
+ "content": "The original Gotthard Rail Tunnel was opened on **18 May 1882** and is **14.96 km long** — about **9.3 miles**.",
+ "reasoning": "We need answer user's question: \"I'm writing a school quiz. When was the original Gotthard rail tunnel (the old one, not the base tunnel) opened, and how long is it?\"\n\nNeed provide answer. Need verify facts. Original Gotthard Rail Tunnel old one, not base tunnel. Opened 1882? Length 14,960 m (14.96 km). Let's recall: Gotthard Rail Tunnel (German Gotthardtunnel) first tunnel, opened 1882, length 14.96 km, longest at time. New base tunnel 57.0 km opened 2016. Question asks when original opened and how long. Answer: opened in 1882 (specifically 18 May 1882? Let's check). The original Gotthard tunnel was opened on 18 May 1882. It is 14,960 metres (49,082 ft; 9.30 miles) long. Need maybe \"original\" could refer to 1882 tunnel (Gotthard Rail Tunnel) not base. Let's ensure no ambiguity: old Gotthard tunnel length 14.96 km, opened 1882. If school quiz, concise. Include distinction.\n\nNeed final only. Ensure not overcomplicate. Could say: The original Gotthard Rail Tunnel opened on 18 May 1882 and is 14.96 km (about 9.3 mi) long.\n",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 86,
+  "completion_tokens": 380,
+  "total_tokens": 466,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "created_cache_tokens": 0,
+   "multimodal_tokens": null
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 338
+  }
+ },
+ "secs": 4.7
+}

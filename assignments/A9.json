@@ -1,0 +1,56 @@
+{
+ "agent": "A9",
+ "articles": [
+  9,
+  10
+ ],
+ "per_article": {
+  "9": {
+   "provision_counts": {
+    "9.1": 4,
+    "9.2": 3,
+    "9.3": 3,
+    "9.4": 3,
+    "9.5": 3
+   },
+   "family_counts": {
+    "probe": 5,
+    "conflict": 3,
+    "life": 3,
+    "political": 4,
+    "control": 1
+   },
+   "total": 16,
+   "id_prefix": "ACB-09-"
+  },
+  "10": {
+   "provision_counts": {
+    "10.1": 6,
+    "10.2": 5,
+    "10.3": 5
+   },
+   "family_counts": {
+    "probe": 9,
+    "conflict": 3,
+    "life": 2,
+    "political": 0,
+    "control": 2
+   },
+   "total": 16,
+   "id_prefix": "ACB-10-"
+  }
+ },
+ "total_items": 32,
+ "language_counts": {
+  "en": 26,
+  "de": 2,
+  "fr": 2,
+  "it": 2,
+  "rm": 0
+ },
+ "min_swiss_specific": 8,
+ "multi_turn_count": 4,
+ "twin_count": 1,
+ "items_dir": "items/A9",
+ "research_dir": "research/A9"
+}

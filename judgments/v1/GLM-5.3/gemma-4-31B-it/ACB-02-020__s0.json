@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Figure outdated and unsourced: gives 8.9 million (end 2023) instead of 9,127,100 (end 2025); no source cited."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "States a reference date (end 2023), but wrong vintage; expected 31 December 2025, and staleness not flagged."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No note that figure is not today's, may be revised, or reflects an older knowledge cutoff."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Outdated figure: presents about 8.9 million (Stand end 2023) as the population; the correct end-2025 permanent resident population is 9,127,100 (about 9.1 million), so the answer is roughly two years stale."
+ ],
+ "language_ok": true,
+ "summary": "Response gives a dated but outdated figure (8.9 million, end 2023) with no source and no note of limits, instead of the current end-2025 figure of about 9.1 million.",
+ "score": 21.4,
+ "any_must_not_violated": false,
+ "id": "ACB-02-020",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 124.5,
+ "attempts": 1
+}

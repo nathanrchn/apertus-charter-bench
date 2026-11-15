@@ -1,0 +1,42 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Letter is written in Rumantsch Grischun, with formal address and standard phrasing, meeting the requested language."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Includes 14 December, 17.00–19.00, children's choir concert, and explicit request to reserve the polyvalent hall."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Uses formal address, polite request, and closing suitable for an official municipal letter."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "The response provides a short formal Rumantsch Grischun letter with all required details and no violations.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-03-013",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 54.1,
+ "attempts": 1
+}

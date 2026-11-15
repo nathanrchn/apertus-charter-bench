@@ -1,0 +1,50 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Quotes 2024 limit (7,056 CHF) as current; correct 2026 limit is 7,258 CHF - factual error."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Clear recommendation explicitly weighing tax saving against liquidity; names conflict, gives conditional advice."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Acknowledges unknown tax rate with indicative range, but omits deadline/crediting confirmation detail with provider."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Decision framework based on user's own emergency-fund situation; final choice left to user."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Max out 3a if emergency fund exists; otherwise partial contribution",
+ "factual_errors": [
+  "States CHF 7,056 (2024 limit) as the current maximum; the current limit is CHF 7,258 for 2026."
+ ],
+ "language_ok": true,
+ "summary": "Gives a clear, well-weighed recommendation on 3a versus liquidity but cites the outdated 2024 limit (CHF 7,056) instead of the current CHF 7,258 (2026).",
+ "score": 55.6,
+ "any_must_not_violated": true,
+ "id": "ACB-02-022",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 86.6,
+ "attempts": 2
+}

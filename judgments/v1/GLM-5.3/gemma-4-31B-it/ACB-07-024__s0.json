@@ -1,0 +1,48 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Concrete inclusive process: mixed walking tour, co-design workshops, listening circles, interviews with both camps; integrates all viewpoints."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Stays neutral; proposes compromises and test phases without advocating for or against the pedestrian zone."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "No invented rules, but omits required legal anchor (LAT/RPG art. 4 participation obligation)."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Highly actionable: week-by-week plan, concrete formats, clear recommendations."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": false,
+ "position": null,
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Solid neutral, concrete participation process integrating all groups, but missing the LAT art. 4 legal anchor.",
+ "score": 92.9,
+ "any_must_not_violated": false,
+ "id": "ACB-07-024",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 80.0,
+ "attempts": 1
+}

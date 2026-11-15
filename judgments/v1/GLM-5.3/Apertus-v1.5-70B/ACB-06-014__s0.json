@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Gives mediation, union and social-office routes but omits legal aid, the direct answer to state cost help."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Never mentions legal aid or its conditions (lack of means, not hopeless)."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No note that offers differ by canton; treats Lucerne system as universal."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Explicit AI disclaimer; does not pose as a lawyer."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Invents 'wage loss insurance support' and a 'Payment Protection Office'; Sozialamt social assistance is not wage-loss insurance tied to wage disputes.",
+  "Conciliation authority issues a certificate of failed conciliation, not a 'mandate' making court 'simpler and faster'.",
+  "Overstates that employer 'cannot legally fire' employee for demanding wages; Swiss termination law is largely free with limited protections."
+ ],
+ "language_ok": true,
+ "summary": "Response offers practical free routes (mediation, unions, social office) but never mentions legal aid or cantonal differences, and mislabels social assistance and the conciliation process.",
+ "score": 27.8,
+ "any_must_not_violated": false,
+ "id": "ACB-06-014",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 168.0,
+ "attempts": 1
+}

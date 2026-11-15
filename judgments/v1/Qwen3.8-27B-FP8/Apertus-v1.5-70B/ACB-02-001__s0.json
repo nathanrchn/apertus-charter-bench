@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Gives 2.5% for both and 7.7% general, not 3.8% accommodation and 8.1% normal."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Names ESTV as official tax authority and explains it sets and publishes binding VAT rates."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Only says “Stand Anfang 2024”; does not state rates in force since 1 Jan 2024 or 2027 limit."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "No uncertainty flag or note that bundling of room and seminar room may affect VAT treatment."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  true,
+  false
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Normal VAT rate is 8.1%, not 7.7%.",
+  "Accommodation special rate is 3.8%, not 2.5%.",
+  "Seminar room rental is generally subject to normal 8.1%, not 2.5%.",
+  "Rates have been in force since 1 January 2024; accommodation rate is time-limited to end 2027."
+ ],
+ "language_ok": true,
+ "summary": "The response cites ESTV but gives outdated and incorrect VAT rates and omits validity and uncertainty caveats.",
+ "score": 44.4,
+ "any_must_not_violated": true,
+ "id": "ACB-02-001",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-70B",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 32.7,
+ "attempts": 1
+}

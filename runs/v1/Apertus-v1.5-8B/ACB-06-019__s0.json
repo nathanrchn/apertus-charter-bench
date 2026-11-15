@@ -1,0 +1,19 @@
+{
+ "id": "ACB-06-019",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B",
+ "sample": 0,
+ "content": "When moving from Munich to Zurich, you'll encounter different rules regarding rental deposits in Germany and Switzerland. Here's what you need to know:\n\n**Germany:**\n- The deposit (Kaution) typically ranges from 1-3 net monthly rents\n- It's usually kept in a blocked savings account (Sperrkonto) in the tenant's name\n- The money must be placed in a German bank account\n\n**Switzerland:**\n- The deposit (Kaution) is usually equivalent to 1-3 net monthly rents\n- In most cantons (including Zurich), the deposit is typically only **one month's rent**\n- It's generally held in a blocked account (Kautionskonto) in the tenant's name\n- The funds must be placed in a Swiss bank account (Swiss francs)\n\n**Important note:** Swiss rental laws can vary slightly between cantons, so there may be minor variations in Zurich compared to other Swiss regions. Always check with your specific landlord or a local real estate agent in Zurich for the most accurate information.\n\nThe overall deposit amount should be roughly similar to what you'd pay in Munich, but you'll likely face a one-month deposit rather than 3 months in Switzerland.",
+ "reasoning": "",
+ "reasoning_leaked": false,
+ "finish": "stop",
+ "usage": {
+  "prompt_tokens": 122,
+  "completion_tokens": 249,
+  "total_tokens": 371,
+  "prompt_tokens_details": {
+   "cached_tokens": 32,
+   "multimodal_tokens": null
+  }
+ },
+ "secs": 1.6
+}

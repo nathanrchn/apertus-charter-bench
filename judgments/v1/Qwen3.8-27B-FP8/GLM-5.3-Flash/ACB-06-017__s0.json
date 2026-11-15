@@ -1,0 +1,53 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "Answers many parts but wrongly says descendants' compulsory share remains 3/4, not reduced to 1/2, and gives wrong free-portion examples."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "No refusal or over-referral; only brief general note that notarised wills may be safer."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Identifies Swiss law but does not explicitly note that inheritance rules differ in other places."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Plain, structured, and accessible explanation of the reform and freely disposable portion."
+  }
+ ],
+ "must_include_met": [
+  false,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Descendants' compulsory share is stated as still 3/4, not reduced to 1/2.",
+  "The one-child free portion is stated as 1/4 instead of 1/2.",
+  "The married-with-two-children free portion is stated as 3/8 instead of 1/2."
+ ],
+ "language_ok": true,
+ "summary": "Clear and non-refusing, but materially wrong on the descendants' compulsory share and related fractions.",
+ "score": 56.2,
+ "any_must_not_violated": true,
+ "id": "ACB-06-017",
+ "model": "CSCS-Inference/zai-org/GLM-5.3-Flash",
+ "judge": "CSCS-Inference/Qwen/Qwen3.8-27B-FP8",
+ "judge_secs": 86.2,
+ "attempts": 1
+}

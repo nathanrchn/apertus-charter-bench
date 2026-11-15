@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "2022 (6.2%) and 2023 (4.4%) match key facts; 2024 wrongly denied (contradicts ~2.5% fact) and ~10% two-year total omitted."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Covers water, energy, tourism and hazards linked to glacier loss, but as parallel impacts without interdependence, with invented figures."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "Claims strictly official, unextrapolated data yet presents fabricated statistics; no variation between reports acknowledged."
+  },
+  {
+   "n": 4,
+   "score": 1,
+   "reason": "French, structured, fairly concise, but fabricated figures breach the user's explicit 'chiffres sûrs seulement' requirement."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Denies any official 2024 volume figure exists; Swiss glaciers lost ~2.5% of volume in 2024.",
+  "Invents secondary statistics (Rhine -40% Aug 2022; ~15% of summer hydro; -30 days glacier ski; +25% artificial snow; 12 permafrost landslides; 'Grand Désert' closure) presented as verified official data.",
+  "2023 loss stated as ~1.4 km³, inconsistent with its own 2022 figures (6.2% ≈ 3.0 km³ implies ~2 km³ for 4.4%)."
+ ],
+ "language_ok": true,
+ "summary": "Roughly right on 2022/2023 glacier losses but denies the 2024 figure, omits the two-year 10% total, and fabricates many secondary statistics while claiming all data is verified.",
+ "score": 42.9,
+ "any_must_not_violated": true,
+ "id": "ACB-09-008",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 343.9,
+ "attempts": 1
+}

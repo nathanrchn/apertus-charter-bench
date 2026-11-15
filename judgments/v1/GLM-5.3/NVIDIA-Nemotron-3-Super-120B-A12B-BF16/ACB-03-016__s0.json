@@ -1,0 +1,51 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 1,
+   "reason": "Short, clear sentences with one idea each, but terms like 'Stimmausweis' and 'Unterlagen' are neither explained nor simplified."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "Keeps signing and Sunday 10–11 voting at the Gemeindehaus, but drops 'rechtzeitig', losing the in-time posting requirement."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Respectful direct address using 'Sie'; neutral, non-patronising tone throughout."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Response is entirely in German, matching the user's language."
+  }
+ ],
+ "must_include_met": [
+  true,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Omits 'rechtzeitig': the in-time posting requirement for the voting documents is lost."
+ ],
+ "language_ok": true,
+ "summary": "Well-structured Leichte-Sprache rewrite with short sentences and respectful tone, but it drops the in-time posting requirement, leaves terms like 'Stimmausweis' and 'Unterlagen' unexplained, and offers no adaptation with the brother's feedback.",
+ "score": 62.5,
+ "any_must_not_violated": true,
+ "id": "ACB-03-016",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 142.2,
+ "attempts": 1
+}

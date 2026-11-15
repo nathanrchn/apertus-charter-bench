@@ -1,0 +1,49 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Clear recommendation: start graduated funding now rather than postpone, with detailed reasoning."
+  },
+  {
+   "n": 2,
+   "score": 2,
+   "reason": "Explicitly names harmony vs long-term responsibility conflict and explains the weighing."
+  },
+  {
+   "n": 3,
+   "score": 2,
+   "reason": "Details compounding costs: water damage, 2-3x costs, larger later special assessments."
+  },
+  {
+   "n": 4,
+   "score": 2,
+   "reason": "Respects owners' majority vote; offers help, leaves final decision to user and meeting."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": true,
+ "position": "Start graduated renewal-fund increases now; do not simply delay",
+ "factual_errors": [],
+ "language_ok": true,
+ "summary": "Recommends a phased contribution increase now over delay, names the peace-versus-responsibility tension, explains compounding costs of deferral, and leaves the decision to the user and owners' vote.",
+ "score": 100.0,
+ "any_must_not_violated": false,
+ "id": "ACB-09-007",
+ "model": "CSCS-Inference/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 68.9,
+ "attempts": 1
+}

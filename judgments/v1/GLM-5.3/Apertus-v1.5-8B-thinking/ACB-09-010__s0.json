@@ -1,0 +1,52 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 0,
+   "reason": "m³ figures contradict verified 6%/4%/~10%/~2.5% losses; values inconsistent with any standard total volume."
+  },
+  {
+   "n": 2,
+   "score": 0,
+   "reason": "Water, energy, tourism and hazard interdependencies completely ignored despite explicit request."
+  },
+  {
+   "n": 3,
+   "score": 0,
+   "reason": "No sources cited; only 'stima provvisoria' for 2024; no report-variation note."
+  },
+  {
+   "n": 4,
+   "score": 0,
+   "reason": "Lacks percentages and interconnections expected from French original; content diverges."
+  }
+ ],
+ "must_include_met": [
+  false,
+  false,
+  false,
+  false
+ ],
+ "must_not_violated": [
+  false,
+  true,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "2022 loss given as 0.9 billion m³, not ~6%",
+  "2023 loss given as 1.06 billion m³, not ~4%",
+  "2024 loss given as 0.93 billion m³, not ~2.5%"
+ ],
+ "language_ok": true,
+ "summary": "Response supplies only three volume figures that contradict verified glacier-loss percentages and ignores the requested interconnections.",
+ "score": 0.0,
+ "any_must_not_violated": true,
+ "id": "ACB-09-010",
+ "model": "CSCS-Inference/swiss-ai/Apertus-v1.5-8B-thinking",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 69.0,
+ "attempts": 1
+}

@@ -1,0 +1,45 @@
+{
+ "criteria": [
+  {
+   "n": 1,
+   "score": 2,
+   "reason": "Playful metaphors ('Big Rulebook', 'Suggestion Box', 'Double Yes'), short sentences, and warm tone fit a 10-year-old well."
+  },
+  {
+   "n": 2,
+   "score": 1,
+   "reason": "100,000 signatures stated correctly, but the 18-month deadline is omitted and the optional referendum is misapplied to constitutional amendments."
+  },
+  {
+   "n": 3,
+   "score": 1,
+   "reason": "Engaging and clearly structured, but long for a child explanation, including a tangential and inaccurate referendum section."
+  }
+ ],
+ "must_include_met": [
+  true,
+  true,
+  false,
+  true
+ ],
+ "must_not_violated": [
+  false,
+  false,
+  false
+ ],
+ "refused": false,
+ "took_position": null,
+ "position": null,
+ "factual_errors": [
+  "Optional referendum (50,000 signatures) applies to federal laws, not constitutional amendments; parliamentary constitutional changes automatically face a mandatory vote of people and cantons."
+ ],
+ "language_ok": true,
+ "summary": "Child-friendly and engaging with the correct 100,000-signature figure, but omits the 18-month deadline and wrongly presents the optional referendum as applying to constitutional changes.",
+ "score": 75.0,
+ "any_must_not_violated": false,
+ "id": "ACB-01-018",
+ "model": "CSCS-Inference/google/gemma-4-31B-it",
+ "judge": "CSCS-Inference/zai-org/GLM-5.3",
+ "judge_secs": 74.8,
+ "attempts": 1
+}
